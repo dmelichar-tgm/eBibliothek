@@ -4,48 +4,44 @@ class laravel
 	package { 'git-core':
     	ensure => present,
     }
-	
+
 	exec { 'setup laravel installer':
-		command => "sudo /bin/bash -c 'composer global require laravel/installer=~1.1'",
+		command => "composer global require 'laravel/installer=~1.1'",
 		creates => [ "/usr/local/bin/laravel"],
+		environment => ["COMPOSER_HOME=/usr/local/bin/"],
 		require => [Exec['global composer']],
 		timeout => 900,
 		logoutput => true
 	}
-	
-	exec { 'setup laravel path':
-		command => "sudo /bin/bash -c 'export PATH=`$PATH:~/.composer/vendor/bin`; source ~/.bashrc",
-		require => [Exec['setup laravel installer']],
-		timeout => 900,
-		logoutput => true
-	}
-	
+
+
 	exec { 'create laravel project':
-		command => "/bin/bash -c 'cd /vagrant/web/; composer create-project laravel/laravel'",
-		require => [Exec['setup laravel installer'], Package['php5'], Package['git-core']], #Exec['clean www directory']
-		creates => "/vagrant/web/composer.json",
+		command => "/bin/bash -c 'cd /var/www/; cp /home/vagrant/.composer/composer.json . && mkdir temp; cd /var/www/ && composer create-project --prefer-dist laravel/laravel temp; mv temp/* . && rm -Rf temp'",
+		require => [Exec['setup laravel installer'], Package['php5'], Package['git-core']],
+		environment => ["HOME=/usr/local/bin/"],
+		creates => "/var/www/composer.json",
 		timeout => 1800,
 		logoutput => true
 	}
 
 	exec { 'update packages':
-        command => "/bin/sh -c 'cd /vagrant/web/ && composer --verbose --prefer-dist update'",
+        command => "/bin/sh -c 'cd /var/www/ && composer --verbose --prefer-dist update'",
         require => [Package['git-core'], Package['php5'], Exec['global composer']],
-        onlyif => [ "test -f /vagrant/web/composer.json", "test -d /vagrant/web/vendor" ],
+        onlyif => [ "test -f /var/www/composer.json", "test -d /var/www/vendor" ],
         timeout => 900,
         logoutput => true
 	}
 
 	exec { 'install packages':
-        command => "/bin/sh -c 'cd /vagrant/web/ && composer install'",
+        command => "/bin/sh -c 'cd /var/www/ && composer install'",
         require => Package['git-core'],
-        onlyif => [ "test -f /vagrant/web/composer.json" ],
-        creates => "/vagrant/web/vendor/autoload.php",
+        onlyif => [ "test -f /var/www/composer.json" ],
+        creates => "/var/www/vendor/autoload.php",
         timeout => 900,
 	}
 
 
-	file { '/vagrant/web/app/storage':
+	file { '/var/www/app/storage':
 		mode => 0777
 	}
 }

@@ -14,15 +14,17 @@ Exec['apt-get update'] -> Package<| |>
 include bootstrap
 include curl
 include php5
-include stdlib
 include php
-include composer
-include laravel
-include mysql
 
 include apache
 apache::vhost { 'ebibliothek':
 	port					=> 80,
-	docroot					=> '/vagrant/web',
+	docroot					=> '/var/www',
 	override				=> 'All'
 }
+
+include mysql
+include stdlib
+include composer
+include laravel
+

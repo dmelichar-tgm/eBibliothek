@@ -11,8 +11,8 @@ Installation () {
 	echo "";
 	echo "";
 	mkdir __main/.log;
-	vagrant up 2>&1 | tee __main/.log/init.log;
-	vagrant provision 2>&1 | tee __main/.log/provision.log;
+	echo "Initialising... Please hold ...";
+	vagrant up > __main/.log/init.log;
 	echo "-----------------------------------";
 	echo "Installed box - You can now SSH into it";
 	echo "You may want to see the log files!";
