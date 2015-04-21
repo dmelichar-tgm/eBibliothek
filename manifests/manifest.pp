@@ -16,7 +16,14 @@ include curl
 include php5
 include php
 
-include apache
+class { 'apache':
+	mpm_module		=> 'prefork'
+}
+
+include '::apache::mod::rewrite'
+include '::apache::mod::php'
+
+
 apache::vhost { 'ebibliothek':
 	port					=> 80,
 	docroot					=> '/var/www',
