@@ -27,8 +27,12 @@ $ sh __main/installVagrant.sh
 ```
 You will be asked if you really want to install it - note: you may not want to install it at a place with slow internet. The download is going to take some time, drink some coffe in the mean time.
 
-Following that it is recommened to run the installVagrant Script again to make sure everything is installed correctly.
+Following that, do the following
+```sh
+$ vagrant provision
+```
 
+You should now be able to use it.
 
 ### Used Tools
 
