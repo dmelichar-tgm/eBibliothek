@@ -44,31 +44,31 @@ To continue deploying on the machine, and after successfuly installing it, you c
 
 ### Team (4CHITM)
 
-@dbruendl01-tgm - Daniel Bründl (Product Owner)
+[dbruendl01-tgm] - Daniel Bründl (Product Owner)
 
-@dmelichar-tgm - Daniel Melichar (Technical Arcitect)
+[dmelichar-tgm] - Daniel Melichar (Technical Arcitect)
 
-@rsimsek-tgm - Raphael Simsek
+[rsimsek-tgm] - Raphael Simsek
 
-@dhammerschmidt-tgm - Daniel Hammerschmidt
+[dhammerschmidt-tgm] - Daniel Hammerschmidt
 
-@asoni-tgm - Adaresh Soni
+[asoni-tgm] - Adaresh Soni
 
-@dkocsi-tgm - Daniel Kocsi
+[dkocsi-tgm] - Daniel Kocsi
 
-@lsprung-tgm - Lukas Sprung
+[lsprung-tgm] - Lukas Sprung
 
-@bschmid-tgm - Bernhard Schmid
+[bschmid-tgm] - Bernhard Schmid
 
-@TGMFaikuF - Fitim Faiku
+[TGMFaikuF] - Fitim Faiku
 
-@jkisbedo-tgm - John Rodrigue Kisbedo
+[jkisbedo-tgm] - John Rodrigue Kisbedo
 
-@Davrai - David Böheim
+[Davrai] - David Böheim
 
-@pwichert-tgm - Patrick Wichert
+[pwichert-tgm] - Patrick Wichert
 
-@jkreutzer - Julian Kreutzer
+[jkreutzer] - Julian Kreutzer
 
 
 
@@ -81,3 +81,16 @@ GNU
 [VirtualBox]:https://www.virtualbox.org/
 [Git]:https://git-scm.herokuapp.com/downloads
 [Vagrant]:https://www.vagrantup.com/downloads.html
+[dbruendl01-tgm]:https://github.com/dbruendl01-tgm
+[dmelichar-tgm]:https://github.com/dmelichar-tgm
+[rsimsek-tgm]:https://github.com/rsimsek-tgm
+[dhammerschmidt-tgm]:https://github.com/dhammerschmidt-tgm
+[asoni-tgm]:https://github.com/asoni-tgm
+[dkocsi-tgm]:https://github.com/dkocsi-tgm
+[lsprung-tgm]:https://github.com/lsprung-tgm
+[bschmid-tgm]:https://github.com/bschmid-tgm
+[TGMFaikuF]:https://github.com/TGMFaikuF
+[jkisbedo-tgm]:https://github.com/jkisbedo-tgm
+[Davrai]:https://github.com/Davrai
+[pwichert-tgm]:https://github.com/pwichert-tgm
+[jkreutzer]:https://github.com/jkreutzer
