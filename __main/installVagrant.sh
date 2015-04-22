@@ -14,7 +14,7 @@ Installation () {
 	echo "Initialising... Please hold ...";
 	vagrant up > __main/.log/init.log;
 	echo "-----------------------------------";
-	echo "Installed box - You can now SSH into it";
+	echo "Installed box - you should now run ´vagrant provision´";
 	echo "You may want to see the log files!";
 }
 
