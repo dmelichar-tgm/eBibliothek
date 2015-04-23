@@ -1,0 +1,6 @@
+Bringing machine 'ebibliothek' up with 'virtualbox' provider...
+==> ebibliothek: Checking if box 'ubuntu/trusty64' is up to date...
+==> ebibliothek: A newer version of the box 'ubuntu/trusty64' is available! You currently
+==> ebibliothek: have version '14.04'. The latest is version '20150420.1.2'. Run
+==> ebibliothek: `vagrant box update` to update.
+==> ebibliothek: VirtualBox VM is already running.
