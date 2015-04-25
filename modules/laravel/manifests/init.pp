@@ -23,6 +23,7 @@ class laravel
 		timeout => 1800,
 		logoutput => true
 	}
+	
 
 	exec { 'update packages':
         command => "/bin/sh -c 'cd /var/www/ && composer --verbose --prefer-dist update'",
@@ -39,8 +40,12 @@ class laravel
         creates => "/var/www/vendor/autoload.php",
         timeout => 900,
 	}
-
-
+	
+	
+	exec { 'config packages':
+		command => "/bin/sh -c 'cd /var/www; php artisan vendor:publish; '",
+	}
+	
 	file { '/var/www/app/storage':
 		mode => 0777
 	}

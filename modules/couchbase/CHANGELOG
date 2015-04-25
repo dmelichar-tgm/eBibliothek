@@ -1,0 +1,32 @@
+2015-03-20 - Version 1.0.2
+
+Bugfixes:
+- Changed default install to community edition.
+
+2014-12-16 - Version 1.0.1
+
+Summary: Fixes bugs with version downloading from couchbase package URL
+
+Bugfixes:
+- Couchbase changed URL's again for packages. This fixes it
+
+2014-11-25 - Version 1.0.0
+
+Summary: Syntax changes, package fixes and new resource definition additions.
+
+Bugfixes:
+- Moved to metadata format for module.
+- Now installs community release by default
+- RPM/package update to fix new s3 locations for packages
+- Ensure bucket exists based on params
+- Remove/add init scripts based upon present/absent state
+- Changed init script to refreshonly.
+- data directory is now a param
+
+New:
+- Moxi resource which can configure the moxi proxy on linux or windows
+machines. More info about moxi here:
+http://docs.couchbase.com/moxi-manual-1.8/
+
+Contributions/Thanks:
+Dmitry Kireev <https://github.com/kireevco> (Thanks!)

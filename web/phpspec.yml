@@ -1,5 +1,0 @@
-suites:
-    main:
-        namespace: eBibliothek
-        psr4_prefix: eBibliothek
-        src_path: app
