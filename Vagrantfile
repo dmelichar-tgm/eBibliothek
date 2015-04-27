@@ -26,7 +26,7 @@ Vagrant.configure("2") do |config|
             puppet.module_path 		= "modules"
         end
 		
-		### User accounts for every member + SSH Key ###
+        ### User accounts for every member + SSH Key ###
         # ebib_config.vm.provision :shell, :path => "scripts/enableMultiUser.sh"
     end
 end

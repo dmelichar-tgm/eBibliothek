@@ -1,26 +1,358 @@
 body {
-	font-family: 'Droid Sans' !important;
-	font-size: 12px;
-	color: #666;
+    font-family: 'Droid Sans' !important;
+    font-size: 12px;
+    color: #666;
+    background-color: #EBE7DF !important;
 }
+
 .navbar {
-	margin-bottom: 0px !important;
-}
-.navbar-brand {
-	color: #57C5A0 !important;
+    margin-bottom: 0px !important;
 }
 
 .navbar-brand {
-	margin-left: auto;
-	margin-right: auto;
-	width: 60px;
-	float: none;
+    color: #57C5A0 !important;
+}
+
+.navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    float: none;
 }
 
 .glyphicon-search {
-	color: #7E7E7E;
-}
-.navbar-ex1-collapse {
-	margin-top: 8px;
+    color: #7E7E7E;
 }
 
+.navbar-ex1-collapse {
+    margin-top: 8px;
+}
+
+.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    
+    visibility: visible;
+    opacity: 1;
+}
+
+.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    
+    opacity: .5;
+}
+
+.cd-top {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    box-shadow: 0 0 10px #57C5A0;
+    /* image replacement properties */
+    
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: #57C5A0 url(../img/cd-top-arrow.svg) no-repeat center 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+.cd-top.cd-is-visible,
+.cd-top.cd-fade-out,
+.no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+
+.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    
+    visibility: visible;
+    opacity: 1;
+}
+
+.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    
+    opacity: .5;
+}
+
+.no-touch .cd-top:hover {
+    background-color: #57C5A0;
+    opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+    .cd-top {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .cd-top {
+        height: 60px;
+        width: 60px;
+        right: 30px;
+        bottom: 30px;
+    }
+}
+/********* IMAGE OF THREE ************/
+
+#imageOfThree {
+    background: #242424;
+}
+
+#imageOfThree .imageOfThree-item {
+    right: 0;
+    margin: 0 0 15px;
+    margin-top: 10px;
+}
+
+#imageOfThree .imageOfThree-item .imageOfThree-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#imageOfThree .imageOfThree-item .imageOfThree-link .imageOfThree-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: #57C5A0 !important;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#imageOfThree .imageOfThree-item .imageOfThree-link .imageOfThree-hover:hover {
+    opacity: 1;
+}
+
+#imageOfThree .imageOfThree-item .imageOfThree-link .imageOfThree-hover .imageOfThree-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#imageOfThree .imageOfThree-item .imageOfThree-link .imageOfThree-hover .imageOfThree-hover-content i {
+    margin-top: -12px;
+}
+
+#imageOfThree .imageOfThree-item .imageOfThree-link .imageOfThree-hover .imageOfThree-hover-content h3,
+#imageOfThree .imageOfThree-item .imageOfThree-link .imageOfThree-hover .imageOfThree-hover-content h4 {
+    margin: 0;
+}
+
+#imageOfThree .imageOfThree-item .imageOfThree-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#imageOfThree .imageOfThree-item .imageOfThree-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#imageOfThree .imageOfThree-item .imageOfThree-caption p {
+    margin: 0;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#imageOfThree * {
+    z-index: 2;
+}
+/************ NEW ARRIVALS && TOP RATED **************/
+
+.row .col-lg-6 {
+    margin-bottom: 10px;
+}
+
+.row .col-lg-6 h3 {
+    padding-top: 3px;
+    padding-left: 30px;
+    font-size: 25px;
+    text-decoration: bold;
+}
+
+.row .col-lg-6 a {
+    margin-top: 12px;
+    font-size: 1em;
+    float: right;
+    text-transform: capitalize;
+    padding: 8px 20px;
+    color: #BCB4A7;
+    border: 1px solid #BCB4A7;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.row .col-lg-6 a:active,
+.row .col-lg-6 a:focus,
+.row .col-lg-6 a:hover {
+    background: #BCB4A7 none repeat scroll 0% 0%;
+    color: #FFF;
+}
+
+.download {
+    color: #fff;
+    background-color: #57C5A0;
+    border-color: #57C5A0;
+}
+/************ FOOTER **************/
+
+#footer {
+    color: #666;
+    margin-top: 10px;
+    padding: 2%;
+    background: #242424 none repeat scroll 0% 0%;
+}
+
+#footer .col-md-6 h4 {
+    font-size: 1.2em;
+    color: #5E5E5E;
+    text-transform: uppercase;
+    margin-bottom: 6%;
+}
+
+#footer .col-md-6 p {
+    font-size: 0.8725em;
+    color: #9B9B9B;
+    line-height: 1.8em;
+    font-style: italic;
+}
+
+#footerNav {
+    background: #2E2E2E none repeat scroll 0% 0%;
+    color: #9B9B9B;
+    padding: 2%;
+}
+/************ TEAM MEMBERS **************/
+
+#team-members {
+    margin: 20px 10px;
+    text-align: center;
+}
+
+.team-members {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 5px;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    font-size: 10px;
+    vertical-align: middle;
+    font-weight: normal;
+    line-height: 45px;
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+
+.team-members:hover,
+.team-members:active,
+.team-members:focus {
+    text-decoration: none;
+}
+
+#SMIB {
+    background: #4060A5;
+}
+
+#SIMR {
+    background: #288e8e;
+}
+
+#KISJ {
+    background: #ce590e;
+}
+
+#SONA {
+    background: #c9985d;
+}
+
+#KREJ {
+    background: #583bb4;
+}
+
+#SPRL {
+    background: #ee3d5a;
+}
+
+#HAMD {
+    background: #f31af8;
+}
+
+#WICP {
+    background: #0aafd7;
+}
+
+#BRUD {
+    background: #f38103;
+}
+
+#KOCD {
+    background: #d71a10;
+}
+
+#BOED {
+    background: #6c0d59;
+}
+
+#FAIF {
+    background: #85e348;
+}
+
+.chef {
+    text-decoration: none;
+    color: #666;
+}
+
+
+.carousel {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
+    height: 400px;
+    overflow: hidden;
+}
+.carousel .item {
+    width: 100%;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+.carousel .active.left, .carousel .active.right {
+    left:0;
+    opacity:0;
+    z-index:2;
+}
+.carousel .next, .carousel .prev {
+    left:0;
+    opacity:1;
+    z-index:1;
+}
