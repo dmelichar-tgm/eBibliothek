@@ -28,6 +28,7 @@ class laravel
 	exec { 'update packages':
         command => "/bin/sh -c 'cd /var/www/ && composer --verbose --prefer-dist update'",
         require => [Package['git-core'], Package['php5'], Exec['global composer']],
+		environment => ["COMPOSER_HOME=/usr/local/bin/"],
         onlyif => [ "test -f /var/www/composer.json", "test -d /var/www/vendor" ],
         timeout => 900,
         logoutput => true
@@ -36,6 +37,7 @@ class laravel
 	exec { 'install packages':
         command => "/bin/sh -c 'cd /var/www/ && composer install'",
         require => Package['git-core'],
+		environment => ["COMPOSER_HOME=/usr/local/bin/"],
         onlyif => [ "test -f /var/www/composer.json" ],
         creates => "/var/www/vendor/autoload.php",
         timeout => 900,
@@ -43,7 +45,12 @@ class laravel
 	
 	
 	exec { 'config packages':
-		command => "/bin/sh -c 'cd /var/www; php artisan vendor:publish; '",
+		command => "/bin/sh -c 'cd /var/www; php artisan vendor:publish;'",
+		require => [Package['git-core'], Exec['global composer'], Exec['install packages']],
+		environment => ["COMPOSER_HOME=/usr/local/bin/"],
+        onlyif => [ "test -f /var/www/composer.json" ],
+        creates => "/var/www/vendor/autoload.php",
+        timeout => 900,
 	}
 	
 	file { '/var/www/app/storage':
