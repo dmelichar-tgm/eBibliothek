@@ -1,6 +1,6 @@
 <VirtualHost *:80>
 	ServerAdmin dmelichar@student.tgm.ac.at
-	ServerName ebibliothek.at
+	ServerName localhost
 	DocumentRoot /vagrant/web/
 	
 	<Directory />
@@ -17,15 +17,14 @@
 	
 	<Directory /var/www/public>
 		Options FollowSymLinks
-        AllowOverride All //instead of None
+       		AllowOverride All
 	</Directory>
 	
 	<IfModule mod_rewrite.c>
-        Options +FollowSymLinks
-        RewriteEngine On
-
-        RewriteCond %{REQUEST_FILENAME} !-f
-        RewriteRule ^ index.php [L] //without public/
+       		Options +FollowSymLinks
+        		RewriteEngine On
+        		RewriteCond %{REQUEST_FILENAME} !-f
+        		RewriteRule ^ index.php [L] //without public/
 	</IfModule>
 
 	ErrorLog /var/log/apache2/error.log

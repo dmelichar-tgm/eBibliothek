@@ -9,9 +9,9 @@ Vagrant.configure("2") do |config|
         # This will give the machine a static IP uncomment to enable
         ebib_config.vm.network :private_network, ip: "192.168.56.101"
         
-        ebib_config.vm.network :forwarded_port, guest: 80, host: 8888, auto_correct: true
+        ebib_config.vm.network :forwarded_port, guest: 80, host: 8080, auto_correct: true
         ebib_config.vm.network :forwarded_port, guest: 3306, host: 8889, auto_correct: true	
-        ebib_config.vm.hostname = "ebibliothek.at"
+        ebib_config.vm.hostname = "ebibliothek.dev"
         ebib_config.vm.synced_folder "web", "/var/www", {:mount_options => ['dmode=777','fmode=777']}
         
         ebib_config.vm.provider :virtualbox do |v|

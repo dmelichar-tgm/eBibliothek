@@ -12,10 +12,4 @@ class composer
 		require => Exec['install composer'],
 		unless => "[ -f /usr/local/bin/composer ]"
 	}
-	
-	exec { 'add composer path':
-		command => "/bin/bash -c 'export PATH=/usr/local/bin/:$PATH'",
-		timeout => 900,
-		logoutput => true
-	}
 }
