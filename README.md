@@ -12,27 +12,7 @@ To use this application, you'll need to install the following
 
 ### Installation
 
-To install, do the following
-
-Obviously, you'll need to clone/fork the repo into a folder of your choice
-```sh
-$ git init
-$ git remote add origin https://github.com/dmelichar-tgm/eBibliothek.git
-$ git pull origin master
-```
-
-After that, you can start the installation
-```sh
-$ sh __main/installVagrant.sh
-```
-You will be asked if you really want to install it - note: you may not want to install it at a place with slow internet. The download is going to take some time, drink some coffe in the mean time.
-
-Following that, do the following
-```sh
-$ vagrant provision
-```
-
-You should now be able to use it.
+tbd
 
 ### Used Tools
 
@@ -40,11 +20,11 @@ You should now be able to use it.
 * Google Drive
 * Laravel
 * AngularJS
-* more to come
+
 
 ### Development
 
-To continue deploying on the machine, and after successfuly installing it, you can develop in the web/ Folder for frontend stuff. Changing your network configuration is simple, just edit the hosts file in the templates folder. For backend stuff, using SSH to connect to the virtual machine using Vagrant is probably the smartest solution.
+tbd
 
 ### Team (4CHITM)
 
