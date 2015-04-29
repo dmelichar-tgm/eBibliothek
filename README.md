@@ -36,7 +36,7 @@ Now, this will install the box. It **is going to** take some time, and to be hon
 
 It is always good to a reload after provisioning
 ```sh
-vagrant reolad
+vagrant reload
 ```
 
 
