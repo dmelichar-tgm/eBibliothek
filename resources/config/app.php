@@ -135,7 +135,6 @@ return [
 		'Illuminate\Translation\TranslationServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
-		'Zizaco\MongolidLaravel\MongolidServiceProvider',
 
 		/*
 		 * Application Service Providers...
