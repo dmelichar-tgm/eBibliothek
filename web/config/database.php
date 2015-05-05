@@ -104,7 +104,7 @@ return [
 	| Redis Databases
 	|--------------------------------------------------------------------------
 	|
-	| Redis is an open source, fast, and advanced key-value store that also
+	 Redis is an open source, fast, and advanced key-value store that also
 	| provides a richer set of commands than a typical key-value systems
 	| such as APC or Memcached. Laravel makes it easy to dig right in.
 	|
@@ -122,21 +122,4 @@ return [
 
 	],
 
-	   /*
-    |--------------------------------------------------------------------------
-    | MongoDB Databases
-    |--------------------------------------------------------------------------
-    |
-    */
-
-    'mongodb' => array(
-
-        'default' => array(
-            'host'     => '127.0.0.1',
-            'port'     => 27017,
-            'database' => 'my_database',
-            'username'     => '',
-            'password'     => '',
-        ),
-    ),
 ];
