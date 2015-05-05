@@ -1,0 +1,61 @@
+[2015-04-30 09:57:37] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'eBibliothek\Providers\AppServiceProvider' not found' in /var/www/vendor/compiled.php:6466
+Stack trace:
+#0 /var/www/vendor/compiled.php(1743): Symfony\Component\Debug\Exception\FatalErrorException->__construct()
+#1 /var/www/vendor/compiled.php(1738): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError()
+#2 /var/www/vendor/compiled.php(0): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#3 /var/www/vendor/compiled.php(6452): Illuminate\Foundation\ProviderRepository->createProvider()
+#4 /var/www/vendor/compiled.php(6428): Illuminate\Foundation\ProviderRepository->compileManifest()
+#5 /var/www/vendor/compiled.php(1421): Illuminate\Foundation\ProviderRepository->load()
+#6 /var/www/vendor/compiled.php(1775): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /var/www/vendor/compiled.php(1311): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap()
+#8 /var/www/vendor/compiled.php(1928): Illuminate\Foundation\Application->bootstrapWith()
+#9 /var/www/vendor/compiled.php(1890): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /var/www/vendor/compiled.php(1880): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /var/www/public/index.php(53): Illuminate\Foundation\Http\Kernel->handle()
+#12 /var/www/public/index.php(0): {main}()
+#13 {main}  
+[2015-04-30 09:58:16] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'eBibliothek\Providers\AppServiceProvider' not found' in /var/www/vendor/compiled.php:6466
+Stack trace:
+#0 /var/www/vendor/compiled.php(1743): Symfony\Component\Debug\Exception\FatalErrorException->__construct()
+#1 /var/www/vendor/compiled.php(1738): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError()
+#2 /var/www/vendor/compiled.php(0): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#3 /var/www/vendor/compiled.php(6452): Illuminate\Foundation\ProviderRepository->createProvider()
+#4 /var/www/vendor/compiled.php(6428): Illuminate\Foundation\ProviderRepository->compileManifest()
+#5 /var/www/vendor/compiled.php(1421): Illuminate\Foundation\ProviderRepository->load()
+#6 /var/www/vendor/compiled.php(1775): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /var/www/vendor/compiled.php(1311): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap()
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(195): Illuminate\Foundation\Application->bootstrapWith()
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(92): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /var/www/artisan(36): Illuminate\Foundation\Console\Kernel->handle()
+#11 /var/www/artisan(0): {main}()
+#12 {main}  
+[2015-04-30 10:26:30] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'eBibliothek\Providers\AppServiceProvider' not found' in /var/www/vendor/compiled.php:6466
+Stack trace:
+#0 /var/www/vendor/compiled.php(1743): Symfony\Component\Debug\Exception\FatalErrorException->__construct()
+#1 /var/www/vendor/compiled.php(1738): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError()
+#2 /var/www/vendor/compiled.php(0): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#3 /var/www/vendor/compiled.php(6452): Illuminate\Foundation\ProviderRepository->createProvider()
+#4 /var/www/vendor/compiled.php(6428): Illuminate\Foundation\ProviderRepository->compileManifest()
+#5 /var/www/vendor/compiled.php(1421): Illuminate\Foundation\ProviderRepository->load()
+#6 /var/www/vendor/compiled.php(1775): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /var/www/vendor/compiled.php(1311): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap()
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(195): Illuminate\Foundation\Application->bootstrapWith()
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(92): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /var/www/artisan(36): Illuminate\Foundation\Console\Kernel->handle()
+#11 /var/www/artisan(0): {main}()
+#12 {main}  
+[2015-04-30 10:26:44] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'eBibliothek\Providers\AppServiceProvider' not found' in /var/www/vendor/compiled.php:6466
+Stack trace:
+#0 /var/www/vendor/compiled.php(1743): Symfony\Component\Debug\Exception\FatalErrorException->__construct()
+#1 /var/www/vendor/compiled.php(1738): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalExceptionFromError()
+#2 /var/www/vendor/compiled.php(0): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#3 /var/www/vendor/compiled.php(6452): Illuminate\Foundation\ProviderRepository->createProvider()
+#4 /var/www/vendor/compiled.php(6428): Illuminate\Foundation\ProviderRepository->compileManifest()
+#5 /var/www/vendor/compiled.php(1421): Illuminate\Foundation\ProviderRepository->load()
+#6 /var/www/vendor/compiled.php(1775): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /var/www/vendor/compiled.php(1311): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap()
+#8 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(195): Illuminate\Foundation\Application->bootstrapWith()
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(92): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /var/www/artisan(36): Illuminate\Foundation\Console\Kernel->handle()
+#11 /var/www/artisan(0): {main}()
+#12 {main}  
