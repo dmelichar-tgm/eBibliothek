@@ -30,7 +30,7 @@ Now we can install the Dev-Box
 
 ```sh
 vagrant up | tee install.log;
-vagrant provison | tee provision.log; 
+vagrant provision | tee provision.log; 
 ```
 Now, this will install the box. It **is going to** take some time, and to be honest doesn't have the best performance - however, it gets the job done. You will have two log files afterwards. If you see any red text on the console while the install is happening, send the log files to Daniel Melichar.
 
@@ -45,7 +45,7 @@ The Dev-Box should now be successfully installed - you can now SSH into it by us
 vagrant ssh
 ```
 
-The final step is to add the following IP-Adress to your Hosts-File 
+The final step is to add the following IP-Adress to your Hosts-File
 
 OSX:
 >  */private/etc/hosts*
