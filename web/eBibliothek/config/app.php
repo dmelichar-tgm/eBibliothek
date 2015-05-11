@@ -149,6 +149,7 @@ return [
 		 * MongoDB
 		 */
 		'Jenssegers\Mongodb\MongodbServiceProvider',
+		'Jenssegers\Mongodb\Auth\PasswordResetServiceProvider',
 
 	],
 
