@@ -9,7 +9,7 @@ cd eBibliothek
 php artisan fresh
 php artisan app:name eBibliothek
 chmod 777 storage/ vendor/
-sudo cp -rf /vagrant/host /etc/apache2/sites-enabled/000-default.conf
+sudo cp -rf /vagrant/templates/host /etc/apache2/sites-enabled/000-default.conf
 cp -rf /vagrant/templates/.htaccess_root ./.htaccess
 cp -rf /vagrant/templates/.htaccess_root ./public/.htaccess
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
