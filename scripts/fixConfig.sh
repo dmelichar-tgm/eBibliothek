@@ -11,7 +11,7 @@ php artisan app:name eBibliothek
 chmod 777 storage/ vendor/
 sudo cp -rf /vagrant/templates/host /etc/apache2/sites-enabled/000-default.conf
 cp -rf /vagrant/templates/.htaccess_root ./.htaccess
-cp -rf /vagrant/templates/.htaccess_root ./public/.htaccess
+cp -rf /vagrant/templates/.htaccess_public ./public/.htaccess
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
 echo 'deb http://downloads-distro.mongodb.org/repo/debian-sysvinit dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
 sudo apt-get update
