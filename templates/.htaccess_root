@@ -2,5 +2,4 @@
     RewriteEngine On
 
     RewriteRule ^(.*)$ public/$1 [L]
-	RewriteCond %{ENV:REDIRECT_STATUS} ^$
 </IfModule>

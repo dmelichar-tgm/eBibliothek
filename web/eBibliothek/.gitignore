@@ -1,3 +1,4 @@
+# Laravel Stuff
 /bootstrap/compiled.php
 /vendor
 /node_modules
@@ -6,3 +7,5 @@
 .env
 composer.phar
 composer.lock
+
+# Add more here
