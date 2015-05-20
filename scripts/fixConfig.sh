@@ -5,7 +5,7 @@ composer global require "laravel/installer=~1.1"
 export PATH="$PATH:~/.composer/vendor/bin"
 echo 'export PATH="$PATH:~/.composer/vendor/bin"' >> ~/.bashrc
 laravel new eBibliothek
-cp -rf /vagrant/resources/staticView .
+cp -rf /vagrant/resources/* .
 cd eBibliothek
 php artisan fresh
 php artisan app:name eBibliothek
