@@ -42,4 +42,10 @@
 	"config": {
 		"preferred-install": "dist"
 	}
+	
+	{
+    "require": {
+        "bican/roles": "1.7.*"
+    }
+}
 }
