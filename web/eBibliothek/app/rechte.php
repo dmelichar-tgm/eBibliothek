@@ -3,11 +3,11 @@
 	use Bican\Roles\Models\Permission;
 	use Bican\Roles\Models\Role;
 	/**
-	* Class Permissions
+	* Class rechte
 	* @Author Daniel Hammerschmidt
 	* Erstellt Permissions(Erlaubnisse?) für User-Rollen
 	*/
-	public class Permissions{
+	public class Rechte{
     /**
      * creating the permissions for the admin user here
      * @return msg

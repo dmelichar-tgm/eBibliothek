@@ -7,7 +7,7 @@
 	* @Author Daniel Hammerschmidt
 	* Erstellt Rollen für User
 	*/
-	public class edit(){
+	public class Edit(){
 		//Creates a role for an administrator
 		$admin = Role::create([
 			'name' => 'Admin',
