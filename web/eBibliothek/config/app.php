@@ -135,6 +135,7 @@ return [
 		'Illuminate\Translation\TranslationServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
+		
 
 		/*
 		 * Application Service Providers...
@@ -144,6 +145,7 @@ return [
 		'eBibliothek\Providers\ConfigServiceProvider',
 		'eBibliothek\Providers\EventServiceProvider',
 		'eBibliothek\Providers\RouteServiceProvider',
+		'Bican\Roles\RolesServiceProvider',
 		
 		/*
 		 * MongoDB
