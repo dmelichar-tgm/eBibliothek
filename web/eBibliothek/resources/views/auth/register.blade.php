@@ -1,46 +1,35 @@
-@extends('layouts.master')
-
-@section('content')
-<div class="col-md-6">
-{!! Form::open(array('url' => '/auth/register', 'class' => 'form')) !!}
-
-<h1>Create a TODOParrot Account</h1>
-
-<p>
-Creating a TODOParrot account is free and easy. Once created, you'll be able to manage personal TODO lists and be more productive than ever!
-</p>
-
-@if (count($errors) > 0)
-    <div class="alert alert-danger">
-        There were some problems with your input.<br />
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
+    <!-- -->
+    @extends('master')
+     
+    @section('main')
+        <div class="col-md-8 col-md-offset-2 form-content">
+            <h3 class="heading">Register</h3>
+            @foreach($errors->all() as $error)
+                <p class="alert alert-danger">{!!$error!!}</p>
             @endforeach
-        </ul>
-    </div>
-@endif
-
-<div class="form-group">
-    {!! Form::label('name', 'Your Name') !!}
-    {!! Form::text('name', null, array('class'=>'form-control', 'placeholder'=>'Name')) !!}
-</div>
-<div class="form-group">
-    {!! Form::label('Your E-mail Address') !!}
-    {!! Form::text('email', null, array('class'=>'form-control', 'placeholder'=>'Email Address')) !!}
-</div>
-<div class="form-group">
-    {!! Form::label('Your Password') !!}
-    {!! Form::password('password', array('class'=>'form-control', 'placeholder'=>'Password')) !!}
-</div>
-<div class="form-group">
-    {!! Form::label('Confirm Password') !!}
-    {!! Form::password('password_confirmation', array('class'=>'form-control', 'placeholder'=>'Confirm Password')) !!}
-</div>
-
-<div class="form-group">
-    {!! Form::submit('Create My Account!', array('class'=>'btn btn-primary')) !!}
-</div>
-{!! Form::close() !!}
-</div>
-@endsection
+            {!!Form::open(['url'=>'/register','class'=>'form form-horizontal','style'=>'margin-top:50px'])!!}
+            <div class="form-group">
+                {!! Form::label('email','Email:',['class'=>'col-sm-3 control-label']) !!}
+                <div class="col-sm-8">
+                    {!! Form::text('email',Input::old('email'),['class'=>'form-control']) !!}
+                </div>
+            </div>
+            <div class="form-group">
+                {!! Form::label('password','Password:',['class'=>'col-sm-3 control-label']) !!}
+                <div class="col-sm-8">
+                    {!! Form::password('password',['class'=>'form-control']) !!}
+                </div>
+            </div>
+            <div class="form-group">
+                {!! Form::label('password_confirmation','Confirm Password:',['class'=>'col-sm-3 control-label']) !!}
+                <div class="col-sm-8">
+                    {!! Form::password('password_confirmation',['class'=>'form-control']) !!}
+                </div>
+            </div>
+            <div class="text-center">
+                {!!Form::submit('Register',['class'=>'btn btn-default'])!!}
+            </div>
+            {!!Form::close()!!}
+        </div>
+     
+    @stop
