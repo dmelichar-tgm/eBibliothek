@@ -11,12 +11,7 @@
 |
 */
 
-Route::get('/',['as'=>'home','uses'=>'WelcomeController@index']);
- 
-
-Route::get('/', 'WelcomeController@index');
-
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+    Route::get('/',['as'=>'home','uses'=>'HomeController@index']);
+    Route::get('/dash-board',['as'=>'dash-board','uses'=>"DashBoardController@index"]);
+     
+    Route::controller('/','Auth\AuthController');
