@@ -1,34 +1,34 @@
 <VirtualHost *:80>
-	ServerAdmin dmelichar@student.tgm.ac.at
-	ServerName localhost
-	ServerAlias ebibliothek.dev
-	DocumentRoot /var/www/
-	
-	<Directory />
-		Options FollowSymLinks
-		AllowOverride None
-	</Directory>
-	
-	<Directory /var/www/>
-		Options Indexes FollowSymLinks MultiViews
-		AllowOverride All
-		Order allow,deny
-		allow from all
-	</Directory>
-	
-	<Directory /var/www/public>
-		Options FollowSymLinks
-       		AllowOverride All
-	</Directory>
-	
-	<IfModule mod_rewrite.c>
-       		Options +FollowSymLinks
-        	RewriteEngine On
-        	RewriteCond %{REQUEST_FILENAME} !-f
-        	RewriteRule ^index.php [L]
-	</IfModule>
+        ServerAdmin dmelichar@student.tgm.ac.at
+        ServerName localhost
+        ServerAlias ebibliothek.dev
+        DocumentRoot /var/www/eBibliothek
 
-	ErrorLog /var/log/apache2/error.log
-	LogLevel warn
-	CustomLog /var/log/apache2/access.log combined
+        <Directory />
+                Options FollowSymLinks
+                AllowOverride None
+        </Directory>
+
+        <Directory /var/www/eBibliothek>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride All
+                Order allow,deny
+                allow from all
+        </Directory>
+
+        <Directory /var/www/eBibliothek/public>
+                Options FollowSymLinks
+                AllowOverride All
+        </Directory>
+
+        <IfModule mod_rewrite.c>
+                Options +FollowSymLinks
+                RewriteEngine On
+                RewriteCond %{REQUEST_FILENAME} !-f
+                RewriteRule ^index.php [L]
+        </IfModule>
+
+        ErrorLog /var/log/apache2/error.log
+        LogLevel debug
+        CustomLog /var/log/apache2/access.log combined
 </VirtualHost>

@@ -1,0 +1,51 @@
+<section id="carousel">
+            <div ng-controller="Carousel" id="carousel">
+                <carousel interval="myInterval">
+                    <slide ng-repeat="slide in slides" active="slide.active">
+                        <img ng-src="{{slide.image}}" class="carouselImages">
+                        <div class="carousel-caption">
+                            <h4>Slide {{$index}}</h4>
+                            <p>{{slide.text}}</p>
+                            <p> text text </p>
+                        </div>
+                    </slide>
+                </carousel>
+            </div>
+        </section>
+        <section id="imageOfThree" class="bg-light-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 imageOfThree-item">
+                        <a href="#" class="imageOfThree-link" data-toggle="modal">
+                            <div class="imageOfThree-hover">
+                                <div class="imageOfThree-hover-content">
+                                    <p class="text-muted">Some text</p>
+                                </div>
+                            </div>
+                            <img src="http://placehold.it/400x300" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 imageOfThree-item">
+                        <a href="#" class="imageOfThree-link" data-toggle="modal">
+                            <div class="imageOfThree-hover">
+                                <div class="imageOfThree-hover-content">
+                                    <p class="text-muted">Some text</p>
+                                </div>
+                            </div>
+                            <img src="http://placehold.it/400x300" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 imageOfThree-item">
+                        <a href="#" class="imageOfThree-link" data-toggle="modal">
+                            <div class="imageOfThree-hover">
+                                <div class="imageOfThree-hover-content">
+                                    <p class="text-muted">Some text</p>
+                                </div>
+                            </div>
+                            <img src="http://placehold.it/400x300" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>

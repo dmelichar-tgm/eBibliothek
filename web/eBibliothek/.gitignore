@@ -1,0 +1,11 @@
+# Laravel Stuff
+/bootstrap/compiled.php
+/vendor
+/node_modules
+.env.local.php
+.env.php
+.env
+composer.phar
+composer.lock
+
+# Add more here
