@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0">
+<title>With a Little Help</title>
+<id>http://www.feedbooks.com/book/5460</id>
+<author>
+  <name>Cory Doctorow</name>
+  <uri>http://www.feedbooks.com/author/93</uri>
+</author>
+<published>2010-12-28T13:56:23Z</published>
+<updated>2011-04-02T18:58:39Z</updated>
+<dcterms:language>en</dcterms:language>
+<dcterms:issued>2010</dcterms:issued>
+<category label="Fiction" term="FBFIC000000"/>
+<category label="Science Fiction" term="FBFIC028000"/>
+<category label="Short Stories" term="FBFIC029000"/>
+<summary>With a Little Help is my first serious experiment in self-publishing. I&#8217;ve published many novels, short story collections, books of essays and so on with publishers, and it&#8217;s all been very good and satisfying and educational and so on, but it seem...</summary>
+<dcterms:extent>117,317 words</dcterms:extent>
+<dcterms:source>http://craphound.com/walh/e-book/browse-all-versions</dcterms:source>
+<rights>Attribution Non-Commercial Share Alike (cc by-nc-sa)</rights>
+<link type="text/html" rel="alternate" title="View on Feedbooks" href="http://generation.feedbooks.com/book/5460"/>
+<link type="text/html" rel="license" title="Creative Commons" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+<link type="application/epub+zip" rel="http://opds-spec.org/acquisition" href="http://generation.feedbooks.com/book/5460.epub"/>
+<link type="application/x-mobipocket-ebook" rel="http://opds-spec.org/acquisition" href="http://generation.feedbooks.com/book/5460.mobi"/>
+<link type="application/pdf" rel="http://opds-spec.org/acquisition" href="http://generation.feedbooks.com/book/5460.pdf"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image" href="http://covers.feedbooks.net/book/5460.jpg?t=1301770719"/>
+<link type="image/jpeg" rel="http://opds-spec.org/image/thumbnail" href="http://covers.feedbooks.net/book/5460.jpg?size=thumbnail&amp;t=1301770719"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="related" title="From the same author" href="http://generation.feedbooks.com/author/93/books/top.atom?lang=en"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=acquisition" rel="related" title="People also downloaded..." href="http://generation.feedbooks.com/book/5460/similar.atom"/>
+<link type="application/atom+xml;profile=opds-catalog;kind=navigation" rel="related" title="Categories for this book" href="http://generation.feedbooks.com/book/5460/categories.atom"/>
+<link type="application/atom+xml" rel="replies" title="Comments for this book (0)" thr:count="0" thr:updated="2010-12-16T02:23:46Z" href="http://generation.feedbooks.com/book/5460/comments.atom"/>
+<link type="text/html" rel="related" title="Search on Goodreads" href="http://www.goodreads.com/m/book?search_type=books&amp;search%5Bquery%5D=With%20a%20Little%20Help"/>
+<content type="html">&lt;p&gt;With a Little Help is my first serious experiment in self-publishing. I&#8217;ve published many novels, short story collections, books of essays and so on with publishers, and it&#8217;s all been very good and satisfying and educational and so on, but it seems like it&#8217;s time to try something new. With a Little Help consists of 12 stories, all reprints except for &#8220;Epoch&#8221; (commissioned by Mark Shuttleworth).&lt;/p&gt;</content>
+  <link type="application/atom+xml" rel="contents" href="http://generation.feedbooks.com/book/5460/contents.atom"/>
+</entry>

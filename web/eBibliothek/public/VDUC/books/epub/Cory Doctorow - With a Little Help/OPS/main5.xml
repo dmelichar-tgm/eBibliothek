@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content=
+"HTML Tidy for FreeBSD (vers 25 March 2009), see www.w3.org" />
+<title>With a Little Help</title>
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+<meta http-equiv="Content-Type" content=
+"application/xhtml+xml; charset=utf-8" />
+</head>
+<body>
+<div class="body">
+<div id="chapter_422927" class="chapter">
+<h2><span class="chapterHeader"><span class=
+"translation">Chapter</span> <span class="count">3</span></span>
+Other People's Money</h2>
+<div class="text">
+<div class="substance">
+<p class="norm" id="o505">Gretl's stall in the dead WalMart off the
+I-5 in Pico Rivera was not the busiest spot in the place, but that
+was how she liked it. Time to think was critical to her brand of
+functional sculpture, and reflection was the scarcest commodity of
+all in 2027.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o506">Which is why she was hoping that the
+venture capitalist would just leave her alone. He wasn't a paying
+customer, he wasn't a fellow artist — he wanted to <i>buy</i> her,
+and he was thirty years too late.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o507">"You know, I pitched you guys in 1999. On
+Sand Hill Road. One of the founding partners. Kleiner, I think. The
+guy ate a salad all through my slide-deck. When I was done, he
+wiped his mouth, looked over my shoulder, and told me he didn't
+think I'd scale. That was it. He didn't even pick up my business
+card. When I looked back as I was going out the door, I saw him
+sweep it into the trash with the wrapper from his sandwich."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o508">The VC — young, with the waxy, sweaty
+look of someone who ate a lot of GM yogurt to try to patch his
+biochemistry — shook his head. "That wasn't us. We're a franchise —
+based here in LA. I just opened up the Inglewood branch. But I can
+see how that would have soured you on us. Did you ever get your
+VC?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o509">Gretl tossed her tablet with a crash on
+top of an overflowing barrel of primo plastics and wiped her hands
+on the cunningly stitched dress quilted from back pockets of
+vintage bootleg Levis, their frayed, misspelled red tags on proud
+display. "Son, that was 1999. Within a year, VCs weren't writing
+term-sheets. They were doing cram-downs on anything halfway decent
+in their portfolios, forcing out the founders, trying to flip them
+before the market cratered. But it wasn't that pitch that soured me
+on Sand Hill Road —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o510">"We're in Inglewood."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o511">"Yes, you said." What the hell, it was
+Wednesday and she had all her week's commissions done already. The
+VC was at least pretty, if you liked them young. He had good teeth
+— they all had good teeth now — and a cute bump in the bridge of
+his nose that spoke of a little bit of brawling before his B-school
+days. "OK, here's the thing. I had running code, a half-million
+users. That was big numbers then. We did moderation matching — a
+heuristic that figured out whether a message on a message board was
+flamebait, flagging up the worst offenders to volunteers who
+blindly checked each other. The BBC was hand-moderating a million
+message-board posts a <i>day</i> back then. We could do better. But
+no one thought we'd scale up — our customers were little guys,
+hotrodder boards, cooking boards. Most of them were getting
+everything for free in exchange for serving as our 'reference
+customers,' which was how all those biz-dev weasels did things back
+then.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o512">"By 2007, we were 'Web 2.0.' I mean, we'd
+been Web 2.0 since Web 0.9, but now it seemed like the world was
+ready for us. All we needed was some capital to pay for the
+features our freeloading reference customers wanted. I met every
+single shitweasel — excuse me, junior analyst — on Sand Hill and
+brain dumped. They wrote great reports. We got nothing. No one was
+doing investments then, either: it was all acquisition driven.
+Stupid Sarbanes-Oxley killed IPOs and the VC went with it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o513">The stall across the way was half the
+size of hers. The old Shenzen couple that ran it were real gnarly,
+covered in old burn scars from working in the plastic tag factory
+where they'd met. Now they sold nostalgic hardware, old working
+specialty appliances and devices from the WTO's heyday. They were
+highly complementary to Gretl's own business, which is why they had
+such a friendly relationship. The old woman, she called herself
+Chloe, was giving her a little hand-gesture that meant, "Do you
+need help getting rid of this jerk?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o514">"It's OK," Gretl said to her, waving.
+"Want to get lunch in twenty minutes?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o515">The old lady rocked back and forth. "Not
+nutritionist food," she said. Gretl nodded enthusiastically.
+Nutritionist food wasn't even food — just nutrients and flavoring.
+It was 80 percent of the stalls in the food-court, since the
+capital costs of a food printer and feedstock were practically nil,
+and any food hacker could differentiate himself by thinking up
+exotic new texture/flavor/temperature combos.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o516">"Twenty minutes, Mr VC."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o517">"Udhay," he said. "Udhay Gonzales." He
+passed her a card, laser-etched on a jumbo lima bean. She pocketed
+it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o518">"You'd have thought I'd learned my lesson
+by then, but no, sir. I am the original glutton for punishment.
+After Bubble 2.0, I took my best coders, our CFO, and a dozen of
+our users and did a little health-care startup, brokering
+carbon-neutral medical travel plans to Fortune 500s. Today that
+sounds like old hat, but back then, it was sexy. No one seriously
+believed that we could get out from under the HMOs, but between
+Virgin's cheap bulk-ticket sales and the stellar medical deals in
+Venezuela, Argentina and Cuba, it was the only cost-effective way.
+And once the IWWWW signed up 80 percent of the US workforce through
+World of Starcraft guilds, no employer could afford to skimp on
+health insurance. The word would go out during that night's raids
+and by the morning, you'd have picket lines in front of every
+branch office.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o519">"We had all the right connections, but by
+then I was a 40-year old woman, and that's as close as you can come
+to invisible in this society without having brown skin or a
+janitor's uniform. I didn't even get a chance to get ignored in the
+offices. We couldn't even get meetings — not once they found my
+YASNS profiles and saw what I looked like and the codgers in my
+social network.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o520">"So that's when I threw in the towel. I
+bought a Dremel tool. Then a hot glue gun. Then a CNC lathe. Then a
+mill. Then I got serious."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o521">"Well, it seems to have worked out for
+you." The VC leaned over the display cabinet. She saw his
+reflection in the clear top. His eyes were wide with genuine
+admiration. OK, OK, she thought. OK, you get another five minutes,
+Udhay Gonzales.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o522">She opened the lid and made
+fortune-teller passes over her pieces with her hands. "Pick them
+up, that's what they're for."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o523">He went for the fish first. Its scales
+were individual slices from the skins of old Nokia phones — back
+when it was just Nokia, not Marvel Comics Mobile — each articulated
+on its own little sprig of memory wire. The gills were scuffed iPod
+backings, the logos just recognizable under the fog of scratches.
+The eyes bore HP and Playstation logos, respectively, and the lips
+were made from inner-tube strips that bore the smallest
+recognizable logomarks. As he lifted it, it settled into his hand,
+arching back to find his thumb and palm, nestling in there.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o524">"It'll work like an old-time phone," she
+said. "It'll even do a little lookup from old-style exchange
+numbers to different identity registers and try to get you a
+voice-call with someone."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o525">"Do people really do that?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o526">"Some do. Most just want it for the
+object-ness of it. It's got a lot of emotion." The scuffs, that's
+what did it. They were like stories, those scratches, each one a
+memento mori for some long-dead instant in some stranger's
+life.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o527">He picked up another piece. This one was
+purely sculptural, made from several generations of iPhones, their
+screens carved into abstract shapes and then painted with networked
+OLEDs that stitched them together into a single display. The
+abstract shapes and colors combined with the device's aggressive
+incursions on your PAN to give the sense of holding a vampire,
+something transgressive and savage. Dangerous. "When was the last
+time you owned a device that felt that dangerous?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o528">"Never!" The VC seemed to surprise
+himself with his vehemence. He fumbled the device, caught it, set
+it down reverently.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o529">Gretl laughed. "Oh, you can be rougher
+than that. My little critters love adapting to hard circumstances."
+She tossed the vampire high in the sky, let it come down on the
+floor, having righted itself in the air to take the drop on its
+armored back. "You can't break it, it's made of garbage."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o530">The VC fondled each of her pieces, making
+genuine appreciative noises. She could tell the difference between
+the genuine article and the fakes.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o531">"I remember all these things from when I
+was little," he said at last. "I wanted them all so badly. Each one
+seemed impossibly wonderful and out of reach."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o532">"Yeah," she said. "That's what does it,
+all right. That feeling right there. You watched these go from
+fetish item to six-for-a-buck in the blister packs at the pharmacy
+check-out. This gives them back their dignity."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o533">"Can I ask how many of these you
+sell?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o534">"Enough," she said. "As many as I can
+make. I mostly do commissions, but only with people who come down
+in person. I won't sell online. Getting off email was the best gift
+I ever gave myself."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o535">"You are hard to reach," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o536">"Nope. I'm easy to reach — you just have
+to haul ass here to Pico Rivera. There's even parking, if you're
+that kind of pervert."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o537">"I think I see why you aren't interested
+in capital," he said. "You can't scale this up — not with all the
+money in the world."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o538">Gretl laughed. "You VCs — scale, scale,
+scale! It's all you think of. You're wrong, as it turns out. This
+business decomposes into four elements: materials acquisition,
+design, fabrication and retail. They all scale like crazy.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o539">"Take materials. After the WTO, the
+Chinese spent 25 years brute-forcing the problem-space of all
+possible 3D plastic objects that an American might pay money for.
+There is no shortage of that stuff — most of it is sitting in
+international waters somewhere on a container ship, waiting for
+someone to pay the carbon taxes to land it somewhere. I can bring
+in all the junk electronics and chassis and parts that I want, and
+I print the actuators, controllers, wires and the rest of it
+here.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o540">"Design? Design's easy. Roll the parts
+through the tumbler and let each one get scanned up good. Then run
+the evolutionary algorithm to see how they can fit together. I just
+watch it, tweaking it, culling the ugly mutants, cultivating the
+pretty ones. I can do fifty original designs in a day, and by the
+time I'm done with any random container, I'll have used up more
+than 80 percent of its payload. The rest goes to some feedstockers
+to be eaten by bacteria.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o541">"Manufacturing — that's just monkey
+labor. Easy. Every kid takes shop class nowadays, especially the
+girls."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o542">"I made cars for my parents'
+anniversary," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o543">"Fuel-cell?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o544">He snorted. "No one wants to drive a
+truck anymore. Sub-micro solar. Fast little things." He picked up
+the fish again. "And retail, that's just you, here. So if you could
+scale up, why don't you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o545">"Why should I? I'm making incredible
+money now. I could stand to double my operation, but for that I'd
+need, what, 60 grand? What's the smallest angel round you do at
+your franchise?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o546">"We're very nimble."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o547">"How nimble?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o548">He mumbled something.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o549">"Speak up!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o550">"Three hundred kay," he said, blushing.
+"But it doesn't have to be all to you. We could roll your round up
+with five or six similar firms —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o551">"And increase my communications and
+bureaucracy overhead by 3,000 percent. Yeah, that sounds
+<i>swell.</i> I net enough after expenses that I could double every
+quarter if I wanted to. But I'm growing organically, cherry-picking
+my best contractors and getting them on the payroll, expanding poco
+a poco. I'm sixty years old, Mr Gonzales, and I don't need to grow
+like a tumor anymore."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o552">He put the fish back down. It
+flopped.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o553">"You say you're nimble. But from where I
+sit, you're not nimble enough. You're starting off in the 300 grand
+range, and you're probably averaging a million in your angel round,
+ten or twenty for Series A, seventy for Series B. I can turn 60
+grand into 600 in six months. That's pretty good for me, as an
+individual. But I can't turn your million into ten million — not in
+six years. What does your franchise have under management?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o554">"We're a gigafund," he said. He managed
+to make it sound like a boast.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o555">She shook her head. "You poor, poor boy.
+How are you going to spend a billion dollars in $300,000
+increments? You'll be sitting on three quarters of that by the time
+you cash out the fund."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o556">"It's the smallest amount that a
+franchisee can take," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o557">"Well, sure. The parent company's got
+what, half a trillion under management? Don't look so surprised.
+Yes, I keep up to date on the shenanigans you Mighty Morphin' Power
+Brokers get up to in Silly Valley. No <i>wonder</i> they're
+franchising! But the secret is, big money is dumb money. I can
+spend a hundred bucks so smart that I turn it into fifteen hundred.
+You look like a smart kid, you could probably make a thousand. But
+you'll never do the same trick with your billion in other people's
+money. Whoever sold you that franchise conned you, sonny."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o558">He looked glum.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o559">"Oh, cheer up," she said. "You're a young
+man. Getting shafted by VCs builds character. Look at me!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o560">He picked up the fish again. She knew
+what he was going to ask without having to wait. She named the
+price. "But for you, a ten percent discount."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o561">He shook his head and put it back. "I
+can't afford that," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o562">"What are you doing tonight?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o563">He cocked an eyebrow at her. "Don't
+worry, I'm not interested in your youthful limbs. I just have a
+spot on my third shift. One of my girls is pregnant and she's
+taking some maternity. You pull six hours starting at 11PM and you
+can take that home."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o564">"I'm not supposed to moonlight." He
+caressed the fish's scales. They rippled under his finger.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o565">"It's due diligence," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o566">He smiled. He was very pretty. And he'd
+built two cars — not bad. He'd do OK. Maybe he'd even work out and
+end up one of her regulars.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o567">"Think about it. I close down at 6PM. You
+come by then, if you're interested, and I'll give you the details
+for the fabrica."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o568">She locked her cabinets and set out her
+"Gone to lunch" sign, then hopped over the display case, vaulting
+it the way she'd learned to do in yogacrobatics class in Silver
+Lake.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o569">"Lunch time?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o570">Mrs. Huang called to one of her daughters
+to come out and staff the booth, then came around on her cane.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o571">"No nutritionist food," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o572">"Certainly not," Gretl said, sprinkling a
+wave at the VC as he moved off among the stalls in the dead
+WalMart.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">—</p>
+</div>
+<div class="substance">
+<p class="norm" id="o573"><b>Afterword:</b></p>
+</div>
+<div class="substance">
+<p class="norm" id="o574">I have an odd and productive relationship
+with <i>Forbes</i> magazine. I'm far from a typical <i>Forbes</i>
+reader, but they've commissioned several articles and this short
+story from me, and the commissions are always challenging and just
+weird enough to inspire. Here, the brief was to write about the
+future of entrepreneurship. I'd been thinking a lot about how
+<i>little</i> it costs to start a business, and how predatory and
+awful many of the investors I'd met were, and I came up with this —
+a Socratic dialog between a startupist and a VC who can't find
+anyone to take his money.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o575">~</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

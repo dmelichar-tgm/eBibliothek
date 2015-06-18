@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" xml:lang="de" version="2005-1">
+<head>
+<meta name="dtb:uid" content="9783941864108"/>
+<meta name="dtb:depth" content="3"/>
+<meta name="dtb:totalPageCount" content="0"/>
+<meta name="dtb:maxPageNumber" content="0"/>
+</head>
+<docTitle>
+<text>Corona Magazine 05/2015: Mai 2015</text>
+</docTitle>
+<navMap>
+<navPoint id="navpoint-1" playOrder="1">
+<navLabel>
+<text>Cover</text>
+</navLabel>
+<content src="001.html"/>
+</navPoint>
+<navPoint id="navpoint-2" playOrder="2">
+<navLabel>
+<text>Vorwort</text>
+</navLabel>
+<content src="002.html"/>
+</navPoint>
+<navPoint id="navpoint-3" playOrder="3">
+<navLabel>
+<text>Inhaltsverzeichnis</text>
+</navLabel>
+<content src="003.html"/>
+</navPoint>
+<navPoint id="navpoint-4" playOrder="4">
+<navLabel>
+<text>Marvels Phase 2: Die Heldin, das unprofitable Stiefkind - gesellschaftlicher Fortschritt vs. Marketing-Sexismus</text>
+</navLabel>
+<content src="008.html"/>
+</navPoint>
+<navPoint id="navpoint-5" playOrder="5">
+<navLabel>
+<text>NEWS#1 - newsBEAT</text>
+</navLabel>
+<content src="009.html"/>
+<navPoint id="navpoint-6" playOrder="6">
+<navLabel>
+<text>Gestorben: Andrew Lesnie (1956-2015)</text>
+</navLabel>
+<content src="009.html#ncx230"/>
+</navPoint>
+<navPoint id="navpoint-7" playOrder="7">
+<navLabel>
+<text>FedCon und Ring*Con: Der monatliche Check</text>
+</navLabel>
+<content src="009.html#ncx234"/>
+</navPoint>
+<navPoint id="navpoint-8" playOrder="8">
+<navLabel>
+<text>16. bis 18. Juni 2017: Eurocon in Dortmund</text>
+</navLabel>
+<content src="009.html#ncx265"/>
+</navPoint>
+<navPoint id="navpoint-9" playOrder="9">
+<navLabel>
+<text>Perry Rhodan-Tag in Osnabrück am 16. Mai 2015</text>
+</navLabel>
+<content src="009.html#ncx270"/>
+</navPoint>
+</navPoint>
+<navPoint id="navpoint-10" playOrder="10">
+<navLabel>
+<text>»Astro_Alex« ganz irdisch und nah: Alexander Gerst im Technikmuseum Speyer</text>
+</navLabel>
+<content src="010.html"/>
+</navPoint>
+<navPoint id="navpoint-11" playOrder="11">
+<navLabel>
+<text>NEWS#2 - TrekMinds</text>
+</navLabel>
+<content src="011.html"/>
+<navPoint id="navpoint-12" playOrder="12">
+<navLabel>
+<text>Star Trek-News zum nächsten Kinofilm</text>
+</navLabel>
+<content src="011.html#ncx369"/>
+</navPoint>
+<navPoint id="navpoint-13" playOrder="13">
+<navLabel>
+<text>Brent Spiner mit Rolle in Independence Day II</text>
+</navLabel>
+<content src="011.html#ncx379"/>
+</navPoint>
+<navPoint id="navpoint-14" playOrder="14">
+<navLabel>
+<text>Adam Nimoy arbeitet an Dokumentation über seinen verstorbenen Vater</text>
+</navLabel>
+<content src="011.html#ncx383"/>
+</navPoint>
+<navPoint id="navpoint-15" playOrder="15">
+<navLabel>
+<text>Star Trek: Phase II veröffentlicht neue Episode</text>
+</navLabel>
+<content src="011.html#ncx387"/>
+</navPoint>
+<navPoint id="navpoint-16" playOrder="16">
+<navLabel>
+<text>Cross Cult veröffentlicht neuen Star Trek/Planet der Affen Comic-Band</text>
+</navLabel>
+<content src="011.html#ncx391"/>
+</navPoint>
+<navPoint id="navpoint-17" playOrder="17">
+<navLabel>
+<text>Grace Lee ist im Alter von 85 Jahren verstorben</text>
+</navLabel>
+<content src="011.html#ncx395"/>
+</navPoint>
+</navPoint>
+<navPoint id="navpoint-18" playOrder="18">
+<navLabel>
+<text>Star Trek-Kolumne: Kein Platz mehr für die Enterprise!</text>
+</navLabel>
+<content src="012.html"/>
+</navPoint>
+<navPoint id="navpoint-19" playOrder="19">
+<navLabel>
+<text>Rezension: Star Trek TNG  (The Second Decade 07): Von Magie nicht zu unterscheiden</text>
+</navLabel>
+<content src="013.html"/>
+</navPoint>
+<navPoint id="navpoint-20" playOrder="20">
+<navLabel>
+<text>Die Stars aus Star Trek in anderen Rollen - Teil 2: William Shatner</text>
+</navLabel>
+<content src="014.html"/>
+</navPoint>
+<navPoint id="navpoint-21" playOrder="21">
+<navLabel>
+<text>Science-Fiction und Fantasy in aktuellen Serien - Teil 5: von T bis Z</text>
+</navLabel>
+<content src="015.html"/>
+</navPoint>
+<navPoint id="navpoint-22" playOrder="22">
+<navLabel>
+<text>NEWS#3 - TUBEnews</text>
+</navLabel>
+<content src="016.html"/>
+<navPoint id="navpoint-23" playOrder="23">
+<navLabel>
+<text>Fear The Walking Dead heuert Grimm-Schauspielerin an</text>
+</navLabel>
+<content src="016.html#ncx570"/>
+</navPoint>
+<navPoint id="navpoint-24" playOrder="24">
+<navLabel>
+<text>Supergirl wartet mit weiteren bekannten Comic-Figuren auf</text>
+</navLabel>
+<content src="016.html#ncx574"/>
+</navPoint>
+<navPoint id="navpoint-25" playOrder="25">
+<navLabel>
+<text>Preacher erweitert seine Besetzungsliste</text>
+</navLabel>
+<content src="016.html#ncx580"/>
+</navPoint>
+<navPoint id="navpoint-26" playOrder="26">
+<navLabel>
+<text>Daredevil bekommt zweite Staffel</text>
+</navLabel>
+<content src="016.html#ncx590"/>
+</navPoint>
+<navPoint id="navpoint-27" playOrder="27">
+<navLabel>
+<text>Marvel’s Agents Of S.H.I.E.L.D. bekommt Ableger-Serie</text>
+</navLabel>
+<content src="016.html#ncx594"/>
+</navPoint>
+<navPoint id="navpoint-28" playOrder="28">
+<navLabel>
+<text>Heroes Reborn holt weiteren alten Bekannten zurück</text>
+</navLabel>
+<content src="016.html#ncx598"/>
+</navPoint>
+<navPoint id="navpoint-29" playOrder="29">
+<navLabel>
+<text>Akte X - Die Unheimlichen Fälle des FBI: Fortsetzung ist offiziell bestätigt</text>
+</navLabel>
+<content src="016.html#ncx602"/>
+</navPoint>
+</navPoint>
+<navPoint id="navpoint-30" playOrder="30">
+<navLabel>
+<text>Die phantastischen TV-Tipps im Mai 2015</text>
+</navLabel>
+<content src="017.html"/>
+<navPoint id="navpoint-31" playOrder="31">
+<navLabel>
+<text>KW 20 (11.05. - 17.05.2015)</text>
+</navLabel>
+<content src="017.html#ncx608"/>
+</navPoint>
+<navPoint id="navpoint-32" playOrder="32">
+<navLabel>
+<text>KW 21 (18.05. - 24.05.2015)</text>
+</navLabel>
+<content src="018.html"/>
+</navPoint>
+<navPoint id="navpoint-33" playOrder="33">
+<navLabel>
+<text>KW 22 (25.05. - 31.05.2015)</text>
+</navLabel>
+<content src="019.html"/>
+</navPoint>
+<navPoint id="navpoint-34" playOrder="34">
+<navLabel>
+<text>KW 23 (01.06. - 07.06.2015)</text>
+</navLabel>
+<content src="020.html"/>
+</navPoint>
+<navPoint id="navpoint-35" playOrder="35">
+<navLabel>
+<text>Streaming</text>
+</navLabel>
+<content src="021.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="navpoint-36" playOrder="36">
+<navLabel>
+<text>The Zero Theorem: Terry Gilliams dystopisches Rätselpuzzle</text>
+</navLabel>
+<content src="022.html"/>
+</navPoint>
+<navPoint id="navpoint-37" playOrder="37">
+<navLabel>
+<text>Filmklassiker: Der Kampf der Welten</text>
+</navLabel>
+<content src="023.html"/>
+</navPoint>
+<navPoint id="navpoint-38" playOrder="38">
+<navLabel>
+<text>Wie alles begann (Teil 5) - Das Star Wars-Universum zwischen Prequel und Legends</text>
+</navLabel>
+<content src="024.html"/>
+</navPoint>
+<navPoint id="navpoint-39" playOrder="39">
+<navLabel>
+<text>Science Fiction als Flop-Garant?</text>
+</navLabel>
+<content src="025.html"/>
+</navPoint>
+<navPoint id="navpoint-40" playOrder="40">
+<navLabel>
+<text>Daredevil - Phönix aus der Asche</text>
+</navLabel>
+<content src="026.html"/>
+</navPoint>
+<navPoint id="navpoint-41" playOrder="41">
+<navLabel>
+<text>Ihre Meinung - Leserbriefe an das Corona Magazine</text>
+</navLabel>
+<content src="027.html"/>
+</navPoint>
+<navPoint id="navpoint-42" playOrder="42">
+<navLabel>
+<text>Neu im Kino: Marvel's The Avengers 2: Age of Ultron - Die Zukunft naht</text>
+</navLabel>
+<content src="028.html"/>
+</navPoint>
+<navPoint id="navpoint-43" playOrder="43">
+<navLabel>
+<text>Neu im Kino: Ex Machina</text>
+</navLabel>
+<content src="029.html"/>
+</navPoint>
+<navPoint id="navpoint-44" playOrder="44">
+<navLabel>
+<text>NEWS#4 - cineBEAT</text>
+</navLabel>
+<content src="030.html"/>
+</navPoint>
+<navPoint id="navpoint-45" playOrder="45">
+<navLabel>
+<text>Neuer StarWars-Teaser erschienen</text>
+</navLabel>
+<content src="030.html#ncx1050"/>
+<navPoint id="navpoint-46" playOrder="46">
+<navLabel>
+<text>Power Rangers-Neuauflage wurde verschoben</text>
+</navLabel>
+<content src="030.html#ncx1059"/>
+</navPoint>
+<navPoint id="navpoint-47" playOrder="47">
+<navLabel>
+<text>Teenage Mutant Ninja Turtles 2 besetzt weitere Rollen</text>
+</navLabel>
+<content src="030.html#ncx1066"/>
+</navPoint>
+<navPoint id="navpoint-48" playOrder="48">
+<navLabel>
+<text>Death Note heuert Gast-Regisseur an</text>
+</navLabel>
+<content src="030.html#ncx1072"/>
+</navPoint>
+<navPoint id="navpoint-49" playOrder="49">
+<navLabel>
+<text>Suicide Squad engagiert Common</text>
+</navLabel>
+<content src="030.html#ncx1078"/>
+</navPoint>
+<navPoint id="navpoint-50" playOrder="50">
+<navLabel>
+<text>Wonder Woman verliert Regisseurin Michelle MacLaren</text>
+</navLabel>
+<content src="030.html#ncx1085"/>
+</navPoint>
+<navPoint id="navpoint-51" playOrder="51">
+<navLabel>
+<text>Stephen Kings Dark Tower-Adaption lebt wieder</text>
+</navLabel>
+<content src="030.html#ncx1093"/>
+</navPoint>
+<navPoint id="navpoint-52" playOrder="52">
+<navLabel>
+<text>Star Wars erscheint in Digital-HD-Version</text>
+</navLabel>
+<content src="030.html#ncx1101"/>
+</navPoint>
+<navPoint id="navpoint-53" playOrder="53">
+<navLabel>
+<text>Tron 3 kommt mit bekannter Besetzung</text>
+</navLabel>
+<content src="030.html#ncx1110"/>
+</navPoint>
+<navPoint id="navpoint-54" playOrder="54">
+<navLabel>
+<text>Die monatliche Marvel-Minute</text>
+</navLabel>
+<content src="030.html#ncx1116"/>
+</navPoint>
+</navPoint>
+<navPoint id="navpoint-55" playOrder="55">
+<navLabel>
+<text>Kino-Vorschau: Neuerscheinungen im Mai 2015</text>
+</navLabel>
+<content src="031.html"/>
+<navPoint id="navpoint-56" playOrder="56">
+<navLabel>
+<text>Babadook</text>
+</navLabel>
+<content src="031.html#ncx1132"/>
+</navPoint>
+<navPoint id="navpoint-57" playOrder="57">
+<navLabel>
+<text>German Angst</text>
+</navLabel>
+<content src="032.html"/>
+</navPoint>
+<navPoint id="navpoint-58" playOrder="58">
+<navLabel>
+<text>Käpt’n Säbelzahn und der Schatz von Lama Rama</text>
+</navLabel>
+<content src="033.html"/>
+</navPoint>
+<navPoint id="navpoint-59" playOrder="59">
+<navLabel>
+<text>Mad Max Fury Road</text>
+</navLabel>
+<content src="034.html"/>
+</navPoint>
+<navPoint id="navpoint-60" playOrder="60">
+<navLabel>
+<text>A world beyond</text>
+</navLabel>
+<content src="035.html"/>
+</navPoint>
+<navPoint id="navpoint-61" playOrder="61">
+<navLabel>
+<text>Sam O‘Cool - Ein schräger Vogel hebt ab</text>
+</navLabel>
+<content src="036.html"/>
+</navPoint>
+<navPoint id="navpoint-62" playOrder="62">
+<navLabel>
+<text>Lost River</text>
+</navLabel>
+<content src="037.html"/>
+</navPoint>
+<navPoint id="navpoint-63" playOrder="63">
+<navLabel>
+<text>Poltergeist</text>
+</navLabel>
+<content src="038.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="navpoint-64" playOrder="64">
+<navLabel>
+<text>Kolumne: Lesungen</text>
+</navLabel>
+<content src="039.html"/>
+</navPoint>
+<navPoint id="navpoint-65" playOrder="65">
+<navLabel>
+<text>Phantastische Spiele: Wiz-War - Krieg der Magier</text>
+</navLabel>
+<content src="040.html"/>
+</navPoint>
+<navPoint id="navpoint-66" playOrder="66">
+<navLabel>
+<text>Neues aus dem Verlag in Farbe und Bunt!</text>
+</navLabel>
+<content src="041.html"/>
+<navPoint id="navpoint-67" playOrder="67">
+<navLabel>
+<text>Die Erstträumer - Denn neue Träumer braucht das Land!</text>
+</navLabel>
+<content src="042.html"/>
+<navPoint id="navpoint-68" playOrder="68">
+<navLabel>
+<text>Das erste Kind</text>
+</navLabel>
+<content src="042.html#ncx1277"/>
+</navPoint>
+<navPoint id="navpoint-69" playOrder="69">
+<navLabel>
+<text>Der Fremde in der Stille</text>
+</navLabel>
+<content src="043.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="navpoint-70" playOrder="70">
+<navLabel>
+<text>Romane - Phantastische Literatur hat viele Facetten, wir lieben jede einzelne</text>
+</navLabel>
+<content src="044.html"/>
+<navPoint id="navpoint-71" playOrder="71">
+<navLabel>
+<text>Hourglass Wars</text>
+</navLabel>
+<content src="044.html#ncx1311"/>
+</navPoint>
+</navPoint>
+</navPoint>
+<navPoint id="navpoint-72" playOrder="72">
+<navLabel>
+<text>Anzeige</text>
+</navLabel>
+<content src="045.html"/>
+</navPoint>
+<navPoint id="navpoint-73" playOrder="73">
+<navLabel>
+<text>Anzeige</text>
+</navLabel>
+<content src="046.html"/>
+</navPoint>
+<navPoint id="navpoint-74" playOrder="74">
+<navLabel>
+<text>Hörbuch Neuerscheinungen Mai 2015 (www.hoerbuchjunkies.com)</text>
+</navLabel>
+<content src="047.html"/>
+<navPoint id="navpoint-75" playOrder="75">
+<navLabel>
+<text>MindNapping 17 - Mardi Gras</text>
+</navLabel>
+<content src="047.html#ncx1337"/>
+</navPoint>
+<navPoint id="navpoint-76" playOrder="76">
+<navLabel>
+<text>Mark Brandis Raumkadett 06: Woran du Glaubst...</text>
+</navLabel>
+<content src="048.html"/>
+</navPoint>
+<navPoint id="navpoint-77" playOrder="77">
+<navLabel>
+<text>Batman No Man's Land (03): Tod</text>
+</navLabel>
+<content src="049.html"/>
+</navPoint>
+<navPoint id="navpoint-78" playOrder="78">
+<navLabel>
+<text>Die rote Königin: Die Farbe des Blutes, Band 1</text>
+</navLabel>
+<content src="050.html"/>
+</navPoint>
+<navPoint id="navpoint-79" playOrder="79">
+<navLabel>
+<text>Zeitenzauber - Die goldene Brücke, 2. Teil</text>
+</navLabel>
+<content src="051.html"/>
+</navPoint>
+<navPoint id="navpoint-80" playOrder="80">
+<navLabel>
+<text>Gruselkabinett (100): Träume im Hexenhaus</text>
+</navLabel>
+<content src="052.html"/>
+</navPoint>
+<navPoint id="navpoint-81" playOrder="81">
+<navLabel>
+<text>Gruselkabinett (101): Verlorene Herzen</text>
+</navLabel>
+<content src="053.html"/>
+</navPoint>
+<navPoint id="navpoint-82" playOrder="82">
+<navLabel>
+<text>Raumschiff Promet (4): Sprung ins Ungewisse Teil 2 (Das Auge des Bösen)</text>
+</navLabel>
+<content src="054.html"/>
+</navPoint>
+<navPoint id="navpoint-83" playOrder="83">
+<navLabel>
+<text>Perry Rhodan (3): Das Volk der Schläfer</text>
+</navLabel>
+<content src="055.html"/>
+</navPoint>
+</navPoint>
+<navPoint id="navpoint-84" playOrder="84">
+<navLabel>
+<text>Masters of Fiction #02: About Stories of the (Un)Dead - Leseprobe</text>
+</navLabel>
+<content src="056.html"/>
+</navPoint>
+<navPoint id="navpoint-85" playOrder="85">
+<navLabel>
+<text>Perry Rhodan: Im Gespräch mit Hubert Haensel</text>
+</navLabel>
+<content src="057.html"/>
+</navPoint>
+<navPoint id="navpoint-86" playOrder="86">
+<navLabel>
+<text>Kolumne: 25 Bände Hägar - Humor ist …</text>
+</navLabel>
+<content src="058.html"/>
+</navPoint>
+<navPoint id="navpoint-87" playOrder="87">
+<navLabel>
+<text>NEWS#5 - Kopfkino</text>
+</navLabel>
+<content src="059.html"/>
+<navPoint id="navpoint-88" playOrder="88">
+<navLabel>
+<text>Ab Herbst 2015: Piper Science Fiction</text>
+</navLabel>
+<content src="059.html#ncx1634"/>
+</navPoint>
+<navPoint id="navpoint-89" playOrder="89">
+<navLabel>
+<text>Award News in Kürze</text>
+</navLabel>
+<content src="059.html#ncx1638"/>
+</navPoint>
+<navPoint id="navpoint-90" playOrder="90">
+<navLabel>
+<text>Karl Alexander ist gestorben</text>
+</navLabel>
+<content src="059.html#ncx1655"/>
+</navPoint>
+<navPoint id="navpoint-91" playOrder="91">
+<navLabel>
+<text>Zaubermond führt die Perry Rhodan-Planetenromane fort</text>
+</navLabel>
+<content src="059.html#ncx1659"/>
+</navPoint>
+<navPoint id="navpoint-92" playOrder="92">
+<navLabel>
+<text>Perry Rhodan NEO: Rüdiger Schäfer und Michael H. Buchholz übernehmen Exposé-Redaktion</text>
+</navLabel>
+<content src="059.html#ncx1664"/>
+</navPoint>
+</navPoint>
+<navPoint id="navpoint-93" playOrder="93">
+<navLabel>
+<text>Military SF: Hau drauf aus deutschen Landen</text>
+</navLabel>
+<content src="060.html"/>
+</navPoint>
+<navPoint id="navpoint-94" playOrder="94">
+<navLabel>
+<text>Michael M. Thurner: Der unrechte Wanderer</text>
+</navLabel>
+<content src="061.html"/>
+</navPoint>
+<navPoint id="navpoint-95" playOrder="95">
+<navLabel>
+<text>Patricia Briggs: Shamera - Die Diebin</text>
+</navLabel>
+<content src="062.html"/>
+</navPoint>
+<navPoint id="navpoint-96" playOrder="96">
+<navLabel>
+<text>Anzeige</text>
+</navLabel>
+<content src="063.html"/>
+</navPoint>
+<navPoint id="navpoint-97" playOrder="97">
+<navLabel>
+<text>NEWS#6 - Subspace Link</text>
+</navLabel>
+<content src="064.html"/>
+<navPoint id="navpoint-98" playOrder="98">
+<navLabel>
+<text>Samantha Cristoforetti - als »Star Trek Commander« in der Cupola</text>
+</navLabel>
+<content src="064.html#ncx1749"/>
+</navPoint>
+<navPoint id="navpoint-99" playOrder="99">
+<navLabel>
+<text>Alexander Gerst - Live-Vortag im Technikmuseum Speyer</text>
+</navLabel>
+<content src="064.html#ncx1759"/>
+</navPoint>
+<navPoint id="navpoint-100" playOrder="100">
+<navLabel>
+<text>ROSETTA - kein Magnetfeld auf »Tschuri«</text>
+</navLabel>
+<content src="064.html#ncx1771"/>
+</navPoint>
+<navPoint id="navpoint-101" playOrder="101">
+<navLabel>
+<text>HUBBLE - 25 Jahre Weltraumteleskop: »Das Universum ist bunt«</text>
+</navLabel>
+<content src="064.html#ncx1779"/>
+</navPoint>
+<navPoint id="navpoint-102" playOrder="102">
+<navLabel>
+<text>Subspace Rocket Launches</text>
+</navLabel>
+<content src="064.html#ncx1790"/>
+</navPoint>
+<navPoint id="navpoint-103" playOrder="103">
+<navLabel>
+<text>Subspace History: APOLLO 16 - auf dem Descartes Hochplateau</text>
+</navLabel>
+<content src="064.html#ncx1804"/>
+</navPoint>
+<navPoint id="navpoint-104" playOrder="104">
+<navLabel>
+<text>Subspace Gimmick: Bücher, DVDs und Modell zur Raumfahrt auch im Technikmuseum</text>
+</navLabel>
+<content src="064.html#ncx1817"/>
+</navPoint>
+<navPoint id="navpoint-105" playOrder="105">
+<navLabel>
+<text>Subspace Comments: by Reiner Krauss</text>
+</navLabel>
+<content src="064.html#ncx1826"/>
+</navPoint>
+</navPoint>
+<navPoint id="navpoint-106" playOrder="106">
+<navLabel>
+<text>Wissenschaft: New Horizons - zu Besuch bei Pluto</text>
+</navLabel>
+<content src="065.html"/>
+</navPoint>
+<navPoint id="navpoint-107" playOrder="107">
+<navLabel>
+<text>Die Corona-Kurzgeschichte</text>
+</navLabel>
+<content src="066.html"/>
+</navPoint>
+<navPoint id="navpoint-108" playOrder="108">
+<navLabel>
+<text>Mitarbeit am Corona Projekt? - Gerne und jederzeit!</text>
+</navLabel>
+<content src="067.html"/>
+</navPoint>
+<navPoint id="navpoint-109" playOrder="109">
+<navLabel>
+<text>Haftungsausschluss</text>
+</navLabel>
+<content src="068.html"/>
+</navPoint>
+<navPoint id="navpoint-110" playOrder="110">
+<navLabel>
+<text>Impressum</text>
+</navLabel>
+<content src="069.html"/>
+</navPoint>
+</navMap>
+</ncx>

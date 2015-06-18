@@ -1,0 +1,2931 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content=
+"HTML Tidy for FreeBSD (vers 25 March 2009), see www.w3.org" />
+<title>With a Little Help</title>
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+<meta http-equiv="Content-Type" content=
+"application/xhtml+xml; charset=utf-8" />
+</head>
+<body>
+<div class="body">
+<div id="chapter_422931" class="chapter">
+<h2><span class="chapterHeader"><span class=
+"translation">Chapter</span> <span class="count">5</span></span>
+Human Readable</h2>
+<div class="text">
+<div class="substance">
+<p class="norm" id="o">Cory Doctorow</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">&lt;<a href=
+"mailto:doctorow@craphound.com">doctorow@craphound.com</a>&gt;</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">Originally published in "Future Washington,"
+Ernest Lilley, editor (WSFA Press, 2005)</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">—</p>
+</div>
+<div class="substance">
+<p class="norm" id="o770"><i>1. Nice networks don't go down</i></p>
+</div>
+<div class="substance">
+<p class="norm" id="o771">It was unthinkable that the invisible
+ants that governed all human endeavor should catastrophically fail,
+but fail they did, catastrophically, on the occasion of Trish's
+eighth date with Rainer. It took nineteen seconds for the cascade
+of errors to slow every car on the Interstate to a halt, to light
+up the dashboard with a grim xmas tree of errors, to still the
+stereo and freeze the tickers of information and context that they
+had come to think of as the crawling embodiment of the colony that
+routed all the traffic that made up their universe.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o772">"We are going to be: So. Late," Rainer
+said, and Trish swiveled in her seat to look at him. He was
+Fretting again, his forehead wrinkled and his hands clenched on the
+steering wheel. When they traded massages (third date) and she'd
+rubbed at his hands, she'd found them tensed into claws that
+crackled with knuckle-fluid when she bent each finger back and
+rubbed sandalwood-scented oil into it. He was mighty cute for a
+neurotic — at least he knew it when he was being nuts. Not that
+he'd stop being nuts, but he'd cheerfully admit it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o773">"We are not going to be late," she said.
+"We just need to manually route ourselves out of the dead spot and
+get back on the grid and we'll be on our way. We've got plenty of
+time."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o774">"Dead spot?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o775">"Yes," she said. His forehead wrinkles
+were looking more klingon by the second. "Dead spot." She forced a
+chuckle. "You didn't think that the whole world was down, did
+you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o776">He relaxed his knuckles. "Course not," he
+said. "Dead spot. Probably ends up at the turn-off."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o777">"Right," she said. "We need a map. I'm
+navigatrix. You're pilot. Tell me where your maps are, then get
+onto the shoulder and drive straight."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o778">"Where my maps are? Jesus, what century
+do you live in? My maps are with the sextant and sundial, between
+my leeches and my obsidian sacrifice-knife."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o779">She laughed. "OK, pal, I'll find a
+michelin, you drive. Every car has a couple maps. They
+self-assemble from happy meal boxes." She opened the
+glove-compartment and started rooting through it while he pulled
+onto the shoulder and gunned the tiny two-seater along it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o780">"This is: So. Illegal," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o781">"Naw," she said. "I'm pretty sure you're
+allowed on the shoulder when the routing goes down. It's in the
+written-test manual. Learned it while I was helping my little
+cousin Leelee study. Aha!" she said, holding something up.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o782">"You have a cousin named Leelee? That's
+uniquely horrible."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o783">"Shut up," she said. "Look at this." It
+was an old-fashioned phone, of a certain handsome retro line that
+made it look like a dolphin fucking a silver dildo, the kind of
+thing marketed to old people who wanted a device with its
+affordances constrained to collapse the universe of all possible
+uses for things that fit into your hand into the much smaller
+universe of, say, a cellphone.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o784">"Yeah, my mom left that behind a couple
+years ago. I looked everywhere for it but couldn't find it. She
+must've been snooping in the glove-box. Serves her right. So
+what?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o785">"These things can unmesh and talk
+straight to a tower at a long distance, can't they?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o786">"I dunno, can they?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o787">"Oh yes, they can. Which means that they
+work in dead spots. So we can call and get directions."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o788">"You think you're pretty smart, huh,
+dumpling?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o789">She put her finger to her temple and made
+an adorable frowny thinky face, and held it until he looked at her
+and laughed. They'd discovered their ability to make one another
+laugh when he'd farted while taking off his kilt (second date) and
+had reflexively swung the hem back to make it appear that his
+mighty gust was ruffling the pleats.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o790">"What's your mom's number?" she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o791">He recited it and she tapped it in.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o792">"Hi there! This is Trish, Rainer's
+friend? We're on the way, but the, well the, but the — I mean to
+say, the grid's down or something. The car doesn't have any nav
+system, the dolby's out, the Interstate's a parking-lot… Oh, you
+too? God. Wonder if it's the whole country! So, we need directions
+from San Luis Obispo, to the cemetery, if possible."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o793">:… :</p>
+</div>
+<div class="substance">
+<p class="norm" id="o794">"Why yes, it's venti nice to be meeting
+<i>you</i>," she said. "I've heard a lot about you, too. Yes, I'm
+giving directions, he's driving. Oh, that's so sweet of you. Yes,
+he <i>does</i> look like he's going to scrunch his forehead into
+his upper lip. I think it's cute, too. Right. Got it. Left, then
+right, then left, then a slight left, then up the hill. Got it.
+Whups! That's the duracell! Better go. Soon! Yes. Whoops."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o795">"So?" he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o796">"So, your mom sounds nice."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o797">"You got the directions?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o798">"She gave me directions."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o799">"So you know where we're going?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o800">"I don't have a single, solitary clue.
+Your mother gives <i>terrible</i> directions, darling. Pull off at
+the next exit and we'll buy a map."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o801">"We are going to be: So. Late."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o802">"But now <i>they know</i> we're late. We
+have an excuse. You: stop Fretting."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o803">Once they were on the secondary roads,
+the creepiness of the highway full of stopped cars and crane-necked
+drivers gave way to a wind-washed soughing silence of waves and
+beach and palms. Trish rolled down the window and let the breeze
+kiss the sweat off her lip, watching the surfers wiping out in the
+curl as the car sped toward the boneyard.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o804">"Are you <i>sure</i> this is the kind of
+thing you're supposed to bring a date to?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o805">"Yes," he said. "Don't Fret. That's my
+job."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o806">"And you don't think it's even a
+<i>little</i> weird to take a girl to a cemetery on a date?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o807">"We're not <i>burying</i> anyone," he
+said. "It's just an unveiling."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o808">"I still don't get that," she said. "I
+keep picturing your mom cutting a ribbon with a giant pair of gold
+scissors."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o809">"Right, let's take it from the top," he
+said. "And you'd better not be getting me to talk to stop my
+Fretting, because appealing to my pedantic nature to distract me is
+a <i>very</i> cheap trick."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o810">"I'm fluttering my eyelashes innocently,"
+she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o811">He laughed and stole a hand through the
+vent in her apron-trousers and over her thigh. "Achtung!" she said.
+"Eyes on road, hands on wheel, mind in gutter, <i>this
+instant!</i>" She put her hand over his and he put down the pedal.
+His hand felt nice there — too nice, for only eight dates and
+20-some phone calls and about 100 emails. She patted it again.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o812">"This is kind of fun," he said, as they
+zipped past some surfer dudes staring glumly at their long-boards'
+displays, their perfect tits buoyant and colored like anodized
+aluminum with electric-tinted sun-paste.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o813">"Ahem," Trish said, squeezing his hand
+tight enough to make his knuckles grind together. "You were about
+to explain tombstone-unveiling to me," she said. "When you got
+distracted by the athletic twinkies on the roadside. But I am
+sweet-natured and good and forgiving and so I will pretend not to
+have seen it and thus save us both the embarrassment of tearing out
+your Islets of Langerhans, all right?" She fluttered her eyes
+innocently in a way that she happened to know made him melt.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o814">"Explaining! Yes! OK, remember, I'm not
+particularly Jewish. I mean, not that my parents are, either:
+they're just Orthodox. They don't believe in God or anything, they
+just like Biblical Law as a way of negotiating life. I renounced
+that when I dropped out of Yeshiva when I was 12, so I am not an
+authority on this subject."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o815">"Let the record show that the witness
+declared his utter ignorance," she said. "But I don't get this
+atheist-Orthodox thing either —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o816">"Just think of them as Mennonites or
+something. They find the old ways to be a useful set of rules for
+navigating the universe's curves. God is irrelevant to the
+belief."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o817">"So they don't believe in God, but they
+pray to him?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o818">"Yeah," he said. The surfers were all
+coming in now, jiggling their boards and rebooting them and staring
+ruefully at the radical cutback off the lip, dude, gnarly, as they
+plodded up the beach. "The ritual is the important part. Thinking
+good thoughts. Having right mind.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o819">"It's good advice, most of it. It doesn't
+matter where it comes from or how it got there. What matters is
+that if you follow the Law, you get to where you're going, in good
+time, with little pain. You don't know why or how, but you do."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o820">"It's like following the ants," she said,
+watching the stop-and-go traffic in the other direction. "Don't
+know why they tell us to go where they do, but they do, and it
+works."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o821">"Well, I guess," he said, using the tone
+of voice that told her that he was avoiding telling her how wrong
+she was. She smiled.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o822">"<i>Anyway</i>. The thing about Jews —
+ethnic Jews, cultural Jews, forget the religion here — is that
+we're pretty much on the melodramatic end of the grieving scale. We
+like to weep and tear at our hair and throw ourselves on top of the
+coffins, right? So there's like 5,000 years of this, and during
+that time, a bunch of social scientists — Rabbinical scholars —
+have developed a highly evolved protocol for ensuring that you
+grieve your dead enough that you don't feel haunted by guilt for
+having failed to honor them, but not grieving so much that you
+become a drag on the tribe.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o823">"When someone dies, you bury him right
+away, usually within 24 hours. This means that you spend an entire
+day running around like your ass was on fire, calling everyone,
+getting the word out, booking last-minute travel, ordering in from
+the caterers, picking out a box, fielding consoling phone-calls,
+getting the rabbi on the phone, booking the limo, so much crap that
+you can't spare even a second to fall to pieces. And then you bury
+him, and while you're at it, your family extrudes a volunteer to go
+over to your house and take all the cushions off of one of the
+sofas, hang sheets over all the mirrors, and set out enough food to
+feed the entire state, along with an urn of starbucks the size of
+an oil-drum.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o824">"Before the service starts, the rabbi
+gives you a razor-blade and you slash a hole in your lapel, so that
+you've got the rent in your heart hanging out there in plain sight,
+and once you get back home, you spend <i>seven days</i> grieving.
+You pray two times a day with a quorum of ten men, facing east and
+singing the Kaddish, this really, really depressing
+song-prayer-dirge that's specially engineered to worm its way into
+the melancholy receptors of the Semitic hindbrain and make you feel
+really, really, really miserable. Other people come over and cook
+for you, all three meals. You don't see yourself in the mirrors,
+you don't sit on cushions, you don't do anything <i>except
+mourn</i> for a whole week.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o825">"Then it's over. You take a walk, leaving
+by one door and coming back in by the other. You put the mourning
+behind you and start your new life without your dear departed.
+You've given over your whole life for a whole week, done nothing
+but mourn, and you're completely sick of it by then, so you're
+almost glad to be done.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o826">"Then, six months or a year later,
+usually just before Jewish New Year's, which is in the fall, you
+have a tombstone erected at the gravesite. The stone-cutters tie a
+white cloth around it, and everyone gathers there, and there's a
+sermon, and that dirge again, and more prayer, and everyone has a
+good hard cry as the scabs you've accumulated are ripped away and
+all your pain comes back fresh and scalding, and you feel it all
+again in one hot second, and realize with a guilty start that you
+<i>have</i> been neglecting the memory of the loved one, which is
+to say that you've gotten on with your life even though his is
+over, which is to say that you've done perfectly healthy, normal
+stuff, but you feel totally, completely overwhelmed with guilt and
+love, which are kind of flipsides of the same emotion —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o827">"You don't believe that, do you?" She
+held her breath.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o828">"Well, kind of. Not that they <i>should
+be</i>, but hell they <i>are</i>, most of the time, then."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o829">"Good thing we're not in love, then,
+right?" she said, in reference to their sixth date, when they'd
+decided that they would hold off on any declarations of love for at
+least an entire year, since they were most often moved to utter the
+Three Words of Significance when they were besotted with e.g.
+post-orgasmic brain-juice or a couple of cocktails.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o830">"Yes, counselor."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o831">She shook her head. He <i>knew</i> she
+was an academic, not a practicing lawyer, but he loved to tease her
+about it, ever since she'd revealed (after third date, on the
+phone) that she'd spent about ten seconds in private practice after
+she'd worked for her congressman and before she'd joined the
+faculty at UCLA.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o832">"You're out of order," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o833">"This whole damned car is out of order!"
+he said. "So that's the ritual. You <i>said</i> you wanted to meet
+the parents and sisters and aunts and grandmothers and cousins and
+uncles and nephews and in-laws the next time we all got together.
+This is it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o834">"Right," she said. "I asked for this."
+And she had, of course. Hadn't asked for the graveside elements,
+but she'd been curious to meet this big sprawling enterprise of a
+family that he was always nattering on about. This seemed as good
+an occasion as any. "So," she said. "Is this a traditional date
+among Your People?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o835">He chuckled. "Yes, this is Yom Shiksa,
+the ritual bringing of the gentile woman to the family so that she
+may become the subject of intense, relentless scrutiny and
+speculation."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o836">She started to laugh, then saw that the
+tractors were stilled in the fields they were passing, that a train
+was stopped in its tracks, that the surfers were unable to get
+their roll-cage dune-buggies to take to the road.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o837">"You all right, babe?" he said, after a
+couple minutes of this.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o838">"Just wondering about the dead spot," she
+said. "I wish we knew what had happened."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o839">"Nothing too bad, I'm sure," he said.
+"It's all self-healing. I'm sure we'll be back online soon
+enough."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o840">They rolled into the parking lot for his
+family's <i>shul</i>'s section of the giant graveyard a few minutes
+after 1PM, just over an hour late, along with the majority of the
+other attendees, all of whom had had to navigate manually.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o841">"Where are your sisters?" Rainer's mother
+said, even before he'd kissed her cheek.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o842">Rainer screwed his face up in a scowl and
+dug in his pocket for a yarmulke. "Do I know? Stuck in traffic, Ma.
+The grid's down everywhere."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o843">Trish watched this bemusedly, in her cool
+loose cotton apron-trousers and blouse. She scuffed her toe
+conspicuously and Rainer turned to her, and it was as though he'd
+forgotten she was there. She felt a second's irritation, then a
+wave of sympathy as she saw the spasm of anxiety cross his face. He
+was nervous about her meeting his fam, and nervous about who would
+arrive when, and nervous about where his sisters were with their
+enormous families and meek husbands, trapped somewhere on southern
+California's squillion-mile freeway network.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o844">"Ma," he said. "This is my friend,
+Trish."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o845">"Pleased to meet you, Mrs. Feinstein,"
+Trish said. The old woman was remarkably well-preserved, her soft
+skin glowing with heat-flush, her thick hair caught in a tight bun
+and covered with a little scarf that reminded Trish of Rainer's
+yarmulke. She wondered if she should be wearing one, too. Mrs.
+Feinstein's eyes flicked quickly to her shoes, up her legs and
+boobs, to her face and hair, and then back to her face. She opened
+her arms and drew Trish into a hug that smelled of good, subtle
+perfume, though Trish knew so little about scent that she couldn't
+have said which. "Call me Reba, darling," she said. "It's so good
+of you to come."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o846">And then she was off, hustling to corral
+a wayward knot of horseplay-aged cousins, stopping to shake hands
+with the deceased great-uncle's poker buddies in their old-man
+pants, golf shirts and knit yarmulkes bobby-pinned to their
+thinning hair.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o847">Trish took stock. Looked like every other
+graveyard she'd been in, which wasn't that many. At 35, she'd been
+to half a dozen family funerals, a couple of college buddies who
+OD'ed or cracked up their cars, and one favorite poli-sci teacher's
+service, so she was hardly an expert on boneyards, but something
+was amiss.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o848">"What's with the pebbles on the
+headstones?" she whispered to Rainer, who was scanning the road for
+signs of his sisters.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o849">"Huh? Oh. You drop those on the monument
+when you visit the grave, as a sign that someone's been there."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o850">"Oh," she said, and began to cast about
+for a pebble she could put on his great-uncle's headstone once it
+was unveiled. There were none to be found. The ground had been
+picked completely clean. Looking at the thousands and thousands of
+ranged marble headstones, each topped with a cairn of stones — and
+not just stones, either, toys and seashells and small sculptures,
+she saw now — and she understood why.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o851">"What are you doing?" Rainer asked. He
+might have been irritated, or just nervous. It was hard to tell
+when he was Fretting, and he was clearly going coo-coo for
+coco-puffs.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o852">"Looking for pebbles," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o853">He said :fuck: very quietly. "I meant to
+bring some. Damnit. I've got twenty relatives buried here and we're
+going to go past every single tombstone before we get to leave and
+I don't have a single rock."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o854">"Can you leave toys or other stuff, like
+on those stones?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o855">"Yeah," he said. "I suppose. If I had
+other stuff."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o856">She opened her purse and pulled out the
+dolphin-dildo cellphone. "You still need this?" she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o857">He smiled and his forehead uncreased.
+"You're a genius," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o858">She set it down on the pavement and
+brought her heel down on it hard, breaking it into dozens of
+fragments. "All the pebbles we'll ever need," she said, picking
+them up and handing them to Rainer.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o859">He put his arm around her shoulders and
+squeezed. "I'm awfully fond of you, Counselor," he said, kissing
+her earlobe. His breath tickled her ear and made her think of the
+crazy animal new-relationship-energy sex they'd had the night
+before — she was still limping, and so was he — and she
+shivered.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o860">"You too, steakypaste," she said. "Now,
+introduce me to all of your relatives."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o861">"Introduce you?" He groaned. "You don't
+think I remember all of their names, do you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o862">Afterward, they formed a long convoy back
+to the nearest family member's house — a great aunt? a second
+cousin? Rainer was vague — navigating by keeping everyone in sight,
+snaking along the traffic jam that appeared to have engulfed the
+entire state, if not the whole coast.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o863">"You made that law, yes? We've all heard
+about you." This was the sixth time someone had said this to her
+since they'd arrived and Rainer had made her a plate of blintzes,
+smoked salmon, fresh bagels, boiled eggs, and baby greens salad
+with raspberry dressing, then had been spirited away into an
+endless round of cheek-pinching and intense questioning. She'd been
+left on her own, and after having a couple of grave conversations
+with small children about the merits of different toys, she'd been
+latched upon by one of the Relatives and passed from hand to
+hand.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o864">"I was involved in it, but I didn't write
+the law," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o865">"Look at you, so modest, you're
+blushing!" the Relative said. She reached out to steady a cut-glass
+vase as it wobbled in the wake of two small boys playing keep-away
+with a third's yarmulke, and Trish realized that this was probably
+the hostess.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o866">"This place is just
+supercalafragilistic," she said, with an economical gesture at the
+tasteful Danish furnishings, the paper books in a handsome oak
+bookcase, the pretty garden out one side window and the ocean out
+the back window.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o867">"Thank you," the great-aunt said. "My
+Benny loved it here." She misted up. Trish finally added two and
+two, remembered the BENJAMIN chiseled into the marble headstone,
+and the blank spot on the other half of the tombstone, realized
+that this wasn't just the hostess, this was the <i>widow</i>, and
+felt about for a thing to say.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o868">"It was a beautiful ceremony," she said.
+She had a couple napkins tucked in the waistband of her pants, and
+without thinking, she extracted one and folded an angle into it,
+reaching for the corner of the great-aunt's eye. "Look up," she
+said, and blotted the tear before it could draw a line of mascara
+down the widow's cheek.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o869">The old woman smiled a well-preserved
+smile that reminded Trish of Rainer's mom. "You're a sweet girl,"
+she said. "Me, I'm not so good with names, and so I've forgotten
+yours."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o870">"I'm Trish," Trish said, bemusedly.
+Rainer's grammar got yiddishized when he wasn't paying attention,
+and she adored the contrast between its shtetl credibility and his
+witty, smooth public banter-persona. It had attuned her to little
+phrases like, "Me, I'm not so good."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o871">The widow shook her hand. "I'm Dorothy.
+It's a pleasure to make your acquaintance. Would you like to come
+out to the garden with me?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o872">Once they were seated, young male
+Relatives materialized and set up shade-umbrellas and brought out
+trays of iced juice.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o873">"They're not after the inheritance, you
+know," the old woman said with a snort. "Their parents are
+<i>very</i> well-off. They don't need from money. They just adore
+me because I've spoiled them rotten since they were babies and I'd
+take them swimming and to Disneyland."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o874">"You have a beautiful family," Trish
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o875">"Do you have a big family, too?" The old
+woman put on a pair of enormous sunglasses and sipped at her pink
+grapefruit juice.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o876">"Not like this one," she said. There were
+a couple hundred people in the house, and Rainer had spent the
+whole car-ride back from the cemetery Fretting about all the
+relations who <i>hadn't</i> made it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o877">"Oh, this one! Well, this is a special
+case. This family accumulates other families. My Benny had a small
+family, and when he married me, they just joined us. All the high
+holidays, we ate here, or at my parents' place, God rest them. Your
+family is in DC?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o878">"All over."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o879">"But you're from DC, no?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o880">"Not really. I grew up in Chicago and
+Seattle."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o881">"But you made that law —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o882">"I really didn't, honestly! I was
+clerking for a Supreme Court judge when the case was heard, and I
+wrote his dissenting opinion, and when we lost, I quit and went to
+work for a PAC that was agitating for copyright reform to
+accommodate free expression, and then when Senator Sandollar got
+voted in and they started the Intellectual Property committee and
+made her chairman, I joined her staff as a policy wonk. So I worked
+on it, along with a couple thousand other people, not counting the
+millions who contributed to the campaign and the people who knocked
+on doors and so on."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o883">"How old are you, darling?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o884">"35," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o885">"At 35, I was having babies. You — listen
+to you. Listen to what you've <i>accomplished</i>! I'm proud just
+to <i>listen</i> to you. Rainer is lucky to have you. You two will
+get married?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o886">Trish squirmed and felt her face grow
+hot. Neither of them really believed in marriage. Whenever anyone
+brought the subject up around Rainer, he'd grimace and say, "Are
+you kidding? It'd make my mother <i>far</i> too happy — she'd keel
+over from joy."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o887">There was some kind of disturbance down
+the beach, one that had been growing steadily over the past several
+minutes, and now the Relatives were all turning their attention
+that way, to a couple of small boys in miniature suits who were
+ruining the shine on their shoes running in the sand like
+lunatics.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o888">Something in the way they were running,
+the distant expressions she couldn't quite make out on their faces.
+It made her think back to high-school, to working as a beach
+lifeguard on Lake Michigan in the summers, and before she knew what
+she was doing, she'd kicked off her shoes and was running for the
+shore, her legs flashing immodestly through the vents in her
+apron-trousers.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o889">She was still yards away from the hissing
+surf when she began to assess the situation. There was the small
+boy, bobbing in the ocean, where the undertow had spit him up after
+sucking him under. There was the swimmer, unconscious on the beach,
+face down. Couldn't tell if his chest was moving, but the small boy
+was in a suit, not swim-trunks like the swimmer, and that meant
+that he was part of Rainer's Family, which she had begun (on the
+eighth date, no less!) to think of as her own, and so she had him
+as her primary target before she reached the sea.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o890">She didn't bother finicking with the
+buttons on her top, just grabbed her collar and yanked, leaving her
+in a bra that revealed less than some bikinis she owned, but did so
+through a cunning arrangement of lace, mesh, and structural
+engineering that was probably illegal in Texas. She undid the bows
+on each hip holding up her pants and stepped out of them, leaving
+behind a very small pair of white panties whose primary design
+consideration had been to avoid showing lines through thin
+trousers, with modest coverage of all her nethers coming in a
+distant second.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o891">She plunged into the water without
+hesitation, moving swiftly but surely, taking care to keep her feet
+dug in against the undertow as she waded out toward the young boy.
+She was a strong swimmer, but the water was shockingly cold after
+the heat of the garden and the buzzing afternoon and it sucked at
+her calves and legs like a jacuzzi intake. Her breath roared in her
+ears as she rode the swells, and then she was soaked by a
+succession of breakers, and then she had the boy's little hand.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o892">She hauled him to her, seeing that he was
+only five or six, and that his pouting lips were alarmingly blue
+and that his skin was as pale as cream. She scooped the water out
+of his mouth, hooked her arm around his neck and tilted his head
+back and began to slosh back toward shore. When she was waist-deep
+— immodestly revealed in a bra that she was quite certain had gone
+completely transparent — she pinched his nose and blew into his
+mouth, not quite getting her mouth out of the way before he vomited
+up a gush of salt-water, blintzes, diet coke, and bile. She spat
+and wished that she could duck her head and get a mouthful of ocean
+to rinse with, but she couldn't without dunking the boy, too, so
+she hauled him up out of the water and handed him to the Relative
+who was standing with his arms on the shore, his fine leather shoes
+soaked with cold seawater.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o893">She looked for the swimmer, and saw that
+he was still face-down in the sand. "You, you and you," she said,
+pointing at three young cousins whose wide eyes were flicking from
+her boobs to her crotch — white underwear, Christ, why white
+underwear today? — to the boy on the sand, who was mobbed now with
+Relatives whose hubbub had reached deafening proportions, "Go to
+the house, find an old-fashioned phone and call emergency services.
+Tell them where we are, and that we have two drowning victims, one
+a child, neither breathing. What are you going to do?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o894">The tallest of the three managed to make
+eye-contact long enough to say, "Find a cell-phone, call emergency,
+tell them where we are, two drownings, not breathing."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o895">"Right," she said. "Come back when you're
+done and tell me that it's done."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o896">"You, you," she said, picking out two
+tall uncles who looked like they'd worked out or played sports
+before they found whatever careers had paid for the nice suits they
+were wearing, "Carry him here and lay him down on his side."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o897">She looked for Rainer and found his ass
+sticking out of the scrum around the boy. She snagged him by the
+belt and dragged him back. "Rainer," she shouted. His forehead was
+scrunched, but he was clear-eyed and grim and looked like he was
+listening to her, which she found very pleasing. "You need to get
+everyone back at least five steps from that kid, and make them
+quiet down," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o898">"Right," he said, and took off his jacket
+and handed it to her.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o899">"Hold it yourself," she snapped, "I've
+got things to do."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o900">"It's to wear," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o901">She surprised herself with a grin.
+"Thanks,"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o902">The Relatives were murmuring, or crying,
+or bickering, but Rainer <i>hollered</i>. "LISTEN UP," he said.
+"All of you get over there by that rock, NOW, or my girlfriend
+won't be able to save Jory's life. GO!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o903">And they went, amazingly, crushing back
+so quickly they looked like a receding tide. The tall uncles
+deposited the swimmer in the sand between them, and she checked his
+breathing and saw that it was good.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o904">"Turn him on his side and tell me if he
+starts to choke," she said, and turned to the little boy,
+struggling to remember her rescue breathing.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o905">She got the boy breathing and ended up
+with more puke on her face, on Rainer's jacket, in her hair. His
+pulse was thready but there. She turned to the swimmer and saw that
+he was a muscular surfer dude in board shorts with a couple of
+bitchun tatts and a decent body-paint job. He was breathing, too,
+but his heart was erratic as hell. She pressed two fingers to his
+throat.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o906">"What happened?" she said. "Who saw it
+happen?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o907">One of the aunts stepped forward and
+said, "My son says they were playing —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o908">She held up her hand. "Where's your son?"
+she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o909">"He's back at the house," the aunt said,
+startling back.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o910">"Send someone for him, then tell me what
+happened."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o911">The aunt looked like she'd been slapped,
+but the other Relatives were staring at her and so she had to talk,
+and then the boy arrived and he told it again and it was pretty
+much the same story, but she was able to get more details, as she
+began to examine both the boy and the surfer's bodies for cuts,
+bruises, breaks and punctures. She gave the boy's clothes the same
+treatment she'd given her own, gently but forcefully tearing them
+off, using a seashell to start the tears at first, then a
+pocket-knife that someone put in her hand.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o912">The story was that the kids had been
+playing when they'd seen the surfer floating in the breakers, and
+they'd dared each other to fish him out, and the undertow had
+sucked them out to sea. One had gotten away, the other had ended
+out beyond the waves, and meanwhile, the surfer had beached himself
+on his own.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o913">"Right," she said. "Blankets and pillows.
+Elevate their feet and wrap them up good." She stood up and
+staggered a step or two before Rainer caught her, and the crowd
+made a noise that was at once approving and scandalized.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o914">"Get me to the sea," she said. "I need to
+soak my head."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o915">So he walked her into the water, he still
+in his suit-pants and dress shirt and tie, and held onto her while
+she dunked her head and swirled a mouthful of salt water in her
+mouth.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o916">"Where are the fucking paramedics?" she
+said, as she sloshed back out with him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o917">"There," he said, and pointed at the
+horizon, where a Coast Guard clipper was zooming for the shore.
+"The cell-phone was dead, so I fired up a couple flares. You didn't
+hear them?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o918">"No," she said. He could have set off a
+cannon and she wouldn't have noticed it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o919">She got back to the shore just in time to
+see the surfer convulse. She was on him in a second, kneeling at
+his side, doing airway-breathing-circulation checks, finding no
+pulse, and slamming him onto his back and beginning CPR.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o920">Some time later, she was lifted off him
+and two paramedics went to work on him. Someone put a robe over her
+shoulders and a cup of juice in her hands. She dropped the juice in
+the sand and sticky liquid and beach sand covered her legs, which
+she realized now that she hadn't depilated in a week, and that made
+her realize that she'd spent a pretty crucial amount of time
+prancing around naked in front of her date's family, and that that
+was probably not on the timetable until the fifteenth date at
+<i>least</i>.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o921">She looked up at Rainer, who was still in
+his shoes and as she was in bare feet loomed over her. "God," she
+said, "Rainer —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o922">He kissed her. "I love you, Patricia," he
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o923">"Ooh," she said, with a weak smile.
+"You're breaking the rules!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o924">"Can you let it go this once?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o925">She made her scrunchy thinky face and
+then nodded. "Just don't make a habit of it, you lunk."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o926">It would have been perfect if only the
+surfer hadn't died.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o927">They didn't get home until well after
+midnight. Parts of LA appeared to be on fire as they inched their
+way along the freeway. It was weird to see LA at this speed. They
+were used to clipping along at 60 or 70 — over 80 if the traffic
+was light — flying over the freeway so fast that the scenery was
+just a blur. Only the year before, the <i>New Yorker</i> had run a
+40-page paean to LA, a public apology declaring it the most livable
+city in America, now that it had licked its traffic problems. It
+balanced lots of personal space with thorough urbanization and
+urbanity. It was why they both lived there.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o928">Now they seemed to have traveled back 50
+years in time, to the bad old traffic-jam-and-smog days. Looters
+danced below, torching stores, and the traffic moved so slowly that
+some people were apparently abandoning their cars to <i>walk</i>
+home — which made the traffic even worse. The smoke from the fires
+turned the sunset into a watercolor of reds and mustards and golds,
+tones that had blown away with the smog when the last gas-sucking
+Detroitmobile was retired for a plastic Nickel-Metal Hydride
+jellybean, and all the lanes were repainted to cut them in
+half.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o929">It was nightmarish. When they got off the
+ramp at Studio City, they found homeless guys directing traffic
+with gas-tubes they'd torn out of the bus-shelters. The tubes
+glowed in the presence of microwave radio-frequency radiation, and
+as each of the trillions of invisible ants in the system attempted
+to connect with its neighbors and get the traffic set to rights
+again, the RF noise made the tubes glow like sodium lamps.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o930">They coasted into Trish's driveway and
+collapsed in her living room.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o931">"You were <i>wonderful</i>, darling,"
+Rainer said, peeling off the tracksuit that one of his cousins had
+scrounged from the gym-bag in her trunk and donated to Trish. Her
+skin was gritted with sand and streaked with stripes of
+sunburn.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o932">"God," Trish said, lolling back on the
+sofa, just letting him gently brush away the sand and rub lotion
+into her skin. "You spoil me," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o933">"You're unspoilable," he said. "Wonderful
+girl. You saved their lives," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o934">"What a fucking day," she said. "You
+think that my lifeguard training made up for my scandalous
+undergarments in your family's minds?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o935">He snorted and she felt his breath tickle
+the fine hairs on her tummy. "You're kidding. My mom told me that
+if I didn't marry you, she'd have me killed and then fix you up
+with someone else from the family — told me it was my duty to see
+to it that you didn't get away, just in case someone else fell in
+the ocean."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o936">He looked around at the blank walls.
+"Creepy not to have any news at all," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o937">"There's a TV in the garage," she said.
+"Or maybe the attic. You could find it and plug it in and find out
+that no one else knows what's going on, if you feel like it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o938">"Or I could escort you to the bathtub and
+we could scrub each other clean and then I could give you a
+massage," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o939">"Yes, or you could do that."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o940">"Where did you say the television was?"
+he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o941">"You are going to be: In. So. Much.
+Trouble." She twined her fingers in his hair and pulled him up to
+kiss her.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o942"><i>2. Progress pilgrims</i></p>
+</div>
+<div class="substance">
+<p class="norm" id="o943">It took three days for even the thinnest
+crawls to return to the walls. In the meantime, people dug out old
+one-to-many devices like radios and televisions and set them up on
+their lawns so they could keep track of the aftermath of The
+Downtime.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o944">He slept over those three nights, because
+no one was going anywhere, anyway, and they had a running argument
+over how many dates this counted as, but truth be told, they had a
+wonderful time, making omelets for one-another, washing each
+other's backs in the shower, stealing moments of sex in the living
+room at two in the afternoon without worrying about being
+interrupted by a chime, ringer, bell or vibe.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o945">When they weren't enjoying each other,
+they took coolers of fizzy drinks onto the lawn and watched the
+neighbor's TV set and saw the pundits describing The Downtime. The
+news-shows were having a drunken ball with this one: as the only
+game in town, they were free to bring a level of craft to their
+newsmongering that hadn't been seen since Trish's parents' day,
+when news-networks turned catastrophes into light operas, complete
+with soundtracks, brand-identities, logo-marks and intermissions
+where buffoons worked the audience for laughs.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o946">"Oh, she's your favorite, isn't she?"
+Trish asked, goosing Rainer's bicep and taking a sip of his peach
+ginger-ade. The pundit had been in heavy rotation since the TV went
+back on the air. She was a Norwegian academic mathematician who
+wrote books of popular philosophy. She was a collection of
+trademark affectations: a jacket with built-up shoulders, a
+monocle, a string tie, nipple tassles, and tattooed cross-hatching
+on her face that made her look like a woodcut of a Victorian
+counting-house clerk. Rainer loathed her — she'd been on the
+committee to which he'd defended his Philosophy of Networks thesis,
+and she'd busted his balls so hard that they still ached a decade
+later when he saw her on the tube.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o947">The pundit explained the
+packet-switching, using trains versus automobiles as a metaphor:
+"In a circuit uniwerse, every communication gets its own dedicated
+line, like a train on a track. Ven I vant to talk to you, ve build
+a circuit — a train track — betveen our dewices. No one else can
+use those tracks, even if ve're not talking. But packet-svitching
+is like a freevay. Ve break the information up into packets and ve
+give every packet its own little car, and it finds its own vay to
+the other end. If vun car doesn't arrive, ve make a copy of its
+information and send it again. The cars have brakes and steering
+veels, and so they can all share the same road vithout too much
+trouble."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o948">Rainer grit his teeth and hissed at the
+set. "She's faking the accent," he said. "She thinks that Americans
+believe that anyone with a European accent is smarter than we are.
+She can pronounce vee and doubleyou perfectly well when she wants
+to — she speaks better English than I do! Besides, <i>she stole
+that line from me</i>," he said, "from my <i>thesis</i>," he said,
+his face scrunching up again.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o949">"Shh, shh," Trish said, laughing at him.
+He wasn't really angry-angry, she knew. Just a little stir crazy.
+He was a networking guy — he should have been out there trying to
+make the network go again, but he was on sabbatical and no one at
+UCLA wanted to hear from him just then.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o950">And then the pundit was off onto ants —
+networks modeled on ant-colonies that use virtual pheromones to
+explore all possible routes in realtime and emerge a solution to
+the problem of getting everything, everywhere, in shortest time.
+Rainer kept barking at the TV, and Trish knew he was doing it to
+entertain her as much as for any reason, so she laughed more and
+egged him on.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o951">The TV cut back to the news-dude, who was
+a very cuddly ewok who'd made his name hosting a wheel-of-fortune,
+jumping up and down and squeaking excitedly and adorably whenever a
+contestant won the grand prize, his fur-plugs quivering. He cupped
+his paws to his cheeks and grinned.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o952">"But ants aren't perfect, are they?" the
+ewok said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o953">"He's feeding her!" Rainer said. "She's
+going to go off on her stupid walking-in-circles bit —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o954">"The thing about using wirtual ants to
+map out the vorld and make routing recommendations is that ve can't
+really tell the difference betveen a good solution and a bad vun,
+without trying it. Sometimes, ants end up valking in circles,
+reinforcing their scent, until they starve to death. Ve might find
+that our cars tell us that the best vay from San Francisco to San
+Jose is via a 1500 mile detour to Las Wegas. It may be true — if
+all the traffic eweryvhere else is bad enough, that might be the
+fastest vay, but it may just be the ants going in circles."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o955">"God, talk about taking a metaphor too
+far," he said. Trish thought that Rainer was perfectly happy to
+think about the ants as ants, except when someone raised a point
+like this, but she didn't see any reason to raise that point just
+then.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o956">The ewok turned to the camera: "One
+scientist says we <i>should</i> expect more Downtimes to come. When
+we come back from this break, we'll talk to a University of
+Waterloo researcher who claims that this is just the first of many
+more Downtimes to come."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o957">The screen cut over to a beautiful,
+operatic advertisement for some Brazilian brand of coca-cola,
+wittily written, brilliantly shot, with an original score by a
+woman who'd won three grammies at the Independent Music Awards in
+Kamchatka the year before. They watched it with mild attention, and
+Trish absently fished another bottle out of the cooler and chewed
+the lid off with her side-molars.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o958">She looked at Rainer. He was gripping the
+arm-rests of his inflatable chair tightly, dimpling the hard
+plastic. She held the bottle to his lips and he took it, then she
+rubbed at his shoulders while he took a swallow.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o959">"Let's go back inside and play," she
+said. "They won't have anything new to tell us for days."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o960">The crawls were alive the next morning,
+exuberantly tracking across the walls and over the mirror and down
+the stairs. They picked out the important ones and trailed them to
+convenient spots with a fingertip and devoured them, reading
+interesting bits aloud to one another.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o961">Soon the crawls had been tamed and only a
+few personal messages remained. Trish dragged hers over to the
+tabletop, next to her cereal bowl, and opened them up while she
+ate. Outside, she could hear the whisper of cars speeding down the
+road, and she supposed with a mingling of regret and relief that
+she should probably go into her office.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o962">She opened her personal mail. It had been
+three days since she'd read it, but for all that, a surprisingly
+small amount had accumulated. Of course — everyone else had been
+without connectivity, too. This was mostly stuff from the east
+coast and Europe, people who'd been awake for a couple hours.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o963">She read, filed and forwarded, tapping
+out the occasional one-word answer to simple questions or bouncing
+back messages with a form letter.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o964">Then she came to the note from the Coast
+Guard medic. He didn't mince words. It was in the first sentence:
+the surfer dude she'd rescued had had a second cardiac arrest on
+the boat. They'd tried what they could, but he hadn't recovered. He
+was a freak statistic of The Downtime, another person who'd lost
+his life when the ants spazzed out. They'd recovered his board and
+found its black-box. The accelerometer and GPS recorded the spill
+he'd taken after the loss of climate and wave-condition data from
+the other surfers strung out on the coast. He'd stayed up for about
+ten seconds before going under.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o965">She stared numbly at the note, the spoon
+halfway to her mouth, and then she dropped the spoon into the bowl,
+not noticing that it splashed milk down her blouse.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o966">She got up from the table and went into
+the kitchen. Rainer was there, in a change of clothes they'd bought
+from a mom-n-pop gap at the mall on the corner that had been taking
+IOUs from anyone who could show a driver's license with a local
+address. She grabbed his wrist, making him slosh starbucks down his
+front, she took the cup out of his hand and set it down on the
+counter, then put her arms around his chest and hugged him. He
+didn't protest or ask any questions, he just put his arms around
+her and hugged back.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o967">Eventually, she cried. Then she told him
+what she was crying about. She let him tell her that she was a
+hero, that she'd saved Jory's life and almost saved the surfer's
+life, and she let him tell her that it wasn't her fault for
+sloshing into the ocean to rinse off the barf, and she let him tell
+her that he loved her, and she cried until she thought she was
+cried out, and then she started again.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o968">He took her upstairs and he laid her down
+on the bed. He undressed her, and she let him. He put her in fluffy
+jammies, and she let him. He wiped away her makeup and her hot
+tears with a cool face-cloth, and she let him. He took her hand and
+ran his fingers over her fingernails, squeezing each one a little,
+the way she liked, and she let him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o969">"You're going to have a nice lie-down for
+a couple hours, and I'm going to be right beside you. I'll call the
+department secretary and tell him you're taking a personal day and
+will be in tomorrow. Then we're going to go see Jory and his
+family, so that you can see the boy whose life you saved, and then
+we are going to go for a walk in the hills, and then I'm going to
+put you to bed. When you get up in the morning, you can make an
+appointment to see a grief counsellor or not. Today, I'm in charge,
+all right?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o970">Her heart swelled with love and she felt
+a tear slip down her cheek. "Rainer," she said, "you're a
+wonder."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o971">"You inspire me, darling," he said, and
+kissed her eyelids shut.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o972">Their thirty-fifth date was their
+last.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o973">"You're going back to Washington," he
+said, when he saw the boxes in her office.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o974">"Yes," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o975">He stood in the doorway of her office.
+Trish was painfully aware of the other faculty members in the
+corridor watching him. Their romance was no secret, of course.
+Everyone in the law department knew about him, all the network
+engineers knew about her, and they both took a substantial amount
+of ribbing about "mixed marriages" and "interfaith dating."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o976">Trish realized with a pang that it was
+likely that everyone in the law department knew that she'd decided
+to go back to the Hill but that he'd only suspected it until this
+instant.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o977">"Well, good for you," he said, putting on
+a brave face that was belied by the Fret wrinkles in his
+forehead.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o978">"I'm sorry," she said. "I should have
+told you once I decided, but I didn't want to do it over the phone
+—"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o979">"I'm glad you didn't," he said, holding
+up his hand. "Do you want to come out for dinner with me
+anyway?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o980">She gestured at the half-packed office.
+"The movers are coming in the morning."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o981">"Well then, do you suppose you could use
+some help? I could get some burger king or taco bell."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o982">She looked at him for a long moment,
+swallowing the knob in her throat. "That would be lovely. Mexican.
+I mean, 'taco bell,'" she said. "Thank you."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o983">He let her pay for it — "You're making
+the big bucks now," he said — and he was a surprisingly
+conscientious packer, padding her framed pictures carefully and
+wrapping her knick-knacks in individual sheets of spun fiber.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o984">"Well then," he said, once he'd finished
+writing out a description of his latest box's contents on its
+outside, "you always told me that Hill Rats were Hill Rats for
+life, I suppose."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o985">"Yeah," she said. She knew she should
+explain, but they'd had the argument about it three times since the
+new PAC had contacted her and offered her the executive director
+position. The explanation wouldn't get any better now that she'd
+made up her mind.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o986">The new PAC, The Association for a
+Human-Readable World, was the brainchild of some people she'd
+worked with while she was on the Hill. They'd asked her to hire a
+team, to scout an office, and then to camp out in the offices of
+various important committee chairmen until they passed a law
+limiting the scope of emergent networking meshes. The Europeans had
+enacted legislation requiring cops, hydroelectric agencies, banks,
+hospitals and aviation authorities to use "interrogatable" networks
+within ten days of The Downtime. With fifteen thousand dead in
+Western Europe alone, with Florence in flames and Amsterdam under
+two meters of water, it was an easy call. The US had scoffed at
+them and pointed to the economic efficiencies of a self-governing
+network, but the people who were funding Human-Readable World
+wanted to know where old concepts like "transparency" and
+"accountability" and "consent of the governed" fit in when the
+world's essential infrastructure was being managed by nonsentient
+ant-colony simulations.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o987">"Be gentle with us, OK?" he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o988">"Oh, I wish I had your confidence in my
+abilities," she said, sucking on her big-gulp of coke.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o989">He put down his food and looked hard at
+her. He stared longer than was polite, even for (ex-) lovers, and
+she began to squirm.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o990">"What?" she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o991">"You're not putting me on. Amazing.
+Patricia Lourdes McCavity, you have felled an empire and you are
+setting yourself up to fell another — and it's one that I'm pretty
+heavily invested in, both professionally and financially."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o992">'Come on," she said. "I'm good, but I'm
+not superwoman. I was part of a team."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o993">"I've read your briefs. Position papers.
+Opinions. Speeches. Hell, your press-releases. They were the most
+cogent, convincing explanations for intellectual property reform
+I'd ever read. You weren't the judge, but you were his clerk. You
+weren't the committee chairman, but you were her head staffer. Taco
+Bell underestimated you. Coke underestimated you. Starbucks
+underestimated you. Disney underestimated you. Vivendi and Sony
+underestimated you. Now you're running your own organization, and
+it's pointed at me, and I'm scared shitless, you want to know the
+truth. I'm not underestimating you." He'd drawn his dark eyebrows
+together while he spoke, and lowered his head, so that he was
+looking up at her from under his brow, looking intense as the day
+they'd met, when he was delivering a brilliant lecture on
+ant-colony optimization to a large lay audience at the law-school,
+fielding the Q&amp;A with such convulsive humor and scalding
+lucidity that he'd melted her heart.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o994">She felt herself blushing, then wondered
+if she was flushing. She still loved him and still craved the
+feeling of his skin on hers, wanted nothing more than another lost
+weekend with him, taking turns being the strong one and being the
+one who surrendered, soothing each other and spoiling each other.
+Thinking of that first meeting brought back all those feelings with
+keen intensity that made her breasts ache and her hands flutter on
+the box she was eating off of.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o995">"Rainer," she began, then stopped. She
+took a couple deep breaths. "I'm not gunning for you, you know. You
+and I want the same thing: a world that we can be proud to live in.
+Your family's company has contributed more to the public good than
+any of us can really appreciate —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o996">He blushed now, too. She never talked
+about his father's role in the earliest build-outs of ant-based
+emergent routing algorithms, about the family fortune that he'd
+amassed through the company that bore his name still, 30 years
+after he'd stepped down as Chairman of the Board. Rainer was a
+genius in his own right, she knew, and his own contributions to the
+field were as important as his father's, but he was haunted by the
+idea that his esteem in the field was due more to his surname than
+his research. He waved his hands at her and she waved hers
+back.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o997">"Shush. I'm trying to explain something
+to you. Between your father and you, the world has increased its
+capacity and improved its quality of life by an order of magnitude.
+You've beaten back Malthus for at least another century. That makes
+you heroes.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o998">"But your field has been co-opted by
+corrupt interests. When you study the distributions, you can see it
+clearly: the rich and the powerful get to their destinations more
+quickly; the poor are routed through franchise ghettoes and onto
+toll-roads; the more important you are, the fewer number of
+connections you have to make when you fly, the better the chance
+that you'll get a kidney when you need it. The evidence is there
+for anyone to see, if only you look. We need standards for this —
+we need to be able to interrogate the system and find out why it
+does what it does. That's an achievable goal, and a modest one:
+we're just asking for the same checks and balances that we rely on
+in the real world."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o999">He looked away and set down his taco.
+"Trish, I have a lot of respect for you. Please remember that when
+I tell you this. You are talking nonsense. The network is, by
+definition, above corruption. You simply can't direct it to give
+your cronies a better deal than the rest of the world. The system
+is too complex to game. Its behavior can't be <i>predicted</i> —
+how could it possibly be <i>guided</i>? Statistics can be
+manipulated to 'prove' anything, but everyone who has any clue
+about this understands that this is just paranoid raving —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1000">She narrowed her eyes and sucked in a
+breath, and he clamped his lips shut, breathed heavily through his
+nose, and went on.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1001">"Sorry. It's just wrong, is all. Science
+isn't like law. You deal with shades of grey all the time, make
+compromises, seek out balance. I'm talking about mathematical
+truths here, not human-created political constructs. There's no one
+to compromise <i>with</i> — a human-readable emergent network just
+doesn't exist. Can't exist. It doesn't make sense to say it. It's
+like asking for me to make Pi equal three. Pi <i>means</i>
+something, and what it means <i>isn't</i> three. Emergent networks
+<i>mean</i> not-human-readable. "</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1002">She looked at him, and he looked at her,
+and they looked at each other. She felt a sad smile in the corners
+of her lips, and saw one tug at his, and then they both broke out
+in grins.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1003">"We're going to be seeing a lot of each
+other," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1004">"Oh yes, we are," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1005">"Across a committee room."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1006">"A podium."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1007">"On talk-shows."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1008">"Opposite sides."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1009">"Right."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1010">"No fighting dirty, OK?" he said,
+raising his eyebrows and showing her his big brown eyes. She
+snorted.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1011">"Give me a hug and go home," she said.
+"I'll see you at the hearings when they introduce my bill."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1012">He hugged her, and she smelled him,
+thinking, <i>this is the last time I'll smell this smell.</i></p>
+</div>
+<div class="substance">
+<p class="norm" id="o1013">"Rainer," she said, holding him at arm's
+length.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1014">"Yes?" he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1015">"I'm going to call you, when I have
+questions about ant-colony optimization, all right?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1016">He looked at her.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1017">"I need the best expertise I can get.
+It's in your interest to see to it that I'm well-informed."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1018">Slowly, he nodded. "Yes, you're right.
+I'd like that. I'll call you when I have questions about policy,
+all right?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1019">"You're on," she said, and they hugged
+again, fiercely.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1020">Once he was gone, she permitted herself
+the briefest of tears. She knew that she was right and that she was
+going to make a fool out of him, but she didn't want to think of
+that right then. She felt the place behind her ear where he'd
+kissed her before going home and looked around her office, five
+years of her life in thirty banker's boxes ready to be shipped
+across the country tomorrow, according to a route that would be
+governed from moment to moment by invisible, notional,
+<i>ridiculous</i> insects.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1021">She ate more taco bell. The logo was a
+pretty one, really, and now that it had been adopted by every
+mom-and-pop burrito joint in the world, they'd really levelled the
+playing field. She thought about the old Taco Bell mystery-meat and
+plastic cheese and took a bite of the ground beef and sharp
+Monterey Jack that had come from her favorite little place on the
+corner, and permitted herself to believe, for a second, anyway,
+that she'd made that possible.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1022">She was going to kick ant ass on the
+Hill.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1023"><i>3. Conflict of Insect</i></p>
+</div>
+<div class="substance">
+<p class="norm" id="o1024">Trish gathered her staff in the board
+room and wrote the following in glowing letters on the wall with
+her fingertip, leaving the text in her expressive schoolmarm's
+handwriting rather than converting it to some sterile font: "First
+they ignore you. Then they laugh at you. Then they fight you. Then
+you win."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1025">Her staff, all five of them, chuckled
+softly. "Recognize it?" she asked, looking round at them.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1026">"Pee-Wee Herman?" said the grassroots
+guy, who was so young it ached to look at him, but who could fire a
+cannonload of email into any congressional office on 12 hours'
+notice. He never stopped joking.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1027">The lawyer cocked an eyebrow at him and
+stroked her moustache, a distinctive gesture that you could see in
+any number of courtv archives of famous civil-rights battles,
+typically just before she unloaded both barrels at the jury-box and
+set one or another of her many precedents. "It's Martin Luther
+King, right?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1028">"Close," Trish said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1029">"Geronimo," guessed the paralegal, who
+probably wasn't going to work out after all, being something of a
+giant flake who spent more time on the phone to her girlfriend than
+filing papers and looking up precedents.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1030">"Nope," Trish said, looking at the other
+two staffers — the office manager and the media guy — who shrugged
+and shook their heads. "It's Gandhi," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1031">They all went, "Ohhhh," except the
+grassroots guy, who crossed to the wall and used his fingertip to
+add, "And then they assassinate you."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1032">"I'm too tough to die," the lawyer said.
+"And you're all too young. So I think we're safe."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1033">"OK," Trish said. "This is an official
+pep talk. They're playing dirty now. Last night, my car tried to
+take me to Arlington via Detroit. My email is arriving on a 72 hour
+time-delay. My phone doesn't ring, or it rings all night long. I've
+had to switch it off.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1034">"But what all of this means is that I've
+got more uninterrupted work-time than ever and I'm getting
+reacquainted with my bicycle."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1035">"Every number I call rings at my
+ex-girlfriend's place," the grassroots guy said. "I think we're
+going to get back together!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1036">"That's the right attitude, boy-o," the
+lawyer said. "When life gives you SARS, make sarsaparilla. I appear
+to be unable to access any of my personal files, and any case-law I
+query shows up one sentence at a time. I've discovered that the
+Georgetown University law-library makes a very nice latte and
+serves a terrific high tea, and I've set Giselle to work on
+refiling and cross-indexing twenty years' worth of yellow pads that
+had previously sat mouldering in a storage locker that I was paying
+far too much for."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1037">"Which has given Giselle a rare
+opportunity to explore the rich civil rights history that you
+embody," Trish said, looking pointedly at the paralegal. "But I
+suspect that she could use a hand, possibly from a grad student or
+two who could get some credit for this. Let's ask around at
+Georgetown, OK?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1038">The lawyer nodded. The office manager
+pointed out that their bill-payments were going astray after they'd
+been dispatched to their suppliers but before they were debited
+from their — dwindling — account, which meant that they were
+getting a couple days' worth of free cash-flow. Only the media guy
+was glum, since he couldn't field, make or review calls or
+press-releases, which made him pretty useless indeed.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1039">"Right," she said, and scribbled
+something on one of the steno pads she'd bought for everyone when
+their email started going down three times a day. "This guy owes me
+from back in the copyright wars — I fed him some good stories that
+he used to launch his career. He was the ABNBC Washington bureau
+chief until last year and now he's teaching J-School at Columbia.
+Take the afternoon train to Manhattan and bring him back with you
+tonight. Don't take no for an answer. Tell him to bring his three
+most promising proteges, and tell him that they'll have all the
+access they need to produce an entire series on the campaign.
+Sleeping on our sofas. Following us to the toilet. Everything on
+the record. Do-able?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1040">"It's do-able," the media guy said. "I'm
+on it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1041">Once they'd all cleared out, the lawyer
+knocked on her door. "You going to be all right?" she asked.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1042">Trish waved her hands at the piles of
+briefing books, red-lined hardcopies, marked-up magazine articles
+and memos from her Board of Directors. "Of course!" she said. She
+shook her head. "Probably. We never thought we'd get this far,
+remember? All this psy-ops shit they're pulling, it's just more
+proof that we're on the right track. No one should be able to do
+this. It's the opposite of democracy. It's the opposite of civil
+discourse."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1043">The lawyer smoothed her moustache.
+"Right on," she said. "You should be proud. This is a hell of a
+fight, and I'm glad to be part of it. You know we'd follow you into
+the sun, right?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1044">Trish fluttered her hands. "God, don't
+give me that kind of responsibility."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1045">"All right then, into the ocean. We're
+making this happen, is what's important."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1046">"Thanks, babe," Trish said. She put on a
+brave smile until the lawyer had backed out of the office, then
+stared down at her calendar and looked at her morning schedule.
+Three congressional staffers, a committee co-chair, an ACLU
+researcher, and the head of the newly formed Emergent Network
+Suppliers' Industry Association — a man she had last seen in her
+office at UCLA, backing away from a long and melancholy hug.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1047">When he rang off the phone and joined
+her, finally, she straightened out her smart cardigan and said,
+"Rainer, you're certainly looking… well."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1048">"… funded," he finished, with a small
+smile. The Emergent Network Suppliers' Industry Association's new
+offices were in a nice Federal Revival building off Dupont Circle,
+with lots of stained glass that nicely set off the sculptural and
+understated furniture. "It's not as grand as appearances suggest,
+Trish. We got it for a song from the receivers in the Church of
+Scientology's bankruptcy, furnishings included. It <i>is</i> nice
+though. Don't you think?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1049">"It's lovely," she said. Around her,
+staffers bustled past in good suits and good shoes and smart
+haircuts. "Hard to believe you only set up shop a week ago," she
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1050">"It came furnished, remember," he
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1051">"Oh yes, so you said," she said,
+watching a kid who looked like he'd gone tops in his class at the
+Naval Academy put his ankles up on the plasticized return beside
+his desk and tilt his chair, throwing his head back with wild
+laughter at whatever it was some other Hill Rat (in her mind, it
+was a key Congressman's aide — some old frat buddy of Mr Navy 2048)
+was saying at the phone's other end.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1052">She looked back and Rainer and saw that
+he was staring where she had.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1053">"Well, it's a far cry from academic
+research," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1054">"I know you'll be very good at it. You
+can explain things without making it seem like an explanation. The
+first lesson I ever learned on the Hill was, 'If you're explaining
+—'"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1055">"'— you're losing,'" he said. "Yeah,
+I've heard that. Well, you're the old hand here, I'm just learning
+as I go. Trying not to make too many mistakes and to learn from the
+ones I do make."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1056">"Do you want some free advice,
+Rainer?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1057">He sat down in one of the chairs, which
+bulged and sloshed as it conformed itself to his back and butt. He
+patted the upholstered jelly beside him. "You may always assume
+that I would be immensely grateful for your advice, Trish," he
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1058">She sat down and crossed her legs,
+letting her sensible shoe hang loose. "Right. DC is a <i>busy</i>
+place. In academic circles, in tech circles, you might get together
+to feel out your opponent, or to make someone's acquaintance, or to
+see an old friend. You might get together to enjoy the company of
+another human being.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1059">"We do that in DC, <i>after</i> working
+hours. Strictly evenings and weekends. When you schedule a meeting
+during office hours, it has to have a purpose. Even if it appears
+to have no purpose, it has a purpose. There's a protocol to
+meetings, a secret language, that's known to every Hill Rat and
+written nowhere. What time you have the meeting, who's there, who's
+invited, who knows it, how long you schedule, whether you cater:
+they all say little things about the purpose of the meeting. Even
+if you have no reason to call the meeting, one will be read into
+it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1060">"If this was any other city in the
+world, it would make perfect sense for you to look me up once you
+got to DC. We're still friends, I still think about you from time
+to time, but here in DC, you calling me over for a meeting, this
+kind of meeting, at this time of day, it means you're looking to
+parley. You want to strike a deal before my bill goes to the
+committee. I don't know how well you know the Hill, so I don't want
+to impute any motives to you. But if you took a meeting like this
+with anyone else, that's what they'd assume."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1061">Rainer's forehead crinkled.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1062">"No Fretting," she said. Then she smiled
+a sad smile. "Oh, Fret if you want. You're a big boy."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1063">He twiddled his thumbs, caught himself
+at it, and folded his hands in his lap. "Huh," he said. "Well. I
+<i>did</i> want to talk to you because it's been a while and
+because we meant a lot to each other. I <i>also</i> wanted to talk
+to you about the bill, because that's what I'm here to do, at a
+pretty decent salary. I <i>also</i> wanted to see you because I had
+an idea that you'd be different here in your native habitat, and
+well, that's true."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1064">She refused to let that make her
+self-conscious. Of <i>course</i> she was different, but it wasn't
+geographic. The last time they'd seen each other, they were lovers
+and friends. Now they were ex-lovers who were being paid to
+accomplish opposing, mutually exclusive objectives. She knew that
+there was a certain power in not saying anything, so she wrapped
+herself in silence and waited for him to say something. She didn't
+have to wait long.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1065">"Your bill is going to committee?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1066">"Well, I certainly hope so," she said.
+"That's what I'm here for, after all. The discussion draft has been
+circulating for a week, and we're confident we'll see it introduced
+and assigned to committee by the end of this week. That's what
+we're told, anyway. It's got strong bipartisan support. Selling
+Congress on the importance of human-generated governance is pretty
+easy. Wouldn't want to be in your shoes."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1067">He grinned. "You're trying to psych me
+out."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1068">"Maybe," she said, grinning back. "But
+that's nothing compared to the psych job that we've been getting
+down at my office." She told him about the phone weirdness, the
+oddball traffic-management. "Someone on your side has a funny sense
+of humor."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1069">His smile faded. "You're still trying to
+fake me out," he said. "If you're seeing corruption in the net,
+it's because you're looking so hard, you can't help but find it.
+You're reading malice into accident. Dead spots aren't personal,
+you know. This is a law of nature — the networks emerge solutions,
+they're the best they can come up with. If you don't like the
+results, talk to nature, not me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1070">She shrugged. "Whatever, Rainer. I know
+what's happening. You'll believe what you want to believe." She
+pursed her lips and made an effort at controlling her irritation.
+"It's really happening, and it's not helping your side. If you know
+who's responsible, you might let him know that the dirty tricks are
+what convinced Senator Beauchamp's staff to green-light the bill.
+Conspiracy is supposed to be beneath the surface. It doesn't look
+so good when it's exposed to fresh air and sunshine."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1071">"You've got to be kidding," he said.
+"Doesn't matter, I suppose. All right, message received. If I
+happen to run into someone whom I think should hear it, I'll be
+sure to pass it on, OK?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1072">"That's all I ask," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1073">"You want to talk about the bill
+now?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1074">"Have you seen the discussion
+draft?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1075">He squirmed. "No," he admitted. "I
+didn't know it existed until just now."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1076">"I'd offer to send you a copy, but I
+expect it would take a week to arrive, if it ever did. Why don't
+you ask that guy," she gestured at the Navy man, "to get you a
+copy? He looks like he knows his way around. And then drop by my
+office if you want to chat about it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1077">She stood up and tugged at her cardigan
+again. "It's been very nice seeing you," she said. She picked up
+her coat and her mitts. "Good luck settling in."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1078">He gave her a hug — which felt weird,
+hugging was strictly west-of-the-Mississippi, and she broke it off
+firmly — and showed her to the door. The first snows were coming
+in, and the steps were slightly icy, so she maneuvered them slowly,
+carefully. When she reached the road, he was no longer in the
+doorway. He was standing right behind her, breath coming out in
+foggy huffs.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1079">"Trish," he said, then stopped. His arms
+dropped to his sides and his shoulders slumped.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1080">"Rainer," she said, keeping her voice
+calm and neutral.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1081">"God," he said. "God. How'd this happen,
+Trish? Look, I've never been happy the way I was with you. I
+haven't been that happy since. God, Trish —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1082">"Rainer," she said again, taking one of
+his hands, firmly, motherly. "Rainer. Stop it. You're here to do a
+job, and your job requires that you and I keep it on a professional
+level. It doesn't matter how it happened —" But it did, didn't it?
+She'd left him to come east and do something he thought of as
+wrong-headed and backwards and superstitious. But she'd left him,
+not the other way around. And he'd never recovered, though she'd
+built herself a new life here. It wasn't a contest (but she was
+winning anyway). "It doesn't matter. We respect each other. That's
+enough."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1083">He deflated and she said, "Oh, come
+here," and gave him a long and soulful hug, right there on the
+street, knowing that she was giving the hug and he was taking it.
+Then she let him go, spun him round, and gave him a little push
+back toward his office.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1084">By the time she reached the corner and
+looked back over her shoulder, he was nowhere to be seen.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1085">That afternoon, her phone started
+ringing normally, with actual people on the other end. Her outbound
+calls were connected. Her email was delivered. Her car got her home
+in record time. She sighed as she eased it into her driveway and
+carried her briefcase inside and poured herself a very small glass
+of Irish whisky so rare that it had been known to make grown men
+weep. Normally, she saved it for celebrations, but if she was
+celebrating something, she was damned if she knew what it was.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1086">Her phone rang as she was licking the
+last few drops of liquor from the little glass. It was the lawyer,
+with news.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1087">"I just stopped by the office and found
+a messenger on the doorstep. He had hard-copy of a press-release
+from Senator Beauchamp's office. They're introducing the bill in
+the morning. Congrats, kid, you did it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1088">Trish set the glass down and said
+:whoopee: very quietly and very emphatically.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1089">"You're durned tootin'," the lawyer
+said. "And double for me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1090">Of course, it wasn't over by a long
+shot. Getting a bill introduced was not the same as getting it
+through committee. Getting it through committee was not the same as
+getting it passed in the Senate, and getting it passed in the
+Senate was not the same as getting it passed in the House, and then
+who the hell knew what the hereditary Chimp-in-Chief in the Oval
+Office would do when it was passed through the bars of his cage
+with his morning banana.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1091">But she had ridden back into town less
+than a year before, and she had gone from nothing to this. The ACLU
+was supporting the bill, and EFF, EPIC, all the old civ-lib mafia
+had opened their arms to her. She poured herself one more very
+small whisky, gave herself a fragrant bath and put herself to bed,
+grinning like a fool.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1092">"There are four news-crews, six print
+reporters, and a couple of others here to see you," the
+office-manager said. The office phones were out again, but that
+hadn't stopped a fair number of determined people from figuring out
+that they could actually move their physical being from one part of
+Washington to another and have a real, old-fashioned face-to-face.
+The lawyer and she had each taken a dozen press "calls" that
+morning, with their embedded reporters from Columbia J-School
+perched obtrusively in the corners of their offices, taking copious
+notes and filming constantly.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1093">"Others?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1094">"A mixed bag. Some Hill people, some I'm
+not sure about."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1095">Trish stood and stretched out her back,
+listening to it pop. She usually worked in bursts, typing or
+talking for an hour, then taking a little walk to gather her
+thoughts and touch base with her co-workers. Today, she'd been
+glued to her seat from 7AM to after lunchtime, and her back and
+butt were shrieking at her.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1096">She walked into the front area, trailed
+by her reporter. She recognized some of the journos and some of the
+Congressional staffers, and a local rep from a European Privacy
+think-tank in Brussels, and — Rainer.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1097">He was turned out in a very natty suit
+and a homburg, a fashion that had recently come back to DC, and she
+knew that he'd been put together by a personal shopper. Her own
+Board had suggested to her, matter-of-factly, that she should get
+one of her own once the bill cleared committee, since she'd be
+doing tons of press and as sharp a dresser as she fancied herself,
+she was no pro. Her prodigious talents, they assured her, lay
+elsewhere.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1098">He took her hand with both of his and
+gave her a long, intense hand-shake that drew stares from the
+journos and the think-tank man.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1099">"Nice to see you again, Ms. McCavity,"
+he said, somberly.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1100">"A pleasure as always, Mr. Feinstein,"
+she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1101">"I'm sorry to drop in on you
+unannounced," he said, "but I hoped that I could have just a moment
+of your time." Belatedly, he remembered to take off his silly hat
+and then he fumbled with the right way to hold it, settling for
+dropping it to his waist and upending it. She thought he looked
+like a panhandler in a Charlie Chaplin movie and she suppressed a
+smile. His curly hair had been gelled into a careful configuration
+that reminded her of the glossy ringlets of a black poodle.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1102">"I suppose we can do that," she said.
+She turned to her other visitors. "Who's got a 3PM deadline?" she
+said. Two of the print-reporters held up their hands. "You then
+you," she said. "Who's got a 5PM filing deadline? 6PM? 10PM?" She
+triaged them all, promised to meet the think-tank man for dinner at
+an Ethiopian place in Adams-Morgan, and led Rainer into her office
+and closed the door.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1103">He looked at her embedded reporter and
+cocked his head.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1104">"Sorry, Rainer," she said. "I have a
+shadow for the duration. Just pretend he isn't here. You don't
+mind, do you dear?" she said to the reporter, who was very young
+and very bright and missed nothing. He shook his head and made some
+notes.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1105">"The bill's dead," Rainer said, after
+he'd sat down.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1106">"Oh really?" she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1107">"Just heard from Senator Rittenhouse,
+personally. He takes the position that this should be in Commerce,
+not Judiciary, and is calling hearings to make that happen."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1108">Rittenhouse was another powerful
+committee chairman, and this wasn't good news. What's more, he was
+in the pocket of the network operators and had been for a decade,
+so much so that editorialists and talk-radio types called him "The
+Senator from The Internet."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1109">Still, it wasn't catastrophic. "That's
+interesting," she said, "but it's a far cry from killing the bill.
+It's pretty standard, in fact. Just slows things down." She smiled
+at him. He was just a kid sometimes, so out of his depth here. He
+reminded her of the Relatives she'd met that day, the little boys
+in their miniature suits running on the beach.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1110">He shifted in his seat and fondled his
+hat-brim. "Well, I guess we'll see. My press-liaison has set up a
+post-mortem debate on one of the news-networks tonight, and I
+thought you might want to represent the other side?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1111">She smiled again. He was twice the
+rhetorician that she was, but he had no idea how to play the game.
+She'd have to be careful to bruise, not break him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1112">"We, as a society, make trade-offs all
+the time," Rainer said. He was wearing a different suit this
+evening, something that Trish had to admit looked damned good on
+the studio monitors (better than her frumpy blouse and wool
+winter-weight trousers). "We trade a little bit of privacy for a
+little bit of security when we show identification before going
+into a federal building —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1113">The ewok held up his paw. "But how much
+should we be willing to trade, Ms. McCavity?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1114">She looked into the camera, keeping her
+eyes still, the way she'd been told to if she didn't want to appear
+tourettic. "Wickett, when Franklin said, 'Those willing to give up
+a little liberty for a little security deserve neither security nor
+liberty,' he wasn't spouting empty rhetoric, he was laying the
+groundwork for this enduring democratic experiment that we all
+love. Look, we're not opposed to the use of autonomous networks for
+<i>some</i> applications, even <i>most</i> applications, with
+appropriate safeguards and checks and balances. No nation on earth
+has the reliance that we do on these networks. Are they an
+appropriate way of advising you on the best way to get to the mall
+on a busy Saturday? Absolutely, provided that everyone gets the
+best advice the system can give, regardless of economic status or
+influence. But should they be used to figure out whom the FBI
+should open an investigation into? Absolutely not. We use judges
+and grand juries and evidence to establish the sufficiency of a
+request to investigate a private citizen who is considered innocent
+until proven guilty. We learned that lesson the hard way, during
+the War on Terrorism and the Ashcroft witch-hunts. Should we trade
+grand juries and judges for ant-colonies? Do you want the warrant
+for your wiretap issued by an accountable human being or by a
+simulated ant-hill?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1115">The ewok turned to the camera. "Both
+sides make a compelling case. What do you think? When we come back,
+we'll take your calls and questions." The lights dimmed and it
+adjusted its collar and cracked its hairy knuckles on the table
+before it. Ever since it had made the move to a pbs, it had been
+grooming its fur ever-more conservatively and trying out a series
+of waistcoats and short pants. It turned to her and stared at her
+with its saucer-sized black button eyes. "You know, I just wanted
+to say thanks — I had self-identified as an ewok since I was five
+years old, but Lucasfilm just wouldn't license the surgery, so I
+went through every day feeling like a stranger in my body. It
+wasn't until your law got enacted that I was able to find a doctor
+who'd do it without permission."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1116">She shook its paw. "It wasn't my law,
+but I helped. I'm glad it helped you out." She unconsciously wiped
+her palm on her thigh as the ewok turned to his make-up boy and let
+him comb out its cheeks. She stared at Rainer, who wasn't looking
+good. She'd had him on the ropes since their opening remarks, and
+the ewok kept interrupting him to let her rebut — and now she knew
+why.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1117">Rainer had his phone clamped to his
+head, and he was nodding vigorously and drumming his fingers. He
+was sweating, and it was making his hair come un-coiffed. Trish's
+own phone buzzed and she looked down at in surprise. It was her
+voice-mail, coming back to life again. It had started when she got
+to the studio — when she got within a few yards of Rainer, she
+realized. Messages coming in. She'd transcribed a dozen in the
+green-room before they'd dragged her into makeup.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1118">The studio lights blinked and Rainer
+popped the phone back into his pocket and the ewok turned to look
+back into the camera, examining the ticker scrolling past his
+prompter. He introduced them again, then turned to Trish.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1119">"Ms. McCavity, Alberto in San Juan
+writes in wanting to know what changes we should institute in the
+networks."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1120">She said, "It's not my place to say what
+technical changes the networks need to have. That's where experts
+like Mr. Feinstein come in. We'd ask the administrative branch to
+solicit comments from people like him to figure out exactly what
+technical changes could be made to allow us to remain competitive
+without giving up our fundamental liberties in order to beat the
+occasional traffic jam."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1121">"Mr. Feinstein?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1122">He grinned and leaned forward. "It's
+interesting that Ms. McCavity should disavow any technical
+expertise, since that's what we've been saying all along. If she's
+getting stuck in traffic, it's because there's a <i>lot</i> of
+traffic. The ant-nets route <i>five thousand percent more
+traffic</i> than our nation's highways ever accommodated without
+them, and they've increased the
+miles-per-hour-per-capita-per-linear-mile by <i>six thousand, four
+hundred percent</i>. You're stuck in traffic? Fine. I get stuck
+sometimes too. But for every hour you spend stuck today, you're
+saving <i>hundreds</i> of hours relative to the time your parents
+spent in transit.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1123">"The other side of this debate are
+asking for something impossible: they want us to modify the
+structure of the network, which is a technical construct, built out
+of bits and equations, to accommodate a philosophical objective.
+They assert that this is possible, but it's like listening to
+someone assert that our democracy would be better served if we had
+less gravity, or if two plus two equaled five. Whether or not
+that's true, it's not reasonable to ask for it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1124">The ewok turned to her.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1125">She said, "Well, we've heard a great
+deal about the impossibility of building democratic fundamentals
+into the network, but nothing about the possibilities. This hard,
+no-compromise line is belied by the fact that we know that the rich
+and powerful manipulate the network to their own advantage,
+something that statistics have proven out —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1126">"See, this is <i>exactly</i> how these
+Human-Readable types do it, it's how their media-training goes.
+They are here to ask for changes to <i>technical</i>
+specifications, but they disavow any technical knowledge, and when
+they're called on this, they spout dubious 'statistics' that
+'prove' that up is down, black is white, and that millionaires can
+get to the movies in half the time that paupers can. The Emergent
+Network Suppliers' Industry Association represents the foremost
+experts in this field, but you don't need to be an expert to know
+that these networks <i>work</i>. The ants take us where we want to
+go, in the shortest time, with the highest reliability. Anyone who
+doubts that can dig out her map and compass and sextant and try to
+navigate the world without their assistance, the way they do in
+Europe."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1127">Her mouth was open. <i>Media
+training</i>? Where did he get this business about <i>media
+training</i>? "I'm not sure where Mr. Feinstein gets his
+information about my media training from, but personally, I'd
+rather talk about networks." She paused. "Let's talk about Europe,
+where they <i>have</i> found ways of creating transparency and
+accountability for these 'unregulatable' algorithms, where the sky
+<i>hasn't</i> fallen and the final trump hasn't sounded. What do
+they know that we don't?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1128">"What indeed?" the ewok said, breaking
+in and giving her the last word again. "More of your questions
+after this break."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1129">They got in their cars together after
+they'd scrubbed off their makeup and shaken paws with the ewok,
+riding down in the elevator shoulder to shoulder, slumped and
+sweaty and exhausted. They didn't speak, and the silence might have
+been mistaken for companionable by someone who didn't know any
+better.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1130">They got off at the same floor in the
+parking garage and turned in the same direction, and Trish spied
+his car, parked next to hers, the last two on the floor. Quickening
+her step, she opened her door and turned the car on, backing up so
+that she was right behind Rainer.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1131">He backed out slowly, looking at her
+quizzically in his rearview, but she refused to meet his eye, and
+when he pulled out, she rode his bumper.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1132">"Sweet fancy Moses," she breathed, as
+the traffic parted before them, allowing them to scythe through the
+streets, onto the beltway. She hung grimly onto his bumper, cutting
+off cars that tried to shift into her lane. Moving this fast after
+so much time stuck on the roads — it felt like flying. She laughed
+and then got a devilish idea.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1133">Spotting a gap in the passing lane, she
+zipped ahead of Rainer and swerved back into his lane so that she
+was in the lead. As though a door had slammed shut, the traffic
+congealed before them into a clot as thick as an aneurysm. She
+hissed out a note of satisfaction, then waited patiently while
+Rainer laboriously passed her again, and the traffic melted away
+once more.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1134">It was tempting not to get off at her
+exit, but she had to get some sleep, and so she reluctantly changed
+lanes. There wasn't much traffic on the road, but every traffic
+light glowed vindictive red all the way to her house.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1135">The Chairman of her Board messengered
+over a hand-written note of congratulations that was on her
+doorstep. Beneath it was a note from Rainer's great-aunt, with the
+best wishes of his mother in neat pen beneath it. She read its kind
+words as she boiled the kettle, and put it into her pile of
+correspondence to answer. Rainer's great-aunt wanted to know if she
+had met a nice boy in DC yet, but she didn't come right out and say
+it — too subtle for that. The women in Rainer's family got all the
+subtlety, and they recognized their own kind. It was why she and
+the old lady kept writing to each other; that and so that the
+Relatives could reassure themselves that someone in full possession
+of lifeguardly skills and a level head was watching out for
+Rainer's interests.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1136">This business of hand-written,
+hand-delivered notes and letters was actually kind of charming, she
+thought as she put her feet up on her coffee table and opened up
+her flask of very special Irish whisky again.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1137">She and Rainer went head to head in half
+a dozen more skirmishes that month — her phone popping back to life
+every time she got within shouting distance of him. The
+on-again/off-again hearings in both Judiciary and Commerce never
+quite materialized.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1138">She was better at playing the game, but
+he was a fast learner, and he had much deeper pockets and working
+network infrastructure. Her Board approved her renting out an empty
+suite of offices below their office and converting them to bedrooms
+for her staff for days when their cars couldn't get them home. They
+secretly borrowed elderly network appliances from relatives or
+bought them in the dollar-a-pound bin at the Salvation Army, but
+always, within a few hours of being in the possession of someone in
+the employ of the Association for a Human-Readable World, the
+devices would seize up and lose their routes to the network. Their
+offices started to fill up with dead soldiers, abandoned network
+boxes that no one could get online.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1139">The embedded journalists went home after
+the second week. Their own gear was seizing up, too, as though the
+curse of the Association for a Human-Readable World was rubbing off
+on them. They vowed to return when things got interesting again,
+but they were of no use to anyone without working cameras, mics,
+and notepads.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1140">Christmas came and went, and New Year's,
+and then February arrived and the city turned to ice and slush and
+perpetual twilight. The paralegal quit — she needed a job where the
+phones worked so that she could call her girlfriend. The media guy
+took a series of "personal days" and she wasn't sure if he'd show
+up again, but it didn't matter, because the press had stopped
+calling them.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1141">Then came the second Downtime.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1142">It struck during morning rush-hour on
+Valentine's Day, a Monday, and it juddered the whole country to a
+halt for eight long days. The hospitals overflowed and doctors used
+motorized scooters to go from one place to another, unable to
+spread their expertise around with telemedicine. Firemen perished
+in blazes. Cops arrived too late at crime-scenes. Grocery stores
+didn't get their resupplies, and schools dug out old chalk-boards
+and taught the few students who lived close enough to walk. Fed
+cops of all description went berserk, and could be seen walking
+briskly from one federal building to another, their faces grim.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1143">And suddenly, miraculously, every
+journalist, policy-wonk, staffer, advisor, clerk and cop in DC
+wanted to have a chat with the Association for a Human-Readable
+World.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1144">She hired three more people that week,
+and borrowed four more from fellow-traveler organizations. Paying
+their salaries for the next four weeks would bottom out the group's
+finances, but she knew that this was now or never, and the Board
+backed her, after some nail-biting debate.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1145">Rainer showed up on the fourth day of
+the Downtime, and she found him standing, bewildered, in the hustle
+of her office as her staffers penned notes on steno pads to their
+contacts on the Hill and handed them to waiting bicycle couriers in
+space-program warmgear that swathed them from fingertips to
+eyeballs. She plucked him out of the bustle and brought him back to
+her office.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1146">"I've got a hell of a nerve," he said,
+sitting in her guest-chair.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1147">"Really?" she said. "I hadn't
+noticed."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1148">"Well, I haven't been showing it off.
+But I'm about to. I need advice. My office is falling apart. You've
+been living with no communications and no travel for a year now,
+you know how to make it work. We're completely lost. I've come to
+throw myself on your mercy." He looked up at her with his big brown
+eyes, and then they crumpled shut as he made his Fretting face.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1149">"You're playing me, Rainer," she said.
+"And it won't work. Whatever I feel for you, I've got a job to do,
+and if this Downtime tells us anything, it's that I'm doing the
+right thing, and you're doing the wrong thing."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1150">He hung his head. He wasn't even the
+slightest bit natty that day. She supposed that his personal
+assistant was stuck in Fall's Church or Baltimore or somewhere,
+unable to get into the city. Judging from the slush and road-salt
+on his shoes, he must have walked the two miles between their
+offices.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1151">"What's more, I don't have any advice to
+give you, in particular. We're not faring well here because we're
+doing something differently — we're faring well because we're doing
+what we've been at all along, because of a network outage that you
+claim is impossible, is a figment of our imagination. Those bike
+messengers: we've been their best customers for months now.
+Everyone else is begging for service from them, but they're always
+here when we need them. We've got beds and changes of clothes and
+toilet-kits in the offices downstairs. We've been living through a
+Downtime for a couple of quarters now — we've hardly noticed the
+change. If you want to cope as well as we are, well, you can go
+back in time, rent out spare offices to house your staff, establish
+a good working relationship with a bike-messenger company, learn to
+navigate the Metro and the freeways by map, and all the other
+things we've done here."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1152">He looked defeated. He began to stand,
+to turn, to leave.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1153">"Rainer," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1154">He paused.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1155">"Close the door and sit down," she
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1156">He did, looking at her with so much hope
+that it made her eyes water.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1157">"Here's my offer," she said. "You and I
+will lock ourselves in this office with the last draft of my bill.
+My staff will run interference for me with the Judiciary committee,
+and we will draft a version of my bill that we can both live with.
+We will jointly take it to Senators Beauchamp and Rittenhouse, with
+our blessings, and ask them to expedite it through <i>both</i>
+committees. Every Congresscritter on the Hill is sitting around
+with his thumb up his ass until the lights come back on. We can get
+this voted in by Tuesday."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1158">He stared down at his hands. "I can't do
+it," he said. "My <i>job</i> is <i>not to compromise</i>. I just
+can't do it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1159">"Come on, Rainer, think outside the box
+for a minute here." Her heart was pounding. This could really be
+it. This could be the solution she'd been waiting for. "Even if the
+bill passes, there's going to be a long deliberation over the
+contours of the regulation, probably at the FCC. You'll be able to
+work on the bureau staffers and at the expert agencies, take
+ex-parte meetings and lobby on behalf of your employers. It's all
+we've ever asked for: an expert discussion where the public
+interest gets a hearing alongside of private enterprise and
+government."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1160">But he was shaking his head, standing up
+to go. "You're probably right, Trish," he said. "I don't know. What
+I know is, I can't do what you're asking of me. They'd just fire
+me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1161">"If the Downtime continues, they won't
+be <i>able</i> to fire you — they won't even know what you're up to
+until it's too late. And then they'll make the best that they can
+out of it. No one is better qualified to represent your side in the
+administrative agencies."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1162">He put his ridiculous hat on and wrapped
+his scarf around his neck, and they looked each other in the eyes
+for a long moment. She waited for the involuntary smile that
+looking into his eyes inevitably evoked, but it didn't come.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1163">"I don't understand you, Trish. You won
+this incredible victory for cooperation, for collective ownership
+of our intellectual infrastructure. Ant-networks demand the same
+cooperation from the nodes, that my phone pass your car's messages
+to his desk. Let's just set aside the professional politics for a
+second. Just you and me. Tell me: how can you <i>not</i> support
+this?" He looked at her out from under his brows, staring
+intensely. He swallowed and said, "It was the surfer, wasn't
+it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1164">"What?" she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1165">"The one who died. That's why you're
+doing this. You want to make up for him —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1166">She couldn't believe he'd said it. Taken
+such a cheap shot. "I'm surprised you didn't save that one for
+television, Rainer. Jesus. No, I'm doing this because it's
+<i>right</i>. In case you haven't noticed, your self-healing,
+uncorruptible network is <i>down</i>. People are suffering. The
+economy is tanking. The death toll is mounting. You won't even bend
+one <i>inch</i>, one <i>tenth of an inch</i>, because you're
+worried about losing your job."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1167">"Trish," he said, "I'm sorry, I didn't
+mean —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1168">Her office door opened and there stood
+her embedded journalist. "I just got in from Manhattan," he said.
+"Can I set up in that corner there again?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1169">"Be my guest," she said, grateful for
+the distraction. Rainer looked at her, forehead scrunched, and then
+he left.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1170">"It's a good thing you're not over him,"
+the lawyer said, pouring her another victory whisky. The bill had
+passed the House with only one opposing and two abstentions, and
+had squeaked through the Senate by five seats, at five minutes to
+midnight on the eighth day of the Downtime. They were halfway to
+the bar (where the office manager had been feeding twenties to the
+bartender to stay open) when the grid came back up, crawls
+springing to life on every surface and cars suddenly zipping
+forward in the characteristic high-speed ballet of efficiently
+routed traffic. They'd laughed themselves stupid all the way to the
+bar and after a brief but intense negotiation between the lawyer
+and the barman, he'd produced a bottle of Irish that was nearly
+half as good as the stuff Trish kept at home.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1171">"I'm going to pretend you didn't say
+that," Trish said, sipping tenderly at the booze.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1172">"Come on, girl," the lawyer said,
+twirling her moustache. "Be serious. You two had so much sexual
+energy in that room, it's a wonder you didn't make the bulbs
+explode. It's how you got inside each other's heads. You weren't
+selling the committee, you were selling <i>him</i>, and that's what
+made you so effective. We're going to need that again at the FCC,
+too — so no getting over him until after then."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1173">Trish drank her whisky. She didn't know
+what to say to that. He'd looked ten years older tonight, in the
+corridors, whispering to his committee members, to his staffers,
+his face drooping and wilted. She supposed she didn't look any
+better. It had been, what, three days? since she'd had more than an
+hour's sleep.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1174">"I don't get it," she said. "How could
+he be so dumb? I mean, it's obvious that the system is being gamed.
+Obvious that we're being targeted through it. Yet he sits there,
+insisting that white is black, that up is down, that the network is
+autonomous and immune to all corruption."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1175">"It's like a religion for them," the
+lawyer said. "It doesn't need explaining. It's just right-living.
+It's the Law."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1176">Trish thought back to the ceremony in
+the graveyard, the dirge and the prayers to a god no one believed
+in. Had Rainer really renounced his faith when he dropped out of
+Yeshiva?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1177">"Here's to a human-readable world,"
+Trish said, raising her glass. Around her, the staffers and
+borrowed staffers and hangers-on and even the barman raised their
+glasses and cheered. It was warm and the feeling swelled in her
+tummy and up her chest and through her face and she burst out in
+what felt like the biggest smile of her life.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1178">She'd learned a long time ago never to
+send email while drunk, but it had been too much last night.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1179">"What if, Rainer, what if — what if the
+reason for the Downtimes is that someone is manipulating the
+network and that's breaking it. Did you ever wonder about that?
+Maybe the network <i>is</i> as good as you say it is — until
+someone screws it up by trying to get preferential treatment for
+his pals.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1180">"Wouldn't that be a kick in the teeth?
+We get five squillion percent increases in across-the-board routing
+efficiency, but in the end, it's never enough for people who can't
+be happy unless they're happier than someone else.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1181">"The thing that saves the human race,
+but if we adopt it, it will destroy us. Irony sucks."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1182">She'd signed it "Love," but even drunk,
+she'd had the sense to take that out before sending it. Saying
+"Love" would have been no more appropriate than saying, "You know,
+I <i>did</i> save your cousin's life." She'd called in no favors,
+she'd run no blackmail, and she'd won anyway.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1183">He rang her doorbell at 5AM. She was
+barely able to drag herself out of bed.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1184">"I figured you'd be getting up to deal
+with the press soon," he said, and she groaned. He was right. She'd
+earned some time off, but it'd be a month before she could take it.
+Too much press to do. She appreciated anew how much work it must
+have taken to be any of her old bosses from the copyright wars: the
+judge, the senator, the executive director of the PAC.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1185">She was in her robe, and he was in jeans
+and a UCLA sweatshirt. He didn't have any gel in his hair, which
+was matted down by the knit cap he'd been wearing. He looked
+adorable.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1186">"They fired me this morning," he
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1187">"Oh, hon —" she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1188">"I would have quit," he said. "I'm
+outmatched."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1189">She felt herself blush. Or was she
+flushing? She was suddenly aware of his smell, the boy smell, the
+smell that she could smell in his chest, in his scalp, in his
+tummy, lower… She straightened up and led him into the living room
+and started the coffee-maker going.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1190">"When do you fly back, then?" she
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1191">He looked at her, smiling. "I don't
+know," he said. "I haven't booked a ticket."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1192">She felt an answering smile at the
+corners of her mouth and turned into the fridge to fetch out some
+gourmet MREs. "Bacon and eggs or pancakes?" she said, then laughed.
+"I guess bacon is out," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1193">"Oh, I'm willing to bet that that bacon
+hasn't been anywhere near a pig," he said, "but I'll have the
+pancakes, if you don't mind."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1194">She set everything to perking and went
+into the bedroom to pull on something smart and camera-friendly,
+but everything was in the hamper, so she settled for jeans and a
+decent shirt from last-year's wardrobe.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1195">When she opened the door, he was
+standing right there, taller than her. "I think you're right," he
+said. "About the network. It's the best explanation I've heard so
+far."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1196">She wrapped herself in silence again,
+waited for him to say more.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1197">"You see, the <i>true</i>, neutral
+network is immune to corrupting influences and favoritism. So the
+existence of corruption and favoritism means that what we've got
+<i>isn't</i> a true network. Which means you're right! We need to
+have a hearing to get to the bottom of this, so that we can build
+the true network." He smiled bravely. "I thought maybe you could
+use an expert in your corner who'd say that in a hearing?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1198">"Thanks," she said, and slipped under
+his arm and back into the kitchen. Suddenly, she wanted very much
+to be back at her office, back with her staff, talking to reporters
+and overseeing a million details. "I'll think about it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1199">"I'm giving up my apartment at the end
+of the month — next Monday. I won't be able to afford it without
+the Association's salary," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1200">Her place was big. A bedroom, a home
+office, a living room and a dining room. It was a serious deal for
+DC, even outside the beltway. It could easily accommodate a second
+person, even if they weren't sleeping together.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1201">Her office — her staff — the press — the
+bill — her Board.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1202">"Well," she said, "I've got to get
+going. I'll shower at the office. Got to get there in time to catch
+the Euro press-calls. Let me put your breakfast in a bag, OK?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1203">He looked whipsawed. "Uh, OK. Can I give
+you a ride?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1204">"No, I'll need my car this afternoon.
+Thanks, though." She kept her voice light, didn't meet his eyes.
+Kept thinking: her office — her staff — the bill.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1205">"Well," he said. He turned for the door.
+Stopped. She tensed. He turned back to her. "Trish," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1206">"It's OK," she said. "It's OK. We just
+have religious differences, is all."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1207">She slipped past him and into her car,
+and left him standing in her driveway. As she asked the car to plot
+a route for her back to the Hill, she dug through her purse for a
+pocket-knife. At the next red light, she took her lapel and slashed
+at it, opening a rent in her shirt that reflected a little of what
+her heart was feeling. It made her feel a little better to do
+it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1208">- For Alice</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">—</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1209"><b>Afterword:</b></p>
+</div>
+<div class="substance">
+<p class="norm" id="o1210">I wrote this story for Alice, who was
+then my girlfriend and is now my wife. Alice is smart as anything
+and I wanted to show off to her.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1211">So I stole two ideas: Eric Bonabeau's
+ground-breaking work on "ant-colony optimisation" (the basis of his
+consulting firm Icosystem, built on work he did at the Santa Fe
+Institute) and Natalie Jeremijenko's provocative notion of "legible
+computing" — that is, computing whose results can be interpreted by
+laypeople. Eric's handing the keys to the kingdom to emergent
+systems that are spookily good but can't be interrogated. Natalie
+wants a Protestant Reformation for computing in which we can all
+understand what's being discovered by our computer systems. These
+two ideas are both fantastic, but they can't peacefully coexist, or
+can they?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o1212">~</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

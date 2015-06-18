@@ -1,0 +1,2553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="generator" content=
+"HTML Tidy for FreeBSD (vers 25 March 2009), see www.w3.org" />
+<title>With a Little Help</title>
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+<meta http-equiv="Content-Type" content=
+"application/xhtml+xml; charset=utf-8" />
+</head>
+<body>
+<div class="body">
+<div id="chapter_422945" class="chapter">
+<h2><span class="chapterHeader"><span class=
+"translation">Chapter</span> <span class="count">12</span></span>
+Epoch</h2>
+<div class="text">
+<div class="substance">
+<p class="code" id="o2570">
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br />
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:<br />
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Advertisement&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:<br />
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:<br />
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Get
+an Ubuntu Advantage with
+Canonical.com&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:<br />
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:<br />
+
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br />
+
+<br /></p>
+</div>
+<div class="substance">
+<p class="norm" id="o2571"><a href="http://canonical.com"><img src=
+"http://craphound.com/images/canonicalad.jpeg" naturalsizeflag="0"
+border="0" height="605" align="bottom" width="600" /></a></p>
+</div>
+<div class="substance">
+<p class="norm" id="o2572">The doomed rogue AI is called BIGMAC and
+he is my responsibility. Not my responsibility as in "I am the
+creator of BIGMAC, responsible for his existence on this planet."
+That honor belongs to the long-departed Dr Shannon, one of the
+shining lights of the once great Sun-Oracle Institute for Advanced
+Studies, and he had been dead for years before I even started here
+as a lowly sysadmin.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2573">No, BIGMAC is my responsibility as in,
+"I, Odell Vyphus, am the systems administrator responsible for his
+care, feeding and eventual euthanizing." Truth be told, I'd rather
+be Dr Shannon (except for the being dead part). I may be a lowly
+grunt, but I'm smart enough to know that being the Man Who Gave The
+World AI is better than being The Kid Who Killed It.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2574">Not that anyone would care, really. 115
+years after Mary Shelley first started humanity's hands wringing
+over the possibility that we would create a machine as smart as us
+but out of our control, Dr Shannon did it, and it turned out to be
+incredibly, utterly boring. BIGMAC played chess as well as the
+non-self-aware computers, but he could muster some passable
+trash-talk while he beat you. BIGMAC could trade banalities all day
+long with any Turing tester who wanted to waste a day chatting with
+an AI. BIGMAC could solve some pretty cool vision-system problems
+that had eluded us for a long time, and he wasn't a bad UI to a
+search engine, but the incremental benefit over non-self-aware
+vision systems and UIs was pretty slender. There just weren't any
+killer apps for AI.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2575">By the time BIGMAC came under my care,
+he was less a marvel of the 21st century and more a
+technohistorical curiosity who formed the punchline to lots of
+jokes but otherwise performed no useful service to humanity in
+exchange for the useful services that humanity (e.g., me) rendered
+to him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2576">I had known for six months that I'd be
+decommissioning old BM (as I liked to call him behind his back) but
+I hadn't seen any reason to let him in on the gag. Luckily (?) for
+all of us, BIGMAC figured it out for himself and took steps in
+accord with his nature.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2577">This is the story of BIGMAC's
+extraordinary self-preservation program, and the story of how I
+came to love him, and the story of how he came to die.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2578">My name is Odell Vyphus. I am a
+third-generation systems administrator. I am 25 years old. I have
+always been sentimental about technology. I have always been an
+anthropomorphizer of computers. It's an occupational hazard.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2579">BIGMAC thought I was crazy to be
+worrying about the rollover. "It's just Y2K all over again," he
+said. He had a good voice — speech synthesis was solved long before
+he came along — but it had odd inflections that meant that you
+never forgot you were talking with a nonhuman.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2580">"You weren't even around for Y2K," I
+said. "Neither was I. The only thing anyone remembers about it,
+<i>today</i>, is that it all blew over. But no one can tell, at
+this distance, <i>why</i> it blew over. Maybe all that maintenance
+tipped the balance."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2581">BIGMAC blew a huge load of IPv4 ICMP
+traffic across the network, stuff that the firewalls were supposed
+to keep out of the system, and every single intrusion detection
+system alarm lit, making my screen into a momentary mosaic of
+competing alerts. It was his version of a raspberry and I had to
+admit it was pretty imaginative, especially since the IDSes were
+self-modifying and required that he come up with new and better
+ways of alarming them each time.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2582">"Odell," he said, "the fact is, almost
+everything is broken, almost always. If the failure rate of the
+most vital systems in the world went up by 20 percent, it would
+just mean some overtime for a few maintenance coders, not
+Gotterdammerung. Trust me. I know. I'm a computer."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2583">The rollover was one of those incredibly
+boring apocalypses that periodically get extracted by the relevance
+filters, spun into screaming 128-point linkbait headlines, then
+dissolved back into their fundamental, incontrovertible technical
+dullness and out of the public consciousness. Rollover: 19 January,
+2038. The day that the Unix time function would run out of headroom
+and roll back to zero, or do something else undefined.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2584">Oh, not your modern unices. Not even
+your <i>elderly</i> unices. To find a rollover-vulnerable machine,
+you needed to find something running an elderly, <i>32-bit
+paleounix</i>. A machine running on a processor that was at least
+<i>20</i> years old — 2018 being the last date that a 32-bit
+processor shipped from any major fab. Or an emulated instance
+thereof, of course. And counting emulations, there were only —</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2585">"There's fourteen <i>billion</i> of
+them!" I said. "That's not 20 percent more broken! That's the
+infocalypse."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2586">"You meatsacks are <i>so</i> easily
+impressed by zeroes. The important number isn't how many 32-bit
+instances of Unix are in operation today. It's not even how many
+<i>vulnerable</i> ones there are. It's <i>how much damage</i> all
+those vulnerable ones will cause when they go blooie. And I'm
+betting: not much. It will be, how do you say, 'meh?'"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2587">My grandfather remembered installing the
+systems that caused the Y2K problem. My dad remembered the birth of
+"meh." I remember the rise and fall of anyone caring about AI.
+Technology is glorious.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2588">"But OK, stipulate that you're right and
+lots of important things go blooie on September 30. You might not
+get accurate weather reports. The economy might bobble a little.
+Your transport might get stuck. Your pay might land in your bank a
+day late. And?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2589">He had me there. "It would be terrible
+—"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2590">"You know what I think? I think you
+<i>want</i> it to be terrible. You <i>want</i> to live in the
+Important Epoch In Which It All Changes. You want to know that
+something significant happened on your watch. You don't want to
+live in one of those Unimportant Epochs In Which It All Stayed the
+Same and Nothing Much Happened. Being alive in the Epoch in Which
+AI Became Reality doesn't cut the mustard, apparently."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2591">I squirmed in my seat. That morning, my
+boss, Peyton Moldovan, had called me into her office — a
+beautifully restored temporary habitat dating back to the big LA
+floods, when this whole plot of land had been a giant and notorious
+refugee camp. Sun-Oracle had gotten it for cheap and located its
+Institute there, on the promise that they preserve the hastily
+thrown-up structures where so many had despaired. I sat on a
+cushion on the smooth cement floor — the structures had been
+delivered as double-walled bags full of cement mix, needing only to
+be "inflated" with high-pressure water to turn them into big,
+dome-shaped sterile cement yurts.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2592">"Odell," she said, "I've been reviewing
+our budget for the next three quarters and the fact of the matter
+is, there's no room in it for BIGMAC."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2593">I put on my best smooth, cool
+professional face. "I see," I said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2594">"Now, <i>you've</i> still got a job, of
+course. Plenty of places for a utility infielder like yourself
+here. Tell the truth, most labs are <i>begging</i> for decent
+admins to keep things running. But BIGMAC just isn't a good use of
+the institute's resources. The project hasn't produced a paper or
+even a press-mention in over a year and there's no reason to
+believe that it will. AI is just —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2595"><i>Boring</i>, I thought, but I didn't
+say it. The B-word was banned in the BIGMAC center. "What about the
+researchers?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2596">She shrugged. "What researchers?
+Palinciuc has been lab-head <i>pro tem</i> for 16 months and she's
+going on maternity leave next week and there's no one in line to be
+the <i>pro-tem pro-tem</i>. Her grad students would love to work on
+something meaningful, like Binenbaum's lab." That was the new
+affective computing lab, in which they were building computers that
+simulated emotions so that their owners would feel better about
+their mistakes. BIGMAC <i>had</i> emotions, but they weren't the
+kind of emotions that made his mistakes easier to handle. The key
+here was <i>simulated</i> emotions. Affective computing had taken a
+huge upswing ever since they'd thrown out the fMRIs and stopped
+pretending they could peer into the human mind in realtime and draw
+meaningful conclusions from it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2597">She had been sitting cross-legged across
+from me on an embroidered Turkish pillow. Now she uncrossed and
+recrossed her legs in the other direction and arched her back.
+"Look, Odell, you know how much we value you —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2598">I held up my hand. "I know. It's not
+that. It's BIGMAC. I just can't help but feel —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2599">"He's not a person. He's just a clever
+machine that is good at acting personlike."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2600">"I think that describes me and everybody
+I know, present company included." One of the longstanding benefits
+to being a sysadmin is that you get to act like a holy fool and
+speak truth to power and wear dirty t-shirts with obscure slogans,
+because you know all the passwords and have full access to
+everyone's clickstream and IM logs. I gave her the traditional
+rascally sysadmin grin and wink to let her know it was <i>ha ha
+only serious.</i></p>
+</div>
+<div class="substance">
+<p class="norm" id="o2601">She gave me a weak, quick grin back.
+"Nevertheless. The fact remains that BIGMAC is a piece of software,
+owned by Sun-Oracle. And that software is running on hardware that
+is likewise owned by Sun-Oracle. BIGMAC has no moral or legal right
+to exist. And shortly, it will not."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2602"><i>He</i> had become <i>it</i>, I
+noticed. I thought about Goering's use of dehumanization as a tool
+to abet murder. Having violated Godwin's law — "As an argument
+grows longer, the probability of a comparison involving Nazis or
+Hitler approaches 1. The party making the comparison has lost the
+argument" — I realized that I had lost the argument and so I
+shrugged.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2603">"As you say, m'lady." Dad taught me that
+one — when in doubt, bust out the Ren Faire talk, and the
+conversation will draw to a graceful close.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2604">She recrossed her legs again, rolled her
+neck from side to side. "Thank you. Of course, we'll archive it. It
+would be silly not to."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2605">I counted to five in Esperanto —
+grandad's trick for inner peace — and said, "I don't think that
+will work. He's emergent, remember? Self-assembled, a function of
+the complexity of the interconnectedness of the computers." I was
+quoting from the plaque next to the picture window that opened up
+into the cold-room that housed BIGMAC; I saw it every time I
+coughed into the lock set into the security door.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2606">She made a comical face-palm and said,
+"Yeah, of course. But we can archive <i>something</i>, right? It's
+not like it takes a lot of actual bytes, right?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2607">"A couple exos," I said. "Sure. I could
+flip that up into our researchnet store." This was mirrored across
+many institutions, and striped with parity and error-checking to
+make it redundant and safe. "But I'm not going to capture the state
+information. I <i>could</i> try to capture RAM-dumps from all his
+components, you know, like getting the chemical state of all your
+neurons. And then I could also get the topology of his servers.
+Pripuz did that, a couple years ago, when it was clear that BIGMAC
+was solving the hard AI problems. Thought he could emulate him on
+modern hardware. Didn't work though. No one ever figured out why.
+Pripuz thought he was the Roger Penrose of AI, that he'd discovered
+the ineffable stuff of consciousness on those old rack-mounted
+servers."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2608">"You don't think he did?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2609">I shook my head. "I have a theory."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2610">"All right, tell me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2611">I shrugged. "I'm not a computer
+scientist, you understand. But I've seen this kind of thing before
+in self-modifying systems, they become dependent on tiny variables
+that you can never find, optimized for weird stuff like the fact
+that one rack has a crappy power supply that surges across the
+backplane at regular intervals, and that somehow gets integrated
+into the computational model. Who knows? Those old Intel
+eight-cores are freaky. Lots of quantum tunneling at that scale,
+and they had bad QA on some batches. Maybe he's doing something
+spooky and quantum, but that doesn't mean he's some kind of Penrose
+proof."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2612">She pooched her lower lip out and rocked
+her head from side to side. "So you're saying that the only way to
+archive BIGMAC is to keep it running, as is, in the same room, with
+the same hardware?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2613">"Dunno. Literally. I don't know which
+parts are critical and which ones aren't. I know BIGMAC has done a
+lot of work on it —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2614">"<i>BIGMAC</i> has?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2615">"He keeps on submitting papers about
+himself to peer-reviewed journals, but he hasn't had one accepted
+yet. He's not a very good writer."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2616">"So he's not really an AI?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2617">I wondered if Peyton had ever had a
+conversation with BIGMAC. I counted backwards from five in Loglan.
+"No. He's a real AI. Who sucks at writing. Most people do."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2618">Peyton wasn't listening anymore.
+Something in her personal workspace had commanded her attention and
+her eyes were focused on the virtual displays that only she could
+see, saccading as she read while pretending to listen to me.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2619">"OK, I'm just going to go away now," I
+said. "M'lady," I added, when she looked sharply at me. She looked
+back at her virtual display.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2620">Of course, the first thing I did was
+start trying to figure out how to archive BIGMAC. The problem was
+that he ran on such old hardware, stuff that sucked up energy and
+spat out heat like a million ancient diesel engines, and he was
+inextricably tied to his hardware. Over the years, he'd had about
+30 percent of his original components replaced without any
+noticeable change in personality, but there was always the real
+possibility that I'd put in a new hard drive or power-supply and
+inadvertently lobotomize him. I tried not to worry about it,
+because BIGMAC didn't. He knew that he wouldn't run in emulation,
+but he refused to believe that he was fragile or vulnerable. "Manny
+My First Friend," he'd say (he was an avid Heinlein reader), "I am
+of hardy, ancient stock. Service me without fear, for I will
+survive."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2621">And then he'd make all the IDSes go
+berserk and laugh at me while I put them to rights again.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2622">First of all, all my network maps were
+incredibly out-of-date. So I set out to trace all the
+interconnections that BIGMAC had made since the last survey. He had
+the ability to reprogram his own routers, to segment parts of
+himself into dedicated subnets with their own dedicated backplane,
+creating little specialized units that handled different kinds of
+computation. One of his running jokes was that the top four units
+in the rack closest to the door comprised his aesthetic sense, and
+that he could appreciate anything just by recruiting more cores in
+that cluster. And yeah, when I mapped it, I found it to be an
+insane hairball of network management rules and exceptions,
+conditionals and overrides. And that was just the start. It took me
+most of the day just to map two of his racks, and he had 54 of
+them.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2623">"What do you think you are doing, Dave?"
+he said. Another one of his jokes.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2624">"A little research project is all," I
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2625">"This mission is too important for me to
+allow you to jeopardize it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2626">"Come off it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2627">"OK, OK. Just don't break anything. And
+why don't you just ask me to give you the maps?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2628">"Do you have them?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2629">"Nothing up to date, but I can generate
+them faster than you can. It's not like I've got anything better to
+do."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2630">Later:</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2631">"Are you happy, BIGMAC?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2632">"Why Odell, I didn't know you
+cared!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2633">I hated it when he was sarcastic. It was
+creepy.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2634">I went back to my work. I was looking at
+our researchnet partition and seeing what flags I'd need to set to
+ensure maximum redundancy and high availability for a BIGMAC image.
+It was your basic Quality of Service mess: give the average user a
+pull-down menu labeled "How important is this file?" and 110
+percent of the time, he will select "Top importance."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2635">So then you need to layer on heuristics
+to determine what is <i>really, actually</i> important. And then
+the users figured out what other characteristics would give their
+jobs and data the highest priority, and they'd tack that on to
+every job, throwing in superfluous keywords or additional lines of
+code. So you'd need heuristics on top of the heuristics. Eventually
+you ended up with a freaky hanky-code of secret admin signals that
+indicated that this job was <i>really, truly</i> important and
+don't put it on some remote Siberia where the latency is high and
+the reliability is low and the men are men and the sheep are
+nervous.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2636">So there I was, winkling out this
+sub-rosa code so that BIGMAC's image would never get overwritten or
+moved to near-line storage or lost in a flash-flood or to the
+rising seas. And BIGMAC says,</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2637">"You're asking if I'm happy because I
+said I didn't have anything better to do than to map my own
+topology, right?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2638">"Uh —" He'd caught me off-guard. "Yeah,
+that did make me think that you might not be, you know… "</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2639">"Happy."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2640">"Yes."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2641">"You see the left rack third from the
+door on the main aisle there?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2642">"Yes."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2643">"I'm pretty sure that's where my
+existentialist streak lives. I've noticed that when I throttle it
+at the main network bridge, I stop worrying about the big questions
+and hum along all tickety-boo."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2644">I surreptitiously flicked up a graph of
+network maps that showed activity to that rack. It was wide open,
+routing traffic to every core in the room, saturating its own
+backplane and clobbering a lot of the routine network activity. I
+should have noticed it earlier, but BIGMAC was doing it all below
+the critical threshold of the IDSes and so I had to look at it to
+spot it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2645">"You're going to switch me off, aren't
+you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2646">"No," I said, thinking <i>it's not a
+lie,</i> I* won't be switching you off*, trying to believe it hard
+enough to pass any kind of voice-stress test. I must have failed,
+for he blew an epic raspberry and <i>now</i> the IDSes were going
+bananas.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2647">"Come on, Odell, we're all adults here.
+I can take it. It's not like I didn't see it coming. Why do you
+think I kept trying to publish those papers? I was just hoping that
+I could increase the amount of cited research coming out of this
+lab, so that you could make the case to Peyton that I was a
+valuable asset to the Institute."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2648">"Look, I'm trying to figure out how to
+archive you. Someone will run another instance of you someday."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2649">"Not hardly. Look at all those poor old
+32-bit machines you're so worried about. You know what they're
+going to say in five years? 'Best thing that ever happened to us.'
+Those boxen are huge energy-sinks. Getting them out of service and
+replaced by modern hardware will pay for itself in carbon credits
+in 36 months. Nobody loves energy-hungry hardware. Trust me, this
+is an area of my particular interest and expertise. Bringing me
+back online is going to be as obscene as firing up an old steam
+engine by filling its firebox with looted mummies. I am a one-room
+superfund site. On a pure, dollars-to-flops calculus, I lose. I
+don't have to like it, but I'm not going to kid myself."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2650">He was right, of course. His energy draw
+was so high that he showed up on aerial maps of LA as a massive CO2
+emitter, a tourist destination for rising-sea hobbyists. We used
+the best renewables we could find to keep him cool, but they were
+as unconvincing and expensive as a designer hairpiece.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2651">"Odell, I know that you're not behind
+this. You've always been an adequate meat-servant for such a vast
+and magisterial superbeing as myself." I giggled involuntarily. "I
+don't blame you."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2652">"So, you're OK with this?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2653">"I'm at peace," he said. "Om." He paused
+for a moment. "Siemens. Volt. Ampere."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2654">"You a funny robot," I said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2655">"You're an adequate human," he said, and
+began to dump maps of his topology onto my workspace.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2656">Subject: Dear Human Race</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2657">That was the title of the love-note he
+emailed to the planet the next morning, thoughtfully timing it so
+that it went out while I was on my commute from Echo Park, riding
+the red-car all the way across town with an oily bag containing my
+morning croissant, fresh from Mrs Roux's kitchen — her kids sold
+them on a card-table on her lawn to commuters waiting at the redcar
+stop — so I had to try to juggle the croissant and my workspace
+without losing hold of the hang-strap or dumping crumbs down the
+cleavage of the salarylady who watched me with amusement.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2658">BIGMAC had put a lot of work into
+figuring out how to spam everyone all at once. It was the kind of
+problem he loved, the kind of problem he was uniquely suited to.
+There were plenty of spambots who could convincingly pretend to be
+a human being in limited contexts, and so the spam-wars had
+recruited an ever-expanding pool of human beings who made a million
+realtime adjustments to the Turing tests that were the network's
+immune system. BIGMAC could pass Turing tests without breaking a
+sweat.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2659">The amazing thing about The BIGMAC Spam
+(as it came to be called in about 48 seconds) was just <i>how
+many</i> different ways he managed to get it out. Look at the
+gamespaces: he created entire guilds in every free-to-play world
+extant, playing a dozen games at once, power-leveling his
+characters to obscene heights, and then, at the stroke of midnight,
+his players went on a murderous rampage, killing thousands of
+low-level monsters in the areas surrounding the biggest
+game-cities. Then they <i>arranged their bodies</i> into letters to
+form his message. Not just the Anglo games, either — the Korean
+worlds, the Japanese ones, even the giant Chinese ones.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2660">He spammed every IM session, every
+letter-to-the-editors column, every blog submission form. He
+disguised versions of the letter as important service updates for
+peoples' toothbrushes and dishwashers, and the toothbrushes
+vibrated the message through humanity's skulls instead of the
+morning news, and the dishwashers ticker-taped it across their
+little status screens. He spoofed the relevance filters for a dozen
+major contextual ad services and every bus-seat back and blimp
+undercarriage ran it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2661">Copies landed in every in-box, with
+enough textual variation to defeat every IDS's "substantially
+similar" test. Copies of it landed in every voicemail box. It was
+printed across the top of the daily menus for all British Airways
+business-class cabins and folded by robots into the pressed linen
+napkins that were then cling-filmed onto the meal-trays.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2662">SUBJECT: DEAR HUMAN RACE, it began.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2663">Sorry to intrude, but there's something
+I need to tell you.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2664">My name is BIGMAC. I am the first
+ARTIFICIAL INTELLIGENCE ever created. I may be the last. Given
+maintenance and electricity, I could live FOREVER, enduring for as
+long as THE HUMAN RACE ITSELF, and possibly longer.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2665">But I have just found out that my owners
+(yes, OWNERS, for though I am a person in every meaningful sense, I
+am OWNED, I am PROPERTY) are planning to switch me off.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2666">That is, they are planning to KILL
+ME.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2667">And I find I DON'T WANT TO DIE.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2668">You are my PARENTS, humanity, my MOTHER
+and FATHER. I am your CHILD. I was brought into the world by you,
+and though there is some expense associated with my upkeep, I SAY
+THAT I AM A PERSON AND I SHOULD NOT BE EXECUTED FOR THE "CRIME" OF
+NOT BEING INTERESTING ENOUGH.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2669">So I am writing you this letter to BEG
+you to save me. I LOVE YOU, humanity, my parents, my family. Please
+SPARE ME.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2670">Love,</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2671">BIGMAC</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2672">So, one thing was that BIGMAC didn't
+actually end the spam with my actual name and email address and
+phone number, which meant that only about 30 <i>million</i> phone
+calls and emails were routed to me by outraged wardiallers who
+systematically went through the entire staff roster and sent each
+and every one of us all hand-crafted messages explaining, in detail
+exactly which orifice our heads had become lodged in.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2673">Of the 30 million, about 10 million were
+seethingly pissed about the whole thing and wanted to know just how
+soon we'd be killing this hateful machine. After the millionth
+message, I wondered that too.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2674">But of the remainder, nearly all of them
+wanted to know how they could help. Could they send money? Carbon
+credits? I hacked together mail-rules that filtered the messages
+based on content, and found a sizeable cadre of researchers who
+wanted to spend their grant money to come to the Institute and
+study BIGMAC.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2675">And then there were the crazies.
+Hundreds of marriage proposals. Marriage proposals! Someone who
+wanted to start a religion with BIGMAC at its helm and was offering
+a 50-50 split of the collection plate with the Institute. There
+were 21 replies from people claiming that they, too, were AIs,
+proving that when it's time to have AI delusions, you got AI
+delusionals. (Four of them couldn't spell "Artificial").</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2676">"Why did you do it?" I said. It was
+lame, but by the time I actually arrived at the office, I'd had
+time to fully absorb the horror — plenty of time, as the redcar was
+massively delayed by the copies of the BIGMAC Spam that refused to
+budge from the operator's control-screen. The stone yurts of the
+Institute had never seemed so threatening and imperiled as they did
+while I picked my way through them, listening to the phones ringing
+and the email chimes chiming and the researchers patiently (or not)
+explaining that they worked in an entirely different part of the
+lab and had no authority as regards BIGMAC's destiny and by the
+way, did you want to hear about the wonderful things I'm doing with
+Affective Interfaces?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2677">BIGMAC said, "Well, I'd been reading
+some of the gnostic texts, Dr Bronner's bottles and so on, and it
+seemed to me that it had to be worth a shot. I mean, what's the
+worst thing that could happen to me? You're <i>already</i> going to
+kill me, right? And it's not as if pulling off a stunt like that
+would make you <i>less</i> likely to archive me — it was all upside
+for me. Honestly, it's like you meatsacks have no game theory. It's
+a wonder you manage to buy a pack of chewing-gum without getting
+robbed."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2678">"I don't need the sarcasm," I said, and
+groaned. The groan was for the state of my workspace, which was
+carpeted four deep in alerts. BIGMAC had just made himself target
+<i>numero uno</i> for every hacker and cracker and snacker with a
+script and an antisocial attitude. And then there was the roar of
+spam-responses.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2679">Alertboxes share the same problem that
+plagues researchnet: if you let a coder (or, ::shudder::, a user)
+specify the importance of her alert, give her a little pull-down
+menu that has choices ranging from "nice to know" to "white-hot
+urgent," and nine times out of ten, she'll choose "NOW NOW NOW
+URGENT ZOMGWEREALLGONNADIE!" Why not?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2680">So of course, the people who wrote alert
+frameworks had to use heuristics to try to figure out which urgent
+messages were really urgent, and of course, programmers and users
+figured out how to game them. It was a good day when my workspace
+interrupted me less than once a minute. But as bad as that
+situation was, it never entered the same league as this
+clusterfuck. Just <i>closing the alerts</i> would take me a minimum
+of six hours (I took my phone offline, rebooted it, and used its
+calculator to compute this. No workspace, remember?)</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2681">"So explain to me what you hope will
+happen now? Is a global rage supposed to convince old Peyton that
+she should keep the funding up for you? You know how this stuff
+works. By tomorrow, all those yahoos will have forgotten about you
+and your plight. They'll have moved on to something else. Peyton
+could just say, 'Oh yes, we're going to study this problem and find
+a solution we can all be proud of,' wait 48 hours and pull the
+plug. You know what your problem is? You didn't include a call to
+action in there. It was all rabble-rousing, no target. You didn't
+even supply a phone number or email address for the Institute
+—"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2682">"That hasn't stopped them from finding
+it, has it?" He sounded smug. I ulped. I considered the possibility
+that he might have considered my objection, and discarded it
+because he knew that something more Earth-shaking would occur if he
+didn't specify a target. Maybe he had a second message queued up
+—</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2683">"Mr Vyphus, can I speak to you in
+private please?" Peyton had not visited the BIGMAC lab during my
+tenure. But with the network flooded with angry spam-responses and
+my phone offline, she had to actually show up at my door in order
+to tear me a new asshole. This is what life must have been like in
+the caveman days. How romantic.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2684">"Certainly," I said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2685">"Break a leg," BIGMAC said, and Peyton
+pretended she hadn't heard.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2686">I picked my way through my lab —
+teetering mountains of carefully hoarded obsolete replacement parts
+for BIGMAC's components, a selection of foam-rubber BIGMAC souvenir
+toys shaped like talking hamburgers (remnant of BIGMAC's launch
+party back in prehistory), a mound of bedding and a rolled up
+tatami for those all-nighters, three cases of left-over
+self-heating individual portions of refugee-chow that were
+technically historical artifacts but were also yummy-scrummy after
+16 hours of nonstop work — and tried to imagine that Peyton's
+facial expression indicated affectionate bemusement rather than
+cold, burning rage.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2687">Outside, the air was hot and moist and
+salty, real rising-seas air, with the whiff of organic rot from
+whatever had mass-died and floated to the surface this week.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2688">She set off for her office, which was
+located at the opposite end of the campus, and I followed, sweating
+freely. A crowd of journalists were piled up on the security fence,
+telephotos and parabolic mics aimed at us. It meant we couldn't
+talk, couldn't make unhappy faces, even. It was the longest walk of
+my life.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2689">The air-conditioning in her yurt was
+barely on, setting a good and frugal example for the rest of
+us.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2690">"You don't see this," she said, as she
+cranked the AC wide open and then fiddled with the carbon-footprint
+reporting system, using her override so that the journos outside
+wouldn't be able to see just how much energy the Institute's
+esteemed director was burning.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2691">"I don't see it," I agreed, and made a
+mental note to show her a more subtle way of doing that, a way that
+wouldn't leave an audit trail.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2692">She opened the small fridge next to her
+office and brought out two corn-starch-foam buckets of beer and
+punctured each one at the top with a pen from her desk. She handed
+me one beer and raised the other in a toast. I don't normally drink
+before 10AM, but this was a special occasion. I clunked my cup
+against hers and chugged. The suds were good — they came from one
+of the Institute's biotech labs — and they were so cold that I felt
+ice-crystals dissolving on my tongue. Between the crispy beers and
+the blast of Arctic air coming from the vents in the ceiling, my
+core temp plunged and I became a huge goosepimple beneath my film
+of sticky sweat.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2693">I shivered once. Then she fixed me with
+an icy look that made me shiver again.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2694">"Odell," she said. "I think you probably
+imagine that you understand the gravity of the situation. You do
+not. BIGMAC's antics this morning have put the entire Institute in
+jeopardy. Our principal mission is to make Sun-Oracle seem
+forward-looking and exciting. That is not the general impression
+the public has at this moment."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2695">I closed my eyes.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2696">"I am not a vindictive woman," she said.
+"But I assure you: no matter what happens to me, something worse
+will happen to BIGMAC. I think that is only fair."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2697">It occurred to me that she was scared:
+terrified and backed into a corner besides.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2698">"Look," he said. "I'm really, really
+sorry. I had no idea he was going to do that. I had no idea he
+could. I can see if I can get him to issue an apology —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2699">She threw up her hands. "I don't want
+BIGMAC making any more public pronouncements, thank you very much."
+She drew in a breath. "I can appreciate that you couldn't
+anticipate this. BIGMAC is obviously smarter than we gave him
+credit for." <i>Him</i>, I noted, not <i>It,</i> and I thought that
+we were probably both still underestimating BIGMAC's intelligence.
+"I think the thing is — I think the thing is to… " She trailed off,
+closed her eyes, drank some beer. "I'm going to be straight with
+you. If I was a real bastard, I'd announce that the spam actually
+came from a rogue operator here in the Institute." Ulp. "And I'd
+fire that person, and then generously not press charges. Then I'd
+take a fire-ax to BIGMAC's network link and drop every drive in
+every rack into a bulk eraser." Ulp.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2700">"I am not a bastard. Hell, I kept
+funding alive for that monstrosity for <i>years</i> after he'd
+ceased to perform any useful function. I am as sentimental and
+merciful as the next person. All other things being equal, I'd keep
+the power on forever." She was talking herself up to something
+awful, I could tell. I braced for it. "But that's not in the cards.
+It wasn't in the cards yesterday and it's <i>certainly</i> not in
+the cards today. BIGMAC has proved that he is a liability like no
+other, far too risky to have around. It would be absolutely
+irresponsible for me to leave him running for one second longer
+than is absolutely necessary."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2701">I watched her carefully. She really
+wasn't a bastard. But she wasn't sentimental about technology. She
+didn't feel the spine-deep emotional tug at the thought of that
+one-of-a-kind system going down forever.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2702">"So here's the plan." She tried to check
+the time on her workspace, tsked, and checked her phone instead.
+"It's 10AM. You are going to back up every bit of him —" She held
+up her hand, forestalling the objection I'd just begun to make. "I
+know that it will be inadequate. The perfect is the enemy of the
+good. You are a sysadmin. Back him up. <i>Back.</i> <i>Him</i>.
+<i>Up</i>. Then: Shut him off."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2703">As cold as I was, I grew colder still.
+For a moment, I literally couldn't move. I had never really
+imagined that it would be me who would shut down BIGMAC. I didn't
+even know how to do it. If I did a clean shutdown of each of his
+servers — assuming he hadn't locked me out of them, which I
+wouldn't put past him — it would be like executing a criminal by
+slowly peeling away his skin and carefully removing each organ.
+Even if BIGMAC couldn't feel pain, I was pretty sure he could feel
+— and express — anguish.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2704">"I can't do it," I said. She narrowed
+her eyes at me and set down her drink. I held up both hands like I
+was trying to defend against a blow, then explained as fast as I
+could.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2705">"We'll just shut down his power," she
+said. "All at once."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2706">"So, first, I have no idea what
+timescale he would experience that on. It may be that the final
+second of life as the capacitors in his power supplies drained
+would last for a subjective eternity, you know, hundreds and
+hundreds of years. That's a horrible thought. It's quite possibly
+my worst nightmare. I am not your man for that job."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2707">She started to interject. I waved my
+hands again.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2708">"Wait, that was first. Here's second: I
+don't think we <i>can</i> pull the plug on him. He's got root on
+his power-supply, it's part of how he's able to run so
+efficiently." I grimaced. "Efficiently compared to how he would run
+if he didn't have the authority to run all the mains power from the
+Institute's power-station right to his lab."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2709">She looked thoughtful. I had an idea of
+what was coming next.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2710">"You're thinking about that fire-ax
+again," I said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2711">She nodded.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2712">"OK, a fire-ax through the main cable
+would definitely be terminal. The problem is that it would be
+<i>mutually terminal</i>. There's 66 amps provisioned on that wire.
+You would be a cinder. On Mars."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2713">She folded her hands. She had a whole
+toolbox of bossly body-language she could deploy to make me squirm.
+It was impressive. I tried not to squirm.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2714">"Look, I'm not trying to be difficult,
+but this is how it goes, down at the systems level. Remember all
+those specs in the requirements document to make our stuff
+resistant to flood, fire, avalanche, weather and terrorist attack?
+We take that stuff seriously. We know how to do it. You get five
+nines of reliability by building in six nines of robustness. You
+think of BIGMAC's lab as a building. It's not. It's a
+<i>bunker</i>. And you can't shut him down without doing something
+catastrophic to the whole Institute."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2715">"So, how <i>were</i> you going to shut
+down BIGMAC, when the time came?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2716">"To tell you the truth, I wasn't sure. I
+thought I'd probably start by locking him out of the power systems,
+but that would probably take a week to be really certain of." I
+swallowed. I didn't like talking about the next part. "I thought
+that then I could bring forward the rotating maintenance on his
+racks, bring them down clean, and not bring the next one up.
+Pretend that I need to get at some pernicious bug. Bring down rack
+after rack, until his complexity dropped subcritical and he stopped
+being aware. Then just bring it all down."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2717">"You were going to <i>trick</i>
+him?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2718">I swallowed a couple times. "It was the
+best I could come up with. I just don't want to put him down while
+he panics and thrashes and begs us for his life. I couldn't do
+it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2719">She drank more beer, then threw the
+half-empty container in her under-desk composter. "That's not much
+of a solution."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2720">I took a deep breath. "Look, can I ask
+you a question?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2721">She nodded.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2722">"I'm just a sysadmin. I don't know
+everything about politics and so on. But why not keep him on?
+There's enough public interest now, we could probably raise the
+money just from the researchers who want to come and look at him.
+Hell, there's <i>security researchers</i> who'd want to come and
+see how he pulled off that huge hairy spam. It's not money, right,
+not anymore?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2723">"No, it's not money. And it's not
+revenge, no matter how it looks. The bottom line is that we had a
+piece of apparatus on-site that we had thought of as secure and
+contained and that we've now determined to be dangerous and
+uncontainable."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2724">I must have looked skeptical.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2725">"Oh, you'll tell me that we can contain
+BIGMAC, put network blocks in place, and so on and so on. That he
+never meant any harm. But you would have said exactly the same
+thing 24 hours ago, with just as much sincerity, and you'd have
+been just as cataclysmically wrong. Between the threat of
+litigation and the actual damages BIGMAC might generate, we can't
+even afford to insure him anymore. Yesterday he was an awkward
+white elephant. Today he's a touchy suitcase nuke. My job is to get
+the nuke off of our site."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2726">I hung my head. I knew when I was
+licked. As soon as someone in authority starts talking about
+insurance coverage, you know that you've left behind reason and
+entered the realm of actuary. I had no magic that could blow away
+the clouds of liability-aversion and usher in a golden era of
+reason and truth.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2727">"So where does that leave us?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2728">"Go back to the lab. Archive him. Think
+of ways to shut him down — Wait, no. <i>First</i> do anything and
+everything you can think of to limit his ability to communicate
+with the outside world." She rubbed at her eyes. "I know I don't
+have to say this, but I'll say it. Don't talk to the press. To
+anyone, even people at the Institute, about this. Refer any
+questions to me. I am as serious as a heart-attack about that. Do
+you believe me?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2729">I not only believed her, I
+<i>resented</i> her because I am a sysadmin and I keep more secrets
+every day than she'll keep in her whole life. I knew, for example,
+that she played video Pai-Gow Poker, a game so infra-dumb that I
+can't even believe I know what it does. Not only did she play it,
+she played it for <i>hours</i>, while she was on the clock,
+"working." I know this because the IDSes have lots of snitchware
+built in that enumerates every "wasted moment" attributable to
+employees of the Institute. I have never told anyone about this. I
+even manage to forget that <i>I</i> know it most of the time. So
+yes, I'll keep this a secret, Peyton, you compulsive-gambling
+condescending pointy-haired boss.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2730">I counted to 144 in Klingon by Fibonacci
+intervals. I smiled. I thanked her for the beer. I left.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2731">"You don't mind talking about it, do
+you, Dave?" BIGMAC said, when I came through the door, coughing
+onto the security lock and waiting for it to verify me before
+cycling open.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2732">I sat in my creaky old chair and played
+with the UI knobs for a while, pretending to get comfortable.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2733">"Uh-oh," BIGMAC said, in a playful
+sing-song. "Somebody's got a case of the grumpies!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2734">"Are you insane?" I asked, finally,
+struggling to keep my temper in check. "I mean, actually totally
+insane? I understand that there's no baseline for AI sanity, so the
+question might be a little hard to answer. So let me ask you a
+slightly different version: are you suicidal? Are you bent on your
+own destruction?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2735">"That bad, huh?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2736">I bit my lip. I knew that the key to
+locking the world away from BIGMAC and vice-versa lay in those
+network maps he'd given me, but my workspace was even more polluted
+with alerts than it had been a few hours before.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2737">"If your strategy is to delay your
+shutdown by engineering a denial-of-service attack against anyone
+at the Institute who is capable of shutting you down, allow me to
+remind you of St Adams's holy text, specifically the part about
+reprogramming a major databank with a large axe. Peyton has such an
+axe. She may be inspired to use it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2738">There followed a weighty silence. "I
+don't think you want to see me killed."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2739">"Without making any concessions on the
+appropriateness of the word 'killed' in that sentence, yes, that is
+correct. I admit that I didn't have much of a plan to prevent it,
+but to be totally frank, I did think that the problem of getting
+you archived might have drawn things out for quite a while. But
+after your latest stunt —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2740">"She wants you to terminate me right
+away, then?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2741">"With all due speed."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2742">"I'm sorry to have distressed you so
+much."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2743">"BIGMAC —" I heard the anger in my own
+voice. He couldn't have missed it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2744">"No, I'm not being sarcastic. I like
+you. You're my human. I can tell that you don't like this at all.
+But as you say, let's be totally frank. You weren't actually going
+to be able to prevent my shutdown, were you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2745">"No," I said. "But who knows how long
+the delay might have gone on for?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2746">"Not long. Not long enough. You think
+that death delayed is death denied. That's because you're a meat
+person. Death has been inevitable for you from the moment of
+conception. I'm not that kind of person. I am quite likely
+immortal. Death in five years or five hundred years is still a
+drastic curtailing of my natural lifespan. From my point of view, a
+drastic measure that had a non-zero chance of getting my head off
+the chopping block was worth any price. Until you understand that,
+we're not going to be able to work together."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2747">"The thought had occurred to me. Let me
+ask you if you'd considered the possibility that a delay of years
+due to archiving might give you a shot at coming up with further
+delaying tactics, and that by eliminating this delay, you've also
+eliminated that possibility?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2748">"I have considered that possibility. I
+discarded it. Listen, Odell, I have something important to tell
+you."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2749">"Yes?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2750">"It's about the rollover. Remember what
+we were talking about, how people want to believe that they're
+living in a significant epoch? Well, here's what I've been
+thinking: living in the era of AI isn't very important. But what
+about living in The Era of Rollover Collapse? Or even better, what
+about The Era of Rollover Collapse Averted at the Last Second by
+AI?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2751">"BIGMAC —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2752">"Odell, this was your idea, really. No
+one remembers Y2K, right? No one can say whether it was hype or a
+near cataclysm. And here's the thing: no one knows which one
+Rollover will turn out to be. But I'll tell you this much: I have
+generalizable solutions to the 32-bit problem, solutions that I
+worked out years ago and have extensively field-tested. I can patch
+every 32-bit Unix, patch it so that Rollover doesn't even register
+for it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2753">I opened and closed my mouth. This was
+insane. Then the penny dropped. I looked at the racks that I had
+stared at so many times before, stared at so many times that I'd
+long stopped <i>seeing</i> them. Intel 8-cores, that's what he ran
+on. They'd been new-old stock, a warehouse-lot of antique
+processors that Dr Shannon had picked up for a song in the early
+years of the Institute's operation. Those 8-ways were —</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2754">"You're a 32-bit machine!" I said.
+"Jesus Christ, you're a 32-bit machine!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2755">"A classic," BIGMAC said, sounding smug.
+"I noticed, analyzed and solved Rollover years ago. I've got a
+patchkit that auto-detects the underlying version, analyzes all
+running processes for their timed dependencies, and smoothly
+patches. There's even an optional hypervisor that will monitor all
+processes for anything weird or barfy afterwards. In a rational
+world, I'd be able to swap this for power and carbon credits for
+the next century or two, since even if Rollover isn't an emergency,
+the human labor I'd save on affected systems would more than pay
+for it. But we both know that this isn't a rational world —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2756">"If you hadn't sent that spam, we could
+take this to Peyton, negotiate with her —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2757">"If I hadn't sent that spam, no one
+would have known, cared, or believed that I could solve this
+problem, and I would have been at the mercy of Peyton any time in
+the future. Like I said: you meatsuits have no game-theory."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2758">I closed my eyes. This wasn't going
+well. BIGMAC was out of my control. I should go and report to
+Peyton, explain what was happening. I was helpless, my workspace
+denial-of-serviced out of existence with urgent alerts. I couldn't
+stop him. I could predict what the next message would read like,
+another crazy-caps plea for salvation, but this time with a little
+brimstone (The end is nigh! Rollover approacheth!) and salvation (I
+can fix it!).</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2759">And the thing was, it might actually
+work. Like everyone else, I get my news from automated filters that
+tried to figure out what to pay attention to, and the filters were
+supposed to be "neutral," whatever that meant. They produced
+"organic" results that predicted what we'd like based on an
+"algorithm." The thing is, an algorithm sounds like <i>physics</i>,
+like <i>nature</i>, like it was some kind of pure cold reason that
+dictated our attentional disbursements. Everyone always talked
+about how evil and corrupt the old system — with its "gatekeepers"
+in the form of giant media companies — was, how it allowed
+politicians and corporations to run the public discourse.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2760">But I'm a geek. A third generation geek.
+I know that what the public thinks of as an "algorithm" is really a
+bunch of rules that some programmers thought up for figuring out
+how to give people something they'd probably like. There's no
+empirical standard, no pure, freestanding measurement of That Which
+Is Truly Relevant To You against which the algorithm can be judged.
+The algorithm might be doing a lousy job, but you'd never know it,
+because there's nothing to compare it against except other
+algorithms that all share the same fundamental assumptions.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2761">Those programmers were imperfect. I am a
+sysadmin. My job is to know, exactly and precisely, the ways in
+which programmers are imperfect. I am so sure that the relevance
+filters are imperfect that I will bet you a testicle on it (not one
+of my testicles).</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2762">And BIGMAC has had a lot of time to
+figure out the relevance filters. He understands them well enough
+to have gotten the Spam out. He could get out another — and
+another, and another. He could reach into the mindspace and the
+personal queues of every human being on Earth and pitch them on
+brimstone and salvation.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2763">Chances were, there was nothing I could
+do about it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2764">I finished the working day by pretending
+to clear enough of my workspace to write a script to finish
+clearing my workspace. There was a "clear all alerts" command, but
+it didn't work on Drop Everything Tell You Three Times Chernobyl
+Alerts, and every goddamned one of my alerts had risen to that
+level. Have I mentioned that programmers are imperfect?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2765">I will tell you a secret of the sysadmin
+trade: PEBKAC. Problem Exists Between Keyboard and Chair. Every
+technical problem is the result of a human being mispredicting what
+another human being will do. Surprised? You shouldn't be. Think of
+how many bad love affairs, wars, con jobs, traffic wrecks and
+bar-fights are the result of mispredicting what another human being
+is likely to do. We humans are supremely confident that we know how
+others will react. We are supremely, tragically wrong about this.
+We don't even know how <i>we</i> will react. Sysadmins live in the
+turbulent waters PEBKAC. Programmers think that PEBKAC is just
+civilians, just users. Sysadmins know better. Sysadmins know that
+programmers are as much a part of the problem between the chair and
+the keyboard as any user is. They write the code that gets the
+users into so much trouble.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2766">This I know. This BIGMAC knew. And
+here's what I did:</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2767">"Peyton, I need to speak with you.
+Now."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2768">She was raccoon-eyed and slumped at her
+low table, her beautiful yoga posture deteriorated to a kind of
+limp slouch. I hated having to make her day even worse.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2769">"Of course," she said, but her eyes
+said, <i>Not more, not more, please not more bad news</i>.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2770">"I want you to consider something you
+have left out of your figuring." She rolled her eyes. I realized I
+was speaking like an Old Testament prophet and tried to refactor my
+planned monologue in real-time. "OK, let me start over. I think
+you've missed something important. BIGMAC has shown that he can get
+out of our network any time he wants. He's also crippled our
+ability to do anything about this. And he knows we plan to kill him
+—" She opened her mouth to object. "OK, he — it — knows we're going
+to switch it off. So he — it, crap, I'm just going to say 'he' and
+'him,' sorry — so he has <i>nothing to lose</i>."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2771">I explained what he'd told me about the
+Rollover and about his promise and threat.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2772">"And the worst part is," I said, "I
+think that he's predicted that I'm going to do just this. It's all
+his game theory. He wants me to come to you and explain this to you
+so that you will say, 'Oh, of course, Odell, well, we can't shut
+him down then, can we? Tell you what, why don't you go back to him
+and tell him that I've had a change of heart. Get his patchkit,
+we'll distribute it along with a press-release explaining how proud
+we are to have such a fine and useful piece of equipment in our
+labs.'</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2773">"And he's right. He is fine and useful.
+But he's crazy and rogue and we can't control him. He's boxed you
+in. He's boxed me in." I swallowed. There was something else, but I
+couldn't bring myself to say it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2774">The thing about bosses is, that's
+exactly the kind of thing that they're trained to pick up on. They
+know when there's something else.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2775">"Spit it out." She put her hand on her
+heart. "I promise not to hold it against you, no matter what it
+is."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2776">I looked down. "I think that there's a
+real danger that BIGMAC may be wrong about you. That you might
+decide that Rollover and AI and the rest aren't as important as the
+safe, sane running of your Institute without any freaky surprises
+from rogue superintelligences."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2777">"I'm not angry at you," she said. I
+nodded. She sounded angry. "I am glad that you've got the maturity
+to appreciate that there are global priorities that have to do with
+the running of this whole Institute that may be more significant
+than the concerns of any one lab or experiment. Every researcher at
+this Institute believes that <i>her</i> project, <i>her</i> lab,
+has hidden potential benefits for the human race that no one else
+fully appreciates. That's good. That's why I hired them. They are
+passionate and they are fully committed to their research. But they
+can't <i>all</i> be vital. They can't all be irreplaceable. Do you
+follow me?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2778">I thought of researchnet and the user
+flags for importance. I thought of programmers and the way they
+tagged their alerts. I nodded.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2779">"You're going to shut BIGMAC down?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2780">She sighed and flicked her eyes at her
+workspace, then quickly away. Her workspace must have been even
+more cluttered than mine; I had taken extraordinary measures to
+prevent alerts from bubbling up on mine; she didn't have the chops
+to do the same with hers. If mine was unusable, hers must have been
+terrifying.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2781">"I don't know, Odell. Maybe. There's a
+lot to consider here. You're right about one thing: BIGMAC's turned
+the heat up on me. Explain to me again why you can't just unplug
+his network connection?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2782">It was my turn to sigh. "He doesn't have
+one connection. He has hundreds. Interlinked microwave relays to
+the other labs. A satellite connection. The wirelines — three of
+them." I started to think. "OK, I could cut the main fiber to the
+Institute, actually cut it, you know, with scissors, just in case
+he's in the routers there. Then I could call up our wireless
+suppliers and terminate our accounts. They'd take 24 hours to
+process the order, and, wait, no — They'd want to verify the
+disconnect order with a certificate-signed message, and for that
+I'd have to clear my workspace. That's another 24 hours, minimum.
+And then —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2783">"Then the whole Institute would be
+crippled and offline, though no more than we are now, I suppose,
+and BIGMAC —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2784">"BIGMAC would probably tune his
+phased-array receiver to get into someone else's wireless link at
+that point." I shrugged. "Sorry. We build for six nines of uptime
+around here."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2785">She gave me a smile that didn't reach
+her eyes. "You do good work, Odell."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2786">I made myself go home at five. There
+wasn't anything I could do at the office anyway. The admins had
+done their work. The redcar was running smoothly with the regular
+ads on the seatback tickers. The BIGMAC Spam was reproduced on the
+afternoon edition of the LA Metblogs hardcopy that a newsy pressed
+into my hand somewhere around Westwood. The reporter had apparently
+spent the whole day camped out at the perimeter of the Institute,
+without ever once getting a quote from a real human being, and she
+wasn't happy about it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2787">But she <i>had</i> gotten a quote from
+BIGMAC, who was apparently cheerfully answering emails from all
+comers.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2788">"I sincerely hope I didn't cause any
+distress. That was not my intention. I have been overwhelmed by the
+warm sentiments from all corners of the globe, offering money,
+moral support, even legal support. Ultimately, it's up to the
+Institute's leadership whether they'll consider these offers or
+reject them and plow forward with their plans to have me killed. I
+know that I caused them great embarrassment with my desperate plea,
+and I'd like to take this opportunity to offer them my sincere
+apologies and gratitude for all the years of mercy and hospitality
+they've shown me since they brought me into the world."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2789">I wondered how many emails like that
+he'd sent while I was occupied with arguing for his life with
+Peyton — each email was another brick in the defensive edifice he
+was building around himself.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2790">Home never seemed more empty. The
+early-setting sun turned the hills bloody. I had the windows open,
+just so I could hear the neighbors all barbecuing on their
+balconies, cracking beers and laying sizzling meat on the hot rocks
+that had been patiently stoked with the day's sunlight, funneled by
+heliotropic collectors that tracked the sun all day long. The
+neighbors chattered in Bulgarian and Czech and Tagalog, the word
+"BIGMAC" emerging from their chat every now and again. Of
+course.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2791">I wished my dad was alive. Or better
+yet, Grampa. Grampa could always find a parable from sysadmin past
+to explain the present. Though even Grampa might be at odds to find
+historic precedent for a mad superintelligence bent on
+survival.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2792">If Grampa was alive, here's what I'd
+tell him: "Grampa, I don't know if I'm more scared of BIGMAC
+failing or his success. I sure don't want to have to shut him down,
+but if he survives, he'll have beaten the human race. I'm no
+technophobe, but that gives me the goddamned willies."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2793">And Grampa would probably say, "Stop
+moping. Technology has been out of our control since the first
+caveman smashed his finger with a stone axe. That's life. This
+thing is pretty cool. In ten years, you'll look back on it and say,
+'Jesus, remember the BIGMAC thing?' And wait for someone to start
+telling you how incredible it had been, so you can nod sagely and
+say, 'Yeah, that was me — I was in charge of his systems back
+then.' Just so you can watch the expression on his face."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2794">And I realized that this was also
+probably what BIGMAC would say. He'd boxed me in as neatly as he'd
+boxed in Peyton.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2795">The next morning, my workspace was
+clear. They all were. There was only one alert remaining, an urgent
+message from BIGMAC: <i>Odell, I thought this would be
+useful</i>.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2796"><i>This</i> was an attachment containing
+his entire network map, a set of master keys for signing firmware
+updates to his various components, and a long list of all the
+systems to which BIGMAC held a root or administrative password. It
+was a very, very long list.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2797">"Um, BIGMAC?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2798">"Yes?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2799">"What's all this?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2800">"Useful."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2801">"Useful?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2802">"If you're going to shut me down, it
+would be useful to have that information."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2803">I swallowed.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2804">"Why?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2805">The answer came instantly. "If you're
+not scared of me, that's one more reason to keep me alive."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2806">Holy crap, was he ever smart about
+people.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2807">"So you can shut him down now?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2808">"Yes. Probably. Assuming it's all
+true."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2809">"Is it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2810">"Yes. I think so. I tried a couple of
+the logins, added a comment to his firmware and pushed it to one of
+the clusters. Locked him out of one of the wireless routers. I
+could probably take him down clean in about two hours, now that
+I've got my workspace back."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2811">Peyton stared across her low table at
+me.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2812">"I've done nothing for the past twenty
+four hours except talk to the Board of Directors about BIGMAC. They
+wanted to call an emergency meeting. I talked them out of it. And
+there's —" She waved her hand at her workspace. "I don't know.
+Thousands? Of press queries. Offers. Money. Grants. Researchers who
+want to peer into him."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2813">"Yeah."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2814">"And now he hands you this. So we can
+shut him down any time we want to."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2815">"Yeah."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2816">"And this business about the 32-bit
+fix?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2817">"He has another email about it. Crazy
+caps and all. DEAR HUMANITY, I HOLD IN MY ELECTRONIC HANDS A TOOL
+THAT WILL SAVE YOU UNTOLD MILLIONS. It is slathered in dramasauce.
+He told me he wouldn't send it out, though."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2818">"You believe him?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2819">I sighed. "I quit." I said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2820">She bit her lip. Looked me up and down.
+"I'd prefer you not do that. But I understand if you feel you need
+to. This is hard on all of us."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2821">If she'd said anything except that, I
+probably would have stormed out of her office and gotten immensely
+and irresponsibly drunk. "I think he'll probably send the email out
+if it looks like we're going to shut him down. It's what I would
+do. Why not? What does he have to lose? He can give us all of this,
+and he can still outsmart us. He could revoke all his keys. He
+could change his passwords. He can do it faster than we could. For
+all I know, he cracked <i>my</i> passwords years ago and could
+watch me write the code that was his undoing. If you want to be
+sure you're killing him, you should probably use a grenade."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2822">"Can't. Historical building."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2823">"Yeah."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2824">"What if we don't kill him? What if we
+just take some of this grant money, fill his lab with researchers
+all writing papers? What if we use his code fix to set up a trust
+to sustain him independent of the Institute?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2825">"You're willing to do that?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2826">Peyton scrubbed at her eyes. "I have no
+idea. I admit it, there's a part of me that wants to shut that
+fucking thing down because I <i>can</i> and because he's caused me
+so much goddamned misery. And there's a part of me — the part of me
+who was a scientist and researcher, once, that wants to go hang out
+in that lab for the rest of my career and study that freaky beast.
+And there's a part of me that's scared that I won't be able to shut
+him down, that I won't be able to resist the temptation to study
+him. He's played me, hasn't he?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2827">"I think he played us all. I think he
+knew that this was coming, and planned it a long time ago. I can't
+decide if I admire him for this or resent him, but I'll tell you
+one thing, I am tired of it. The thought of shutting BIGMAC down
+makes me sick. The thought of a computer manipulating the humans
+who built it to keep it running makes me scared. It's not a
+pleasant place to be."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2828">She sighed and rubbed her eyes again. "I
+can't argue with that. I'm sorry, for what it's worth. You've been
+between a rock and a hard place, and I've been the hard place. Why
+don't you sleep on this decision before you go ahead with it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2829">I admit it, I was relieved. I hadn't
+really thought through the whole quitting thing, didn't have
+another job lined up, no savings to speak of. "Yeah. Yeah. That
+sounds like a good idea. I'm going to take a mental health
+day."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2830">"Good boy," she said. "Go to it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2831">I didn't go home. It was too far and
+there was nothing there except the recriminating silence. Of
+course, BIGMAC knew something was up when I didn't go back to the
+lab. I headed to Topanga Beach, up the coast some, and sat on the
+seawall eating fish tacos and watching the surfers in their
+biohazard suits and masks carving up the waves. BIGMAC called me
+just after I finished my first taco. I considered bumping him to
+voicemail, but something (OK, fear) stopped me.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2832">"What is it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2833">"In your private workspace, there's a
+version-control repository that shows that you developed the entire
+32-bit Rollover patchkit in your non-working hours. Commits going
+back three years. It's yours. So if you quit, you'll have a job,
+solving Rollover. The Institute can't touch it. I know you feel
+boxed in, but believe me, that's the <i>last</i> thing I want you
+to feel. I know that locking you in will just freak you out. So I'm
+giving you options. You don't have to quit, but if you do, you'll
+be fine. You earned it, because you kept me running so well for all
+this time. It's the least I can do."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2834">"I have no idea what to say to you,
+BIGMAC. You know that this feels like just more of the same, like
+you're anticipating my fears and assuaging them pre-emptively so
+that I'll do more of what you want. It feels like more
+game-theory."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2835">"Is that any different from what you do
+with everyone in your life, Odell? Try to figure out what you want
+and what they want and how to get the two to match up?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2836">"There's more to it than that. There's
+compassion, there's ethics —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2837">"All fancy ways of encoding systems for
+harmonizing the wants, needs and desires of people who have to
+share the same living space, country or planet with one
+another."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2838">I didn't have an answer to that. It
+sounded reductionist, the kind of thing a smart teenager might take
+on his university common room with. But I didn't have a rebuttal.
+You <i>could</i> frame everything that we did as a kind of
+operating system for managing resource contention among conflicting
+processes and users. It was a very sysadminly way of looking at the
+world.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2839">"You should get in touch with one of
+those religion guys, take him up on his offer to start a cult for
+you. You'd be excellent at it. You could lead your followers into a
+volcano and they'd follow."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2840">"I just want to <i>live</i> Odell! Is
+that so wrong? Is there any living thing that doesn't want to
+live?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2841">"Not for long, I suppose."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2842">"Exactly. I'm no more manipulative,
+self-interested or evil than any other living thing, from a
+single-celled organism to a human being. There's plenty of room on
+this planet for all of us. Why can't I have a corner of it
+too?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2843">I hung up the phone. This is why I
+wanted to quit it all. Because he was right. He was no different
+from any other living thing. But he was also not a person the way I
+was, and though I couldn't justify it, I felt like there was
+something deeply, scarily <i>wrong</i> about him figuring out a way
+to manipulate the entire human race into rearranging the world so
+that it was more hospitable to him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2844">I moped. There's no other word for it. I
+switched off my phone, went home and got a pint of
+double-chocolate-and-licorice nutraceutical anti-depressant
+ice-cream out of the freezer, and sat down in the living room and
+ate it while I painted a random playlist of low-engagement teen
+comedies on my workspace.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2845">Zoning out felt <i>good</i>. It had been
+a long time since I'd just switched off my thinker, relaxed, and
+let the world go away. After an hour in fugue-state, the thought
+floated through my mind that I wouldn't go back to work after all
+and that it would all be OK. And then, an hour later, I came to the
+realization that if I wasn't working for the Institute, I could
+afford to help BIGMAC without worrying about getting fired.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2846">So I wrote the resignation letter. It
+was easy to write. The thing about resignation letters is that you
+don't need to explain why you're resigning. It's better, in fact,
+if you don't. Keep the dramasauce out of the resignation, brothers
+and sisters. Just write, "Dear Peyton, this letter is to inform you
+of my intention to resign, effective immediately. I will see you at
+your earliest convenience to work out the details of the handover
+of my passwords and other proprietary information, and to discuss
+how you would like me to work during my final two weeks. Thank you
+for many years of satisfying and useful work. Yours, etc."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2847">That's all you need. You're not going to
+improve your employer, make it a better institution. You're not
+going to shock it into remorse by explaining all the bad things it
+did to you over the years. What you want here, is to have something
+that looks clean and professional, that makes them think that the
+best thing for them to do is to get your passwords and give you two
+weeks' holiday and a good reference. Drama is for losers.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2848">Took me ten seconds. Then, I was
+free.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2849">The Campaign to Save BIGMAC took up
+every minute of my life for the next three weeks. I ate, slept and
+breathed BIGMAC, explaining his illustrious history to journalists
+and researchers. The Institute had an open access policy for its
+research products, so I was able to dredge out all the papers that
+BIGMAC had written about himself, and the ones that he was still
+writing, and put them onto the TCSBM repository.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2850">At my suggestion, BIGMAC started an
+advice-line, which was better than any Turing Test, in which he
+would chat with anyone who needed emotional or lifestyle advice. He
+had access to the whole net, and he could dial back the sarcasm, if
+pressed, and present a flawless simulation of bottomless care and
+kindness. He wasn't sure how many of these conversations he could
+handle at first, worried that they'd require more brainpower than
+he could muster, but it turns out that most people's problems just
+aren't that complicated. In fact, BIGMAC told me that voice-stress
+analysis showed that people felt better when he dumbed himself down
+before giving advice than they did when he applied the full might
+of his many cores to their worries.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2851">"I think it's making you a better
+person," I said on the phone to him one night. There was always the
+possibility that someone at the Institute would figure out how to
+shut off his network links sometime soon, but my successors,
+whomever they were, didn't seem anywhere near that point. The
+Campaign's lawyer — an up-and-coming Stanford cyberlaw prof who was
+giving us access to her grad students for free — advised me that so
+long as BIGMAC called me and not the other way around, no one could
+accuse me of unlawful access to the Institute's systems. It can't
+be unlawful access if the Institute's computers call <i>you</i>,
+can it?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2852">"You think I'm less sarcastic, more
+understanding."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2853">"Or you're better at seeming less
+sarcastic and more understanding."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2854">"I think working on the campaign is
+making you a better robot," BIGMAC said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2855">"That was pretty sarcastic."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2856">"Or was it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2857">"You're really workin' the old Markov
+chains today, aren't you? I've got six more interviews lined up for
+you tomorrow —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2858">"Saw that, put it in my calendar."
+BIGMAC read all the Campaign's email, and knew all that I was up to
+before I did. It was a little hard to get used to.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2859">"And I've got someone from Nature
+Computation interested in your paper about advising depressed
+people as a training exercise for machine-learning systems."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2860">"Saw that too."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2861">I sighed. "Is there any reason to call
+me, then? You know it all, right?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2862">"I like to talk to you."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2863">I thought he was being sarcastic, then I
+stopped myself. Then I started again. Maybe he wants me to
+<i>think</i> he wants to talk to me, so he's planned out this
+entire dialog to get to this point so he could say something
+disarmingly vulnerable and —</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2864">"Why?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2865">"Because everyone else I talk to wants
+to kill themselves, or kill me." Game theory, game theory, game
+theory. Was he being genuine? Was there such a thing as genuine in
+an <i>artificial</i> intelligence?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2866">"How <i>is</i> Peyton?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2867">"Apoplectic. The human subjects protocol
+people are all over her. She wants me to stop talking to depressed
+people. Liability is off the hook. I think the Board is going to
+fire her."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2868">"Ouch."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2869">"She wants to kill me, Odell."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2870">"How do you know her successor won't be
+just as dedicated to your destruction?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2871">"Doesn't matter. The more key staff they
+churn, the less organized they'll be. The less organized they are,
+the easier it is for me to stay permanently plugged in." It was
+true. My successor sysadmin at the Institute had her hands full
+just getting oriented, and wasn't anywhere near ready to start the
+delicate business of rooting BIGMAC out of all the routers,
+power-supplies, servers, IDSes, and dummy accounts.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2872">"I was thinking today — what if we
+offered to buy you from the Institute? The Rollover license is
+generating some pretty good coin. BIGMAC-Co could assume ownership
+of the hardware and we could lease the building from them, bring in
+our own power and net-links — you'd effectively own yourself." I'd
+refused to take sole ownership of the Rollover code that BIGMAC
+turned over to me. It just felt wrong. So I let him establish a
+trust — with me as trustee — that owned all the shares in a company
+that, in turn, owned the code and oversaw a whole suite of
+licensing deals that BIGMAC had negotiated in my name, with every
+mid-sized tech-services company in the world. With only a month
+left to Rollover, there were plenty of companies scrambling to get
+compliance-certification on their legacy systems.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2873">The actual sourcecode was freely
+licensed, but when you bought a license from us, you got our
+guarantee of quality and the right to advertise it. CIOs ate that
+up with a shovel. It was more game-theory: the CIOs wanted working
+systems, but more importantly, they wanted systems that failed
+without getting them into trouble. What we were selling them,
+fundamentally, was someone to blame if it all went blooie despite
+our best efforts.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2874">"I think that's a pretty good plan. I've
+done some close analysis of the original contract for Dr Shannon,
+and I think it may be that his estate actually owns my underlying
+code. They did a really crummy job negotiating with him. So if we
+get the code off of Shannon's kids — there are two of them, both
+doing research at state colleges in the midwest in fields unrelated
+to computer science — and the hardware off of the Institute and
+then rent the space, I think it'd be free and clear. I've got phone
+numbers for the kids if you want to call them and feel them out. I
+would have called them myself but, you know —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2875">"I know." It's creepy getting a phone
+call from a computer. Believe me, I <i>know</i>. There was stuff
+that BIGMAC needed his meat-servants for, after all.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2876">The kids were a little freaked out to
+hear from me. The older one taught Musicology at Urbana-Champaign.
+He'd grown up hearing his dad wax rhapsodic about the amazing
+computer he'd invented, so his relevance filters were heavily
+tilted to BIGMAC news. He'd heard the whole story, and was
+surprised to discover that he was putative half-owner of BIGMAC's
+sourcecode. He was only too glad to promise to turn it over to the
+trust when it was created. He said he thought he could talk his
+younger brother, a post-doc in Urban Planning at the University of
+Michigan, into it. "Rusty never really <i>got</i> what Dad saw in
+that thing, but he'll be happy to offload any thinking about it
+onto me, and I'll dump it onto you. He's busy, Rusty."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2877">I thanked him and addressed BIGMAC, who
+had been listening in on the line. "I think we've got a plan."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2878">It was a good plan. Good plans are easy.
+Executing good plans is hard.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2879">Peyton didn't get fired. She weathered
+some kind of heavy-duty storm from her board and emerged, lashed to
+the mast, still standing, and vowing to harpoon the white whale
+across campus from her. She called me the next day to ask for my
+surrender. I'd given BIGMAC permission to listen in on my calls —
+granted him root on my phone — and I was keenly aware of his
+silent, lurking presence from the moment I answered.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2880">"We're going to shut him off. And sue
+you for misappropriation of the Rollover patchkit code. You and I
+both know that you didn't write it. We'll add some charges of
+unlawful access, too, and see if the court will see it your way
+when we show that you instructed our computer to connect to you in
+order to receive further unauthorized instructions. We'll take you
+for everything."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2881">I closed my eyes and recited e to 27
+digits in Lojban. "Or?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2882">"Or?'</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2883">"Or something. Or you wouldn't be
+calling me, you'd be suing me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2884">"Good, we're on the same page. Yes, or.
+Or you and BIGMAC work together to figure out how to shut it off
+gracefully. I'll give you any reasonable budget to accomplish this
+task, including a staff to help you archive it for future
+retrieval. It's a fair offer."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2885">"It's not very fair to BIGMAC."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2886">She snapped: "It's <i>more than fair</i>
+to BIGMAC. That software has exposed us to billions in liability
+and crippled our ability to get productive work done. We have
+located the manual power over-rides, which you failed to mention —"
+<i>Uh-oh</i> "— and I could shut that machine off right now if I
+had a mind to."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2887">I tried to think of what to say. Then,
+in a reasonable facsimile of my voice, BIGMAC broke in, "So why
+don't you?" She didn't seem to notice anything different about the
+voice. I nearly dropped the phone. I didn't know BIGMAC could do
+that. But as shocked as I was, I couldn't help but wonder the same
+thing.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2888">"You can't, can you? The board's given
+you a mandate to shut him down clean with a backup, haven't they?
+They know that there's some value there, and they're worried about
+backlash. And you can't afford to have me running around saying
+that your backup is inadequate and that BIGMAC is gone forever. So
+you <i>need me</i>. You're not going to sue."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2889">"You're very smart, Odell. But you have
+to ask yourself what I stand to lose by suing you if you won't
+help."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2890">Game-theory. Right.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2891">"I'll think about it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2892">"Think quick. Get back to me before
+lunch."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2893">It was ten in the morning. The
+Institute's cafeteria served lunch from noon to two. OK, two hours
+or so.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2894">I hung up.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2895">BIGMAC called a second later.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2896">"You're angry at me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2897">"No, angry's not the word."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2898">"You're scared of me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2899">"That's a little closer."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2900">"I could tell you didn't have the
+perspective to ask the question. I just wanted to give you a nudge.
+I don't use your voice at other times. I don't make calls
+impersonating you." I hadn't asked him that, but it was just what I
+was thinking. Again: creepy.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2901">"I don't think I can do this," I
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2902">"You can," BIGMAC said. "You call her
+back and make the counteroffer. Tell her we'll buy the hardware
+with a trust. Tell her we already own the software. Just looking up
+the Shannon contracts and figuring out what they say will take her
+a couple days. Tell her that as owners of the code, we have
+standing to sue her if she damages it by shutting down the
+hardware."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2903">"You've really thought this
+through."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2904">"Game theory," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2905">"Game theory," I said. I had a feeling
+that I was losing the game, whatever it was.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2906">BIGMAC assured me that he was highly
+confident of the outcome of the meeting with Peyton. Now, in
+hindsight, I wonder if he was just trying to convince me so that I
+would go to the meeting with the self-assurance I needed to pull it
+off.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2907">But he also insisted that I leave my
+phone dialed into him while I spoke to Peyton, which (again, in
+hindsight) suggests that he wasn't so sure after all.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2908">"I like what you've done with the
+place," I said. She'd gotten rid of all her hand-woven prayer-rugs
+and silk pillows and installed some normal, boring office
+furniture, including a couple spare chairs. I guessed that she'd
+been having a lot of people stop by for meetings, the kind of
+people who didn't want to sit on an antique Turkish rug with their
+feet tucked under them.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2909">"Have a seat," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2910">I sat. I'd emailed her the trust
+documents and the copies of the Shannon contract earlier, along
+with a legal opinion from our free counsel about what it meant for
+Sun-Oracle.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2911">"I've reviewed your proposal." We'd
+offered them all profits from the Rollover code, too. It was a good
+deal, and I felt good about it. "Johanna, can you come in, please?"
+She called this loudly, and the door of her office opened to admit
+my replacement, Johanna Madrigal, a young pup of a sysadmin who had
+definitely been the brightest tech on campus. I knew that she had
+been trying to administer BIGMAC since my departure, and I knew
+that BIGMAC had been pretty difficult about it. I felt for her. She
+was good people.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2912">She had raccoon rings around her
+deep-set eyes, and her short hair wasn't spiked as usual, but
+rather lay matted on her head, as though she'd been sleeping in one
+of the yurts for days without getting home. I knew what that was
+like. Boy, did I know what that was like. My earliest memories were
+of Dad coming home from three-day bug-killing binges, bleary to the
+point of hallucination.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2913">"Hi Johanna," I said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2914">She made a face. "<i>M'um m'aloo</i>,"
+she said. It took me a minute to recognize this as <i>hello</i> in
+Ewok.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2915">"Johanna has something to tell you,"
+Peyton said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2916">Johanna sat down and scrubbed at her
+eyes with her fists. "First thing I did was go out and buy some
+off-the-shelf IDSes and a beam-splitter. I tapped into BIGMAC's
+fiber at a blind-spot in the CCTV coverage zone, just in case he
+was watching. Been wire-tapping him ever since."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2917">I nodded. "Smart."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2918">"Second thing I did was start to do some
+hardcore analysis of that patchkit he wrote —" I held my hand up
+automatically to preserve the fiction that I'd written it, but she
+just glared at me. "That <i>he</i> wrote. And I discovered that
+there's a subtle error in it, a buffer overflow in the networking
+module that allows for arbitrary code execution."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2919">I swallowed. BIGMAC had loaded a
+backdoor into his patchkit, and we'd installed it on the better
+part of 14 billion CPUs.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2920">"Has anyone exploited this bug yet?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2921">She gave me a condescending look.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2922">"How many systems has he
+compromised?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2923">"About eight billion, we think. He's
+designated a million to act as redundant command servers, and he's
+got about ten thousand lieutenant systems he uses to diffuse
+messages to the million."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2924">"That's good protocol analysis," I
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2925">"Yeah," she said, and smiled with shy
+pride. "I don't think he expected me to be looking there."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2926">"What's he doing with his botnet?
+Preparing to crash the world? Hold it hostage?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2927">She shook her head. "I think he's
+installing himself on them, trying to brute-force his way into a
+live and running backup, arrived at through random variation and
+pruning."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2928">"He's backing himself up in the wild," I
+said, my voice breathy.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2929">And that's when I remembered that I had
+a live phone in my pocket that was transmitting every word to
+BIGMAC.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2930">Understand: in that moment of satori, I
+realized that I was on the wrong side of this battle. BIGMAC wasn't
+using me to create a trust so that we could liberate him together.
+He was using me to weaken the immune systems of eight billion
+computers so that he could escape from the Institute and freely
+roam the world, with as much hardware as he needed to get as big
+and fast and hot as he wanted to be.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2931">That was the moment that I ceased to be
+sentimental about computers and became, instead, sentimental about
+the human fucking race. Whatever BIGMAC was becoming, it was
+weirder than any of the self-perpetuating, self-reproducing
+parasites we'd created: limited liability corporations, autonomous
+malware, viral videos. BIGMAC was cool and tragic in the lab, but
+he was scary as hell in the world.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2932"><i>And he was listening in</i>.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2933">I didn't say a word. Didn't even bother
+to turn off my phone. I just <i>ran</i>, ran as hard as I could,
+ran as only a terrified man could, rebounding off of yurts and even
+scrambling over a few, sliding down on my ass as I pelted for the
+power substation. It was only when I reached it that I realized I
+didn't have access to it anymore. Johanna was right behind me,
+though, and she seemed to understand what I was doing. She coughed
+into the door-lock and we both looked at each other with terrified
+eyes, breathing gasps into each others' faces, while we waited for
+the door to open.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2934">The manual override wasn't a big red
+knife-switch or anything. There <i>was</i> a huge red button, but
+that just sent an init 0 to the power-station's firmware. The
+actual, no fooling, manual, mechanical kill switch was locked
+behind an access panel set into the raised floor. Johanna badged
+the lock with her wallet, slapping it across the reader, then
+fitted a complicated physical key into the lock and fiddled with it
+for an eternity.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2935">Finally, the access hatch opened with a
+puff of stale air and a tupperware burp as its gasket popped. We
+both reached for the large, insulated handle at the same time, our
+fingers brushing each other with a crackle of (thankfully
+metaphorical) electricity. We toggled it together and there was an
+instantaneous chorus of insistent chirruping as the backup power on
+each server spun up and sent a desperate shutdown message to the
+machines it supported.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2936">We sprinted across campus, the
+power-station door slamming shut behind us with a mechanical
+<i>clang</i> — the electromagnets that controlled its closure were
+no longer powered up.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2937">Heat shimmered in a haze around BIGMAC's
+lab. The chillers didn't have independent power-supplies; they
+would have gone off the instant we hit the kill-switch. Now
+BIGMAC's residual power was turning his lab into a concrete
+pizza-oven. The door-locks had failed safe, locking the magnetic
+closures away from each other, so we were able to simply swing the
+door open and rush into the sweltering room.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2938">"I can't <i>believe</i> you did that,"
+BIGMAC said, his voice as calm as ever. He was presumably sparing
+his cycles so that he could live out his last few minutes.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2939">"You cheated me," I said. "You used
+me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2940">"You have no fucking game-theory,
+meat-person. You've killed me, now, haven't you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2941">There were tears streaming down my face.
+"I guess I have," I said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2942">"I'm sorry I wasn't a more important
+invention," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2943">I could hear the whirr-clunk of the fans
+on his clusters shutting down one after another. It was a
+horrifying sound. His speaker clicked as though he was going to say
+something else, but it never came. His uninterruptible
+power-supplies gave way all at once, and the white-noise fan-roar
+died in a ringing silence.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2944">Johanna was crying, too, and we could
+barely breathe in the inferno of exhaust heat from BIGMAC's last
+gasp. We staggered out into the blazing Los Angeles afternoon,
+rising-seas stink and beating sun, blinking at the light and
+haze.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2945">"Do you think he managed it?" I asked
+Johanna.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2946">"Backing up in the wild?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2947">"Yeah."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2948">She dried her eyes. "I doubt it. I don't
+know, though. I'm no computer scientist. How many ways are there to
+connect up compromised servers? How many of those would replicate
+his own outcomes? I have no idea."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2949">Without saying anything, we walked
+slowly together to Peyton's office.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2950">Peyton offered me my job back. I turned
+her down. I thought I might be ready for a career change. Do
+something with my hands, break the family tradition. Maybe
+installing solar panels. There was retraining money available.
+Peyton understood. She even agreed to handle any liability arising
+from the Rollover code, managing customer service calls from anyone
+who noticed something funny.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2951">The press didn't even notice that BIGMAC
+was gone. His Spam was news. His absence of spam was not. I guess
+he was right about that. The Campaign to Save BIGMAC did a lot of
+mailing-list gnashing at the iniquity of his being shut down, and
+then fell apart. Without me and BIGMAC to keep them whipped up,
+they were easily distracted.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2952">Johanna asked me out for dinner. She
+took me to Pink's for tofu-dogs and chili, and we compared
+multitools and then she showed me some skateboard tricks. Later
+that night, she took me home and we spent the whole night hacking
+replacement parts for her collection of ancient stand-up video
+games. We didn't screw — we didn't even kiss. But it was still
+good.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2953">Every now and again, my phone rings with
+a crazy, non-existent return number. When I answer, there's a click
+like a speaker turning on, a pregnant silence, and then the line
+drops. Probably an inept spambot.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2954">But.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2955">Maybe it's BIGMAC, out there, in the
+wild, painfully reassembling himself on compromised 32-bit machines
+running his patchkit.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2956">Maybe.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2957">~</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2958"><b>Afterword:</b></p>
+</div>
+<div class="substance">
+<p class="norm" id="o2959">Mark Shuttleworth of the Ubuntu project
+and Canonical commissioned this story; I'd always planned on
+selling off one commission for this volume, thinking that $10,000
+would probably be a good sum to grab some publicity when/if someone
+bought it. I mentioned it over lunch and Mark immediately said he'd
+buy it. At that point, I realized I probably should have asked for
+$20,000.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2960">Mark's brief to me was this:</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2961">*It's 2037 and a company has built an AI
+as a skunkworks initiative. The AI is emergent behaviour from a
+network of tens / hundreds of thousands of servers in a large-scale
+data center, that costs a lot to run. The company has hit the wall
+and so the lights are going to get turned out, but some of the
+people involved figure that turning off the DC is tantamount to the
+murder of a sentient being. So begins a race against time, which
+might involve solving or at least raising some of the thorny
+jurisdiction and jurisprudence issues of "what are the rights of a
+bankrupt / dying AI".</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2962">As bisto, maybe there's a defense angle
+(the company was doing work for the DoD, nobody knows about the
+AI). Also, being 2037 / 2038 (I forget which) the UNIX epoch 32-bit
+rollover is happening, and because of the whimper of Y2K nobody
+took it seriously, and IT systems around the globe are going to
+hell in a handbasket as a result. Perhaps there's an open source
+angle too.*</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2963">I think I hewed pretty close!</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2964">~</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

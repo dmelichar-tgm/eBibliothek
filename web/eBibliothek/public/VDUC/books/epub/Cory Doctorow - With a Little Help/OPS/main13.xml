@@ -1,0 +1,3340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content=
+"HTML Tidy for FreeBSD (vers 25 March 2009), see www.w3.org" />
+<title>With a Little Help</title>
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+<meta http-equiv="Content-Type" content=
+"application/xhtml+xml; charset=utf-8" />
+</head>
+<body>
+<div class="body">
+<div id="chapter_422943" class="chapter">
+<h2><span class="chapterHeader"><span class=
+"translation">Chapter</span> <span class="count">11</span></span>
+Chicken Little</h2>
+<div class="text">
+<div class="substance">
+<p class="norm" id="o2039">The first lesson Leon learned at the ad
+agency was: Nobody is your friend at the ad agency.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2040">Take today: Brautigan was going to see
+an actual vat, at an actual clinic, which housed an actual target
+consumer, and he wasn't taking Leon.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2041">"Don't sulk, it's unbecoming," Brautigan
+said, giving him one of those tight-lipped smiles where he barely
+got his mouth over those big, horsey, comical teeth of his. They
+were disarming, those pearly whites. "It's out of the question.
+Getting clearance to visit a vat in person, that's a one month, two
+month process. Background checks. Biometrics. Interviews with their
+psych staff. The physicals: they have to take a census of your
+microbial nation. It takes time, Leon. You might be a mayfly in a
+mayfly hurry, but the man in the vat, he's got a lot of time on his
+hands. No skin off his dick if you get held up for a month or
+two."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2042">"Bullshit," Leon said. "It's all a show.
+They've got a brick wall a hundred miles high around the front, and
+a sliding door around the back. There's always an exception in
+these protocols. There has to be."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2043">"When you're 180 years old and confined
+to a vat, you don't make exceptions. Not if you want to go on to
+181."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2044">"You're telling me that if the old
+monster suddenly developed a rare, fast-moving liver cancer and
+there was only one oncologist in the whole goddamned world who
+could make it better, you're telling me that guy would be sent home
+to France or whatever, No thanks, we're OK, you don't have
+clearance to see the patient?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2045">"I'm telling you the monster <i>doesn't
+have a liver</i>. What that man has, he has <i>machines</i> and
+<i>nutrients</i> and <i>systems</i>."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2046">"And if a machine breaks down?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2047">"The man who invented that machine works
+for the monster. He lives on the monster's private estate, with his
+family. <i>Their</i> microbial nations are identical to the
+monster's. He is not only the emperor of their lives, he is the
+emperor of the lives of their intestinal flora. If the machine that
+man invented stopped working, he would be standing by the vat in
+less than two minutes, with his staff, all in disposable, sterile
+bunny suits, murmuring reassuring noises as he calmly, expertly
+fitted one of the ten replacements he has standing by, the ten
+replacements he checks, <i>personally</i>, every single day, to
+make sure that they are working."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2048">Leon opened his mouth, closed it. He
+couldn't help himself, he snorted a laugh. "Really?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2049">Brautigan nodded.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2050">"And what if none of the machines
+worked?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2051">"If that man couldn't do it, then his
+rival, who <i>also</i> lives on the monster's estate, who has
+developed the second-most-exciting liver replacement technology in
+the history of the world, who burns to try it on the man in the vat
+— <i>that</i> man would be there in ten minutes, and the first man,
+and his family —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2052">"Executed?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2053">Brautigan made a disappointed noise.
+"Come on, he's a quadrillionaire, not a Bond villain. No, that man
+would be demoted to nearly nothing, but given one tiny chance to
+redeem himself: invent a technology better than the one that's
+currently running in place of the vat-man's liver, and you will be
+restored to your fine place with your fine clothes and your wealth
+and your privilege."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2054">"And if he fails?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2055">Brautigan shrugged. "Then the man in the
+vat is out an unmeasurably minuscule fraction of his personal
+fortune. He takes the loss, applies for a research tax-credit for
+it, and deducts it from the pittance he deigns to send to the IRS
+every year."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2056">"Shit."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2057">Brautigan slapped his hands together.
+"It's wicked, isn't it? All that money and power and money and
+money?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2058">Leon tried to remember that Brautigan
+wasn't his friend. It was those teeth, they were so
+<i>disarming</i>. Who could be suspicious of a man who was so
+horsey you wanted to feed him sugar cubes? "It's something
+else."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2059">"You now know about ten thousand times
+more about the people in the vats than your average cit. But you
+haven't even got the shadow of the picture yet, buddy. It took
+<i>decades</i> of relationship-building for Ate to sell its first
+product to a vat-person."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2060">*And we haven't sold anything else
+since,* Leon thought, but he didn't say it. No one would say it at
+Ate. The agency pitched itself as a powerhouse, a success in a
+field full of successes. It was <i>the</i> go-to agency for
+servicing the "ultra-high-net-worth individual," and yet…</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2061">One sale.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2062">"And we haven't sold anything since."
+Brautigan said it without a hint of shame. "And yet, this entire
+building, this entire agency, the salaries and the designers and
+the consultants: all of it paid for by clipping the toenails of
+that fortune. Which means that one <i>more</i> sale —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2063">He gestured around. The offices were
+sumptuous, designed to impress the functionaries of the fortunes in
+the vats. A trick of light and scent and wind made you feel as
+though you were in an ancient forest glade as soon as you came
+through the door, though no forest was in evidence. The reception
+desktop was a sheet of pitted tombstone granite, the unreadable
+smooth epitaph peeking around the edges of the old fashioned
+typewriter that had been cunningly reworked to serve as a
+slightly-less-old-fashioned keyboard. The receptionist — presently
+ignoring them with professional verisimilitude — conveyed beauty,
+intelligence, and motherly concern, all by means of dress, bearing
+and makeup. Ate employed a small team of stylists that worked on
+all public-facing employees; Leon had endured a just-so rumpling of
+his sandy hair and some carefully applied fraying at the cuffs and
+elbows of his jacket that morning.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2064">"So no, Leon, buddy, I am <i>not</i>
+taking you down to meet my vat-person. But I <i>will</i> get you
+started on a path that may take you there, some day, if you're very
+good and prove yourself out here. Once you've paid your dues."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2065">Leon had paid plenty of dues — more than
+this blow-dried turd ever did. But he smiled and snuffled it up
+like a good little worm, hating himself. "Hit me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2066">"Look, we've been pitching vat-products
+for six years now without a single hit. Plenty of people have come
+through that door and stepped into the job you've got now, and
+they've all thrown a million ideas in the air, and every one came
+smashing to earth. We've never systematically catalogued those
+ideas, never got them in any kind of grid that will let us see what
+kind of territory we've already explored, where the holes are… " He
+looked meaningfully at Leon.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2067">"You want me to catalog every failed
+pitch in the agency's history." Leon didn't hide his
+disappointment. That was the kind of job you gave to an intern, not
+a junior account exec.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2068">Brautigan clicked his horsey teeth
+together, gave a laugh like a whinny, and left Ate's offices,
+admitting a breath of the boring air that circulated out there in
+the real world. The receptionist radiated matronly care in his
+direction. He leaned her way and her fingers thunked on the
+mechanical keys of her converted Underwood Noiseless, a machinegun
+rattle. He waited until she was done, then she turned that caring,
+loving smile back on him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2069">"It's all in your workspace, Leon — good
+luck with it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2070">It seemed to Leon that the problems
+faced by immortal quadrillionaires in vats wouldn't be that
+different from those facing mere mortals. Once practically anything
+could be made for practically nothing, everything was practically
+worthless. No one needed to discover anymore — just <i>combine</i>,
+just <i>invent</i>. Then you could either hit a button and print it
+out on your desktop fab or down at the local depot for bigger jobs,
+or if you needed the kind of fabrication a printer couldn't handle,
+there were plenty of on-demand jobbers who'd have some worker in a
+distant country knock it out overnight and you'd have it in
+hermetic FedEx packaging on your desktop by the morning.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2071">Looking through the Ate files, he could
+see that he wasn't the last one to follow this line of reasoning.
+Every account exec had come up with pitches that involved things
+that <i>couldn't</i> be fabbed — precious gewgaws that needed a
+trained master to produce — or things that <i>hadn't</i> been
+fabbed — antiques, one-of-a-kinds, fetish objects from history. And
+all of it had met with crashing indifference from the vat-people,
+who could hire any master they wanted, who could buy entire
+warehouses full of antiques.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2072">The normal megarich got offered
+experiences: a ticket to space, a chance to hunt the last member of
+an endangered species, the opportunity to kill a man and get away
+with it, a deep-ocean sub to the bottom of the Marianas trench. The
+people in the vat had done plenty of those things before they'd
+ended up in the vats. Now they were metastatic, these hyperrich,
+lumps of curdling meat in the pickling solution of a hundred vast
+machines that laboriously kept them alive amid their cancer-blooms
+and myriad failures. Somewhere in that tangle of hoses and wires
+was something that was technically a person, and also technically a
+corporation, and, in many cases, technically a sovereign state.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2073">Each concentration of wealth was an
+efficient machine, meshed in a million ways with the mortal
+economy. You interacted with the vats when you bought hamburgers,
+Internet connections, movies, music, books, electronics, games,
+transportation — the money left your hands and was sieved through
+their hoses and tubes, flushed back out into the world where other
+mortals would touch it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2074">But there was no easy way to touch the
+money at its most concentrated, purest form. It was like a
+theoretical superdense element from the first instant of the
+universe's creation, money so dense it stopped acting like money;
+money so dense it changed state when you chipped a piece of it
+off.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2075">Leon's predecessors had been shrewd and
+clever. They had walked the length and breadth of the problem space
+of providing services and products to a person who was money who
+was a state who was a vat. Many of the nicer grace-notes in the
+office came from those failed pitches — the business with the
+lights and the air, for example.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2076">Leon had a good education, the kind that
+came with the mathematics of multidimensional space. He kept
+throwing axes at his chart of the failed inventions of Ate, Inc.,
+mapping out the many ways in which they were similar and
+dissimilar. The pattern that emerged was easy to understand.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2077">They'd tried <i>everything</i>.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2078">Brautigan's whinny was the most
+humiliating sound Leon had ever heard, in all his working life.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2079">"No, of course you can't know what got
+sold to the vat-person! That was part of the deal — it was why the
+payoff was so large. <i>No one</i> knows what we sold to the
+vat-person. Not me, not the old woman. The man who sold it? He
+cashed out years ago, and hasn't been seen or heard from since.
+Silent partner, preferred shares, controlling interest — but he's
+the invisible man. We talk to him through lawyers who talk to
+lawyers who, it is rumored, communicate by means of notes left
+under a tombstone in a tiny cemetery on Pitcairn Island, and row in
+and out in longboats to get his instructions."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2080">The hyperbole was grating on Leon. Third
+day on the job, and the sun-dappled, ozonated pseuodoforested
+environment felt as stale as an old gym bag (there was, in fact, an
+old gym bag under his desk, waiting for the day he finally pulled
+himself off the job in time to hit the complimentary gym).
+Brautigan was grating on him more than the hyperbole.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2081">"I'm not an asshole, Brautigan, so stop
+treating me like one. You hired me to do a job, but all I'm getting
+from you is shitwork, sarcasm, and secrecy." The alliteration came
+out without his intending it to, but he was good at that sort of
+thing. "So here's what I want to know: is there any single solitary
+reason for me to come to work tomorrow, or should I just sit at
+home, drawing a salary until you get bored of having me on the
+payroll and can my ass?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2082">It wasn't entirely spontaneous. Leon's
+industrial psychology background was pretty good — he'd gotten
+straight A's and an offer of a post-doc, none of which had
+interested him nearly so much as the practical applications of the
+sweet science of persuasion. He understood that Brautigan had been
+pushing him around to see how far he'd push. No one pushed like an
+ad-guy — if you could sweet-talk someone into craving something, it
+followed that you could goad him into hating something just as
+much. Two faces of a coin and all that.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2083">Brautigan faked anger, but Leon had
+spent three days studying his tells, and Leon could see that the
+emotion was no more sincere than anything else about the man.
+Carefully, Leon flared his nostrils, brought his chest up, inched
+his chin higher. He <i>sold</i> his outrage, sold it like it was
+potato chips, over-the-counter securities, or under-the-counter
+diet pills. Brautigan tried to sell his anger in return. Leon was a
+no-sale. Brautigan bought.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2084">"There's a new one," he said, in a
+conspiratorial whisper.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2085">"A new what?" Leon whispered. They were
+still chest to chest, quivering with angry body-language, but Leon
+let another part of his mind deal with that.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2086">"A new monster," Brautigan said. "Gone
+to his vat at a mere 103. Youngest ever. Unplanned." He looked up,
+down, left, right. "An accident. Impossible accident. Impossible,
+but he had it, which means?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2087">"It was no accident," Leon said.
+"Police?" It was impossible not to fall into Brautigan's
+telegraphed speech-style. That was a persuasion thing, too, he
+knew. Once you talked like him, you'd sympathize with him. And
+vice-versa, of course. They were converging on a single identity.
+Bonding. It was intense, like make-up sex for co-workers.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2088">"He's a sovereign three ways. An African
+republic, an island, one of those little Baltic countries. On the
+other side of the international vowel line. Mxlplx or something.
+They swung for him at the WTO, the UN — whole bodies of
+international trade law for this one. So no regular cops; this is
+diplomatic corps stuff. And, of course, he's not dead, so that
+makes it more complicated."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2089">"How?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2090">"Dead people become corporations. They
+get managed by boards of directors who act predictably, if not
+rationally. Living people, they're <i>flamboyant</i>. Seismic.
+Unpredictable. But. On the other hand." He waggled his
+eyebrows.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2091">"On the other hand, they buy
+things."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2092">"Once in a very long while, they
+do."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2093">Leon's life was all about discipline.
+He'd heard a weight-loss guru once explain that the key to
+maintaining a slim figure was to really "listen to your body" and
+only eat until it signaled that it was full. Leon had listened to
+his body. It wanted three entire pepperoni and mushroom pizzas
+every single day, plus a rather large cake. And malted milkshakes,
+the old fashioned kind you could make in your kitchen with an
+antique Hamilton Beech machine in avocado-colored plastic, served
+up in a tall red anodized aluminum cup. Leon's body was extremely
+verbose on what it wanted him to shovel into it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2094">So Leon ignored his body. He ignored his
+mind when it told him that what it wanted to do was fall asleep on
+the sofa with the video following his eyes around the room, one of
+those shows that followed your neural activity and tried to tune
+the drama to maximize your engrossment. Instead, he made his mind
+sit up in bed, absorbing many improving books from the mountain
+he'd printed out and stacked there.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2095">Leon ignored his limbic system when it
+told him to stay in bed for an extra hour every morning when his
+alarm detonated. He ignored the fatigue messages he got while he
+worked through an hour of yoga and meditation before breakfast.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2096">He wound himself up tight with will and
+it was will that made him stoop to pick up the laundry on the
+stairs while he was headed up and fold it neatly away when he got
+to the spacious walk-in dressing room attached to the master
+bedroom (the apartment had been a good way to absorb his Ate
+signing bonus — safer than keeping the money in cash, with the
+currency fluctuations and all. Manhattan real estate was a
+century-long good buy and was more stable than bonds, derivatives
+or funds). It was discipline that made pay every bill as it came
+in. It was all that which made him wash every dish when he was done
+with it and assiduously stop at the grocer's every night on the way
+home to buy anything that had run out the previous day.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2097">His parents came to visit from Anguilla
+and they teased him about how <i>organized</i> he was, so unlike
+the fat little boy who'd been awarded the "Hansel and Gretelprize"
+by his sixth grade teacher for leaving a trail behind him
+everywhere he went.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2098">What they didn't know was that he was
+still that kid, and every act of conscientious, precise,
+buttoned-down finicky habit was, in fact, the product of
+relentless, iron determination not to be that kid again. He not
+only ignored that inner voice of his that called out for pizzas and
+told him to sleep in, take a cab instead of walking, lie down and
+let the video soar and dip with his moods, a drip-feed of null and
+nothing to while away the hours — he actively denied it, shouted it
+into submission, locked it up and never let it free.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2099">And that — <i>that</i> — that was why he
+was going to figure out how to sell something new to the man in the
+vat: because anyone who could amass that sort of fortune and go
+down to life eternal in an ever-expanding kingdom of machines would
+be the sort of person who had spent a life denying himself, and
+Leon knew <i>just</i> what that felt like.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2100">The Lower East Side had ebbed and flowed
+over the years: poor, rich, middle-class, super-rich, poor. One
+year the buildings were funky and reminiscent of the romantic
+squalor that had preceded this era of lightspeed buckchasing. The
+next year, the buildings were merely squalorous, the landlords
+busted and the receivers in bankruptcy slapping up paper-thin walls
+to convert giant airy lofts into rooming houses. The corner stores
+sold blunt-skins to trustafarian hipsters with a bag of something
+gengineered to disrupt some extremely specific brain structures;
+then they sold food-stamp milk to desperate mothers who wouldn't
+meet their eyes. The shopkeepers had the knack of sensing changes
+in the wind and adjusting their stock accordingly.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2101">Walking around his neighborhood, Leon
+sniffed change in the wind. The shopkeepers seemed to have more
+discount, high-calorie wino-drink; less designer low-carb energy
+food with FDA-mandated booklets explaining their nutritional
+claims. A sprinkling of FOR RENT signs. A construction site that
+hadn't had anyone working on it for a week now, the padlocked
+foreman's shed growing a mossy coat of graffiti.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2102">Leon didn't mind. He'd lived rough — not
+just student-rough, either. His parents had gone to Anguilla from
+Romania, chasing the tax-haven set, dreaming of making a killing
+working as bookkeepers, security guards. They'd mistimed the trip,
+arrived in the middle of an econopocalyptic collapse and ended up
+living in a vertical slum that had once been a luxury hotel. The
+sole Romanians among the smuggled Mexicans who were de-facto
+slaves, they'd traded their ability to write desperate letters to
+the Mexican consulate for Spanish lessons for Leon. The Mexicans
+dwindled away — the advantage of de-facto slaves over de-jure
+slaves is that you can just send the de-facto slaves away when the
+economy tanked, taking their feed and care off your books — until
+it was just them there, and without the safety of the crowd, they'd
+been spotted by local authorities and had to go underground. Going
+back to Bucharest was out of the question — the airfare was as far
+out of reach as one of the private jets the tax-evaders and
+high-rolling gamblers flew in and out of Wallblake Airport.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2103">From rough to rougher. Leon's family
+spent three years underground, living as roadside hawkers, letting
+the sun bake them to an ethnically indeterminate brown. A decade
+later, when his father had successfully built up his little
+bookkeeping business and his mother was running a smart dress-shop
+for the cruise-ship day-trippers, those days seemed like a dream.
+But once he left for stateside university and found himself amid
+the soft, rich children of the fortunes his father had tabulated,
+it all came back to him, and he wondered if any of these children
+in carefully disheveled rags would ever be able to pick through the
+garbage for their meals.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2104">The rough edge on the LES put him at his
+ease, made him feel like he was still ahead of the game, in
+possession of something his neighbors could never have — the
+ability to move fluidly between the worlds of the rich and the
+poor. Somewhere in those worlds, he was sure, was the secret to
+chipping a crumb off one of the great fortunes of the world.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2105">"Visitor for you," Carmela said.
+Carmela, that was the receptionist's name. She was Puerto Rican,
+but so many generations in that he spoke better Spanish than she
+did. "I put her in the Living Room." That was one of the three
+board rooms in at Ate, the name a bad pun, every stick of furniture
+in it an elaborate topiary sculpture of living wood and shrubbery.
+It was surprisingly comfortable, and the very subtle breeze had an
+even more subtle breath of honeysuckle that was so real he
+suspected it was piped in from a nursery on another level. That's
+how he would have done it: the best fake was no fake at all.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2106">"Who?" He liked Carmela. She was all
+business, but her business was compassion, a shoulder to cry on and
+an absolutely discreet gossip repository for the whole firm.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2107">"Envoy," she said. " Name's Buhle. I ran
+his face and name against our dossiers and came up with practically
+nothing. He's from Montenegro, originally, I have that much."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2108">"Envoy from whom?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2109">She didn't answer, just looked very
+meaningfully at him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2110">The new vat-person had sent him an
+envoy. His heart began to thump and his cuffs suddenly felt tight
+at his wrists. "Thanks, Carmela." He shot his cuffs.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2111">"You look fine," she said. "I've got the
+kitchen on standby, and the intercom's listening for my voice. Just
+let me know what I can do for you."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2112">He gave her a weak smile. This was why
+she was the center of the whole business, the soul of Ate. <i>Thank
+you,</i> he mouthed, and she ticked a smart salute off her temple
+with one finger.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2113">The envoy was out of place in Ate, but
+she didn't hold it against them. This he knew within seconds of
+setting foot into the Living Room. She got up, wiped her hands on
+her sensible jeans, brushed some iron-grey hair off her face, and
+smiled at him, an expression that seemed to say, "Well, this is a
+funny thing, the two of us, meeting here, like this." He'd put her
+age at around 40, and she was hippy and a little wrinkled and
+didn't seem to care at all.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2114">"You must be Leon," she said, and took
+his hand. Short fingernails, warm, dry, palm, firm handshake. "I
+<i>love</i> this room!" She waved her arm around in an
+all-encompassing circle. "Fantastic."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2115">He found himself half in love with her
+and he hadn't said a word. "It's nice to meet you, Ms —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2116">"Ria," she said. "Call me Ria." She sat
+down on one of the topiary chairs, kicking off her comfortable hush
+puppies and pulling her legs up to sit cross-legged.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2117">"I've never gone barefoot in this room,"
+he said, looking at her calloused feet — feet that did a lot of
+barefooting.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2118">"Do it," she said, making scooting
+gestures. "I insist. Do it!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2119">He kicked off the handmade shoes —
+designed by an architect who'd given up on literary criticism to
+pursue cobblery — and used his toes to peel off his socks. Under
+his feet, the ground was — warm? cool? — it was <i>perfect</i>. He
+couldn't pin down the texture, but it made every nerve ending on
+the sensitive soles of his feet tingle pleasantly.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2120">"I'm thinking something that goes
+straight into the nerves," she said. "It has to be.
+Extraordinary."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2121">"You know your way around this place
+better than I do," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2122">She shrugged. "This room was clearly
+designed to impress. It would be stupid to be so cool-obsessed that
+I failed to let it impress me. I'm impressed. Also," she dropped
+her voice, "also, I'm wondering if anyone's ever snuck in here and
+screwed on that stuff." She looked seriously at him and he tried to
+keep a straight face, but the chuckle wouldn't stay put in his
+chest, and it broke loose, and a laugh followed it, and she whooped
+and they both laughed, hard, until their stomachs hurt.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2123">He moved toward another topiary
+easy-chair, then stopped, bent down, and sat on the mossy floor,
+letting it brush against his feet, his ankles, the palms of his
+hands and his wrists. "If no one ever has, it's a damned shame," he
+said, with mock gravity. She smiled, and she had dimples and
+wrinkles and crowsfeet, so her whole face smiled. "Do you want
+something to eat? Drink? We can get pretty much anything here
+—"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2124">"Let's get to it," she said. "I don't
+want to be rude, but the good part isn't the food. I get all the
+food I need. I'm here for something else. The good part, Leon."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2125">He drew in a deep breath. "The good
+part," he said. "OK, let's get to it. I want to meet your —" What?
+Employer? Patron? Owner? He waved his hand.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2126">"You can call him Buhle," she said.
+"That's the name of the parent company, anyway. Of course you do.
+We have an entire corporate intelligence arm that knew you'd want
+to meet with Buhle before you did." Leon had always assumed that
+his workspaces and communications were monitored by his employer,
+but now it occurred to him that any system designed from the ground
+up to subject its users to scrutiny without their knowledge would
+be a bonanza for anyone <i>else</i> who wanted to sniff them, since
+they could use the system's own capabilities to hide their snooping
+from the victims.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2127">"That's impressive," he said. "Do you
+monitor everyone who might want to pitch something to Buhle, or —"
+He let the thought hang out there.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2128">"Oh, a little of this and a little of
+that. We've got a competitive intelligence subdepartment that
+monitors everyone who might want to sell us something or sell
+something that might compete with us. It comes out to a pretty wide
+net. Add to that the people who might personally be a threat or
+opportunity for Buhle and you've got, well, let's say an
+appreciable slice of human activity under close observation."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2129">"How close can it be? Sounds like you've
+got some big haystacks."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2130">"We're good at finding the needles," she
+said. "But we're always looking for new ways to find them. That's
+something you could sell us, you know."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2131">He shrugged. "If we had a better way of
+finding relevance in mountains of data, we'd be using it ourselves
+to figure out what to sell you."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2132">"Good point. Let's turn this around. Why
+should Buhle meet with you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2133">He was ready for this one. "We have a
+track-record of designing products that suit people in his… "
+Talking about the vat-born lent itself to elliptical statements.
+Maybe that's why Brautigan had developed that annoying
+telegraph-talk.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2134">"You've designed one such product," she
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2135">"That's one more than almost anyone else
+can claim." There were two other firms like Ate. He thought of them
+in his head as Sefen and Nein, as though invoking their real names
+might cause them to appear. "I'm new here, but I'm not alone. We're
+tied in with some of the finest designers, engineers, research
+scientists… " Again with the ellipsis. "You wanted to get to the
+good part. This isn't the good part, Ria. You've got smart people.
+We've got smart people. What we have, what you don't have, is smart
+people who are impedance-mismatched to your organization. Every
+organization has quirks that make it unsuited to working with some
+good people and good ideas. You've got your no-go areas, just like
+anyone else. We're good at mining that space, the no-go space, the
+mote in your eye, for things that you need."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2136">She nodded and slapped her hands
+together like someone about to start a carpentry project. "That's a
+great spiel," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2137">He felt a little blush creep into his
+cheeks. "I think about this a lot, rehearse it in my head."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2138">"That's good," she said. "Shows you're
+in the right line of business. Are you a Daffy Duck man?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2139">He cocked his head. "More of a Bugs
+man," he said, finally, wondering where this was going.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2140">"Go download a cartoon called 'The
+Stupor Salesman,' and get back to me, OK?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2141">She stood up, wriggling her toes on the
+mossy surface and then stepping back into her shoes. He scrambled
+to his feet, wiping his palms on his legs. She must have seen the
+expression on his face because she made all those dimples and
+wrinkles and crowsfeet appear again and took his hand warmly. "You
+did very well," she said. "We'll talk again soon." She let go of
+his hand and knelt down to rub her hands over the floor. "In the
+meantime, you've got a pretty sweet gig, don't you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2142">The Stupor Salesman turned out to
+feature Daffy Duck as a traveling salesman bent on selling
+something to a bank robber who is holed up in a suburban bungalow.
+Daffy produces a stream of ever-more-improbable wares, and is
+violently rebuffed with each attempt. Finally, one of his attempts
+manages to blow up the robber's hideout, just as Daffy is once
+again jiggling the doorknob. As the robber and Daffy fly through
+the air, Daffy brandishes the doorknob at him and shouts, "Hey,
+bub, I know just what you need! You need a house to go with this
+doorknob!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2143">The first time he watched it, Leon
+snorted at the punchline, but on subsequent viewings, he found
+himself less and less amused. Yes, he was indeed trying to come up
+with a need that this Buhle didn't know he had — he was assuming
+Buhle was a he, but no one was sure — and then fill it. From
+Buhle's perspective, life would be just fine if Leon gave up and
+never bothered him again.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2144">And yet Ria had been so <i>nice</i> — so
+understanding and gentle, he thought there must be something else
+to this. And she had made a point of telling him that he had a
+"sweet gig" and he had to admit that it was true. He was contracted
+for five years with Ate, and would get a hefty bonus if they canned
+him before then. If he managed to score a sale to Buhle or one of
+the others, he'd be indescribably wealthy. In the meantime, Ate
+took care of his every need.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2145">But it was so <i>empty</i> there —
+that's what got him. There were a hundred people on Ate's
+production team, bright sorts like him, and most of them only used
+the office to park a few knick-knacks and impress out-of-town
+relatives. Ate hired the best, charged them with the impossible and
+turned them loose. They got lost.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2146">Carmela knew them all, of course. She
+was Ate's den-mother.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2147">"We should all get together," he said.
+"Maybe a weekly staff meeting?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2148">"Oh, they tried that," she said, sipping
+from the triple-filtered water that was always at her elbow. "No
+one had much to say. The collaboration spaces update themselves
+with all the interesting leads from everyone's research, and the
+suggestion engine is pretty good at making sure you get an overview
+of anything relevant to your work going on." She shrugged. "This
+place is a show-room, more than anything else. I always figured you
+had to give creative people room to be creative."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2149">He mulled this over. "How long do you
+figure they'll keep this place open if it doesn't sell anything to
+one of the vat people?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2150">"I try not to think about that too
+much," she said lightly. "I figure either we don't find something,
+run out of time and shut — and there's nothing I can do about it;
+or we find something in time and stay open — and there's nothing I
+can do about it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2151">"That's depressing."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2152">"I think of it as liberating. It's like
+that lady said, Leon, you've got a sweet gig. You can make anything
+you can imagine, and if you hit one out of the park, you'll attain
+orbit and never reenter the atmosphere."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2153">"Do the other account execs come around
+for pep talks?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2154">"Everyone needs a little help now and
+then," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2155">Ria met him for lunch at a supper-club
+in the living room of an 11th floor apartment in a slightly
+run-down ex-doorman building in midtown. The cooks were a
+middle-aged couple, he was Thai, she was Hungarian, the food was
+eclectic, light, and spicy, blending paprika and chilis in a
+nose-watering cocktail.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2156">There were only two other diners in the
+tiny room for the early seating. They were another couple, two
+young gay men, tourists from the Netherlands, wearing crease-proof
+sportsjackets and barely-there barefoot hiking shoes. They spoke
+excellent English, and chatted politely about the sights they'd
+seen so far in New York, before falling into Dutch and leaving Ria
+and Leon to concentrate on each other and the food, which emerged
+from the kitchen in a series of ever-more-wonderful courses.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2157">Over fluffy, caramelized fried bananas
+and Thai iced coffee, Ria effusively praised the food to their
+hosts, then waited politely while Leon did the same. The hosts were
+genuinely delighted to have fed them so successfully, and were only
+too happy to talk about their recipes, their grown children, the
+other diners they'd entertained over the years.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2158">Outside, standing on 34th street between
+Lex and Third, a cool summer evening breeze and purple summer
+twilight skies, Leon patted his stomach and closed his eyes and
+groaned.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2159">"Ate too much, didn't you?" she
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2160">"It was like eating my mother's cooking
+— she just kept putting more on the plate. I couldn't help it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2161">"Did you enjoy it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2162">He opened his eyes. "You're kidding,
+right? That was probably the most incredible meal I've eaten in my
+entire life. It was like a parallel dimension of good food."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2163">She nodded vigorously and took his arm
+in a friendly, intimate gesture, led him toward Lexington. "You
+notice how time sort of stops when you're there? How the part of
+your brain that's going 'what next? what next?' goes quiet?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2164">"That's it! That's <i>exactly</i> it!"
+The buzz of the jetpacks on Lex grew louder as they neared the
+corner, like a thousand crickets in the sky.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2165">"Hate those things," she said, glaring
+up at the joyriders zipping past, scarves and capes streaming out
+behind them. "A thousand crashes upon your souls." She spat,
+theatrically.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2166">"You make them, though, don't you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2167">She laughed. "You've been reading up on
+Buhle then?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2168">"Everything I can find." He'd bought
+small blocks of shares in all the public companies in which Buhle
+was a substantial owner, charging them to Ate's brokerage account,
+and then devoured their annual reports. There was lots more he
+could feel in the shadows: blind trusts holding more shares in
+still more companies. It was the standard corporate structure, a
+Flying Spaghetti Monster of interlocking directorships, offshore
+holdings, debt parking lots, and exotic matrioshke companies that
+seemed on the verge of devouring themselves.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2169">"Oy," she said. "Poor boy. Those aren't
+meant to be parsed. They're like the bramble patch around the
+sleeping princess, there to ensnare foolhardy knights who wish to
+court the virgin in the tower. Yes, Buhle's the largest jetpack
+manufacturer in the world, through a layer or two of misdirection."
+She inspected the uptownbound horde, sculling the air with their
+fins and gloves, making course corrections and wibbles and wobbles
+that were sheer, joyful exhibitionism.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2170">"He did it for me," she said. "Have you
+noticed that they've gotten better in the past couple years?
+Quieter? That was us. We put a lot of thought into the campaign;
+the chop-shops have been selling 'loud pipes save lives' since the
+motorcycle days, and every tiny-dick flyboy wanted to have a pack
+that was as loud as a bulldozer. It took a lot of market smarts to
+turn it around; we had a low-end model we were selling way below
+cost that was close to those loud-pipe machines in decibel count;
+it was ugly and junky and fell apart. Naturally, we sold it through
+a different arm of the company that had totally different livery,
+identity and everything. Then we started to cut into our margins on
+the high-end rides, and at the same time, we engineered them for a
+quieter and quieter run. We actually did some preproduction on a
+jetpack that was so quiet it actually <i>absorbed</i> noise, don't
+ask me to explain it, unless you've got a day or two to waste on
+the psycho-acoustics.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2171">"Every swish bourgeois was competing to
+see whose jetpack could run quieter, while the low-end was busily
+switching loyalty to our loud junkmobiles. The competition went out
+of business in a year, and then we dummied-up a bunch of
+consumer-protection lawsuits that 'forced' — " she drew air-quotes
+— "us to recall the loud ones, rebuild them with pipes so
+engineered and tuned you could use them for the woodwinds section.
+And here we are." She gestured at the buzzing, whooshing fliers
+overhead.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2172">Leon tried to figure out if she was
+kidding, but she looked and sounded serious. "You're telling me
+that Buhle dropped, what, a billion?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2173">"About eight billion, in the end."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2174">"Eight billion rupiah on a project to
+make the skies quieter?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2175">"All told," she said. "We could have
+done it other ways, some of them cheaper. We could have bought some
+laws, or bought out the competition and changed their product line,
+but that's very, you know, <i>blunt</i>. This was sweet. Everyone
+got what they wanted in the end: fast rides, quiet skies, safe,
+cheap vehicles. Win win win."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2176">An old school flyer with a jetpack as
+loud as the inside of an ice-blender roared past, leaving thousands
+scowling in his wake.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2177">"That guy is plenty dedicated," she
+said. "He'll be machining his own replacement parts for that thing.
+No one's making them anymore."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2178">He tried a joke: "You're not going to
+send the Buhle ninjas to off him before he hits Union Square?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2179">She didn't smile. "We don't use
+assassination," she said. "That's what I'm trying to convey to you,
+Leon."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2180">He crumbled. He'd blown it somehow,
+shown himself to be the boor he'd always feared he was.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2181">"I'm sorry," he said. "I guess — look,
+it's all kind of hard to take in. The sums are staggering."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2182">"They're meaningless," she said. "That's
+the point. The sums are just a convenient way of directing power.
+Power is what matters."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2183">"I don't mean to offend you," he said
+carefully, "but that's a scary sounding thing to say."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2184">"Now you're getting it," she said, and
+took his arm again. "Drinks?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2185">The limes for the daquiris came from the
+trees around them on the rooftop conservatory. The trees were
+healthy working beasts, and the barman expertly inspected several
+limes before deftly twisting off a basket's worth and retreating to
+his workbench to juice them over his blender.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2186">"You have to be a member to drink here,"
+Ria said, as they sat on the roof, watching the jetpacks scud
+past.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2187">"I'm not surprised," he said. "It must
+be expensive."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2188">"You can't buy your way in," she said.
+"You have to work it off. It's a co-op. I planted this whole row of
+trees." She waved her arm, sloshing a little daquiri on the odd
+turf their loungers rested on. "I planted the mint garden over
+there." It was a beautiful little patch, decorated with rocks and
+favored with a small stream that wended its way through them.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2189">"Forgive me for saying this," he said,
+"but you must earn a lot of money. A <i>lot</i>, I'm thinking." She
+nodded, unembarrassed, even waggled her eyebrows a bit. "So you
+could, I don't know, you could probably build one of these on any
+of the buildings that Buhle owns in Manhattan. Just like this. Even
+keep a little staff on board. Give out memberships as perks for
+your senior management team."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2190">"That's right," she said. "I could."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2191">He drank his daquiri. "I'm supposed to
+figure out why you don't, right?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2192">She nodded. "Indeed." She drank. Her
+face suffused with pleasure. He took a moment to pay attention to
+the signals his tongue was transmitting to him. The drink was
+<i>incredible</i>. Even the glass was beautiful, thick, handblown,
+irregular. "Listen, Leon, I'll let you in on a secret. <i>I want
+you to succeed</i>. There's not much that surprises Buhle and even
+less that pleasantly surprises him. If you were to manage it… " She
+took another sip and looked intensely at him. He squirmed. Had he
+thought her matronly and sweet? She looked like she could lead a
+guerilla force. Like she could wrestle a mugger to the ground and
+kick the shit out of him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2193">"So a success for me would be a success
+for you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2194">"You think I'm after money," she said.
+"You're still not getting it. Think about the jetpacks, Leon. Think
+about what that power means."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2195">He meant to go home, but he didn't make
+it. His feet took him crosstown to the Ate offices, and he let
+himself in with his biometrics and his passphrase and watched the
+marvelous dappled lights go through their warm-up cycle and then
+bathe him with their wonderful, calming light. Then the breeze, and
+now it was a nighttime forest, mossier and heavier than in the day.
+Either someone had really gone balls-out on the product design, or
+there really was an indoor forest somewhere in the building growing
+under diurnal lights, there solely to supply soothing woodsy air to
+the agency's office. He decided that the forest was the more likely
+explanation.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2196">He stood at Carmela's desk for a long
+time, then, gingerly, settled himself in her chair. It was plain
+and firm and well made, with just a little spring. Her funny little
+sculptural keyboard had keycaps that had worn smooth under her
+fingertips over the years, and there were shiny spots on the desk
+where her wrists had worn away the granite. He cradled his face in
+his palms, breathing in the nighttime forest air, and tried to make
+sense of the night.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2197">The Living Room was nighttime dark, but
+it still felt glorious on his bare feet, and then, a moment later,
+on his bare chest and legs. He lay on his stomach in his underwear
+and tried to name the sensation on his nerve endings and decided
+that "anticipation" was the best word for it, the feeling you get
+just <i>beside</i> the skin that's being scratched on your back,
+the skin that's next in line for a good scratching. It was
+glorious.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2198">How many people in the world would ever
+know what this felt like? Ate had licensed it out to a few select
+boutique hotels — he'd checked into it after talking with Ria the
+first time — but that was it. All told, there were less than 3,000
+people in the world who'd ever felt this remarkable feeling. Out of
+eight billion. He tried to do the division in his head but kept
+losing the zeroes. It was a thousandth of a percent? A ten
+thousandth of a percent? No one on Anguilla would ever feel it: not
+the workers in the vertical slums, but also not the mere
+millionaires in the grand houses with their timeshare jets.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2199">Something about that…</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2200">He wished he could talk to Ria some
+more. She scared him, but she also made him feel good. Like she was
+the guide he'd been searching for all his life. At this point, he
+would have settled for Brautigan. Anyone who could help him make
+sense of what felt like the biggest, scariest opportunity of his
+entire career.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2201">He must have dozed, because the next
+thing he knew, the lights were flickering on and he was mostly
+naked, on the floor, staring up into Brautigan's face. He had a
+look of forced jollity, and he snapped his fingers a few times in
+front of Leon's face.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2202">"Morning, sunshine!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2203">Leon looked for the ghostly clock that
+shimmered in the corner of each wall, a slightly darker patch of
+reactive paint that was just outside of conscious comprehension
+unless you really stared at it. 4:12 AM. He stifled a groan.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2204">"What are you doing here?" he said,
+peering at Brautigan.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2205">The man clacked his horsey teeth,
+assayed a chuckle. "Early bird. Worm."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2206">Leon sat up, found his shirt, started
+buttoning it up. "Seriously, Brautigan."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2207">"Seriously?" He sat down on the floor
+next to Leon, his big feet straight out ahead of him. His shoes had
+been designed by the same architect that did Leon's. Leon
+recognized the style. "Seriously." He scratched his chin. Suddenly,
+he slumped. "I'm shitting bricks, Leon. I am seriously shitting
+bricks."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2208">"How did it go with your monster?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2209">Brautigan stared at the architect's
+shoes. There was an odd flare they did, just behind the toe, just
+on the way to the laces, that was really graceful. Leon thought it
+might be a standard distribution bell-curve. "My monster is… " He
+blew out air. "Uncooperative."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2210">"Less cooperative than previously?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2211">Brautigan unlaced his shoes and peeled
+off his socks, scrunched his toes in the moss. His feet gave off a
+hot, trapped smell.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2212">"What was he like on the other times
+you'd seen him?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2213">Brautigan tilted his head. "What do you
+mean?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2214">"He was uncooperative this time, what
+about the other times?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2215">Brautigan looked back down at his
+toes.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2216">"You'd <i>never</i> seen him before
+this?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2217">"It was a risk," he said. "I thought I
+could convince him, face to face."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2218">"But?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2219">"I bombed. It was — it was the — it was
+<i>everything</i>. The compound. The people. All of it. It was like
+a <i>city</i>, a <i>theme park</i>. They lived there, hundreds of
+them, and managed every tiny piece of his empire. Like Royal
+Urchins."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2220">Leon puzzled over this. "Eunuchs?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2221">"Royal Eunuchs. They had this whole
+culture, and as I got closer and closer to him, I realized, shit,
+they could just <i>buy</i> Ate. They could destroy us. They could
+have us made illegal, put us all in jail. Or get me elected
+president. Anything."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2222">"You were overawed."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2223">"That's the right word. It wasn't a
+castle or anything, either. It was just a place, a well-built
+collection of buildings. In Westchester, you know? It had been a
+little town center once. They'd preserved everything good, built
+more on top of it. It all just… worked. You're still new here.
+Haven't noticed."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2224">"What? That Ate is a disaster? I figured
+that out a long time ago. There's several dozen highly paid
+creative geniuses on the payroll here who haven't seen their desks
+in months. We could be a creative powerhouse. We're more like
+someone's vanity project."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2225">"Brutal."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2226">He wondered if he'd overstepped himself.
+Who cared?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2227">"Brutal doesn't mean untrue. It's like,
+it's like the money that came into this place, it became
+autonomous, turned into a strategy for multiplying itself. A bad
+strategy. The money wants to sell something to a monster, but the
+money doesn't know what monsters want, so it's just, what, beating
+its brains out on the wall. One day, the money runs out and… "</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2228">"The money won't run out," Brautigan
+said. "Wrong. We'd have to spend at ten-ex what we're burning now
+to even approach the principal."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2229">"OK," Leon said. "So it's immortal.
+That's better?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2230">Brautigan winced. "Look, it's not so
+crazy. There's an entire unserved market out there. No one's
+serving it. They're like, you know, like Communist countries.
+Planned economies. They need something, they just acquire the
+capacity. No market."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2231">"Hey, bub, I know just what you need!
+You need a house to go with this doorknob!" To his own surprise,
+Leon discovered that he did a passable Daffy Duck. Brautigan
+blinked at him. Leon realized that the man was a little drunk.
+"Just something I heard the other day," he said. "I told the lady
+from my monster that we could provide the stuff that their
+corporate culture precluded. I was thinking of you know, how the
+samurai banned firearms. We can think and do the unthinkable and
+undo-able."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2232">"Good line." He flopped onto his back.
+An inch of pale belly peeked between the top of his
+three-quarter-length culottes and the lower hem of his smart
+wraparound shirt. "The monster in the vat. Some skin, some meat.
+Tubes. Pinches of skin clamped between clear hard plastic squares,
+bathed in some kind of diagnostic light. No eyes, no top of the
+head where the eyes should be. Just a smooth mask. Eyes everywhere
+else. Ceiling. Floor. Walls. I looked away, couldn't make contact
+with them, found I was looking at something wet. Liver. I
+think."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2233">"Yeesh. That's immortality, huh?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2234">"I'm there, 'A pleasure to meet you, an
+honor,' talking to the liver. The eyes never blinked. The monster
+gave a speech. 'You're a low-capital, high-risk, high-payoff
+longshot Mr Brautigan. I can keep dribbling sums to you so that you
+can go back to your wonder factory and try to come up with ways to
+surprise me. So there's no need to worry on that score.' And that
+was it. Couldn't think of anything to say. Didn't have time. Gone
+in a flash. Out the door. Limo. Nice babu to tell me how good it
+had been for the monster, how much he'd been looking forward to
+it." He struggled up onto his elbows. "How about you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2235">Leon didn't want to talk about Ria with
+Brautigan. He shrugged. Brautigan got a mean, stung look on his
+face. "Don't be like that. Bro. Dude. Pal."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2236">Leon shrugged again. Thing was, he
+<i>liked</i> Ria. Talking about her with Brautigan would be
+treating her like a… a <i>sales-target</i>. If he were talking with
+Carmela, he'd say, "I feel like she wants me to succeed. Like it
+would be a huge deal for everyone if I managed it. But I also feel
+like maybe she doesn't think I can." But to Brautigan, he merely
+shrugged, ignored the lizardy slit-eyed glare, stood, pulled on his
+pants, and went to his desk.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2237">If you sat at your desk long enough at
+Ate, you'd eventually meet <i>everyone</i> who worked there.
+Carmela knew all, told all, and assured him that everyone touched
+base at least once a month. Some came in a couple times a week.
+They had plants on their desks and liked to personally see to their
+watering.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2238">Leon took every single one of them to
+lunch. It wasn't easy — in one case, he had to ask Carmela to send
+an Ate chauffeur to pick up the man's kids from school (it was a
+half-day) and bring them to the sitter's, just to clear the
+schedule. But the lunches themselves went very well. It turned out
+that the people at Ate were, to a one, incredibly interesting. Oh,
+they were all monsters, narcissistic, tantrum-prone geniuses, but
+once you got past that, you found yourself talking to people who
+were, at bottom, damned smart, with a whole lot going on. He met
+the woman who designed the moss in the Living Room. She was younger
+than him, and had been catapulted from a mediocre academic
+adventure at the Cooper Union into more wealth and freedom than she
+knew what to do with. She had a whole rolodex of people who wanted
+to sublicense the stuff, and she spent her days toying with them,
+seeing if they had any cool ideas she could incorporate into her
+next pitch to one of the lucky few who had the ear of a
+monster.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2239">Like Leon. That's why they all met with
+him. He'd unwittingly stepped into one of the agency's top spots,
+thanks to Ria, one of the power-broker seats that everyone else
+yearned to fill. The fact that he had no idea how he'd got there or
+what to do with it didn't surprise anyone. To a one, his colleagues
+at Ate regarded everything to do with the vat monsters as an
+absolute, unknowable crapshoot, as predictable as a meteor
+strike.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2240">No wonder they all stayed away from the
+office.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2241">Ria met him in a different pair of
+jeans, these ones worn and patched at the knees. She had on a
+loose, flowing silk shirt that was frayed around the seams, and had
+tied her hair back with a kerchief that had faded to a non-color
+that was like the ancient New York sidewalk outside Ate's office.
+He felt the calluses on her hand when they shook.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2242">"You look like you're ready to do some
+gardening," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2243">"My shift at the club," she said. "I'll
+be trimming the lime trees and tending the mint patch and the
+cucumber frames all afternoon." She smiled stopped him with a
+gesture. She bent down and plucked a blade of greenery from the
+untidy trail-edge. They were in Central Park, in one of the places
+where it felt like a primeval forest instead of an artful garden
+razed and built in the middle of the city. She uncapped her water
+bottle and poured water over the herb — it looked like a blade of
+grass — rubbing it between her forefinger and thumb to scrub at it.
+Then she tore it in two and handed him one piece, held the other to
+her nose, then ate it, nibbling and making her nose wrinkle like a
+rabbit's. He followed suit. Lemon, delicious and tangy.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2244">"Lemon grass," she said. "Terrible weed,
+of course. But doesn't it taste amazing?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2245">He nodded. The flavor lingered in his
+mouth.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2246">"Especially when you consider what this
+is made of — smoggy rain, dog piss, choked up air, and sunshine,
+and DNA. What a weird flavor to emerge from such a strange soup,
+don't you think?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2247">The thought made the flavor a little
+less delicious. He said so.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2248">"I love the idea," she said. "Making
+great things from garbage."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2249">"About the jetpacks," he said, for he'd
+been thinking.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2250">"Yes?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2251">"Are you utopians of some kind? Making a
+better world?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2252">"By 'you,' you mean 'people who work for
+Buhle?'"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2253">He shrugged.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2254">"I'm a bit of a utopian, I'll admit. But
+that's not it. You know Henry Ford set up these work-camps in
+Brazil, 'Fordlandia,' and enforced a strict code of conduct on the
+rubber plantation workers? He outlawed the caprihina and replaced
+it with Tom Collinses, because they were more civilized."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2255">"And you're saying Buhle wouldn't do
+that?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2256">She waggled her head from side to side,
+thinking it over. "Probably not. Maybe, if I asked." She covered
+her mouth as though she'd made an indiscreet admission.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2257">"Are — <i>were</i> — you and he… ?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2258">She laughed. "Never. It's purely
+cerebral. Do you know where his money came from?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2259">He gave her a look.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2260">"OK, of course you do. But if all you've
+read is the official history, you'll think he was just a finance
+guy who made some good bets. It's nothing like it. He played a game
+against the market, tinkered with the confidence of other traders
+by taking crazy positions, all bluff, except when they weren't. No
+one could outsmart him. He could convince you that you were about
+to miss out on the deal of the century, or that you'd already
+missed it, or that you were about to walk off onto easy street.
+Sometimes, he convinced you of something that was real. More often,
+it was pure bluff, which you'd only find out after you'd done some
+trade with him that left him with more money than you'd see in your
+whole life, and you facepalming and cursing yourself for a sucker.
+When he started doing it to national banks, put a run on the
+dollar, broke the Fed, well, that's when we all knew that he was
+someone who was <i>special</i>, someone who could create signals
+that went right to your hindbrain without any critical
+interpretation."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2261">"Scary."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2262">"Oh yes. Very. In another era they'd
+have burned him for a witch or made him the man who cut out your
+heart with the obsidian knife. But here's the thing: he could
+never, ever kid <i>me</i>. Not once."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2263">"And you're alive to tell the tale?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2264">"Oh, he likes it. His reality distortion
+field, it screws with his internal landscape. Makes it hard for him
+to figure out what he needs, what he wants, and what will make him
+miserable. I'm indispensable."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2265">He had a sudden, terrible thought. He
+didn't say anything, but she must have seen it on his face.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2266">"What is it? Tell me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2267">"How do I know that you're on the level
+about any of this? Maybe you're just jerking me around. Maybe it's
+all made up — the jetpacks, everything." He swallowed. "I'm sorry.
+I don't know where that came from, but it popped into my head
+—"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2268">"It's a fair question. Here's one
+that'll blow your mind, though: how do you know that I'm not on the
+level, <i>and</i> jerking you around?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2269">They changed the subject soon after,
+with uneasy laughter. They ended up on a park bench near the family
+of dancing bears, whom they watched avidly.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2270">"They seem so <i>happy</i>," he said.
+"That's what gets me about them. Like dancing was the secret
+passion of every bear, and these three are the first to figure out
+how to make a life of it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2271">She didn't say anything, but watched the
+three giants lumber in a graceful, unmistakably joyous kind of
+shuffle. The music — constantly mutated based on the intensity of
+the bears, a piece of software that sought tirelessly to please
+them — was jangly and pop-like, with a staccato
+one-two/onetwothreefourfive/one-two rhythm that let the bears do
+something like a drunken stagger that was as fun to watch as a box
+of puppies.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2272">He felt the silence. "So happy," he said
+again. "That's the weird part. Not like seeing an elephant perform.
+You watch those old videos and they seem, you know, they seem
+—"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2273">"Resigned," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2274">"Yeah. Not unhappy, but about as
+thrilled to be balancing on a ball as a horse might be to be
+hitched to a plough. But look at those bears!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2275">"Notice that no one else watches them
+for long?" she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2276">He had noticed that. The benches were
+all empty around them.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2277">"I think it's because they're so happy,"
+she said. "It lays the trick bare." She showed teeth at the pun,
+then put them away. "What I mean is, you can see how it's possible
+to design a bear that experiences brain reward from rhythm, keep it
+well-fed, supply it with as many rockin' tunes as it can eat, and
+you get that happy family of dancing bears who'll peacefully
+co-exist alongside humans who're going to work, carrying their
+groceries, pushing their toddlers around in strollers, necking on
+benches —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2278">The bears were resting now, lolling on
+their backs, happy tongues sloppy in the corners of their
+mouths.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2279">"We made them," she said. "It was
+against my advice, too. There's not much subtlety in it. As a piece
+of social commentary, it's a cartoon sledgehammer with an oversized
+head. But the artist had Buhle's ear, he'd been CEO of one of the
+portfolio companies and had been interested in genomic art as a
+sideline for his whole career. Buhle saw that funding this thing
+would probably spin off lots of interesting sublicenses, which it
+did. But just look at it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2280">He looked. "They're <i>so happy</i>," he
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2281">She looked too. "Bears shouldn't be that
+happy," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2282">Carmela greeted him sunnily as ever, but
+there was something odd.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2283">"What is it?" he asked in Spanish. He
+made a habit of talking Spanish to her, because both of them were
+getting rusty, and also it was like a little shared secret between
+them.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2284">She shook her head.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2285">"Is everything all right?" Meaning,
+<i>Are we being shut down?</i> It could happen, might happen at any
+time, with no notice. That was something he — all of them —
+understood. The money that powered them was autonomous and
+unknowable, an alien force that was more emergent property than
+will.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2286">She shook her head again. "It's not my
+place to say," she said. Which made him even more sure that they
+were all going down, for when had Carmela ever said anything about
+her <i>place</i>?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2287">"Now you've got me worried," he
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2288">She cocked her head back toward the back
+office. He noticed that there were three coats hung on the
+beautiful, anachronistic coat-stand by the ancient temple door that
+divided reception from the rest of Ate.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2289">He let himself in and walked down the
+glassed-in double-rows of offices, the cubicles in the middle, all
+with their characteristic spotless hush, like a restaurant dining
+room set up for the meals that people would come to later.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2290">He looked in the Living Room, but there
+was no one there, so he began to check out the other conference
+rooms, which ran the gamut from super-conservative to utter
+madness. He found them in the Ceile, with its barn-board floors,
+its homey stone hearth, and the gimmicked sofas that looked like
+unsprung old thrift-store numbers, but which sported adaptive
+genetic-algorithm-directed haptics that adjusted constantly to
+support you no matter how you flopped on them, so that you could
+play at being a little kid sprawled carelessly on the cushions no
+matter how old and cranky your bones were.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2291">On the Ceile's sofa were Brautigan, Ria,
+and a woman he hadn't met before. She was somewhere between
+Brautigan and Ria's age, but with that made-up, pulled-tight
+appearance of someone who knew the world wouldn't take her as
+seriously if she let one crumb of weakness escape from any pore or
+wrinkle. He thought he knew who this must be, and she confirmed it
+when she spoke.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2292">"Leon," she said. "I'm glad you're
+here." He knew that voice. It was the voice on the phone that had
+recruited him and brought him to New York and told him where to
+come for his first day on the job. It was the voice of Jennifer
+Torino, and she was technically his boss. "Carmela said that you
+often worked from here so I was hoping today would be one of the
+days you came by so we could chat."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2293">"Jennifer," he said. She nodded. "Ria."
+She had a poker-face on, as unreadable as a slab of granite. She
+was wearing her customary denim and flowing cotton, but she'd kept
+her shoes on and her feet on the ground. "Brautigan," and Brautigan
+grinned like it was Christmas morning.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2294">Jennifer looked flatly at a place just
+to one side of his gaze, a trick he knew, and said, "In recognition
+of his excellent work, Mr Brautigan's been promoted, effective
+today. He is now Manager for Major Accounts." Brautigan beamed.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2295">"Congratulations," Leon said, thinking,
+<i>What excellent work? No one at Ate has accomplished the agency's
+primary objective in the entire history of the firm!</i> "Well
+done."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2296">Jennifer kept her eyes coolly fixed on
+that empty, safe spot. "As you know, we have struggled to close a
+deal with any of our major accounts." He restrained himself from
+rolling his eyes. "And so Mr Brautigan has undertaken a thorough
+study of the way we handle these accounts." She nodded at
+Brautigan.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2297">"It's a mess," he said. "Totally
+scattergun. No lines of authority. No checks and balances. No
+system."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2298">"I can't argue with that," Leon said. He
+saw where this was going.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2299">"Yes," Jennifer said. "You haven't been
+here very long, but I understand you've been looking deeply into
+the organizational structure of Ate yourself, haven't you?" He
+nodded. "And that's why Mr Brautigan has asked that you be tasked
+to him as his head of strategic research." She smiled a thin smile.
+"Congratulations yourself."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2300">He said, "Thanks," flatly, and looked at
+Brautigan. "What's strategic research, then?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2301">"Oh," Brautigan said. "Just a lot of
+what you've been doing: figuring out what everyone's up to, putting
+them together, proposing organizational structures that will make
+us more efficient at design and deployment. Stuff you're good
+at."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2302">Leon swallowed and looked at Ria. There
+was nothing on her face. "I can't help but notice," he said,
+forcing his voice to its absolutely calmest, "that you haven't
+mentioned anything to do with the, uh, <i>clients</i>."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2303">Brautigan nodded and strained to pull
+his lips over his horsey teeth to hide his grin. It didn't work.
+"Yeah," he said. "That's about right. We need someone of your
+talents doing what he does best, and what you do best is —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2304">He held up a hand. Brautigan fell
+silent. The three of them looked at him. He realized, in a flash,
+that he had them all in his power, just at that second. He could
+shout BOO! and they'd all fall off their chairs. They were waiting
+to see if he'd blow his top or take it and ask for more. He did
+something else.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2305">"Nice working with ya," he said. And he
+turned his back on the sweetest, softest job anyone could ask for.
+He said <i>adios</i> and <i>buen suerte</i> to Carmela on the way
+out, and he forced himself not to linger around the outside doors
+down at street level to see if anyone would come chasing after
+him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2306">The realtor looked at him like he was
+crazy. "You'll never get two million for that place in today's
+market," she said. She was young, no-nonsense, black, and she had
+grown up on the Lower East Side, a fact she mentioned prominently
+in her advertising materials: <i>A local realtor for a local
+neighborhood.</i></p>
+</div>
+<div class="substance">
+<p class="norm" id="o2307">"I paid two million for it less than a
+year ago," he said. The 80 percent mortgage had worried him a
+little but Ate had underwritten it, bringing the interest rate down
+to less than two percent.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2308">She gestured at the large corner picture
+window that overlooked Broome Street and Grand Street. "Count the
+FOR SALE signs," she said. "I want to be on your side. That's a
+nice place. I'd like to see it go to someone like you, someone
+decent. Not some <i>developer</i> —" she spat the word like a curse
+"or some corporate apartment broker who'll rent it by the week to
+VIPs. This neighborhood needs real people who really live here,
+understand."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2309">"So you're saying I won't get what I
+paid for it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2310">She smiled fondly at him. "No,
+sweetheart, you're not going to get what you paid for it. All those
+things they told you when you put two mil into that place, like
+'They're not making any more Manhattan' and 'Location location
+location'? It's lies." Her face got serious, sympathetic. "It's
+supposed to panic you and make you lose your head and spend more
+than you think something is worth. That goes on for a while and
+then everyone ends up with too much mortgage for not enough home,
+or for too much home for that matter, and then blooie, the bottom
+blows out of the market and everything falls down like a
+souffle."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2311">"You don't sugar-coat it, huh?" He'd
+come straight to her office from Ate's door, taking the subway
+rather than cabbing it or even renting a jetpack. He was on
+austerity measures, effective immediately. His brain seemed to have
+a pre-made list of cost-savers it had prepared behind his back, as
+though it knew this day would come.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2312">She shrugged. "I can, if you want me to.
+We can hem and haw about the money and so on and I can hold your
+hand through the seven stages of grieving. I do that a lot when the
+market goes soft. But you looked like the kind of guy who wants it
+straight. Should I start over? Or, you know, if you want, we can
+list you at two mil or even two point two, and I'll use that to
+prove that some <i>other</i> loft is a steal at 1.9. If you
+want."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2313">"No," he said, and he felt some of the
+angry numbness ebb away. He liked this woman. She had read him
+perfectly. "So tell me what you think I can get for it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2314">She put her fist under her chin and her
+eyes went far away. "I sold that apartment, um, eight years ago?
+Family who had it before you. Had a look when they sold it to you —
+they used a different broker, kind of place where they don't mind
+selling to a corporate placement specialist. I don't do that, which
+you know. But I saw it when it sold. Have you changed it much
+since?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2315">He squirmed. "I didn't, but I think the
+broker did. It came furnished, nice stuff."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2316">She rolled her eyes eloquently. "It's
+never nice stuff. Even when it comes from the best showroom in
+town, it's not nice stuff. Nice is antithetical to corporate.
+Inoffensive is the best you can hope for." She looked up, to the
+right, back down. "I'm figuring out the discount for how the place
+will show now that they've taken all the seams and crumbs out. I'm
+thinking, um, 1.8. That's a number I think I can deliver."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2317">"But I've only <i>got</i> 200K in the
+place," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2318">Her expressive brown eyes flicked at the
+picture window, the FOR SALE signs. "And? Sounds like you'll break
+even or maybe lose a little on the deal. Is that right?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2319">He nodded. Losing a little wasn't
+something he'd figured on. But by the time he'd paid all the fees
+and taxes — "I'll probably be down a point or two."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2320">"Have you got it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2321">He hated talking about money. That was
+one thing about Ria is that she never actually talked about money —
+what money <i>did</i>, sure, but never money. "Technically," he
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2322">"OK, technical money is as good as any
+other kind. So look at it this way: you bought a place, a really
+totally amazing place on the Lower East Side, a place bigger than
+five average New York apartments. You lived in it for, what?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2323">"Eight months."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2324">"Most of a year. And it cost you one
+percent of the street price on the place. Rent would have been
+about eleven times that. You're up —" she calculated in her head —
+"it's about 83 percent."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2325">He couldn't keep the look of misery off
+his face.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2326">"What?" she said. "Why are you pulling
+faces at me? You said you didn't want it sugar-coated, right?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2327">"It's just that —" He dropped his voice,
+striving to keep any kind of whine out of it. "Well, I'd hoped to
+make something in the bargain."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2328">"For what?" she said, softly.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2329">"You know, appreciation. Property goes
+up."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2330">"Did you do anything to the place that
+made it better?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2331">He shook his head.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2332">"So you did no productive labor but you
+wanted to get paid anyway, right? Have you thought about what would
+happen to society if we rewarded people for owning things instead
+of doing things?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2333">"Are you sure you're a real estate
+broker?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2334">"Board certified. Do very well,
+too."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2335">He swallowed. "I don't expect to make
+money for doing nothing, but you know, I just quit my job. I was
+just hoping to get a little cash in hand to help me smooth things
+out until I find a new one."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2336">The realtor gave a small nod. "Tough
+times ahead. Winds are about to shift again. You need to adjust
+your expectations, Leon. The best you can hope for right now is to
+get out of that place before you have to make another mortgage
+payment."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2337">His pulse throbbed in his jaw and his
+thigh in counterpoint. "But I <i>need</i> money to —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2338">"Leon," she said, with some steel in her
+voice. "You're <i>bargaining</i>. As in denial, anger, bargaining,
+depression and acceptance. That's healthy and all, but it's not
+going to get your place sold. Here's two options: one, you can go
+find another realtor, maybe one who'll sugar coat things or string
+you along to price up something else he's trying to sell. Two, you
+can let me get on with making some phone calls and I'll see who I
+can bring in. I keep a list of people I'd like to see in this
+'hood, people who've asked me to look out for the right kind of
+place. That place you're in is one of a kind. I might be able to
+take it off your hands in very quick time, if you let me do my
+thing." She shuffled some papers. "Oh, there's a third, which is
+that you could go back to your apartment and pretend that nothing
+is wrong until that next mortgage payment comes out of your
+bank-account. That would be <i>denial</i> and if you're bargaining,
+you should be two steps past that.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2339">"What's it going to be?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2340">"I need to think about it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2341">"Good plan," she said. "Remember,
+depression comes after bargaining. Go buy a quart of ice-cream and
+download some weepy movies. Stay off booze, it only brings you
+down. Sleep on it, come back in the morning if you'd like."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2342">He thanked her numbly and stepped out
+into the Lower East Side. The bodega turned out to have an amazing
+selection of ice-cream, so he bought the one with the most
+elaborated name, full of chunks, swirls and stir-ins, and brought
+it up to his apartment, which was so big that it made his knees
+tremble when he unlocked his door. The realtor had been right.
+Depression was next.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2343">Buhle sent him an invitation a month
+later. It came laser-etched into a piece of ancient leather,
+delivered by a messenger whose jetpack was so quiet that he didn't
+even notice that she had gone until he looked up from the scroll to
+thank her. His new apartment was a perch he rented by the week at
+five times what an annual lease would have cost him, but still a
+fraction of what he had been paying on the LES. It was jammed with
+boxes of things he hadn't been able to bring himself to get rid of,
+and now he cursed every knick-knack as he dug through them looking
+for a good suit.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2344">He gave up. The invitation said, "At
+your earliest convenience," and a quadrillionaire in a vat wasn't
+going to be impressed by his year-old designer job-interview
+suit.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2345">It had been a month, and no one had come
+calling. None of his queries to product design, marketing, R&amp;D
+or advertising shops had been answered. He tried walking in the
+park every day, to see the bears, on the grounds that it was free
+and it would stimulate his creative flow. Then he noticed that
+every time he left his door, fistfuls of money seemed to evaporate
+from his pockets on little "necessities" that added up to real
+money. The frugality center of his brain began to flood him with
+anxiety every time he considered leaving the place and so it had
+been days since he'd gone out.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2346">Now he was going. There were some clean
+clothes in one of the boxes, just sloppy jeans and tees, but they'd
+been expensive sloppy once upon a time, and they were better than
+the shorts and shirts he'd been rotating in and out of the tiny
+washing machine every couple days, when the thought occurred to
+him. The $200 haircut he'd had on his last day of work had gone
+shaggy and lost all its clever style, so he just combed it as best
+as he could after a quick shower and put on his architect's shoes,
+shining them on the backs of his pants legs on his way out the door
+in a gesture that reminded him of his father going to work in
+Anguilla, a pathetic gesture of respectability from someone who had
+none. The realization made him <i>oof</i> out a breath like he'd
+been gut-punched.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2347">His frugality gland fired like crazy as
+he hailed a taxi and directed it to the helipad at Grand Central
+Terminus. It flooded him with so much cheapamine that he had to
+actually pinch his arms a couple times to distract himself from the
+full-body panic at the thought of spending so much. But Buhle was
+all the way in Rhode Island, and Leon didn't fancy keeping him
+waiting. He knew that to talk to money you had to act like money —
+impedance-match the money. Money wouldn't wait while he took the
+train or caught the subway.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2348">He booked the chopper-cab from the cab,
+using the terminal in the back-seat. At Ate, he'd had Carmela to do
+this kind of organizing for him. He'd had Carmela to do a hundred
+other things, too. In that ancient, lost time, he'd had money and
+help beyond his wildest dreams, and most days he couldn't imagine
+what had tempted him into giving it up.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2349">The chopper clawed the air and lifted
+him up over Manhattan, the canyons of steel stretched out below him
+like a model. The racket of the chopper obliterated any possibility
+of speech, so he could ignore the pilot and she could ignore him
+with a cordiality that let him pretend, for a moment, that he was a
+powerful executive who nonchalantly choppered around over the
+country. They hugged the coastline and the stately rows of
+windmills and bobbing float-homes, surfers carving the waves,
+bulldozed strips topped with levees that shot up from the ground
+like the burial mound of some giant serpent.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2350">Leon's earmuffs made all the sound — the
+sea, the chopper — into a uniform hiss, and in that hiss, his
+thoughts and fears seemed to recede for a moment, as though they
+couldn't make themselves heard over the white noise. For the first
+time since he'd walked out of Ate, the nagging, doubtful voices
+fell still and Leon was alone in his head. It was as though he'd
+had a great pin stuck through his chest that had been finally
+removed. There was a feeling of lightness, and tears pricking at
+his eyes, and a feeling of wonderful <i>obliteration</i>, as he
+stopped, just for a moment, stopped trying to figure out where he
+fit in the world.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2351">The chopper touched down on a helipad at
+Newport State Airport, to one side of the huge X slashed into the
+heavy woods — new forest, fast-growing carbon sinkers garlanded
+with extravagances of moss and vine. From the moment the doors
+opened, the heavy earthy smell filled his nose and he thought of
+the Living Room, which led him to think of Ria. He thanked the
+pilot and zapped her a tip and looked up and there was Ria, as
+though his thoughts had summoned her.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2352">She had a little half-smile on her face,
+uncertain and somehow childlike, a little girl waiting to find out
+if he'd be her friend still. He smiled at her, grateful for the
+clatter of the chopper so that they couldn't speak. She shook his
+hand, hers warm and dry, and then, on impulse, he gave her a hug.
+She was soft and firm too, a middle-aged woman who kept fit but
+didn't obsess about the pounds. It was the first time he'd touched
+another human since he left Ate. And, as with the chopper's din,
+this revelation didn't open him to fresh miseries — rather, it put
+the miseries away, so that he felt <i>better</i>.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2353">"Are you ready?" she said, once the
+chopper had lifted off.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2354">"One thing," he said. "Is there a town
+here? I thought I saw one while we were landing."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2355">"A little one," she said. "Used to be
+bigger, but we like them small."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2356">"Does it have a hardware store?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2357">She gave him a significant look. "What
+for? An axe? A nailgun? Going to do some improvements?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2358">"Thought I'd bring along a door-knob,"
+he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2359">She dissolved into giggles. "Oh, he'll
+<i>like</i> that. Yes, we can find a hardware store."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2360">Buhle's security people subjected the
+doorknob to millimeter radar and a gas chromatograph before letting
+it past. He was shown into an anteroom by Ria, who talked to him
+through the whole procedure, just light chatter about the weather
+and his real-estate problems, but she gently steered him around the
+room, changing their angle several times, and then he said, "Am I
+being scanned?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2361">"Millimeter radar in here too," she
+said. "Whole body imaging. Don't worry, I get it every time I come
+in. Par for the course."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2362">He shrugged. "This is the least
+offensive security scan I've ever been through," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2363">"It's the room," she said. "The
+dimensions, the color. Mostly the semiotics of a security scan are
+either <i>you are a germ on a slide</i> or <i>you are not worth
+trifling with, but if we must, we must.</i> We went for something a
+little… sweeter." And it was, a sweet little room, like the private
+study of a single mom who's stolen a corner in which to work on her
+secret novel.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2364">Beyond the room — a wonderful place.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2365">"It's like a college campus," he
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2366">"Oh, I think we use a better class of
+materials than most colleges," Ria said, airily, but he could tell
+he'd pleased her. "But yes, there's about 15,000 of us here. A
+little city. Nice cafes, gyms, cinemas. A couple artists in
+residence, a nice little Waldorf school… " The pathways were tidy
+and wended their way through buildings ranging from cottages to
+large, institutional buildings, but all with the feel of endowed
+research institutes rather than finance towers. The people were
+young and old, casually dressed, walking in pairs and groups,
+mostly, deep in conversation.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2367">"15,000?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2368">"That's the head office. Most of them
+doing medical stuff here. We've got lots of other holdings, all
+around the world, in places that are different from this. But we're
+bringing them all in line with HQ, fast as we can. It's a good way
+to work. Churn is incredibly low. We actually have to put people
+back out into the world for a year every decade, just so they can
+see what it's like."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2369">"Is that what you're doing?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2370">She socked him in the arm. "You think I
+could be happy here? No, I've always lived off campus. I commute.
+I'm not a team person. It's OK, this is the kind of place where
+even lone guns can find their way to glory."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2371">They were walking on the grass now, and
+he saw that the trees, strangely oversized red maples without any
+of the whippy slenderness he associated with the species, had a
+walkway suspended from their branches, a real Swiss Family Robinson
+job with rope-railings and little platforms with baskets on pulleys
+for ascending and descending. The people who scurried by overhead
+greeted each other volubly and laughed at the awkwardness of
+squeezing past each other in opposite directions.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2372">"Does that ever get old?" he said,
+lifting his eyebrows to the walkways.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2373">"Not for a certain kind of person," she
+said. "For a certain kind of person, the delightfulness of those
+walkways never wears off." The way she said "certain kind of
+person" made him remember her saying, "bears shouldn't be that
+happy."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2374">He pointed to a bench, a long
+twig-chair, really, made from birch branches and rope and wire all
+twined together. "Can we sit for a moment? I mean, will Buhle
+mind?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2375">She flicked her fingers. "Buhle's
+schedule is his own. If we're five minutes late, someone will put
+five minutes' worth of interesting and useful injecta into his
+in-box. Don't you worry." She sat on the bench, which looked too
+fragile and fey to take a grown person's weight, but then she
+patted the seat next to him, and when he sat, he felt almost no
+give. The bench had been very well built, by someone who knew what
+she or he was doing.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2376">"OK, so what's going on, Ria? First you
+went along with Brautigan scooping my job and exiling me to Siberia
+—" he held up a hand to stop her from speaking and discovered that
+the hand was shaking and so was his chest, shaking with a
+bottled-up anger he hadn't dared admit. "You could have stopped it
+at a word. You envoys from the vat-gods, you are the absolute
+monarchs at Ate. You could have told them to have Brautigan
+skinned, tanned and made into a pair of boots, and he'd have
+measured your foot-size himself. But you let them do it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2377">"And now, here I am, a minister without
+portfolio, about to do something that would make Brautigan explode
+with delight, about to meet one of the Great Old Ones, in his very
+vat, in person. A man who might live to be a thousand, if all goes
+according to plan, a man who is a <i>country</i>, sovereign and
+inviolate. And I just want to ask you, <i>why</i>? Why all the
+secrecy and obliqueness and funny gaps? <i>Why</i>?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2378">Ria waited while a pack of grad students
+scampered by overhead, deep in discussion of teleomeres, the racket
+of their talk and their bare feet slapping on the walkway loud
+enough to serve as a pretence for silence. Leon's pulse thudded and
+his armpits slicked themselves as he realized that he might have
+just popped the bubble of unreality between them, the consensual
+illusion that all was normal, whatever normal was.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2379">"Oh, Leon," she said. "I'm sorry. Habit
+here — there's some things that can't be readily said in utopia.
+Eventually, you just get in the habit of speaking out of the back
+of your head. It's, you know, <i>rude</i> to ruin people's gardens
+by pointing out the snakes. So, yes, OK, I'll say something right
+out. I like you, Leon. The average employee at a place like Ate is
+a bottomless well of desires, trying to figure out what others
+might desire. We've been hearing from them for decades now, the
+resourceful ones, the important ones, the ones who could get past
+the filters and the filters behind the filters. We know what
+they're like.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2380">"Your work was different. As soon as you
+were hired by Ate, we generated a dossier on you. Saw your grad
+work."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2381">Leon swallowed. His resume emphasized
+his grades, not his final projects. He didn't speak of them at
+all.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2382">"So we thought, well, here's something
+different, it's possible he may have a house to go with our
+doorknob. But we knew what would happen if you were left to your
+own devices at a place like Ate: they'd bend you and shape you and
+make you over or ruin you. We do it ourselves, all too often. Bring
+in a promising young thing, subject him to the dreaded Buhle
+Culture, a culture he's totally unsuited to, and he either runs
+screaming or… <i>fits in</i>. It's worse when the latter happens.
+So we made sure that you had a good fairy perched on your right
+shoulder to counterbalance the devil on your left shoulder." She
+stopped, made a face, mock slapped herself upside the head.
+"Talking in euphemism again. Bad habit. You see what I mean."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2383">"And you let me get pushed aside… "</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2384">She looked solemn. "We figured you
+wouldn't last long as a button-polisher. Figured you'd want
+out."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2385">"And that you'd be able to hire me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2386">"Oh, we could have hired you any time.
+We could have bought Ate. Ate would have given you to us — remember
+all that business about making Brautigan into a pair of boots? It
+applies all around."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2387">"So you wanted me to… what? Walk in the
+wilderness first?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2388">"Now you're talking in euphemisms. It's
+catching! Let's walk."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2389">They gave him a bunny-suit to wear into
+the heart of Buhle. First he passed through a pair of double-doors,
+faintly positively pressurized, sterile air that ruffled his hair
+on the way in. The building was low-slung, nondescript brown brick,
+no windows. It could have been a water sterilization plant or a
+dry-goods warehouse. The inside was good tile, warm colors with
+lots of reds and browns down low, making the walls look like they
+were the inside of a kiln. The building's interior was hushed, and
+a pair of alert-looking plainclothes security men watched them very
+closely as they changed into the bunny suits, loose micropore
+coveralls with plastic visors. Each one had a small, self-contained
+air-circ system powered by a wrist canister, and when a security
+man helpfully twisted the valve open, Leon noted that there were
+clever jets that managed to defog the visor without drying out his
+eyeballs.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2390">"That be enough for you, Ria?" the
+taller of the two security men said. He was dressed like a college
+kid who'd been invited to his girlfriend's place for dinner: smart
+slacks a little frayed at the cuffs, a short-sleeved, pressed
+cotton shirt that showed the bulge of his substantial chest and
+biceps and neck.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2391">She looked at her canister, holding it
+up to the visor. "30 minutes is fine," she said. "I doubt he'll
+have any more time than that for us!" Turning to Leon, she said, "I
+think that the whole air-supply thing is way overblown. But it does
+keep meetings from going long."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2392">"Where does the exhaust go?" Leon said,
+twisting in his suit. "I mean, surely the point is to keep my
+cooties away from," he swallowed, "<i>Buhle</i>." It was the first
+time he'd really used the word to describe a person, rather than a
+<i>concept</i>, and he was filled with the knowledge that the
+person it described was somewhere very close.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2393">"Here," she said, and pointed to a small
+bubble growing out of the back of her neck. "You swell up, one
+little bladder at a time, until you look like the Michelin man.
+Some joke." She made a face. "You can get a permanent suit if you
+come here often. Much less awkward. But Buhle likes it
+awkward."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2394">She led him down a corridor with still
+more people, these ones in bunny-suits or more permanent-looking
+suits that were form-fitting and iridescent and flattering.
+"Really?" he said, keeping pace with her. "Elegant is a word that
+comes to mind, not awkward."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2395">"Well, sure, elegant on the other side
+of that airlock door. But we're inside Buhle's body now." She saw
+the look on his face and smiled. "No, no, it's not a riddle.
+Everything on this side of the airlock is Buhle. It's his lungs and
+circulatory and limbic system. The vat may be where the meat sits,
+but all this is what makes the vat work. You're like a gigantic
+foreign organism that's burrowing into his tissues. It's intimate."
+They passed through another set of doors and now they were almost
+alone in a hall the size of his university's basketball court, the
+only others a long way off. She lowered her voice so that he had to
+lean in to hear her. "When you're outside, speaking to Buhle
+through his many tendrils, like me, or even on the phone, he has
+all the power in the world. He's a giant. But here, inside his
+body, he's very, very weak. The suits, they're there to level out
+the playing field. It's all head-games and symbolism. And this is
+just Mark I, the system we jury-rigged after Buhle's…
+<i>accident</i>. They're building the Mark II about five miles from
+here, and half a mile underground. When it's ready, they'll blast a
+tunnel and take him all the way down into it without ever
+compromising the skin of Buhle's extended body."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2396">"You never told me what the accident
+was, how he ended up here. I assumed it was a stroke or —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2397">Ria shook her head, the micropore fabric
+rustling softly. "Nothing like that," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2398">They were on the other side of the great
+room now, headed for the doors. "What is this giant room for?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2399">"Left over from the original floor-plan,
+when this place was just biotech R&amp;D. Used for all-hands
+meetings then, sometimes a little symposium. Too big now. Security
+protocol dictates no more than ten people in any one space."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2400">"Was it assassination?" He said it
+without thinking, quick as ripping off a band-aid.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2401">Again, the rustle of fabric. "No."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2402">She put her hand on the door's crashbar,
+made ready to pass into the next chamber.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2403">"I'm starting to freak out a little
+here, Ria," he said. "He doesn't hunt humans or something?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2404">"No," and he didn't need to see her
+face, he could see the smile.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2405">"Or need an organ? I don't think I have
+a rare blood-type, and I should tell you that mine have been
+indifferently cared for —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2406">"Leon," she said, "if Buhle needed an
+organ, we'd make one right here. Print it out in about forty hours,
+pristine and virgin."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2407">"So you're saying I'm not going to be
+harvested or hunted, then?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2408">"It's a very low probability outcome,"
+she said, and pushed the crashbar.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2409">It was darker in this room, a mellow,
+candlelit sort of light, and there was a rhythmic vibration coming
+up through the floor, a whoosh whoosh.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2410">Ria said, "It's his breath. The
+filtration systems are down there." She pointed a toe at the
+outline of a service hatch set into the floor. "Circulatory system
+overhead," she said, and he craned his neck up at the grate
+covering the ceiling, the troughs filled with neatly bundled
+tubes.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2411">One more set of doors, another cool,
+dark room, this one nearly silent, and one more door at the end, an
+airlock door, and another plainclothes security person in front of
+it; a side-room with a glass door bustling with people staring
+intently at screens. The security person — a woman, Leon saw — had
+a frank and square pistol with a bulbous butt velcroed to the side
+of her suit.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2412">"He's through there, isn't he?" Leon
+said, pointing at the airlock door.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2413">"No," Ria said. "No. He's here. We are
+inside him. Remember that, Leon. He isn't the stuff in the vat
+there. In some sense you've been in Buhle's body since you got off
+the chopper. His sensor array network stretches out as far as the
+heliport, like the tips of the hairs on your neck, they feel the
+breezes that blow in his vicinity. Now you've tunneled inside him,
+and you're right here, in his heart or his liver."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2414">"Or his brain."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2415">A voice, then, from everywhere, warm and
+good -humored. "The brain is overrated." Leon looked at Ria and she
+rolled her eyes eloquently behind her faceplate.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2416">"Tuned sound," she said. "A party trick.
+Buhle —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2417">"Wait," Buhle said. "Wait. The brain,
+this is important, the brain is <i>so</i> overrated. The ancient
+Egyptians thought it was used to cool the blood, you know that?" He
+chortled, a sound that felt to Leon as though it began just above
+his groin and rose up through his torso, a very pleasant and very
+invasive sensation. "The heart, they thought, the heart was the
+place where the <i>me</i> lived. I used to wonder about that.
+Wouldn't they think that the thing between the organs of hearing,
+the thing behind the organs of seeing, that must be the me? But
+that's just the brain doing one of its little stupid games,
+backfilling the explanation. We think the brain is the obvious seat
+of the me because the brain already knows that it is the seat, and
+can't conceive of anything else. When the brain thought it lived in
+your chest, it was perfectly happy to rationalize that too — <i>Of
+course it's in the chest, you feel your sorrow and your joy there,
+your satiety and your hunger…</i> The brain, pffft, the brain!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2418">"Buhle," she said. "We're coming in
+now."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2419">The nurse/guard by the door had
+apparently only heard their part of the conversation, but also
+hadn't let it bother her. She stood to one side, and offered Leon a
+tiny, incremental nod as he passed. He returned it, and then
+hurried to catch up with Ria, who was waiting inside the airlock.
+The outer door closed and for a moment, they were pressed up
+against one another and he felt a wild, horny thought streak
+through him, all the excitement discharging itself from yet another
+place that the me might reside.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2420">Then the outer door hissed open and he
+met Buhle — he tried to remember what Ria had said, that Buhle
+wasn't this, Buhle was everywhere, but he couldn't help himself
+from feeling that this was <i>him</i>.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2421">Buhle's vat was surprisingly small, no
+bigger than the sarcophagus that an ancient Egyptian might have
+gone to in his burial chamber. He tried not to stare inside it, but
+he couldn't stop himself. The withered, wrinkled man floating in
+the vat was intertwined with a thousand fiber optics that
+disappeared into pinprick holes in his naked skin. There were
+tubes: in the big highways in the groin, in the gut through a small
+valve set into a pucker of scar, in the nose and ear. The hairless
+head was pushed in on one side, like a pumpkin that hasn't been
+turned as it grew in the patch, and there was no skin on the flat
+piece, only white bone and a fine metallic mesh and more ragged,
+curdled scar tissue.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2422">The eyes were hidden behind a slim set
+of goggles that irised open when they neared him, and beneath the
+goggles they were preternaturally bright, bright as marbles, set
+deep in bruised-looking sockets. The mouth beneath the
+nostril-tubes parted in a smile, revealing teeth as neat and white
+as a toothpaste advertisement, and Buhle spoke.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2423">"Welcome to the liver. Or the
+heart."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2424">Leon choked on whatever words he'd
+prepared. The voice was the same one he'd heard in the outer room,
+warm and friendly, the voice of a man whom you could trust, who
+would take care of you. He fumbled around his suit, patting it. "I
+brought you a doorknob," he said, "but I can't reach it just
+now."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2425">Buhle laughed, not the chuckle he'd
+heard before, but an actual, barked <i>Ha!</i> that made the tubes
+heave and the fiber optics writhe. "Fantastic," he said. "Ria, he's
+fantastic."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2426">The compliment made the tips of Leon's
+ears grow warm.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2427">"He's a good one," she said. "And he's
+come a long way at your request."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2428">"You hear how she reminds me of my
+responsibilities? Sit down, both of you." Ria rolled over two
+chairs, and Leon settled into one, feeling it noiselessly adjust to
+take his weight. A small mirror unfolded itself and then two more,
+angled beneath it, and he found himself looking into Buhle's eyes,
+looking at his face, reflected in the mirrors.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2429">"Leon," Buhle said, "tell me about your
+final project, the one that got you the top grade in your
+class."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2430">Leon's fragile calm vanished, and he
+began to sweat. "I don't like to talk about it," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2431">"Makes you vulnerable, I know. But
+vulnerable isn't so bad. Take me. I thought I was invincible. I
+thought that I could make and unmake the world to my liking. I
+thought I understood how the human mind worked — and how it
+broke.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2432">"And then one day in Madrid, as I was
+sitting in my suite's breakfast room, talking with an old friend
+while I ate my porridge oats, my old friend picked up the heavy
+silver coffee jug, leaped on my chest, smashed me to the floor, and
+methodically attempted to beat the brains out of my head with it.
+It weighed about three pounds, not counting the coffee, which was
+scalding, and she only got in three licks before they pulled her
+off of me, took her away. Those three licks though —" He looked
+intently at them. "I'm an old man," he said. "Old bones, old
+tissues. The first blow cracked my skull. The second one broke it.
+The third one forced fragments into my brain. By the time the
+medics arrived, I'd been technically dead for about 174 seconds,
+give or take a second or two."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2433">Leon wasn't sure the old thing in the
+vat had finished speaking, but that seemed to be the whole story.
+"Why?" he said, picking the word that was uppermost in his
+mind.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2434">"Why did I tell you this?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2435">"No," Leon said. "Why did your old
+friend try to kill you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2436">Buhle grinned. "Oh, I expect I deserved
+it," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2437">"Are you going to tell me why?" Leon
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2438">Buhle's cozy grin disappeared. "I don't
+think I will."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2439">Leon found he was breathing so hard that
+he was fogging up his faceplate, despite the air-jets that worked
+to clear it. "Buhle," he said, "the point of that story was to tell
+me how vulnerable you are so that I'd tell you my story, but that
+story doesn't make you vulnerable. You were beaten to death and yet
+you survived, grew stronger, changed into this —" He waved his
+hands around. "This body, this monstrous, town-sized giant. You're
+about as vulnerable as fucking Zeus."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2440">Ria laughed softly but unmistakably.
+"Told you so," she said to Buhle. "He's a good one."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2441">The exposed lower part Buhle's face
+clenched like a fist and the pitch of the machine noises around
+them shifted a half-tone. Then he smiled a smile that was visibly
+forced, obviously artificial even in that ruin of a face.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2442">"I had an idea," he said. "That many of
+the world's problems could be solved with a positive outlook. We
+spend so much time worrying about the rare and lurid outcomes in
+life. Kids being snatched. Terrorists blowing up cities. Stolen
+secrets ruining your business. Irate customers winning huge
+judgments in improbable lawsuits. All this <i>chickenshit</i>,
+bed-wetting, hand-wringing <i>fear</i>." His voice rose and fell
+like a minister's and it was all Leon could do not to sway in time
+with him. "And at the same time, we neglect the likely: traffic
+accidents, jetpack crashes, bathtub drownings. It's like the mind
+can't stop thinking about the grotesque, and can't stop forgetting
+about the likely."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2443">"Get on with it," Ria said. "The speech
+is lovely, but it doesn't answer the question."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2444">He glared at her through the mirror, the
+marble-eyes in their mesh of burst blood vessels and red
+spider-tracks, like the eyes of a demon. "The human mind is just
+<i>kinked wrong</i>. And it's correctable." The excitement in his
+voice was palpable. "Imagine a product that let you <i>feel</i>
+what you <i>know</i> — imagine if anyone who heard 'Lotto: you've
+got to be in it to win it' immediately understood that this is
+<i>so much bullshit</i> That statistically, your chances of winning
+the lotto are not measurably improved by buying a lottery ticket.
+Imagine if explaining the war on terror to people made them double
+over with laughter! Imagine if the capital markets ran on realistic
+assessments of risk instead of envy, panic and greed."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2445">"You'd be a lot poorer," Ria said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2446">He rolled his eyes eloquently.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2447">"It's an interesting vision," Leon said.
+"I'd take the cure, whatever it was."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2448">The eyes snapped to him, drilled through
+him, fierce. "That's the problem, <i>right there</i>. The only
+people who'll take this are the people who don't need it.
+Politicians and traders and oddsmakers know how probability works,
+but they also know that the people who make them fat and happy
+<i>don't</i> understand it a bit, and so they can't afford to be
+rational. So there's only one answer to the problem."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2449">Leon blurted, "The bears."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2450">Ria let out an audible sigh.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2451">"The fucking bears," Buhle agreed, and
+the way he said it was so full of world-weary exhaustion that it
+made Leon want to hug him. "Yes. As a social reform tool, we
+couldn't afford to leave this to the people who were willing to
+take it. So we —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2452">"Weaponized it," Ria said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2453">"Whose story is this?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2454">Leon felt that the limbs of his suit
+were growing stiffer, his exhaust turning it into a balloon. And he
+had to pee. And he didn't want to move.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2455">"You dosed people with it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2456">"Leon," Buhle said, in a voice that
+implied, <i>Come on, we're bigger than that</i>. "They'd consented
+to being medical research subjects. And it <i>worked</i>. They
+stopped running around shouting <i>The sky is falling, the sky is
+falling</i> and became — <i>zen</i>. Happy, in a calm, even-keeled
+way. Headless chickens turned into flinty-eyed air-traffic
+controllers."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2457">"And your best friend beat your brains
+in —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2458">"Because," Buhle said, in a little
+Mickey Mouse falsetto, "<i>it would be unethical to do a
+broad-scale release on the general public</i>"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2459">Ria was sitting so still he had almost
+forgotten she was there.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2460">Leon shifted his weight. "I don't think
+that you're telling me the whole story."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2461">"We were set to market it as an
+anti-anxiety medication."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2462">"And?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2463">Ria stood up abruptly. "I'll wait
+outside." She left without another word.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2464">Buhle rolled his eyes again. "How do you
+get people to take anti-anxiety medication? Lots and lots of
+people? I mean, if I assigned you that project, gave you a budget
+for it —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2465">Leon felt torn between a desire to chase
+after Ria and to continue to stay in the magnetic presence of
+Buhle. He shrugged. "Same as you would with any pharma. Cook the
+diagnosis protocol, expand the number of people it catches. Get the
+news media whipped up about the anxiety epidemic. That's easy. Fear
+sells. An epidemic of fear? Christ, that'd be too easy. Far too
+easy. Get the insurers on board, discounts on the meds, make it
+cheaper to prescribe a course of treatment than to take the
+call-center time to explain to the guy why he's <i>not</i> getting
+the meds."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2466">"You're my kind of guy, Leon," Buhle
+said. "So yeah."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2467">"Yeah?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2468">Another one of those
+we're-both-men-of-the-world smiles. "Yeah."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2469">Oh.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2470">"How many?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2471">"That's the thing. We were trying it in
+a little market first. Basque country. The local authority was very
+receptive. Lots of chances to fine-tune the message. They're the
+most media-savvy people on the planet these days — they are to
+media as the Japanese were to electronics in the last century. If
+we could get them in the door —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2472">"How many?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2473">"About a million. More than half the
+population."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2474">"You created a bioweapon that infected
+its victims with numeracy, and infected a million Basque with
+it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2475">"Crashed the lottery. That's how I knew
+we'd done it. Lottery tickets fell by more than 80 percent. Wiped
+out."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2476">"And then your friend beat your head
+in?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2477">"Well."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2478">The suit was getting more uncomfortable
+by the second. Leon wondered if he'd get stuck if he waited too
+long, his overinflated suit incapable of moving. "I'm going to have
+to go, soon."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2479">"Evolutionarily, bad risk-assessment is
+advantageous."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2480">Leon nodded slowly. "OK, I'll buy that.
+Makes you entrepreneurial —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2481">"Drives you to colonize new lands, to
+ask out the beautiful monkey in the next tree, to have a baby you
+can't imagine how you'll afford."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2482">"And your numerate Vulcans stopped?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2483">"Pretty much," he said. "But that's just
+normal shakedown. Like when people move to cities, their birthrate
+drops. And nevertheless, the human race is becoming more and more
+citified and still, it isn't vanishing. Social stuff takes
+time."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2484">"And then your friend beat your head
+in?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2485">"Stop saying that."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2486">Leon stood. "Maybe I should go and find
+Ria."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2487">Buhle made a disgusted noise. "Fine. And
+ask her why she didn't finish the job? Ask her if she decided to do
+it right then, or if she'd planned it? Ask her why she used the
+coffee jug instead of the bread-knife? Because, you know, I wonder
+this myself."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2488">Leon backpedaled, clumsy in the
+overinflated suit. He struggled to get into the airlock, and as it
+hissed through its cycle, he tried not to think of Ria straddling
+the old man's chest, the coffee urn rising and falling.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2489">She was waiting for him on the other
+side, also overinflated in her suit. "Let's go," she said, and took
+his hand, the rubberized palms of their gloves sticking together.
+She half-dragged him through the many rooms of Buhle's body,
+tripping through the final door, then spinning him around and
+ripping, hard, on the release cord that split the suit down the
+back so that it fell into two lifeless pieces that slithered to the
+ground. He gasped out a breath he hadn't realized he'd been holding
+in as the cool air made contact with the thin layer of perspiration
+that filmed his body.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2490">Ria had already ripped open her own suit
+and her face was flushed and sweaty, her hair matted. Small
+sweat-rings sprouted beneath her armpits. An efficient orderly came
+forward and began gathering up their suits. Ria thanked her
+impersonally and headed for the doors.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2491">"I didn't think he'd do that," she said,
+once they were outside of the building — outside the core of
+Buhle's body.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2492">"You tried to kill him," Leon said. He
+looked at her hands, which had blunt, neat fingernails and large
+knuckles. He tried to picture the tendons on their backs standing
+out like sail-ropes when the wind blew, as they did the rhythmic
+work of raising and lowering the heavy silver coffee pot.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2493">She wiped her hands on her trousers and
+stuffed them in her pockets, awkward now, without any of her usual
+self-confidence. "I'm not ashamed of that. I'm proud of it. Not
+everyone would have had the guts. If I hadn't, you and everyone you
+know would be —" She brought her hands out of her pockets, bunched
+into fists. She shook her head. "I thought he'd tell you what we
+like about your grad project. Then we could have talked about where
+you'd fit in here —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2494">"You never said anything about that," he
+said. "I could have saved you a lot of trouble. I don't talk about
+it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2495">Ria shook her head. "This is Buhle. You
+won't stop us from doing anything we want to do. I'm not trying to
+intimidate you here. It's just a fact of life. If we want to
+replicate your experiment, we can, on any scale we want —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2496">"But I won't be a part of it," he said.
+"That matters."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2497">"Not as much as you think it does. And
+if you think you can avoid being a part of something that Buhle
+wants you for, you're likely to be surprised. We can get you what
+you want."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2498">"No you can't," he said. "If there's one
+thing I know, it's that you can't do that."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2499">Take one normal human being at lunch.
+Ask her about her breakfast. If lunch is great, she'll tell you how
+great breakfast is. If lunch is terrible, she'll tell you how awful
+breakfast was.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2500">Now ask her about dinner. A bad lunch
+will make her assume that a bad dinner is forthcoming. A great
+lunch will make her optimistic about dinner.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2501">Explain this dynamic to her and ask her
+again about breakfast. She'll struggle to remember the actual
+details of breakfast, the texture of the oatmeal, whether the juice
+was cold and delicious or slightly warm and slimy. She will
+remember and remember and remember for all she's worth, and then,
+if lunch is good, she'll tell you breakfast was good. And if lunch
+is bad, she'll tell you breakfast was bad.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2502">Because you just can't help it. Even
+though you know you're doing it, you can't help it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2503">But what if you could?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2504">"It was the parents," he said, as they
+picked their way through the treetops, along the narrow walkway,
+squeezing to one side to let the eager, gabbling researchers past.
+"That was the heartbreaker. Parents only remember the good parts of
+parenthood. Parents whose kids are grown remember a succession of
+sweet hugs, school triumphs, sports victories, and they simply
+forget the vomit, the tantrums, the sleep deprivation… It's the
+thing that lets us continue the species, this excellent facility
+for forgetting. That's what should have tipped me off."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2505">Ria nodded solemnly. "But there was an
+upside, wasn't there?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2506">"Oh, sure. Better breakfasts, for one
+thing. And the weight-loss — amazing. Just being able to remember
+how shitty you felt the last time you ate the chocolate bar or
+pigged out on fries. It was amazing."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2507">"The applications do sound impressive.
+Just that weight-loss one —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2508">"Weight-loss, addiction counseling, you
+name it. It was all killer apps, wall to wall."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2509">"But?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2510">He stopped abruptly. "You must know
+this," he said. "If you know about Clarity — that's what I called
+it, Clarity — then you know about what happened. With Buhle's
+resources, you can find out anything, right?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2511">She made a wry smile. "Oh, I know what
+history records. What I don't know is what <i>happened</i>. The
+official version, the one that put Ate onto you and got us
+interested —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2512">"Why'd you try to kill Buhle?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2513">"Because I'm the only one he can't
+bullshit, and I saw where he was going with his little experiment.
+The competitive advantage to a firm that knows about such a radical
+shift in human cognition — it's massive. Think of all the products
+that would vanish if numeracy came in a virus. Think of all the
+shifts in governance, in policy. Just imagine an <i>airport</i> run
+by and for people who understand risk!"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2514">"Sound pretty good to me," Leon
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2515">"Oh sure," she said. "Sure. A world of
+eager consumers who know the cost of everything and the value of
+nothing. Why did evolution endow us with such pathological
+innumeracy? What's the survival advantage in being led around by
+the nose by whichever witch-doctor can come up with the best
+scare-story?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2516">"He said that entrepreneurial things —
+parenthood, businesses… "</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2517">"Any kind of risk-taking. Sports. No one
+swings for the stands when he knows that the odds are so much
+better on a bunt."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2518">"And Buhle <i>wanted</i> this?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2519">She peered at him. "A world of people
+who understand risk are nearly as easy to lead around by the nose
+as a world of people who are incapable of understanding risk. The
+big difference is that the competition is at a massive disadvantage
+in the latter case, not being as highly evolved as the home
+team."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2520">He looked at her, really looked at her
+for the first time. Saw that she was the face of a monster, the
+voice of a god. The hand of a massive, unknowable machine that was
+vying to change the world, remake it to suit its needs. A machine
+that was <i>good at it</i>.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2521">"Clarity," he said. "Clarity." She
+looked perfectly attentive. "Do you think you'd have tried to kill
+Buhle if you'd been taking Clarity?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2522">She blinked in surprise. "I don't think
+I ever considered the question."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2523">He waited. He found he was holding his
+breath.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2524">"I think I would have succeeded if I'd
+been taking Clarity," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2525">"And if Buhle had been taking
+Clarity?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2526">"I think he would have let me." She
+blurted it so quickly it sounded like a belch.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2527">"Is anyone in charge of Buhle?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2528">"What do you mean?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2529">"I mean — that vat-thing. Is it
+volitional? Does it steer this, this <i>enterprise</i>? Or does the
+enterprise tick on under its own power, making its own
+decisions?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2530">She swallowed. "Technically, it's a
+benevolent dictatorship. He's sovereign, you know that." She
+swallowed again. "Will you tell me what happened with Clarity?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2531">"Does he actually make decisions,
+though?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2532">"I don't think so," she whispered. "Not
+really. It's more like, like —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2533">"A force of nature?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2534">"An emergent phenomenon."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2535">"Can he hear us?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2536">She nodded.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2537">"Buhle," he said, thinking of the thing
+in the vat. "Clarity made the people who took it very angry. They
+couldn't look at advertisements without wanting to smash something.
+Going into a shop made them nearly catatonic. Voting made them want
+to storm a government office with flaming torches. Every test
+subject went to prison within eight weeks."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2538">Ria smiled. She took his hands in hers —
+warm, dry — and squeezed them.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2539">His phone rang. He took one hand out and
+answered it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2540">"Hello?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2541">"How much do you want for it?" Buhle's
+voice was ebullient. Mad, even.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2542">"It's not for sale."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2543">"I'll buy Ate, put you in charge."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2544">"Don't want it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2545">"I'll kill your parents." The ebullient
+tone didn't change at all.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2546">"You'll kill everyone if Clarity is
+widely used."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2547">"You don't believe that. Clarity lets
+you choose the course that will make you happiest. Mass suicide
+won't make humanity happiest."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2548">"You don't know that."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2549">"Wanna bet?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2550">"Why don't you kill yourself?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2551">"Because dead, I'll never make things
+better."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2552">Ria was watching intently. She squeezed
+the hand she held.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2553">"Will you take it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2554">There was a long pause.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2555">Leon pressed on. "No deal unless you
+take it," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2556">"You have some?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2557">"I can make some. I'll need to talk to
+some lab-techs and download some of my research first."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2558">"Will you take it with me?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2559">He didn't hesitate. "Never."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2560">"I'll take it," Buhle said, and hung
+up.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2561">Ria took his hand again. Leaned forward.
+Gave him a dry, firm kiss on the mouth. Leaned back.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2562">"Thank you," she said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2563">"Don't thank me," he said. "I'm not
+doing you any favors."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2564">She stood up, pulling him to his
+feet.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2565">"Welcome to the team," she said.
+"Welcome to Buhle."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">—</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2566"><b>Afterword:</b></p>
+</div>
+<div class="substance">
+<p class="norm" id="o2567">I wrote this story for a Frederic Pohl
+tribute anthology, inspired by <i>The Space Merchants,</i> the
+classic novel he co-wrote with CM Kornbluth. I've been on a real
+neuroeconomics bender lately, fascinated with the idea that
+happiness, perceived happiness, and predicted happiness can be
+completely disjoint. It raises an interesting question in an era
+like ours, where governments increasingly see their role as
+managing people, rather than representing them. If you can make
+people happier by changing the way they feel about their
+circumstances, isn't that easier and more likely to succeed than
+changing the circumstances themselves?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o2568">~</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

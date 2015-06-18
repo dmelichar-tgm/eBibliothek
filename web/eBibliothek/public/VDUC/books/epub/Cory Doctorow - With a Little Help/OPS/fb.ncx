@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ncx PUBLIC
+     "-//NISO//DTD ncx 2005-1//EN"
+     "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+
+<ncx version="2005-1"
+     xml:lang="en"
+     xmlns="http://www.daisy.org/z3986/2005/ncx/">
+
+  <head>
+    <!-- The following four metadata items are required for all
+        NCX documents, including those conforming to the relaxed
+        constraints of OPS 2.0 -->
+
+    <meta name="dtb:uid" content="9b5fa5a0-13d7-11e1-9559-001cc0a62c0b"/>
+
+    <meta name="dtb:depth" content="1"/>
+
+    <meta name="dtb:totalPageCount" content="0"/>
+
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+
+ <docTitle>
+   <text>With a Little Help</text>
+ </docTitle>
+
+ <docAuthor>
+   <text>Doctorow, Cory</text>
+ </docAuthor>
+
+    <navMap>
+    
+    <navPoint class="titlepage" id="level1-titlepage" playOrder="1">
+      <navLabel><text>Title</text></navLabel>
+      <content src="title.xml"/>
+    </navPoint>
+    
+    <navPoint class="about" id="level1-about" playOrder="2">
+      <navLabel><text>About</text></navLabel>
+      <content src="about.xml"/>
+    </navPoint>
+        
+
+
+
+
+
+
+
+<navPoint class="section" id="sec422949" playOrder="3">
+  <navLabel><text>Acknowledgements   </text></navLabel>
+  
+    <content src="main0.xml"/>
+  
+    
+    
+    
+  
+</navPoint>
+
+ 
+ 
+        
+
+
+
+
+
+
+
+<navPoint class="section" id="sec422921" playOrder="4">
+  <navLabel><text>A note about typos and other errors   </text></navLabel>
+  
+    <content src="main2.xml"/>
+  
+    
+    
+    
+  
+</navPoint>
+
+ 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<navPoint class="chapter" id="chap422923" playOrder="5">
+  <navLabel><text>Chapter 1 -      The Things That Make Me Weak and Strange Get Engineered Away   </text></navLabel> 
+  <content src="main3.xml"/>
+    
+  
+    
+    
+  
+</navPoint>
+
+ 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<navPoint class="chapter" id="chap422925" playOrder="6">
+  <navLabel><text>Chapter 2 -      The Right Book   </text></navLabel> 
+  <content src="main4.xml"/>
+    
+  
+    
+    
+  
+</navPoint>
+
+ 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<navPoint class="chapter" id="chap422927" playOrder="7">
+  <navLabel><text>Chapter 3 -      Other People's Money   </text></navLabel> 
+  <content src="main5.xml"/>
+    
+  
+    
+    
+  
+</navPoint>
+
+ 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<navPoint class="chapter" id="chap422929" playOrder="8">
+  <navLabel><text>Chapter 4 -      Scroogled   </text></navLabel> 
+  <content src="main6.xml"/>
+    
+  
+    
+    
+  
+</navPoint>
+
+ 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<navPoint class="chapter" id="chap422931" playOrder="9">
+  <navLabel><text>Chapter 5 -      Human Readable   </text></navLabel> 
+  <content src="main7.xml"/>
+    
+  
+    
+    
+  
+</navPoint>
+
+ 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<navPoint class="chapter" id="chap422933" playOrder="10">
+  <navLabel><text>Chapter 6 -      Liberation Spectrum   </text></navLabel> 
+  <content src="main8.xml"/>
+    
+  
+    
+    
+  
+</navPoint>
+
+ 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<navPoint class="chapter" id="chap422935" playOrder="11">
+  <navLabel><text>Chapter 7 -      Power Punctuation!   </text></navLabel> 
+  <content src="main9.xml"/>
+    
+  
+    
+    
+  
+</navPoint>
+
+ 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<navPoint class="chapter" id="chap422937" playOrder="12">
+  <navLabel><text>Chapter 8 -      Visit the Sins   </text></navLabel> 
+  <content src="main10.xml"/>
+    
+  
+    
+    
+  
+</navPoint>
+
+ 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<navPoint class="chapter" id="chap422939" playOrder="13">
+  <navLabel><text>Chapter 9 -      Constitutional Crisis   </text></navLabel> 
+  <content src="main11.xml"/>
+    
+  
+    
+    
+  
+</navPoint>
+
+ 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<navPoint class="chapter" id="chap422941" playOrder="14">
+  <navLabel><text>Chapter 10 -      Pester Power   </text></navLabel> 
+  <content src="main12.xml"/>
+    
+  
+    
+    
+  
+</navPoint>
+
+ 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<navPoint class="chapter" id="chap422943" playOrder="15">
+  <navLabel><text>Chapter 11 -      Chicken Little   </text></navLabel> 
+  <content src="main13.xml"/>
+    
+  
+    
+    
+  
+</navPoint>
+
+ 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<navPoint class="chapter" id="chap422945" playOrder="16">
+  <navLabel><text>Chapter 12 -      Epoch   </text></navLabel> 
+  <content src="main14.xml"/>
+    
+  
+    
+    
+  
+</navPoint>
+
+ 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<navPoint class="chapter" id="chap422947" playOrder="17">
+  <navLabel><text>Chapter 13 -      I'm Only In It For the Money, by Russell Galen   </text></navLabel> 
+  <content src="main15.xml"/>
+    
+  
+    
+    
+  
+</navPoint>
+
+ 
+    
+    <navPoint class="similar" id="level1-similar" playOrder="18">
+      <navLabel><text>Recommendations</text></navLabel>
+      <content src="similar.xml"/>
+    </navPoint>
+  
+    
+  </navMap>
+
+
+</ncx>

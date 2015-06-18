@@ -1,0 +1,2586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content=
+"HTML Tidy for FreeBSD (vers 25 March 2009), see www.w3.org" />
+<title>With a Little Help</title>
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+<meta http-equiv="Content-Type" content=
+"application/xhtml+xml; charset=utf-8" />
+</head>
+<body>
+<div class="body">
+<div id="chapter_422923" class="chapter">
+<h2><span class="chapterHeader"><span class=
+"translation">Chapter</span> <span class="count">1</span></span>
+The Things That Make Me Weak and Strange Get Engineered Away</h2>
+<div class="text">
+<div class="substance">
+<p class="verse" id="o36">"Cause it's gonna be the future
+soon,<br />
+"And I won't always be this way,<br />
+"When the things that make me weak and strange get engineered
+away"<br /></p>
+</div>
+<div class="substance">
+<p class="verse" id="o37">-Jonathan Coulton, The Future
+Soon<br /></p>
+</div>
+<div class="substance">
+<p class="norm" id="o38">Lawrence's cubicle was just the right
+place to chew on a thorny logfile problem: decorated with the
+votive fetishes of his monastic order, a thousand calming,
+clarifying mandalas and saints devoted to helping him think
+clearly.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o39">From the nearby cubicles, Lawrence heard
+the ritualized muttering of a thousand brothers and sisters in the
+Order of Reflective Analytics, a susurration of harmonized,
+concentrated thought. On his display, he watched an instrument
+widget track the decibel level over time, the graph overlayed on a
+3D curve of normal activity over time and space. He noted that the
+level was a little high, the room a little more anxious than
+usual.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o40">He clicked and tapped and thought some
+more, massaging the logfile to see if he could make it snap into
+focus and make sense, but it stubbornly refused to be sensible. The
+data tracked the custody chain of the bitstream the Order munged
+for the Securitat, and somewhere in there, a file had grown by 68
+bytes, blowing its checksum and becoming An Anomaly.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o41">Order lore was filled with Anomalies,
+loose threads in the fabric of reality — bugs to be squashed in the
+data-set that was the Order's universe. Starting with the pre-Order
+sysadmin who'd tracked a $0.75 billing anomaly back to a foreign
+spy-ring that was using his systems to hack his military, these
+morality tales were object lessons to the Order's monks: pick at
+the seams and the world will unravel in useful and interesting
+ways.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o42">Lawrence had reached the end of his
+personal picking capacity, though. It was time to talk it over with
+Gerta.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o43">He stood up and walked away from his
+cubicle, touching his belt to let his sensor array know that he
+remembered it was there. It counted his steps and his heartbeats
+and his EEG spikes as he made his way out into the compound.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o44">It's not like Gerta was in charge — the
+Order worked in autonomous little units with rotating leadership,
+all coordinated by some groupware that let them keep the heirarchy
+nice and flat, the way that they all liked it. Authority
+sucked.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o45">But once you instrument every keystroke,
+every click, every erg of productivity, it soon becomes apparent
+who knows her shit and who just doesn't. Gerta knew the shit
+cold.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o46">"Question," he said, walking up to her.
+She liked it brusque. No nonsense.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o47">She batted her handball against the court
+wall three more times, making long dives for it, sweaty grey hair
+whipping back and forth, body arcing in graceful flows. Then she
+caught the ball and tossed it into the basket by his feet.
+"Lawrence, huh? All right, surprise me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o48">"It's this," he said, and tossed the file
+at her pan. She caught it with the same fluid gesture and her
+computer gave it to her on the handball court wall, which was the
+closest display for which she controlled the lockfile. She peered
+at the data, spinning the graph this way and that, peering
+intently.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o49">She pulled up some of her own instruments
+and replayed the bitstream, recalling the logfiles from many
+network taps from the moment at which the file grew by the
+anomalous 68 bytes.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o50">"You think it's an Anomaly, don't you?"
+She had a fine blond mustache that was beaded with sweat, but her
+breathing had slowed to normal and her hands were steady and sure
+as she gestured at the wall.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o51">"I was kind of hoping, yeah. Good
+opportunity for personal growth, your Anomalies."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o52">"Easy to say why you'd call it an Anomaly,
+but look at this." She pulled the checksum of the injected bytes,
+then showed him her network taps, which were playing the traffic
+back and forth for several minutes before and after the insertion.
+The checksummed block moved back through the routers, one hop, two
+hops, three hops, then to a terminal. The authentication data for
+the terminal told them who owned its lockfile then: Zbigniew
+Krotoski, login zbigkrot. Gerta grabbed his room number.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o53">"Now, we don't have the actual payload, of
+course, because that gets flushed. But we have the checksum, we
+have the username, and look at this, we have him typing 68
+unspecified bytes in a pattern consistent with his biometrics five
+minutes and eight seconds prior to the injection. So, let's go ask
+him what his 68 characters were and why they got added to the
+Securitat's data-stream."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o54">He led the way, because he knew the corner
+of the campus where zbigkrot worked pretty well, having lived there
+for five years when he first joined the Order. Zbigkrot was
+probably a relatively recent inductee, if he was still in that
+block.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o55">His belt gave him a reassuring buzz to let
+him know he was being logged as he entered the building, softer
+haptic feedback coming as he was logged to each floor as they went
+up the clean-swept wooden stairs. Once, he'd had the work-detail of
+re-staining those stairs, stripping the ancient wood, sanding it
+baby-skin smooth, applying ten coats of varnish, polishing it to a
+high gloss. The work had been incredible, painful and rewarding,
+and seeing the stairs still shining gave him a tangible sense of
+satisfaction.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o56">He knocked at zbigkrot's door twice before
+entering. Technically, any brother or sister was allowed to enter
+any room on the campus, though there were norms of privacy and
+decorum that were far stronger than any law or rule.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o57">The room was bare, every last trace of its
+occupant removed. A fine dust covered every surface, swirling in
+clouds as they took a few steps in. They both coughed explosively
+and stepped back, slamming the door.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o58">"Skin," Gerta croaked. "Collected from the
+ventilation filters. DNA for every person on campus, in a nice,
+even, Gaussian distribution. Means we can't use biometrics to
+figure out who was in this room before it was cleaned out."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o59">Lawrence tasted the dust in his mouth and
+swallowed his gag reflex. Technically, he knew that he was always
+inhaling and ingesting other people's dead skin-cells, but not by
+the mouthful.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o60">"All right," Gerta said. "<i>Now</i>
+you've got an Anomaly. Congrats, Lawrence. Personal growth awaits
+you."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o61">The campus only had one entrance to the
+wall that surrounded it. "Isn't that a fire-hazard?" Lawrence asked
+the guard who sat in the pillbox at the gate.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o62">"Naw," the man said. He was old, with the
+serene air of someone who'd been in the Order for decades. His
+beard was combed and shining, plaited into a thick braid that hung
+to his belly, which had only the merest hint of a little pot.
+"Comes a fire, we hit the panic button, reverse the magnets lining
+the walls, and the foundations destabilize at twenty sections. The
+whole thing'd come down in seconds. But no one's going to sneak in
+or out that way."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o63">"I did <i>not</i> know that," Lawrence
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o64">"Public record, of course. But pretty
+obscure. Too tempting to a certain prankster mindset."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o65">Lawrence shook his head. "Learn something
+new every day."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o66">The guard made a gesture that caused
+something to depressurize in the gateway. A primed <i>hum</i>
+vibrated through the floorboards. "We keep the inside of the
+vestibule at 10 atmospheres, and it opens inward from outside. No
+one can force that door open without us knowing about it in a
+pretty dramatic way."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o67">"But it must take forever to
+re-pressurize?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o68">"Not many people go in and out. Just
+data."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o69">Lawrence patted himself down.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o70">"You got everything?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o71">"Do I seem nervous to you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o72">The old timer picked up his tea and sipped
+at it. "You'd be an idiot if you weren't. How long since you've
+been out?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o73">"Not since I came in. Sixteen years ago. I
+was twenty one."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o74">"Yeah," the old timer said. "Yeah, you'd
+be an idiot if you weren't nervous. You follow politics?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o75">"Not my thing," Lawrence said. "I know
+it's been getting worse out there —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o76">The old timer barked a laugh. "Not your
+thing? It's probably time you got out into the wide world, son. You
+might ignore politics, but it won't ignore <i>you</i>."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o77">"Is it dangerous?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o78">"You going armed?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o79">"I didn't know that was an option."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o80">"Always an option. But not a smart one.
+Any weapon you don't know how to use belongs to your enemy. Just be
+circumspect. Listen before you talk. Watch before you act. They're
+good people out there, but they're in a bad, bad situation."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o81">Lawrence shuffled his feet and shifted the
+straps of his bindle. "You're not making me very comfortable with
+all this, you know."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o82">"Why are you going out anyway?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o83">"It's an Anomaly. My first. I've been
+waiting sixteen years for this. Someone poisoned the Securitat's
+data and left the campus. I'm going to go ask him why he did
+it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o84">The old man blew the gate. The heavy door
+lurched open, revealing the vestibule. "Sounds like an Anomaly all
+right." He turned away and Lawrence forced himself to move toward
+the vestibule. The man held his hand out before he reached it. "You
+haven't been outside in sixteen years, it's going to be a surprise.
+Just remember, we're a noble species, all appearances to the
+contrary notwithstanding."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o85">Then he gave Lawrence a little shove that
+sent him into the vestibule. The door slammed behind him. The
+vestibule smelled like machine oil and rubber, gaskety smells. It
+was dimly lit by rows of white LEDs that marched up the walls like
+drunken ants. Lawrence barely had time to register this before he
+heard a loud <i>thunk</i> from the outer door and it swung
+away.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o86">Lawrence walked down the quiet street,
+staring up at the same sky he'd lived under, breathing the same air
+he'd always breathed, but marveling at how <i>different</i> it all
+was. His heartbeat and respiration were up — the tips of the first
+two fingers on his right hand itched slightly under his feedback
+gloves — and his thoughts were doing that race-condition thing
+where every time he tried to concentrate on something he thought
+about how he was trying to concentrate on something and should stop
+thinking about how he was concentrating and just concentrate.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o87">This was how it had been sixteen years
+before, when he'd gone into the Order. He'd been so <i>angry</i>
+all the time then. Sitting in front of his keyboard, looking at the
+world through the lens of the network, suffering all the fools with
+poor grace. He'd been a bright 14 year old, a genius at 16, a
+rising star at 18, and a failure by 21. He was depressed all the
+time, his weight had ballooned to nearly 300 pounds, and he had
+been fired three times in two years.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o88">One day he stood up from his desk at work
+— he'd just been hired at a company that was selling learning,
+trainable vision-systems for analyzing images, who liked him
+because he'd retained his security clearance when he'd been fired
+from his previous job — and walked out of the building. It had been
+a blowing, wet, grey day, and the streets of New York were as empty
+as they ever got.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o89">Standing on Sixth Avenue, looking north
+from midtown, staring at the buildings the cars and the buses and
+the people and the tallwalkers, that's when he had his realization:
+<i>He was not meant to be in this world.</i></p>
+</div>
+<div class="substance">
+<p class="norm" id="o90">It just didn't suit him. He could
+<i>see</i> its workings, see how its politics and policies were
+flawed, see how the system needed debugging, see what made its
+people work, but he couldn't touch it. Every time he reached in to
+adjust its settings, he got mangled by its gears. He couldn't
+convince his bosses that he knew what they were doing wrong. He
+couldn't convince his colleagues that he knew best. Nothing he did
+succeeded — every attempt he made to right the wrongs of the world
+made him miserable and made everyone else angry.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o91">Lawrence knew about humans, so he knew
+about this: this was the exact profile of the people in the Order.
+Normally he would have taken the subway home. It was forty blocks
+to his place, and he didn't get around so well anymore. Plus there
+was the rain and the wind.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o92">But today, he walked, huffing and limping,
+using his cane more and more as he got further and further uptown,
+his knee complaining with each step. He got to his apartment and
+found that the elevator was out of service — second time that month
+— and so he took the stairs. He arrived at his apartment so out of
+breath he felt like he might vomit.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o93">He stood in the doorway, clutching the
+frame, looking at his sofa and table, the piles of books, the dirty
+dishes from that morning's breakfast in the little sink. He'd
+watched a series of short videos about the Order once, and he'd
+been struck by the little monastic cells each member occupied, so
+neat, so tidy, everything in its perfect place, serene and
+thoughtful.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o94">So unlike his place.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o95">He didn't bother to lock the door behind
+him when he left. They said New York was the burglary capital of
+the developed world, but he didn't know anyone who'd been burgled.
+If the burglars came, they were welcome to everything they could
+carry away and the landlord could take the rest. He was not meant
+to be in this world.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o96">He walked back out into the rain and, what
+the hell, hailed a cab, and, hail mary, one stopped when he put his
+hand out. The cabbie grunted when he said he was going to Staten
+Island, but, what the hell, he pulled three twenties out of his
+wallet and slid them through the glass partition. The cabbie put
+the pedal down. The rain sliced through the Manhattan canyons and
+battered the windows and they went over the Verrazano bridge and he
+said goodbye to his life and the outside world forever, seeking a
+world he could be a part of.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o97">Or at least, that's how he felt, as his
+heart swelled with the drama of it all. But the truth was much less
+glamorous. The brothers who admitted him at the gate were cheerful
+and a little weird, like his co-workers, and he didn't get a nice
+clean cell to begin with, but a bunk in a shared room and a detail
+helping to build more quarters. And they didn't leave his stuff for
+the burglars — someone from the Order went and cleaned out his
+place and put his stuff in a storage locker on campus, made good
+with his landlord and so on. By the time it was all over, it all
+felt a little… ordinary. But in a good way, Ordinary was good. It
+had been a long time since he'd felt ordinary. Order, ordinary.
+They went together. He needed ordinary.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o98">The Securitat van played a cheerful
+engine-tone as it zipped down the street towards him. It looked
+like a children's drawing — a perfect little electrical box with
+two seats in front and a meshed-in lockup in the rear. It
+accelerated smoothly down the street towards him, then braked
+perfectly at his toes, rocking slightly on its suspension as its
+doors gull-winged up.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o99">"Cool!" he said, involuntarily, stepping
+back to admire the smart little car. He reached for the lifelogger
+around his neck and aimed it at the two Securitat officers who were
+debarking, moving with stiff grace in their armor. As he raised the
+lifelogger, the officer closest to him reached out with serpentine
+speed and snatched it out of his hands, power-assisted fingers
+coming together on it with a loud, plasticky <i>crunk</i> as the
+device shattered into a rain of fragments. Just as quickly, the
+other officer had come around the vehicle and seized Lawrence's
+wrists, bringing them together in a painful, machine-assisted
+grip.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o100">The one who had crushed his lifelogger
+passed his palms over Lawrence's chest, arms and legs, holding them
+a few millimeters away from him. Lawrence's pan went nuts,
+intrusion detection sensors reporting multiple hostile reads of his
+identifiers, millimeter-wave radar scans, HERF attacks, and
+assorted shenanigans. All his feedback systems went to full alert,
+going from itchy, back-of-the-neck liminal sensations into high
+intensity pinches, prods and buzzes. It was a deeply alarming
+sensation, like his internal organs were under attack.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o101">He choked out an incoherent syllable, and
+the Securitat man who was hand-wanding him raised a warning finger,
+holding it so close to his nose he went cross-eyed. He fell silent
+while the man continued to wand him, twitching a little to let his
+pan know that it was all OK.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o102">"From the cult, then, are you?" the
+Securitat man said, after he'd kicked Lawrence's ankles apart and
+spread his hands on the side of the truck.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o103">"That's right," Lawrence said. "From the
+Order." He jerked his head toward the gates, just a few tantalizing
+meters away. "I'm out —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o104">"You people are really something, you
+know that? You could have been <i>killed</i>. Let me tell you a few
+things about how the world works: when you are approached by the
+Securitat, you stand still with your hands stretched straight out
+to either side. You do <i>not</i> raise unidentified devices and
+point them at the officers. Not unless you're trying to commit
+suicide by cop. Is that what you're trying to do?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o105">"No," Lawrence said. "No, of course not.
+I was just taking a picture for —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o106">"And you do <i>not</i> photograph or log
+our security procedures. There's a war on, you know." The man's
+forehead bunched together. "Oh, for shit's sake. We should take you
+in now, you know it? Tie up a dozen people's day, just to process
+you through the system. You could end up in a cell for, oh, I don't
+know, a month. You want that?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o107">"Of course not," Lawrence said. "I didn't
+realize —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o108">"You didn't, but you <i>should have</i>.
+If you're going to come walking around here where the real people
+are, you have to learn how to behave like a real person in the real
+world."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o109">The other man, who had been impassively
+holding Lawrence's wrists in a crushing grip, eased up. "Let him
+go?" he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o110">The first officer shook his head. "If I
+were you, I would turn right around, walk through those gates, and
+never come out again. Do I make myself clear?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o111">Lawrence wasn't clear at all. Was the cop
+ordering him to go back? Or just giving him advice? Would he be
+arrested if he didn't go back in? It had been a long time since
+Lawrence had dealt with authority and the feeling wasn't a good
+one. His chest heaved, and sweat ran down his back, pooling around
+his ass, then moving in rivulets down the backs of his legs.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o112">"I understand," he said. Thinking: <i>I
+understand that asking questions now would not be a good
+idea</i>.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o113">The subway was more or less as he
+remembered it, though the long line of people waiting to get
+through the turnstiles turned out to be a line to go through a
+security checkpoint, complete with bag-search and X-ray. But the
+New Yorkers were the same — no one made eye contact with anyone
+else, but if they did, everyone shared a kind of bitter shrug, as
+if to say, <i>Ain't it the fuckin' truth?</i></p>
+</div>
+<div class="substance">
+<p class="norm" id="o114">But the smell was the same — oil and damp
+and bleach and the indefinable, human smell of a place where
+millions had passed for decades, where millions would pass for
+decades to come. He found himself standing before a subway map,
+looking at it, comparing it to the one in his memory to find the
+changes, the new stations that must have sprung up during his
+hiatus from reality.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o115">But there weren't new stations. In fact,
+it seemed to him that there were a lot <i>fewer</i> stations —
+hadn't there been one at Bleeker Street and another at Cathedral
+Parkway? Yes, there had been — but look now, they were gone, and…
+And there were stickers, white stickers over the places where the
+stations had been. He reached up and touched the one over Bleeker
+Street.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o116">"I still can't get used to it, either,"
+said a voice at his side. I used to change for the F Train there
+every day when I was a kid." It was a woman, about the same age as
+Gerta, but more beaten down by the years, deeper creases in her
+face, a stoop in her stance. But her face was kind, her eyes
+soft.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o117">"What happened to it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o118">She took a half-step back from him.
+"Bleeker Street," she said. "You know, Bleeker Street? Like 9/11?
+Bleeker Street?" Like the name of the station was an
+incantation.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o119">It rang a bell. It wasn't like he didn't
+ever read the news, but it had a way of sliding off of you when you
+were on campus, as though it was some historical event in a book,
+not something happening right there, on the other side of the
+wall.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o120">"I'm sorry," he said. "I've been away.
+Bleeker Street, yes, of course."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o121">She gave him a squinty stare. "You must
+have been <i>very</i> far away."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o122">He tried out a sheepish grin. "I'm a
+monk," he said. "From the Order of Reflective Analytics. I've been
+out of the world for sixteen years. Until today, in fact. My name
+is Lawrence." He stuck his hand out and she shook it like it was
+made of china.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o123">"A monk," she said. "That's very
+interesting. Well, you enjoy your little vacation." She turned on
+her heel and walked quickly down the platform. He watched her for a
+moment, then turned back to the map, counting the missing
+stations.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o124">When the train ground to a halt in the
+tunnel between 42nd and 50th street, the entire car let out a
+collective groan. When the lights flickered and went out, they
+groaned louder. The emergency lights came on in sickly green and an
+incomprehensible announcement played over the loudspeakers.
+Evidently, it was an order to evacuate, because the press of people
+began to struggle through the door at the front of the car, then
+further and further. Lawrence let the press of bodies move him
+too.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o125">Once they reached the front of the train,
+they stepped down onto the tracks, each passenger turning silently
+to help the next, again with that <i>Ain't it the fuckin'
+truth?</i> look. Lawrence turned to help the person behind him and
+saw that it was the woman who'd spoken to him on the platform. She
+smiled a little smile at him and turned with practiced ease to help
+the person behind her.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o126">They walked single file on a narrow
+walkway beside the railings. Securitat officers were strung out at
+regular intervals, wearing night scopes and high, rubberized boots.
+They played flashlights over the walkers as they evacuated.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o127">"Does this happen often?" Lawrence said
+over his shoulder. His words were absorbed by the dead subterranean
+air and he thought that she might not have heard him but then she
+sighed.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o128">"Only every time there's an anomaly in
+the head-count — when the system says there's too many or too few
+people in the trains. Maybe once a week." He could feel her staring
+at the back of his head. He looked back at her and saw her shaking
+her head. He stumbled and went down on one knee, clanging his head
+against the stone walls made soft by a fur of condensed train
+exhaust, cobwebs and dust.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o129">She helped him to his feet. "You don't
+seem like a snitch, Lawrence. But you're a monk. Are you going to
+turn me in for being suspicious?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o130">He took a second to parse this out. "I
+don't work for the Securitat," he said. It seemed like the best way
+to answer.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o131">She snorted. "That's not what we hear.
+Come on, they're going to start shouting at us if we don't
+move."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o132">They walked the rest of the way to an
+emergency staircase together, and emerged out of a sidewalk
+grating, blinking in the remains of the autumn sunlight, a bloody
+color on the glass of the highrises. She looked at him and made a
+face. "You're filthy, Lawrence." She thumped at his sleeves and
+great dirty clouds rose off them. He looked down at the knees of
+his pants and saw that they were hung with boogers of dust.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o133">The New Yorkers who streamed past them
+ducked to avoid the dirty clouds. "Where can I clean up?" he
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o134">"Where are you staying?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o135">"I was thinking I'd see about getting a
+room at the Y or a backpacker's hostel, somewhere to stay until I'm
+done."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o136">"Done?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o137">"I'm on a complicated errand. Trying to
+locate someone who used to be in the Order."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o138">Her face grew hard again. "No one gets
+out alive, huh?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o139">He felt himself blushing. "It's not like
+that. Wow, you've got strange ideas about us. I want to find this
+guy because he disappeared under mysterious circumstances and I
+want to —" How to explain Anomalies to an outsider? "It's a thing
+we do. Unravel mysteries. It makes us better people."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o140">"Better people?" She snorted again.
+"Better than what? Don't answer. Come on, I live near here. You can
+wash up at my place and be on your way. You're not going to get
+into any backpacker's hostel looking like you just crawled out of a
+sewer — you're more likely to get detained for being an 'indigent
+of suspicious character.'"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o141">He let her steer him a few yards uptown.
+"You think that I work for the Securitat but you're inviting me
+into your home?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o142">She shook her head and led him around a
+corner, along a long crosstown block, and then turned back uptown.
+"No," she said. "I think you're a confused stranger who is apt to
+get himself into some trouble if someone doesn't take you in hand
+and help you get smart, fast. It doesn't cost me anything to lend a
+hand, and you don't seem like the kind of guy who'd mug, rape and
+kill an old lady."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o143">"The discipline," he said, "is all about
+keeping track of the way that the world is, and comparing it to
+your internal perceptions, all the time. When I entered the Order,
+I was really big. Fat, I mean. The discipline made me log every bit
+of food I ate, and I discovered a few important things: first, I
+was eating about 20 times a day, just grazing on whatever happened
+to be around. Second, that I was consuming about 4,000 calories a
+day, mostly in industrial sugars like high-fructose corn syrup.
+Just <i>knowing</i> how I ate made a gigantic difference. I felt
+like I ate sensibly, always ordering a salad with lunch and dinner,
+but I missed the fact that I was glooping on half a cup of
+sweetened, high-fat dressing, and having a cookie or two every hour
+between lunch and dinner, and a half-pint of ice-cream before bed
+most nights.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o144">"But it wasn't just food — in the Order,
+we keep track of <i>everything</i>; our typing patterns, our
+sleeping patterns, our moods, our reading habits. I discovered that
+I read faster when I've been sleeping more, so now, when I need to
+really get through a lot of reading, I make sure I sleep more. Used
+to be I'd try to stay up all night with pots of coffee to get the
+reading done. Of course, the more sleep-deprived I was, the slower
+I read; and the slower I read the more I needed to stay up to catch
+up with the reading. No wonder college was such a blur.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o145">"So that's why I've stayed. It's
+empiricism, it's as old as Newton, as the Enlightenment." He took
+another sip of his water, which tasted like New York tap water had
+always tasted (pretty good, in fact), and which he hadn't tasted
+for sixteen years. The woman was called Posy, and her old leather
+sofa was worn but well-loved, and smelled of saddle soap. She was
+watching him from a kitchen chair she'd brought around to the
+living room of the tiny apartment, rubbing her stockinged feet over
+the good wool carpet that showed a few old stains hiding beneath
+strategically placed furnishings and knick-knacks.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o146">He had to tell her the rest, of course.
+You couldn't understand the Order unless you understood the rest.
+"I'm a screwup, Posy. Or at least, I was. We all were. Smart and
+motivated and promising, but just a wretched person to be around.
+Angry, bitter, all those smarts turned on biting the heads off of
+the people who were dumb enough to care about me or employ me. And
+so smart that I could talk myself into believing that it was all
+everyone else's fault, the idiots. It took instrumentation,
+empiricism, to get me to understand the patterns of my own life, to
+master my life, to become the person I wanted to be."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o147">"Well, you seem like a perfectly nice
+young man now," Posy said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o148">That was clearly his cue to go, and he'd
+changed into a fresh set of trousers, but he couldn't go, not until
+he picked apart something she'd said earlier. "Why did you think I
+was a snitch?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o149">"I think you know that very well,
+Lawrence," she said. "I can't imagine someone who's so into
+measuring and understanding the world could possibly have missed
+it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o150"><i>Now</i> he knew what she was talking
+about. "We just do contract work for the Securitat. It's just one
+of the ways the Order sustains itself." The founders had gone into
+business refilling toner cartridges, which was like the 21st
+century equivalent of keeping bees or brewing dark, thick beer.
+They'd branched out into remote IT administration, then into
+data-mining and security, which was a natural for people with Order
+training. "But it's all anonymized. We don't snitch on people. We
+report on anomalous events. We do it for lots of different
+companies, too — not just the Securitat."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o151">Posy walked over to the window behind her
+small dining room table, rolling away a couple of handsome old
+chairs on castors to reach it. She looked down over the billion
+lights of Manhattan, stretching all the way downtown to Brooklyn.
+She motioned to him to come over, and he squeezed in beside her.
+They were on the twenty-third floor, and it had been many years
+since he'd stood this high and looked down. The world is different
+from high up.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o152">"There," she said, pointing at an
+apartment building across the way. "There, you see it? With the
+broken windows?" He saw it, the windows covered in cardboard. "They
+took them away last week. I don't know why. You never know why. You
+become a person of interest and they take you away and then later,
+they always find a reason to keep you away."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o153">Lawrence's hackles were coming up. He
+found stuff that didn't belong in the data — he didn't arrest
+people. "So if they always find a reason to keep you away, doesn't
+that mean —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o154">She looked like she wanted to slap him
+and he took a step back. "We're all guilty of something, Lawrence.
+That's how the game is rigged. Look closely at anyone's life and
+you'll find, what, a little black-marketeering, a copyright
+infringement, some cash economy business with unreported income,
+something obscene in your Internet use, something in your
+bloodstream that shouldn't be there. I bought that sofa from a
+<i>cop</i>, Lawrence, bought it ten years ago when he was leaving
+the building. He didn't give me a receipt and didn't collect tax,
+and technically that makes us offenders." She slapped the radiator.
+"I overrode the governor on this ten minutes after they installed
+it. Everyone does it. They make it easy — you just stick a penny
+between two contacts and hey presto, the city can't turn your heat
+down anymore. They wouldn't make it so easy if they didn't expect
+everyone to do it — and once everyone's done it, we're all
+guilty.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o155">"The people across the street, they were
+Pakistani or maybe Sri Lankan or Bangladeshi. I'd see the wife at
+the service laundry. Nice professional lady, always lugging around
+a couple kids on their way to or from day-care. She —" Posy broke
+off and stared again. "I once saw her reach for her change and her
+sleeve rode up and there was a number tattooed there, there on her
+wrist." Posy shuddered. "When they took her and her husband and
+their kids, she stood at the window and pounded at it and screamed
+for help. You could hear her from here."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o156">"That's terrible," Lawrence said. "But
+what does it have to do with the Order?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o157">She sat back down. "For someone who is
+supposed to know himself, you're not very good at connecting the
+dots."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o158">Lawrence stood up. He felt an obscure
+need to apologize. Instead, he thanked her and put his glass in the
+sink. She shook his hand solemnly.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o159">"Take care out there," she said. "Good
+luck finding your escapee."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o160">Here's what Lawrence knew about Zbigniew
+Krotoski. He had been inducted into the Order four years earlier.
+He was a native-born New Yorker. He had spent his first two years
+in the Order trying to coax some of the elders into a variety of
+pointless flamewars about the ethics of working for the Securitat,
+and then had settled into being a very productive member. He spent
+his 20 percent time — the time when each monk had to pursue
+non-work-related projects — building aerial photography rigs out of
+box-kites and tiny cameras that the Monks installed on their
+systems to help them monitor their body mechanics and ergonomic
+posture.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o161">Zbigkrot performed in the eighty-fifth
+percentile of the Order, which was respectable enough. Lawrence had
+started there and had crept up and down as low as 70 and as high as
+88, depending on how he was doing in the rest of his life. Zbigkrot
+was active in the gardens, both the big ones where they grew their
+produce and a little allotment garden where he indulged in baroque
+cross-breeding experiments, which were in vogue among the monks
+then.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o162">The Securitat stream to which he'd added
+68 bytes was long gone, but it was the kind of thing that the Order
+handled on a routine basis: given the timing and other
+characteristics, Lawrence thought it was probably a stream of
+purchase data from hardware and grocery stores, to be inspected for
+unusual patterns that might indicate someone buying bomb
+ingredients. Zbigkrot had worked on this kind of data thousands of
+times before, six times just that day. He'd added the sixty-eight
+bytes and then left.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o163">Zbigkrot once had a sister in New York —
+that much could be ascertained. Anja Krotoski had lived on 23d
+Street in a co-op near Lexington. But that had been four years
+previous, when he'd joined the Order, and she wasn't there anymore.
+Her numbers all rang dead.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o164">The apartment building had once been a
+pleasant, middle-class sort of place, with a red awning and a niche
+for a doorman. Now it had become more run down, the awning's edges
+frayed, one pane of lobby glass broken out and replaced with a
+sheet of cardboard. The doorman was long gone.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o165">It seemed to Lawrence that this fate had
+befallen many of the City's buildings. They reminded him of the
+buildings he'd seen in Belgrade one time, when he'd been sent out
+to brief a gang of outsource programmers his boss had hired —
+neglected for years, indifferently patched by residents who had
+limited access to materials.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o166">It was the dinner hour, and a steady
+trickle of people were letting themselves into Anja's old building.
+Lawrence watched a couple of them enter the building and noticed
+something wonderful and sad: as they approached the building, their
+faces were the hard masks of city-dwellers, not meeting anyone's
+eye, clipping along at a fast pace that said, "Don't screw with
+me." But once they passed the threshold of their building and the
+door closed behind them, their whole affect changed. They slumped,
+they smiled at one another, they leaned against the mailboxes and
+set down their bags and took off their hats and fluffed their hair
+and turned back into people.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o167">He remembered that feeling from his life
+before, the sense of having two faces: the one he showed to the
+world and the one that he reserved for home. In the Order, he only
+wore one face, one that he knew in exquisite detail.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o168">He approached the door now, and his pan
+started to throb ominously, letting him know that he was enduring
+hostile probes. The building wanted to know who he was and what
+business he had there, and it was attempting to fingerprint
+everything about him from his pan to his gait to his face.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o169">He took up a position by the door and
+dialed back the pan's response to a dull pulse. He waited for a few
+minutes until one of the residents came down: a middle-aged man
+with a dog, a little sickly-looking schnauzer with grey in its
+muzzle.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o170">"Can I help you?" the man said, from the
+other side of the security door, not unlatching it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o171">"I'm looking for Anja Krotoski," he said.
+"I'm trying to track down her brother."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o172">The man looked him up and down. "Please
+step away from the door."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o173">He took a few steps back. "Does Ms
+Krotoski still live here?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o174">The man considered. "I'm sorry, sir, I
+can't help you." He waited for Lawrence to react.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o175">"You don't know, or you can't help
+me?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o176">"Don't wait under this awning. The police
+come if anyone waits under this awning for more than three
+minutes."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o177">The man opened the door and walked away
+with his dog.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o178">His phone rang before the next resident
+arrived. He cocked his head to answer it, then remembered that his
+lifelogger was dead and dug in his jacket for a mic. There was one
+at his wrist pulse-points used by the health array. He unvelcroed
+it and held it to his mouth.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o179">"Hello?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o180">"It's Gerta, boyo. Wanted to know how
+your Anomaly was going."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o181">"Not good," he said. "I'm at the sister's
+place and they don't want to talk to me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o182">"You're walking up to strangers and
+asking them about one of their neighbors, huh?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o183">He winced. "Put it that way, yeah, OK, I
+understand why this doesn't work. But Gerta, I feel like Rip Van
+Winkle here. I keep putting my foot in it. It's so different."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o184">"People are people, Lawrence. Every bad
+behavior and every good one lurks within us. They were all there
+when you were in the world — in different proportion, with
+different triggers. But all there. You know yourself very well. Can
+you observe the people around you with the same keen
+attention?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o185">He felt slightly put upon. "That's what
+I'm trying —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o186">"Then you'll get there eventually. What,
+you're in a hurry?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o187">Well, no. He didn't have any kind of
+timeline. Some people chased Anomalies for <i>years</i>. But truth
+be told, he wanted to get out of the City and back onto campus.
+"I'm thinking of coming back to Campus to sleep."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o188">Gerta clucked. "Don't give in to the
+agoraphobia, Lawrence. Hang in there. You haven't even heard my
+news yet, and you're already ready to give up?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o189">"What news? And I'm not giving up, just
+want to sleep in my own bed —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o190">"The entry checkpoints, Lawrence. You
+can*{not}* do this job if you're going to spend four hours a day in
+security queues. Anyway, the news.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o191">"It wasn't the first time he did it. I've
+been running the logs back three years and I've found at least a
+dozen streams that he tampered with. Each time he used a different
+technique. This was the first time we caught him. Used some pretty
+subtle tripwires when he did it, so he'd know if anyone ever caught
+on. Must have spent his whole life living on edge, waiting for that
+moment, waiting to bug out. Must have been a hard life."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o192">"What was he doing? Spying?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o193">"Most assuredly," Gerta said. "But for
+whom? For the enemy? The Securitat?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o194">They'd considered going to the Securitat
+with the information, but why bother? The Order did business with
+the Securitat, but tried never to interact with them on any other
+terms. The Securitat and the Order had an implicit understanding:
+so long as the Order was performing excellent data-analysis, it
+didn't have to fret the kind of overt scrutiny that prevailed in
+the real world. Undoubtedly, the Securitat kept satellite eyes,
+data-snoopers, wiretaps, millimeter radar and every other
+conceivable surveillance trained on each Campus in the world, but
+at the end of the day, they were just badly socialized geeks who'd
+left the world, and useful geeks at that. The Securitat treated the
+Order the way that Lawrence's old bosses treated the company
+sysadmins: expendable geeks who no one cared about — so long as
+nothing went wrong.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o195">No, there was no sense in telling the
+Securitat about the 68 bytes.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o196">"Why would the Securitat poison its own
+data-streams?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o197">"You know that when the Soviets pulled
+out of Finland, they found 40 <i>kilometers</i> of wire-tapping
+wire in KGB headquarters? The building was only 12 storeys tall!
+Spying begets spying. The worst, most dangerous enemy the Securitat
+has is the Securitat."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o198">There were Securitat vans on the street
+around him, going past every now and again, eerily silent engines,
+playing their cheerful music. He stepped back into shadow, then
+thought better of it and stood under a pool of light.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o199">"OK, so it was a habit. How do I find
+him? No one in the sister's building will talk to me."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o200">"You need to put them at their ease. Tell
+them the truth, that often works."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o201">"You know how people feel about the Order
+out here?" He thought of Posy. "I don't know if the truth is going
+to work here."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o202">"You've been in the order for sixteen
+years. You're not just some fumble-tongued outcast anymore. Go talk
+to them."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o203">"But —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o204">"Go, Lawrence. Go. You're a smart guy,
+you'll figure it out."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o205">He went. Residents were coming home every
+few minutes now, carrying grocery bags, walking dogs, or dragging
+their tired feet. He almost approached a young woman, then figured
+that she wouldn't want to talk to a strange man on the street at
+night. He picked a guy in his thirties, wearing jeans and a huge
+old vintage coat that looked like it had come off the eastern
+front.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o206">"Scuse me," he said. "I'm trying to find
+someone who used to live here."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o207">The guy stopped and looked Lawrence up
+and down. He had a handsome sweater on underneath his coat,
+design-y and cosmopolitan, the kind of thing that made Lawrence
+think of Milan or Paris. Lawrence was keenly aware of his generic
+Order-issued suit, a brown, rumpled, ill-fitting thing, topped with
+a polymer coat that, while warm, hardly flattered.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o208">"Good luck with that," he said, then
+started to move past.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o209">"Please," Lawrence said. "I'm — I'm not
+used to how things are around here. There's probably some way I
+could ask you this that would put you at your ease, but I don't
+know what it is. I'm not good with people. But I really need to
+find this person, she used to live here."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o210">The man stopped, looked at him again. He
+seemed to recognize something in Lawrence, or maybe it was that he
+was disarmed by Lawrence's honesty.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o211">"Why would you want to do that?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o212">"It's a long story," he said. "Basically,
+though: I'm a monk from the Order of Reflective Analyitcs and one
+of our guys has disappeared. His sister used to live here — maybe
+she still does — and I wanted to ask her if she knew where I could
+find him."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o213">"Let me guess, none of my neighbors
+wanted to help you."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o214">"You're only the second guy I've asked,
+but yeah, pretty much."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o215">"Out here in the real world, we don't
+really talk about each other to strangers. Too much like being a
+snitch. Lucky for you, my sister's in the Order, out in Oregon, so
+I know you're not all a bunch of snoops and stoolies. Who're you
+looking for?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o216">Lawrence felt a rush of gratitude for
+this man. "Anja Krotosky, number 11-J?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o217">"Oh," the man said. "Well, yeah, I can
+see why you'd have a hard time with the neighbors when it comes to
+old Anja. She was well-liked around here, before she went."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o218">"Where'd she go? When?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o219">"What's your name, friend?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o220">"Lawrence."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o221">"Lawrence, Anja <i>went</i>. Middle of
+the night kind of thing. No one heard a thing. The CCTVs stopped
+working that night. Nothing on the drive the next day. No footage
+at all."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o222">"Like she skipped out?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o223">"They stopped delivering flyers to her
+door. There's only one power stronger than direct marketing."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o224">"The Securitat took her?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o225">"That's what we figured. Nothing left in
+her place. Not a stick of furniture. We don't talk about it much.
+Not the thing that it pays to take an interest in."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o226">"How long ago?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o227">"Two years ago," he said. A few more
+residents pushed past them. "Listen, I approve of what you people
+do in there, more or less. It's good that there's a place for the
+people who don't — you know, who don't have a place out here. But
+the way you make your living. I told my sister about this, the last
+time she visited, and she got very angry with me. She didn't see
+the difference between watching yourself and being watched."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o228">Lawrence nodded. "Well, that's true
+enough. We don't draw a really sharp distinction. We all get to see
+one another's stats. It keeps us honest."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o229">"That's fine, if you have the choice. But
+—" He broke off, looking self-conscious. Lawrence reminded himself
+that they were on a public street, the cameras on them, people
+passing by. Was one of them a snitch? The Securitat had talked
+about putting him away for a month, just for logging them. They
+could watch him all they wanted, but he couldn't look at them.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o230">"I see the point." He sighed. He was cold
+and it was full autumn dark now. He still didn't have a room for
+the night and he didn't have any idea how he'd find Anja, much less
+zbigkrot. He began to understand why Anomalies were such a big
+deal.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o231">He'd walked 18,453 steps that day, about
+triple what he did on campus. His heart rate had spiked several
+times, but not from exertion. Stress. He could feel it in his
+muscles now. He should really do some biofeedback, try to calm
+down, then run back his lifelogger and make some notes on how he'd
+reacted to people through the day.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o232">But the lifelogger was gone and he barely
+managed 22 seconds his first time on the biofeedback. His next ten
+scores were much worse.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o233">It was the hotel room. It had once been
+an office, and before that, it had been half a hotel-room. There
+were still scuff-marks on the floor from where the wheeled office
+chair had dug into the scratched lino. The false wall that divided
+the room in half was thin as paper and Lawrence could hear every
+snuffle from the other side. The door to Lawrence's room had been
+rudely hacked in, and weak light shone through an irregular crack
+over the jamb.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o234">The old New Yorker Hotel had seen better
+days, but it was what he could afford, and it was central, and he
+could hear New York outside the window — he'd gotten the half of
+the hotel room with the window in it. The lights twinkled just as
+he remembered them, and he still got a swimmy, vertiginous feeling
+when he looked down from the great height.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o235">The clerk had taken his photo and
+biometrics and had handed him a tracker-key that his pan was
+monitoring with tangible suspicion. It radiated his identity every
+few yards, and in the elevator. It even seemed to track which part
+of the minuscule room he was in. What the hell did the hotel do
+with all this information?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o236">Oh, right — it shipped it off to the
+Securitat, who shipped it to the Order, where it was processed for
+suspicious anomalies. No wonder there was so much work for them on
+campus. Multiply the New Yorker times a hundred thousand hotels,
+two hundred thousand schools, a million cabs across the nation —
+there was no danger of the Order running out of work.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o237">The hotel's network tried to keep him
+from establishing a secure connection back to the Order's network,
+but the Order's countermeasures were better than the half-assed
+ones at the hotel. It took a lot of tunneling and wrapping, but in
+short measure he had a strong private line back to the Campus —
+albeit a slow line, what with all the jiggery-pokery he had to go
+through.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o238">Gerta had left him with her file on
+zbigkrot and his activities on the network. He had several known
+associates on Campus, people he ate with or playing on intramural
+teams with, or did a little extreme programming with. Gerta had
+bulk-messaged them all with an oblique query about his personal
+life and had forwarded the responses to Lawrence. There was a
+mountain of them, and he started to plow through them.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o239">He started by compiling stats on them —
+length, vocabulary, number of paragraphs — and then started with
+the outliers. The shortest ones were polite shrugs, apologies,
+don't have anything to say. The long ones — whew! They sorted into
+two categories: general whining, mostly from noobs who were still
+getting accustomed to the way of the Order; and protracted
+complaints from old hands who'd worked with zbigkrot long enough to
+decide that he was incorrigible. Lawrence sorted these quickly,
+then took a glance at the median responses and confirmed that they
+appeared to be largely unhelpful generalizations of the sort that
+you might produce on a co-worker evaluation form — a proliferation
+of null adjectives like "satisfactory," "pleasant," "fine."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o240">Somewhere in this haystack — Lawrence did
+a quick word-count and came back with 140,000 words, about two good
+novels' worth of reading — was a needle, a clue that would show him
+the way to unravel the Anomaly. It would take him a couple days at
+least to sort through it all in depth. He ducked downstairs and
+bought some groceries at an all-night grocery store in Penn Station
+and went back to his room, ready to settle in and get the work
+done. He could use a few days' holiday from New York, anyway.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o241">&gt; About time Zee Big Noob did a
+runner. He never had a moment's happiness here, and I never figured
+out why he'd bother hanging around when he hated it all so
+much.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o242">&gt; Ever meet the kind of guy who wanted
+to tell you just how much you shouldn't be enjoying the things you
+enjoy? The kind of guy who could explain, in detail, <i>exactly</i>
+why your passions were stupid? That was him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o243">&gt; "Brother Antony, why are you wasting
+your time collecting tin toys? They're badly made, unlovely, and
+represent, at best, a history of slave labor, starting with your
+cherished 'Made in Occupied Japan,' tanks. Christ, why not collect
+rape-camp macrame while you're at it?" He had choice words for all
+of us about our passions, but I was singled out because I liked to
+extreme program in my room, which I'd spent a lot of time
+decorating. (See pic, below, and yes, I built and sanded and
+mounted every one of those shelves by hand) (See magnification shot
+for detail on the joinery. Couldn't even drive a nail when I got
+here) (Not that there are any nails in there, it's all
+precision-fitted tongue and groove) (holy moley, lasers totally
+rock)</p>
+</div>
+<div class="substance">
+<p class="norm" id="o244">&gt; But he reserved his worst criticism
+for the Order itself. You know the litany: we're a cult, we're
+brainwashed, we're dupes of the Securitat. He was convinced that
+every instrument in the place was feeding up to the Securitat
+itself. He'd mutter about this constantly, whenever we got a new
+stream to work on — "Is this your lifelog, Brother Antony? Mine?
+The number of flushes per shitter in the west wing of campus?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o245">&gt; And it was no good trying to reason
+with him. He just didn't acknowledge the benefit of introspection.
+"It's no different from them," he'd say, jerking his thumb up at
+the ceiling, as though there was a Securitat mic and camera hidden
+there. "You're just flooding yourself with useless information,
+trying to find the useful parts. Why not make some predictions
+about which part of your life you need to pay attention to, rather
+than spying on every process? You're a spy in your own body.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o246">&gt; So why did I work with him? I'll
+tell you: first, he was a shit-hot programmer. I know his stats say
+he was way down in the 78th percentile, but he could make every
+line of code that <i>I</i> wrote smarter. We just don't have a way
+of measuring that kind of effect (yes, someone should write one;
+I've been noodling with a framework for it for months now).</p>
+</div>
+<div class="substance">
+<p class="norm" id="o247">&gt; Second, there was something
+dreadfully fun about listening him light into <i>other</i> people,
+<i>their</i> ridiculous passions and interests. He could be
+incredibly funny, and he was incisive if not insightful. It's
+shameful, but there you have it. I am imperfect.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o248">&gt; Finally, when he wasn't being a
+dick, he was a good guy to have in your corner. He was our rugby
+team's fullback, the baseball team's shortstop, the tank on our
+MMOG raids. You could rely on him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o249">&gt; So I'm going to miss him, weirdly.
+If he's gone for good. I wouldn't put it past him to stroll back
+onto campus someday and say, "What, what? I just took a little
+French Leave. Jesus, overreact much?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o250">Plenty of the notes ran in this
+direction, but this was the most articulate. Lawrence read it
+through three times before adding it to the file of useful stuff.
+It was a small pile. Still, Gerta kept forwarding him responses.
+The late responders had some useful things to say:</p>
+</div>
+<div class="substance">
+<p class="norm" id="o251">&gt; He mentioned a sister. Only once. A
+whole bunch of us were talking about how our families were really
+supportive of our coming to the Order, and after it had gone round
+the whole circle, he just kind of looked at the sky and said, "My
+sister thought I was an idiot to go inside. I asked her what she
+thought I should do and she said, 'If I was you, kid, I'd just
+disappear before someone disappeared me.'" Naturally we all wanted
+to know what he meant by that. "I'm not very good at bullshitting,
+and that's a vital skill in today's world. She was better at it
+than me, when she worked at it, but she was the kind of person
+who'd let her guard slip every now and then."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o252">Lawrence noted that zbigkrot had used the
+past-tense to describe his sister. He'd have known about her being
+disappeared then.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o253">He stared at the walls of his hotel room.
+The room next door was now occupied by at least four people and he
+couldn't even imagine how you'd get that many people inside — he
+didn't know how four people could all <i>stand</i> in the room, let
+alone lie down and sleep. But there were definitely four voices
+from next door, talking in Chinese.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o254">New York was outside the window and far
+below, and the sun had come up far enough that everything was
+bright and reflective, the cars and the buildings and the glints
+from sunglasses far below. He wasn't getting anywhere with the
+docs, the sister, the datastreams. And there was New York, just
+outside the window.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o255">He dug under the bed and excavated his
+boots, recoiling from them with soft, dust-furred old socks and
+worse underneath the mattress.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o256">The Securitat man pointed to Lawrence as
+he walked past Penn Station. Lawrence stopped and pointed at
+himself in a who-me? gesture. The Securitat man pointed again, then
+pointed to his alcove next to the entrance.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o257">Lawrence's pan didn't like the Securitat
+man's incursions and tried to wipe itself.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o258">"Sir," he said. "My pan is going nuts.
+May I put down my arms so I can tell it to let you in?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o259">The Securitat man acted as though he
+hadn't heard, just continued to wave his hands slowly over
+Lawrence's body.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o260">"Come with me," the Securitat man said,
+pointing to the door on the other side of the alcove that led into
+a narrow corridor, into the bowels of Penn Station. The door let
+out onto the concourse, thronged with people shoving past each
+other, disgorged by train after train. Though none made eye contact
+with them or each other, they parted magically before them, leaving
+them with a clear path.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o261">Lawrence's pan was not helping him. Every
+inch of his body itched as it nagged at him about the depredations
+it was facing from the station and the Securitat man. This put him
+seriously on edge and made his heart and breathing go crazy,
+triggering another round of warnings from his pan, which wanted him
+to calm down, but wouldn't help. This was a bad failure mode, one
+he'd never experienced before. He'd have to file a bug report.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o262">Some day.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o263">The Securitat's outpost in Penn Station
+was as clean as a dentist's office, but with mesh-reinforced
+windows and locks that made three distinct clicks and a soft hiss
+when the door closed. The Securitat man impersonally shackled
+Lawrence to a plastic chair that was bolted into the floor and then
+went off to a check-in kiosk that he whispered into and prodded at.
+There was no one else in evidence, but there were huge CCTV
+cameras, so big that they seemed to be throwbacks to an earlier
+era, some paleolithic ancestor of the modern camera. These cameras
+were so big because they were meant to be seen, meant to let you
+know that you were being watched.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o264">The Securitat man took him away again,
+stood him in an interview room where the cameras were once again in
+voluble evidence.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o265">"Explain everything," the Securitat man
+said. He rolled up his mask so that Lawrence could see his face,
+young and hard. He'd been in diapers when Lawrence went into the
+Order.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o266">And so Lawrence began to explain, but he
+didn't want to explain everything. Telling this man about zbigkrot
+tampering with Securitat data-streams would not be good; telling
+him about the disappearance of Anja Krotoski would be even worse.
+So — he lied. He was already so stressed out that there was no way
+the lies would register as extraordinary to the sensors that were
+doubtless trained on him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o267">He told the Securitat man that he was in
+the world to find an Order member who'd taken his leave, because
+the Order wanted to talk to him about coming back. He told the man
+that he'd been trying to locate zbigkrot by following up on his old
+contacts. He told the Securitat man that he expected to find
+zbigkrot within a day or two and would be going back to the Order.
+He implied that he was crucial to the Order and that he worked for
+the Securitat all the time, that he and the Securitat man were on
+the same fundamental mission, on the same team.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o268">The Securitat man's face remained an
+impassive mask throughout. He touched an earbead from time to time,
+cocking his head slightly to listen. Someone else was listening to
+Lawrence's testimony and feeding him more material.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o269">The Securitat man scooted his chair
+closer to Lawrence, leaned in close, searching his face. "We don't
+have any record of this Krotoski person," he said. "I advise you to
+go home and forget about him."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o270">The words were said without any
+inflection at all, and that was scariest of all — Lawrence had no
+doubt about what this meant. There were no records because Zbigniew
+Krotoski was erased.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o271">Lawrence wondered what he was supposed to
+say to this armed child now. Did he lay his finger alongside of his
+nose and wink? Apologize for wasting his time? Everyone told him to
+listen before he spoke here. Should he just wait?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o272">"Thank you for telling me so," he said.
+"I appreciate the advice." He hoped it didn't sound sarcastic.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o273">The Securitat man nodded. "You need to
+adjust the settings on your pan. It reads like it's got something
+to hide. Here in the world, it has to accede to lawful read
+attempts without hesitation. Will you configure it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o274">Lawrence nodded vigorously. While he'd
+recounted his story, he'd imagined spending a month in a cell while
+the Securitat looked into his deeds and history. Now it seemed like
+he might be on the streets in a matter of minutes.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o275">"Thank you for your cooperation." The man
+didn't say it. It was a recording, played by hidden speakers,
+triggered by some unseen agency, and on hearing it, the Securitat
+man stood and opened the door, waiting for the three distinct
+clicks and the hiss before tugging at the handle.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o276">They stood before the door to the guard's
+niche in front of Penn Station and the man rolled up his mask
+again. This time he was smiling an easy smile and the hardness had
+melted a little from around his eyes. "You want a tip, buddy?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o277">"Sure."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o278">"Look, this is New York. We all just want
+to get along here. There's a lot of bad guys out there. They got
+some kind of beef. They want to fuck with us. We don't want to let
+them do that. You want to be safe here, you got to show New York
+that you're not a bad guy. That you're not here to fuck with us.
+We're the city's protectors, and we can spot someone who doesn't
+belong here the way your body can spot a cold-germ. The way you're
+walking around here, looking around, acting — I could tell you
+didn't belong from a hundred yards. You want to avoid trouble, you
+get less strange, fast. You get me?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o279">"I get you," he said. "Thank you, sir."
+Before the Securitat man could say any more, Lawrence was on his
+way.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o280">The man from Anja's building had a
+different sweater on, but the new one — bulky wool the color of
+good chocolate — was every bit as handsome as the one he'd had on
+before. He was wearing some kind of citrusy cologne and his hair
+fell around his ears in little waves that looked so natural they
+had to be fake. Lawrence saw him across the Starbucks and had a
+crazy urge to duck away and change into better clothes, just so he
+wouldn't look like such a fucking hayseed next to this guy. <i>I'm
+a New Yorker,</i> he thought, <i>or at least I was. I belong
+here.</i></p>
+</div>
+<div class="substance">
+<p class="norm" id="o281">"Hey, Lawrence, fancy meeting you here!"
+He shook Lawrence's hand and gave him a wry,
+you-and-me-in-it-together smile. "How's the vision quest
+coming?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o282">"Huh?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o283">"The Anomaly — that's what you're
+chasing, aren't you? It's your little rite of passage. My sister
+had one last year. Figured out that some guy who travelled from
+Fort Worth to Portland, Oregon every week was actually a fictional
+construct invented by cargo smugglers who used his seat to plant a
+series of mules running heroin and cash. She was so proud
+afterwards that I couldn't get her to shut up about it. You had the
+holy fire the other night when I saw you."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o284">Lawrence felt himself blushing. "It's not
+really 'holy' — all that religious stuff, it's just a metaphor.
+We're not really spiritual."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o285">"Oh, the distinction between the
+spiritual and the material is pretty arbitrary anyway. Don't worry,
+I don't think you're a cultist or anything. No more than any of us,
+anyway. So, how's it going?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o286">"I think it's over," he said. "Dead end.
+Maybe I'll get an easier Anomaly next time."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o287">"Sounds awful! I didn't think you were
+allowed to give up on Anomalies?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o288">Lawrence looked around to see if anyone
+was listening to them. "This one leads to the Securitat," he said.
+"In a sense, you could say that I've solved it. I think the guy I'm
+looking for ended up with his sister."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o289">The man's expression froze, not moving
+one iota. "You must be disappointed," he said, in neutral tones.
+"Oh well." He leaned over the condiment bar to get a napkin and
+wrestled with the dispenser for a moment. It didn't cooperate, and
+he ended up holding fifty napkins. He made a disgusted noise and
+said, "Can you help me get these back into the dispenser?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o290">Lawrence pushed at the dispenser and let
+the man feed it his excess napkins, arranging them neatly. While he
+did this, he contrived to hand Lawrence a card, which Lawrence
+cupped in his palm and then ditched into his inside jacket pocket
+under the pretense of reaching in to adjust his pan.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o291">"Thanks," the man said. "Well, I guess
+you'll be going back to your campus now?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o292">"In the morning," Lawrence said. "I
+figured I'd see some New York first. Play tourist, catch a Broadway
+show."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o293">The man laughed. "All right then — you
+enjoy it." He did nothing significant as he shook Lawrence's hand
+and left, holding his paper cup. He did nothing to indicate that
+he'd just brought Lawrence into some kind of illegal
+conspiracy.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o294">Lawrence read the note later, on a bench
+in Bryant Park, holding a paper bag of roasted chestnuts and
+fastidiously piling the husks next to him as he peeled them away.
+It was a neatly cut rectangle of card sliced from a health-food
+cereal box. Lettered on the back of it in pencil were two short
+lines:</p>
+</div>
+<div class="substance">
+<p class="norm" id="o295">Wednesdays 8:30PM Half Moon Cafe 164 2nd
+Ave</p>
+</div>
+<div class="substance">
+<p class="norm" id="o296">The address was on the Lower East Side, a
+neighborhood that had been scorchingly trendy the last time
+Lawrence had been there. More importantly: it was Wednesday.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o297">The Half Moon Cafe turned out to be one
+of those New York places that are so incredibly hip they don't have
+a sign or any outward indication of their existence. Number 164 was
+a frosted glass door between a dry-cleaner's and a Pakistani
+grocery store, propped open with a squashed Mountain Dew can.
+Lawrence opened the door, heart pounding, and slipped inside. A
+long, dark corridor stretched away before him, with a single door
+at the end, open a crack, dim light spilling out of it. He walked
+quickly down the corridor, sure that there were cameras observing
+him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o298">The door at the end of the hallway had a
+sheet of paper on it, with HALF MOON CAFE laser-printed in its
+center. Good food smells came from behind it, and the clink of
+cutlery, and soft conversation. He nudged it open and found himself
+in a dim, flickering room lit by candles and draped with gathered
+curtains that turned the walls into the proscenia of a grand and
+ancient stage. There were four or five small tables and a long one
+at the back of the room, crowded with people, with wine in
+ice-buckets at either end.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o299">A very pretty girl stood at the podium
+before him, dressed in a conservative suit, but with her hair
+shaved into a half-inch brush of electric blue. She lifted an
+eyebrow at him as though she was sharing a joke with him and said,
+"Welcome to the Half Moon. Do you have a reservation?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o300">Lawrence had carefully shredded the bit
+of cardboard and dropped its tatters in six different trash cans,
+feeling like a real spy as he did so (and realizing at the same
+time that going to all these different cans was probably anomalous
+enough in itself to draw suspicion).</p>
+</div>
+<div class="substance">
+<p class="norm" id="o301">"A friend told me he'd meet me here," he
+said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o302">"What was your friend's name?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o303">Lawrence stuck his chin in the top of his
+coat to tell his pan to stop warning him that he was breathing too
+shallowly. "I don't know," he said. He craned his neck to look
+behind her at the tables. He couldn't see the man, but it was so
+dark in the restaurant —</p>
+</div>
+<div class="substance">
+<p class="norm" id="o304">"You made it, huh?" The man had yet
+another fantastic sweater on, this one with a tight herringbone
+weave and ribbing down the sleeves. He caught Lawrence sizing him
+up and grinned. "My weakness — the world's wool farmers would
+starve if it wasn't for me." He patted the greeter on the hand.
+"He's at our table." She gave Lawrence a knowing smile and the
+tiniest hint of a wink.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o305">"Nice of you to come," he said as they
+threaded their way slowly through the crowded tables, past couples
+having murmured conversations over candlelight, intense business
+dinners, an old couple eating in silence with evident relish.
+"Especially as it's your last night in the city."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o306">"What kind of restaurant is this?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o307">"Oh, it's not any kind of restaurant at
+all. Private kitchen. Ormund, he owns the place and cooks like a
+wizard. He runs this little place off the books for his friends to
+eat in. We come every Wednesday. That's his vegan night. You'd be
+amazed with what that guy can do with some greens and a sweet
+potato. And the cacao nib and avocado chili chocolate is something
+else."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o308">The large table was crowded with men and
+women in their thirties, people who had the look of belonging. They
+dressed well in fabrics that draped or clung like someone had
+thought about it, with jewelry that combined old pieces of brass
+with modern plastics and heavy clay beads that clicked like
+pool-balls. The women were beautiful or at least handsome — one
+woman with cheekbones like snowplows and a jawline as long as a
+ski-slope was possibly the most striking person he'd ever seen up
+close. The men were handsome or at least craggy, with three-day
+beards or neat, full mustaches. They were talking in twos and
+threes, passing around overflowing dishes of steaming greens and
+oranges and browns, chatting and forking by turns.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o309">"Everyone, I'd like you to meet my guest
+for the evening." The man gestured at Lawrence. Lawrence hadn't
+told the man his name yet, but he made it seem like he was being
+gracious and letting Lawrence introduce himself.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o310">"Lawrence," he said, giving a little
+wave. "Just in New York for one more night," he said, still waving.
+He stopped waving. The closest people — including the striking
+woman with the cheekbones — waved back, smiling. The furthest
+people stopped talking and tipped their forks at him or at least
+cocked their heads.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o311">"Sara," the cheekbones woman said,
+pronouncing the first "a" long, "Sah-rah," and making it sound
+unpretentious. The low-key buzzing from Lawrence's pan warned him
+that he was still overwrought, breathing badly, heart thudding. Who
+were these people?</p>
+</div>
+<div class="substance">
+<p class="norm" id="o312">"And I'm Randy," the man said. "Sorry, I
+should have said that sooner."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o313">The food was passed down to his end. It
+was delicious, almost as good as the food at the campus, which was
+saying something — there was a dedicated cadre of cooks there who
+made gastronomy their 20 percent projects, using elaborate
+computational models to create dishes that were always different
+and always delicious.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o314">The big difference was the company. These
+people didn't have to retreat to belong, they belonged right here.
+Sara told him about her job managing a specialist antiquarian
+bookstore and there were a hundred stories about her customers and
+their funny ways. Randy worked at an architectural design firm and
+he had done some work at Sara's bookstore. Down the table there
+were actors and waiters and an insurance person and someone who did
+something in city government, and they all ate and talked and made
+him feel like he was a different kind of man, the kind of man who
+could live on the outside.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o315">The coals of the conversation banked over
+port and coffees as they drifted away in twos and threes. Sara was
+the last to leave and she gave him a little hug and a kiss on the
+cheek. "Safe travels, Lawrence." Her perfume was like an orange on
+Christmas morning, something from his childhood. He hadn't thought
+of his childhood in decades.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o316">Randy and he looked at each other over
+the litter on the table. The server brought a check over on a small
+silver tray and Randy took a quick look at it. He drew a wad of
+twenties in a bulldog clip out of his inside coat pocket and
+counted off a large stack, then handed the tray to the server, all
+before Lawrence could even dig in his pocket.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o317">"Please let me contribute," he managed,
+just as the server disappeared.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o318">"Not necessary," Randy said, setting the
+clip down on the table. There was still a rather thick wad of money
+there. Lawrence hadn't been much of a cash user before he went into
+the Order and he'd seen hardly any spent since he came back out
+into the world. It seemed rather antiquarian, with its elaborate
+engraving. But the notes were crisp, as though freshly minted. The
+government still pressed the notes, even if they were hardly used
+any longer. "I can afford it."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o319">"It was a very fine dinner. You have
+interesting friends."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o320">"Sara is lovely," he said. "She and I —
+well, we had a thing once. She's a remarkable person. Of course,
+you're a remarkable person, too, Lawrence."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o321">Lawrence's pan reminded him again that he
+was getting edgy. He shushed it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o322">"You're smart, we know that. 88th
+percentile. Looks like you could go higher, judging from the work
+we've evaluated for you. I can't say as your performance as a
+private eye is very good, though. If I hadn't intervened, you'd
+still be standing outside Anja's apartment building harassing her
+neighbors."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o323">His pan was ready to call for an
+ambulance. Lawrence looked down and saw his hands clenched into
+fists. "You're Securitat," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o324">"Let me put it this way," the man said,
+leaning back. "I'm not one of Anja's neighbors."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o325">"You're Securitat," Lawrence said again.
+"I haven't done anything wrong —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o326">"You came here," Randy said. "You had
+every reason to believe that you were taking part in something
+illegal. You lied to the Securitat man at Penn Station today —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o327">Lawrence switched his pan's feedback
+mechanisms off altogether. Posy, at her window, a penny stuck in
+the governor of her radiator, rose in his mind.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o328">"Everyone was treating me like a criminal
+— from the minute I stepped out of the Order, you all treated me
+like a criminal. That made me act like one — everyone has to act
+like a criminal here. That's the hypocrisy of the world, that
+honest people end up acting like crooks because the world treats
+them like crooks."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o329">"Maybe we treat them like crooks because
+they act so crooked."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o330">"You've got it all backwards," Lawrence
+said. "The causal arrow runs the other direction. You treat us like
+criminals and the only way to get by is to act criminal. If I'd
+told the Securitat man in Penn Station the truth —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o331">"You build a wall around the Order, don't
+you? To keep us out, because we're barbarians? To keep you in,
+because you're too fragile? What does that treatment do,
+Lawrence?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o332">Lawrence slapped his hand on the table
+and the crystal rang, but no one in the restaurant noticed. They
+were all studiously ignoring them. "It's to keep <i>you</i> out!
+All of you, who treated us —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o333">Randy stood up from the table. Bulky
+figures stepped out of the shadows behind them. Behind their armor,
+the Securitat people could have been white or black, old or young.
+Lawrence could only treat them as Securitat. He rose slowly from
+his chair and put his arms out, as though surrendering. As soon as
+the Securitat officers relaxed by a tiny hair — treating him as
+someone who was surrendering — he dropped backwards over the chair
+behind him, knocking over a little two-seat table and whacking his
+head on the floor so hard it rang like a gong. He scrambled to his
+feet and charged pell-mell for the door, sweeping the empty tables
+out of the way as he ran.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o334">He caught a glimpse of the pretty
+waitress standing by her podium at the front of the restaurant as
+he banged out the door, her eyes wide and her hands up as though to
+ward off a blow. He caromed off the wall of the dark corridor and
+ran for the glass door that led out to Second Avenue, where cars
+hissed by in the night.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o335">He made it onto the sidewalk, crashed
+into a burly man in a Mets cap, bounced off him, and ran downtown,
+the people on the sidewalk leaping clear of him. He made it two
+whole storefronts — all the running around on the Campus handball
+courts had given him a pretty good pace and wind — before someone
+tackled him from behind.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o336">He scrambled and squirmed and turned
+around. It was the guy in the Mets hat. His breath smelled of
+onions and he was panting, his lips pulled back. "Watch where
+you're going —" he said, and then he was lifted free, jerked to his
+feet.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o337">The blood sang in Lawrence's ears and he
+had just enough time to register that the big guy had been lifted
+by two blank, armored Securitat officers before he flipped over
+onto his knees and used the posture like a runner's crouch to take
+off again. He got maybe ten feet before he was clobbered by a bolt
+of lightning that made every muscle in his body lock into rigid
+agony. He pitched forward face-first, not feeling anything except
+the terrible electric fire from the taser-bolt in his back. His pan
+died with a sizzle up and down every haptic point in his suit, and
+between that and the electricity, he flung his arms and legs out in
+an agonized X while his neck thrashed, grating his face over the
+sidewalk. Something went horribly <i>crunch</i> in his nose.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o338">The room had the same kind of locks as
+the Securitat room in Penn Station. He'd awakened in the corner of
+the room, his face taped up and aching. There was no toilet, but
+there was a chair, bolted to the floor, and three prominent video
+cameras.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o339">They left him there for some time, alone
+with his thoughts and the deepening throb from his face, his knees,
+the palms of his hands. His hands and knees had been sanded raw and
+there was grit and glass and bits of pebble embedded under the
+skin, which oozed blood.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o340">His thoughts wanted to return to the
+predicament. They wanted to fill him with despair for his
+situation. They wanted to make him panic and weep with the
+anticipation of the cells, the confession, the life he'd had and
+the life he would get.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o341">He didn't let them. He had spent sixteen
+years mastering his thoughts and he would master them now. He
+breathed deeply, noticing the places where his body was tight and
+trembling, thinking each muscle into tranquility, even his aching
+face, letting his jaw drop open.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o342">Every time his thoughts went back to the
+predicament, he scrawled their anxious message on a streamer of
+mental ribbon which he allowed to slip through his mental fingers
+and sail away.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o343">Sixteen years of doing this had made him
+an expert, and even so, it was not easy. The worries rose and
+streamed away as fast as his mind's hand could write them. But as
+always, he was finally able to master his mind, to find relaxation
+and calm at the bottom of the thrashing, churning vat of
+despair.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o344">When Randy came in, Lawrence heard each
+bolt click and the hiss of air as from a great distance, and he
+surfaced from his calm, watching Randy cross the floor bearing his
+own chair.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o345">"Innocent people don't run,
+Lawrence."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o346">"That's a rather self-serving
+hypothesis," Lawrence said. The cool ribbons of worry slithered
+through his mind like satin, floating off into the ether around
+them. "You appear to have made up your mind, though. I wonder at
+you — you don't seem like an idiot. How've you managed to convince
+yourself that this —" he gestured around at the room "— is a good
+idea? I mean, this is just —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o347">Randy waved him silent. "The
+interrogation in this room flows in one direction, Lawrence. This
+is not a dialogue."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o348">"Have you ever noticed that when you're
+uncomfortable with something, you talk louder and lean forward a
+little? A lot of people have that tell."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o349">"Do you work with Securitat data streams,
+Lawrence?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o350">"I work with large amounts of data,
+including a lot of material from the Securitat. It's rarely in
+cleartext, though. Mostly I'm doing sigint — signals intelligence.
+I analyze the timing, frequency and length of different kinds of
+data to see if I can spot anomalies. That's with a lower-case 'a',
+by the way." He was warming up to the subject now. His face hurt
+when he talked, but when he thought about what to say, the hurt
+went away, as did the vision of the cell where he would go next.
+"It's the kind of thing that works best when you don't know what's
+in the payload of the data you're looking at. That would just
+distract me. It's like a magician's trick with a rabbit or a glass
+of water. You focus on the rabbit or on the water and what you
+expect of them, and are flummoxed when the magician does something
+unexpected. If he used pebbles, though, it might seem absolutely
+ordinary."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o351">"Do you know what Zbigniew Krotoski was
+working on?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o352">"No, there's no way for me to know that.
+The streams are enciphered at the router with his public key, and
+rescrambled after he's done with them. It's all
+zero-knowledge."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o353">"But you don't have zero knowledge, do
+you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o354">Lawrence found himself grinning, which
+hurt a lot, and which caused a little more blood to leak out of his
+nose and over his lips in a hot trickle. "Well, signals
+intelligence being what it is, I was able to discover that it was a
+Securitat stream, and that it wasn't the first one he'd worked on,
+nor the first one he'd altered."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o355">"He altered a stream?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o356">Lawrence lost his smile. "I hadn't told
+you that part yet, had I?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o357">"No." Randy leaned forward. "But you will
+now."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o358">The blue silk ribbons slid through
+Lawrence's mental fingers as he sat in his cell, which was barely
+lit and tiny and padded and utterly devoid of furniture. High above
+him, a ring of glittering red LEDs cast no visible light. They
+would be infrared lights, the better for the hidden cameras to see
+him. It was dark, so he saw nothing, but for the infrared cameras,
+it might as well have been broad daylight. The asymmetry was one of
+the things he inscribed on a blue ribbon and floated away.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o359">The cell wasn't perfectly soundproof.
+There was a gaseous hiss that reverberated through it every forty
+six to fifty three breaths, which he assumed was the regular
+opening and shutting of the heavy door that led to the cell-block
+deep within the Securitat building. That would be a patrol, or a
+regular report, or someone with a weak bladder.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o360">There was a softer, regular grinding that
+he felt more than heard — a subway train, running very regular.
+That was the New York rumble, and it felt a little like his pan's
+reassuring purring.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o361">There was his breathing, deep and
+oceanic, and there was the sound in his mind's ear, the sound of
+the streamers hissing away into the ether.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o362">He'd gone out in the world and now he'd
+gone back into a cell. He supposed that it was meant to sweat him,
+to make him mad, to make him make mistakes. But he had been trained
+by sixteen years in the Order and this was not sweating him at
+all.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o363">"Come along then." The door opened with a
+cotton-soft sound from its balanced hinges, letting light into the
+room and giving him the squints.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o364">"I wondered about your friends," Lawrence
+said. "All those people at the restaurant."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o365">"Oh," Randy said. He was a black
+silhouette in the doorway. "Well, you know. Honor among thieves.
+Rank hath its privileges."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o366">"They were caught," he said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o367">"Everyone gets caught," Randy said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o368">"I suppose it's easy when everybody is
+guilty." He thought of Posy. "You just pick a skillset, find
+someone with those skills, and then figure out what that person is
+guilty of. Recruiting made simple."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o369">"Not so simple as all that," Randy said.
+"You'd be amazed at the difficulties we face."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o370">"Zbigniew Krotoski was one of yours."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o371">Randy's silhouette — now resolving into
+features, clothes (another sweater, this one with a high collar and
+squared-off shoulders) — made a little movement that Lawrence knew
+meant yes. Randy was all tells, no matter how suave and collected
+he seemed. He must have been really up to something when they
+caught him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o372">"Come along," Randy said again, and
+extended a hand to him. He allowed himself to be lifted. The scabs
+at his knees made crackling noises and there was the hot wet
+feeling of fresh blood on his calves.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o373">"Do you withhold medical attention until
+I give you what you want? Is that it?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o374">Randy put an affectionate hand on his
+shoulder. "You seem to have it all figured out, don't you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o375">"Not all of it. I don't know why you
+haven't told me what it is you want yet. That would have been
+simpler, I think."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o376">"I guess you could say that we're just
+looking for the right way to ask you."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o377">"The way to ask me a question that I
+can't say no to. Was it the sister? Is that what you had on
+him?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o378">"He was useful because he was so eager to
+prove that he was smarter than everyone else."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o379">"You needed him to edit your own
+data-streams?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o380">Randy just looked at him calmly. Why
+would the Securitat need to change its own streams? Why couldn't
+they just arrest whomever they wanted on whatever pretext they
+wanted? Who'd be immune to —</p>
+</div>
+<div class="substance">
+<p class="norm" id="o381">Then he realized who'd be immune to the
+Securitat: the Securitat would be.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o382">"You used him to nail other Securitat
+officers?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o383">Randy's blank look didn't change.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o384">Lawrence realized that he would never
+leave this building. Even if his body left, now he would be tied to
+it forever. He breathed. He tried for that oceanic quality of
+breath, the susurration of the blue silk ribbons inscribed with his
+worries. It wouldn't come.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o385">"Come along now," Randy said, and pulled
+him down the corridor to the main door. It hissed as it opened and
+behind it was an old Securitat man, legs crossed painfully. Weak
+bladder, Lawrence knew.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o386">"Here's the thing," Randy said. "The
+system isn't going to go away, no matter what we do. The
+Securitat's here forever. We've treated everyone like a criminal
+for too long now — everyone's really a criminal now. If we
+dismantled tomorrow, there'd be chaos, bombings, murder sprees.
+We're not going anywhere."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o387">Randy's office was comfortable. He had
+some beautiful vintage circus posters — the bearded lady, the sword
+swallower, the hoochi-coochie girl — framed on the wall, and a
+cracked leather sofa that made amiable exhalations of good tobacco
+smell mixed with years of saddle soap when he settled into it.
+Randy reached onto a tall mahogany bookcase and handed him down a
+first-aid kit. There was a bottle of alcohol in it and a lot of
+gauze pads. Gingerly, Lawrence began to clean out the wounds on his
+legs and hands, then started in on his face. The blood ran down and
+dripped onto the slate tiled floor, almost invisible. Randy handed
+him a waste-paper bin and it slowly filled with the bloody
+gauze.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o388">"Looks painful," Randy said.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o389">"Just skinned. I have a vicious headache,
+though."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o390">"That's the taser hangover. It goes away.
+There's some codeine tablets in the pill-case. Take it easy on
+them, they'll put you to sleep."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o391">While Lawrence taped large pieces of
+gauze over the cleaned-out corrugations in his skin, Randy tapped
+idly at a screen on his desk. It felt almost as though he'd dropped
+in on someone's hot-desk back at the Order. Lawrence felt a sharp
+knife of homesickness and wondered if Gerta was OK.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o392">"Do you really have a sister?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o393">"I do. In Oregon, in the Order."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o394">"Does she work for you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o395">Randy snorted. "Of course not. I wouldn't
+do that to her. But the people who run me, they know that they can
+get to me through her. So in a sense, we both work for them."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o396">"And I work for you?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o397">"That's the general idea. Zbigkrot
+spooked when you got onto him, so he's long gone."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o398">"Long gone as in —"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o399">"This is one of those things where we
+don't say. Maybe he disappeared and got away clean, took his sister
+with him. Maybe he disappeared into our… operations. Not knowing is
+the kind of thing that keeps our other workers on their game."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o400">"And I'm one of your workers."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o401">"Like I said, the system isn't going
+anywhere. You met the gang tonight. We've all been caught at one
+time or another. Our little cozy club manages to make the best of
+things. You saw us — it's not a bad life at all. And we think that
+all things considered, we make the world a better place. Someone
+would be doing our job, might as well be us. At least we manage to
+weed out the real retarded sadists." He sipped a little coffee from
+a thermos cup on his desk. "That's where Zbigkrot came in."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o402">"He helped you with 'retarded
+sadists'?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o403">"For the most part. Power corrupts, of
+course, but it attracts the corrupt, too. There's a certain kind of
+person who grows up wanting to be a Securitat officer."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o404">"And me?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o405">"You?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o406">"I would do this too?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o407">"You catch on fast."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">#</p>
+</div>
+<div class="substance">
+<p class="norm" id="o408">The outside wall of Campus was imposing.
+Tall, sheathed in seamless metal painted uniform grey. Nothing grew
+for several yards around it, as though the world was shrinking back
+from it.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o409"><i>How did Zbigkrot get off
+campus?</i></p>
+</div>
+<div class="substance">
+<p class="norm" id="o410">That's a question that should have
+occurred to him when he left the campus. He was embarrassed that it
+took him this long to come up with it. But it was a damned good
+question. Trying to force the gate — what was it the old Brother on
+the gate had said? Pressurized, blowouts, the walls rigged to come
+down in an instant.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o411">If Zbigkrot had left, he'd walked out,
+the normal way, while someone at the gate watched him go. And he'd
+left no record of it. Someone, working on Campus, had altered the
+stream of data fountaining off the front gate to remove the record
+of it. There was more than one forger there — it hadn't just been
+zbigkrot working for the Securitat.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o412">He'd <i>belonged</i> in the Order. He'd
+learned how to know himself, how to see himself with the scalding,
+objective logic that he'd normally reserved for everyone else. The
+Anomaly had seemed like such a bit of fun, like he was leveling up
+to the next stage of his progress.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o413">He called Greta. They'd given him a new
+pan, one that had a shunt that delivered a copy of all his data to
+the Securitat. Since he'd first booted it, it had felt strange and
+invasive, every buzz and warning coming with the haunted feeling,
+the <i>watched</i> feeling.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o414">"You, huh?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o415">"It's very good to hear your voice," he
+said. He meant it. He wondered if she knew about the Securitat's
+campus snitches. He wondered if she was one. But it was good to
+hear her voice. His pan let him know that whatever he was doing was
+making him feel great. He didn't need his pan to tell him that,
+though.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o416">"I worried when you didn't check in for a
+couple days."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o417">"Well, about that."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o418">"Yes?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o419">If he told her, she'd be in it too — if
+she wasn't already. If he told her, they'd figure out what they
+could get on her. He should just tell her nothing. Just go on
+inside and twist the occasional data-stream. He could be better at
+it than zbigkrot. No one would ever make an Anomaly out of him.
+Besides, so what if they did? It would be a few hours, days, months
+or years more that he could live on Campus.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o420">And if it wasn't him, it would be someone
+else.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o421">It would be someone else.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o422">"I just wanted to say good bye, and
+thanks. I suspect I'm not going to see you again."</p>
+</div>
+<div class="substance">
+<p class="norm" id="o423">Off in the distance now, the sound of the
+Securitat van's happy little song. His pan let him know that he was
+breathing quickly and shallowly and he slowed his breathing down
+until it let up on him.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o424">"Lawrence?"</p>
+</div>
+<div class="substance">
+<p class="norm" id="o425">He hung up. The Securitat van was visible
+now, streaking toward the Campus wall.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o426">He closed his eyes and watched the blue
+satin ribbons tumble, like silky water licking over a waterfall. He
+could get to the place that took him to anywhere. That was all that
+mattered.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o">—</p>
+</div>
+<div class="substance">
+<p class="norm" id="o427"><b>Afterword:</b></p>
+</div>
+<div class="substance">
+<p class="norm" id="o428">I wrote this story for the launch of
+tor.com in 2008, at the behest of Patrick Nielsen Hayden, my friend
+and longstanding editor (Patrick also initially published the story
+"Power Punctuation!" which appears later in this volume; and, of
+course, he bought my first novel and my novels thereafter). Like
+"Scroogled" (also in this volume), this story considers the problem
+with losing sight of the ethical dimensions of hard and satisfying
+technical challenges, like data-mining.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o429">I got the inspiration for this story
+while driving from Martha's Vineyard to New York with Patrick and
+his wife Teresa (Teresa copy-edited my next novel, the young adult
+book "For the Win"). We were talking about people we knew from
+science fiction fandom who had started out bright and promising but
+who had met their match in the real world's difficulties and sunk
+into a ferocious curmudgeonliness that would be comical if it
+wasn't so tragic. I wondered aloud, "Where do you suppose those
+people would have gone in ages past?" and Patrick immediately
+answered, "To a monastery." It was so obviously true and weird that
+I knew I had to write this story.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o430">Today, there's a monkish order that makes
+its living refurbishing toner cartridges, just as other orders make
+honey or beer (mmm, Chimay!). It's not such a stretch to imagine a
+future order that provides IT services to totalitarian
+governments.</p>
+</div>
+<div class="substance">
+<p class="norm" id="o431">~</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

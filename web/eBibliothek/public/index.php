@@ -55,7 +55,8 @@
             <nav class="navbar navbar-default navbar-lower navbar-ex2-collapse" role="navigation">
                 <div class="container">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">Products</a></li>
+                        <li><a href="VDUC/reader/index.html">Read sample Book</a></li>
+						<li><a href="VDUC/uploader/index.html">Upload Book</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
