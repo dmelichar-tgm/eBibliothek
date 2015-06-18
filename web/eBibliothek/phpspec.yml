@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: eBibliothek
-        psr4_prefix: eBibliothek
+        namespace: App
+        psr4_prefix: App
         src_path: app

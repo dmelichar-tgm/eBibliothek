@@ -14,7 +14,17 @@ class DatabaseSeeder extends Seeder {
 	{
 		Model::unguard();
 
-		// $this->call('UserTableSeeder');
+		$this->call('CommentTableSender');
 	}
 
 }
+
+/*class CommentTableSender extends Seeder {
+
+    public function run()
+    {
+        DB::insert('insert into `comments` (user_id, product_id, text) values (?,?,?)', array(5, 12, 'test'));
+    }
+
+}
+*/

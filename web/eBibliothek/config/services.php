@@ -30,7 +30,7 @@ return [
 	],
 
 	'stripe' => [
-		'model'  => 'eBibliothek\User',
+		'model'  => 'App\User',
 		'key' => '',
 		'secret' => '',
 	],

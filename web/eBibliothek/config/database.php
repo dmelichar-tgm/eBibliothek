@@ -26,7 +26,7 @@ return [
 	|
 	*/
 
-	'default' => 'mongodb',
+	'default' => 'mysql',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -55,7 +55,7 @@ return [
 		'mysql' => [
 			'driver'    => 'mysql',
 			'host'      => env('DB_HOST', 'localhost'),
-			'database'  => env('DB_DATABASE', 'ebibliothek'),
+			'database'  => env('DB_DATABASE', 'laravel'),
 			'username'  => env('DB_USERNAME', 'root'),
 			'password'  => env('DB_PASSWORD', ''),
 			'charset'   => 'utf8',
@@ -83,17 +83,7 @@ return [
 			'password' => env('DB_PASSWORD', ''),
 			'prefix'   => '',
 		],
-		'mongodb' => [
-			'driver'   => 'mongodb',
-			'host'     => 'localhost',
-			'port'     => 27017,
-			'username' => 'ebibliothek',
-			'password' => 'password',
-			'database' => 'ebibliothek',
-			'options' => [
-				'db' => 'admin' // sets the authenication database required by mongo 3
-			]
-		],
+
 	],
 
 	/*
@@ -114,7 +104,7 @@ return [
 	| Redis Databases
 	|--------------------------------------------------------------------------
 	|
-	 Redis is an open source, fast, and advanced key-value store that also
+	| Redis is an open source, fast, and advanced key-value store that also
 	| provides a richer set of commands than a typical key-value systems
 	| such as APC or Memcached. Laravel makes it easy to dig right in.
 	|
